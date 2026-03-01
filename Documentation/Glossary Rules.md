@@ -2,9 +2,11 @@
 
 Rules how glossary should be organized.
 
-A separate glossary file must be created for each game entity
+A separate glossary file must be created for each game entity in /Documentation/Glossary/ folder
 
 Entities should be created by context from files containing in /int directory
+
+Files should be named in EntityName.md format
 
 Files which name start with same 3-5 characters like DM- CTF- ONS- and so on are Maps entity
 
