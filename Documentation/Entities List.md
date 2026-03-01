@@ -1,11 +1,12 @@
 # Glossary entities list
 
-Entities by Glossary Rules. One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
+Entities by Glossary Rules.
+One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ## Game entities
 
 - Maps
-- Weapons
+- Weapons — [Glossary: Weapons.md](Glossary/Weapons.md)
 - Vehicles
 - Pickups
 - GameModes

@@ -1,0 +1,38 @@
+# {EntityName} glossary
+
+## Entity Glossary Rules ({EntityName})
+
+*(Optional.
+Remove this section if the entity has no specific rules.
+Otherwise list rules that override or extend the general [Glossary Rules](../Glossary%20Rules.md) for this entity.)*
+
+- **Sources:** Terms from … (.int files). Current Russian: /rut. Old Russian: Documentation/rut_old.
+- **Structure / categories:** *(e.g. how terms are grouped, any subcategories)*
+- **Exclusions:** *(e.g. what is not included and why)*
+- **Table format:** *(if different from general: column order, separator line, alignment)*
+
+---
+
+Source: *(list .int or other source files)*
+Current Russian: /rut.
+Old Russian: Documentation/rut_old.
+
+Format: Technical name | English name | Current Russian | Old Russian.
+If no translation: - .
+
+Notes:
+
+- *(Optional entity-specific notes.)*
+
+---
+
+## *(Category or section name)*
+
+```text
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+*(TechnicalKey)          | (English label)    | -               | (Old Russian or -)
+```
+
+*(Add more sections and rows as needed.
+Keep column widths aligned across all tables.)*
