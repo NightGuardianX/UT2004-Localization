@@ -1,4 +1,4 @@
-Glossary Rules
+# Glossary Rules
 
 Rules how glossary should be organized.
 
@@ -17,15 +17,11 @@ Game entities:
 - Weapon Names
 - Vehicle Names
 - Object Names
-- Location Names
-- Event Names
 - Item Names
-- Skill Names
 - Ability Names
+- Gamemode Names
 - Trait Names
 - Role Names
-- Goal Names
-- Rule Names
 
 UI entities:
 
@@ -46,14 +42,15 @@ Narrative entities:
 - Character Names
 - Team Names
 - Racial/Species Names
-- Location Names
+- Game Universe Location Names (not sublocations from maps)
 - Historical Event Names
 
 You can look into some wikis for more information:
 https://unreal.fandom.com/wiki/Unreal_Tournament_2004 
 https://igrowiki.fandom.com/ru/wiki/Unreal_Tournament_2004
 
-Glossary content should be in format - English Name - Current Russian Name -  Old Russian Name
+Glossary content should be in format Technical Name - English Name - Current Russian Name -  Old Russian Name
+Technical name is some base definition like map name AS-Convoy, SinglePlayerButtonText or something alike that
 English name should be taken from files in /int directory
 Current Russian name should be taken from /rut directory from the file with same name
 Old Russian name should be taken from /Documentation/rut_pirate_ directory from the file with same name. If it is same with Current Name - leave field empty
