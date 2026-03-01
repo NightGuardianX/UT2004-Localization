@@ -14,14 +14,12 @@ For example:
 
 Game entities:
 
-- Weapon Names
+- Weapon Names (Assault Rifle, Flak Cannon, Rocket Launcher etc)
 - Vehicle Names
-- Object Names
-- Item Names
-- Ability Names
-- Gamemode Names
-- Trait Names
-- Role Names
+- Item Names (Any Pickups - ammo, powerups, etc)
+- Ability Names (Dodge, Jump, Fire, Alt Fire etc)
+- Gamemode Names (Deathmatch, Capture the Flag etc)
+- Map Names (BR-Anubis, DM-Compressed)
 
 UI entities:
 
@@ -43,14 +41,15 @@ Narrative entities:
 - Team Names
 - Racial/Species Names
 - Game Universe Location Names (not sublocations from maps)
-- Historical Event Names
+- Game Universe Historical Event Names
+- Game Universe Entities (Liandri Corporation)
 
 You can look into some wikis for more information:
-https://unreal.fandom.com/wiki/Unreal_Tournament_2004 
-https://igrowiki.fandom.com/ru/wiki/Unreal_Tournament_2004
+<https://unreal.fandom.com/wiki/Unreal_Tournament_2004>
+<https://igrowiki.fandom.com/ru/wiki/Unreal_Tournament_2004>
 
 Glossary content should be in format Technical Name - English Name - Current Russian Name -  Old Russian Name
 Technical name is some base definition like map name AS-Convoy, SinglePlayerButtonText or something alike that
 English name should be taken from files in /int directory
 Current Russian name should be taken from /rut directory from the file with same name
-Old Russian name should be taken from /Documentation/rut_pirate_ directory from the file with same name. If it is same with Current Name - leave field empty
+Old Russian name should be taken from /Documentation/rut_old/ directory from the file with same name. If it is same with Current Name - leave field empty
