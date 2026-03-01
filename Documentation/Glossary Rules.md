@@ -1,57 +1,65 @@
 # Glossary Rules
 
-Rules how glossary should be organized.
+Rules for how the glossary should be organized.
 
-A separate glossary file must be created for each game entity in /Documentation/Glossary/ folder
+## Structure
 
-Entities should be created by context from files containing in /int directory
+A separate glossary file is created for each **entity group** in the `/Documentation/Glossary/` folder.
 
-Files should be named in EntityName.md format
+Entity groups are logical categories (e.g. Maps, Weapons, StartMenuButtons), not one file per `.int` source. Each group collects all relevant terms from one or more files in the `/int` directory.
 
-Files which name start with same 3-5 characters like DM- CTF- ONS- and so on are Maps entity
+Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`, `StartMenuButtons.md`).
 
-We should separate game entities from UI and narrative entities.
+## Entity groups
 
-For example:
+Terms are taken from files in the `/int` directory. Map names come from `.int` files whose names start with map prefixes (DM-, CTF-, ONS-, BR-, DOM-, AS-, TUT-, MOV-).
 
-Game entities:
+Game, UI, and narrative entities are kept in separate groups.
 
-- Weapon Names (Assault Rifle, Flak Cannon, Rocket Launcher etc)
-- Vehicle Names
-- Item Names (Any Pickups - ammo, powerups, etc)
-- Ability Names (Dodge, Jump, Fire, Alt Fire etc)
-- Gamemode Names (Deathmatch, Capture the Flag etc)
-- Map Names (BR-Anubis, DM-Compressed)
+### Game entities
 
-UI entities:
+- **Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files).
+- **Weapons** — Weapon names (Assault Rifle, Flak Cannon, etc.). Source: XWeapons.int.
+- **Vehicles** — Vehicle names. Source: Vehicles.int.
+- **Pickups** — Ammo, powerups, health, etc. Source: XPickups.int.
+- **GameModes** — Deathmatch, CTF, Onslaught, etc. Sources: XGame.int, XMaps.int.
+- **Abilities** — Dodge, Jump, Fire, Alt Fire, etc. Sources: XPlayers.int, XInterface.int.
 
-- Button Names
-- Menu Names
-- Dialog Names
-- Popup Names
-- Tooltip Names
-- Notification Names
-- Error Names
-- Success Names
-- Warning Names
-- Info Names
-- Help Names
+### UI entities
 
-Narrative entities:
+- **StartMenuButtons** — Main menu button labels. Sources: Entry.int, Setup.int, XInterface.int.
+- **Menus** — Menu / screen names. Sources: XInterface.int, GUI2K4.int.
+- **Dialogs** — Dialog titles and key phrases. Sources: XInterface.int, Setup.int.
+- **Popups** — Popup messages. Source: XInterface.int.
+- **Tooltips** — Tooltip text. Sources: XInterface.int, Setup.int.
+- **Notifications** — Notifications, errors, warnings, success, info, help. Source: XInterface.int.
 
-- Character Names
-- Team Names
-- Racial/Species Names
-- Game Universe Location Names (not sublocations from maps)
-- Game Universe Historical Event Names
-- Game Universe Entities (Liandri Corporation)
+### Narrative entities
 
-You can look into some wikis for more information:
-<https://unreal.fandom.com/wiki/Unreal_Tournament_2004>
-<https://igrowiki.fandom.com/ru/wiki/Unreal_Tournament_2004>
+- **Characters** — Character / player names. Source: XPlayers.int.
+- **Teams** — Team names and symbols. Sources: TeamSymbols_UT2004.int, XGame.int.
+- **Lore** — Species, locations, events, corporations (e.g. Liandri). Sources: narrative strings in relevant .int files.
 
-Glossary content should be in format Technical Name - English Name - Current Russian Name -  Old Russian Name
-Technical name is some base definition like map name AS-Convoy, SinglePlayerButtonText or something alike that
-English name should be taken from files in /int directory
-Current Russian name should be taken from /rut directory from the file with same name
-Old Russian name should be taken from /Documentation/rut_old/ directory from the file with same name. If it is same with Current Name - leave field empty
+### Optional / technical
+
+- **Tutorials** — Tutorial map/text names. Source: TUT-*.int.
+- **BonusPack** — Bonus content labels. Source: BonusPack.int.
+- **WebAdmin** — Web admin UI strings. Sources: XWebAdmin.int, XAdmin.int, UWeb.int.
+
+## Glossary row format
+
+Each row in a glossary file uses this format:
+
+```text
+Technical Name | English Name | Current Russian Name | Old Russian Name
+```
+
+- **Technical name** — identifier from the game (e.g. map name `AS-Convoy`, key `SinglePlayerButtonText`).
+- **English name** — from the corresponding file in `/int`.
+- **Current Russian name** — from the file with the same name in `/rut`.
+- **Old Russian name** — from the file with the same name in `/Documentation/rut_old/`. Leave empty if it matches the current Russian name.
+
+## References
+
+- [Unreal Tournament 2004 (Unreal Wiki)](https://unreal.fandom.com/wiki/Unreal_Tournament_2004)
+- [Unreal Tournament 2004 (iGrowiki)](https://igrowiki.fandom.com/ru/wiki/Unreal_Tournament_2004)
