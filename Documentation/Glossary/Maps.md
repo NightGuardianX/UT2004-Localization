@@ -34,7 +34,6 @@ Notes:
 
 ## Deathmatch (DM-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 DM-1on1-Albatross        | DM-1on1-Albatross  | -               | -
@@ -83,11 +82,9 @@ DM-Rustatorium           | DM-Rustatorium     | -               | -
 DM-Sulphur               | DM-Sulphur         | -               | -
 DM-TokaraForest          | DM-TokaraForest    | -               | -
 DM-TrainingDay           | DM-TrainingDay     | -               | -
-```
 
 ## Capture the Flag (CTF-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 CTF-1on1-Joust           | CTF-1on1-Joust     | -               | -
@@ -114,11 +111,9 @@ CTF-Maul                 | CTF-Maul           | -               | -
 CTF-MoonDragon           | CTF-MoonDragon     | -               | -
 CTF-Smote                | CTF-Smote          | -               | -
 CTF-TwinTombs            | CTF-TwinTombs      | -               | -
-```
 
 ## Bombing Run (BR-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 BR-Anubis                | BR-Anubis          | -               | Храм Анубиса
@@ -133,11 +128,9 @@ BR-Serenity              | BR-Serenity        | -               | -
 BR-Skyline               | BR-Skyline         | -               | -
 BR-Slaughterhouse        | BR-Slaughterhouse  | -               | -
 BR-TwinTombs             | BR-TwinTombs       | -               | -
-```
 
 ## Double Domination / Domination (DOM-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 DOM-Access               | DOM-Access         | -               | -
@@ -152,11 +145,9 @@ DOM-Ruination            | DOM-Ruination      | -               | -
 DOM-ScorchedEarth        | DOM-ScorchedEarth  | -               | -
 DOM-SepukkuGorge         | DOM-SepukkuGorge   | -               | -
 DOM-Suntemple            | DOM-Suntemple      | -               | -
-```
 
 ## Assault (AS-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 AS-BP2-Acatana           | AS-BP2-Acatana     | -               | -
@@ -170,11 +161,9 @@ AS-Glacier               | AS-Glacier         | -               | -
 AS-Junkyard              | AS-Junkyard        | -               | -
 AS-Mothership            | AS-Mothership      | -               | -
 AS-RobotFactory          | AS-RobotFactory    | -               | -
-```
 
 ## Onslaught (ONS-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 ONS-Adara                | ONS-Adara          | -               | -
@@ -192,11 +181,9 @@ ONS-Severance            | ONS-Severance      | -               | -
 ONS-Torlan               | ONS-Torlan         | -               | Торлан
 ONS-Tricky               | ONS-Tricky         | -               | -
 ONS-Urban                | ONS-Urban          | -               | -
-```
 
 ## Tutorial (TUT-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 TUT-BR                   | TUT-BR             | -               | -
@@ -204,13 +191,10 @@ TUT-CTF                  | TUT-CTF            | -               | -
 TUT-DM                   | TUT-DM             | -               | -
 TUT-DOM2                 | TUT-DOM2           | -               | -
 TUT-ONS                  | TUT-ONS            | -               | -
-```
 
 ## Movies / intro (MOV-) maps
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 Mov-UT2-intro            | Mov-UT2-intro      | -               | -
 MOV-UT2004-Intro         | MOV-UT2004-Intro   | -               | -
-```

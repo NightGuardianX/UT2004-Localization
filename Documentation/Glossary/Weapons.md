@@ -34,7 +34,6 @@ Notes:
 
 ## Primary
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 ShieldGun                | Shield Gun         | -               | Ударная винтовка
@@ -47,26 +46,22 @@ FlakCannon               | Flak Cannon        | -               | Зенитна
 RocketLauncher           | Rocket Launcher    | -               | Ракетница
 SniperRifle (Lightning)  | Lightning Gun      | -               | Световая пушка
 SniperRifle (Classic)    | Sniper Rifle       | -               | -
-```
 
 ---
 
 ## Onslaught
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 ONSAVRiL                 | AVRiL              | -               | АВРиЛ
 ONSGrenadeLauncher       | Grenade Launcher   | -               | Гранатомет
 ONSMineLayer             | Mine Layer         | -               | Миноукладчик
 ONSPainter               | Target Painter     | -               | Маркер целеуказания
-```
 
 ---
 
 ## Special
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 Translauncher            | Translocator       | -               | Транслокатор
@@ -74,4 +69,3 @@ Redeemer                 | Redeemer           | -               | Искупит
 Painter                  | Ion Painter        | -               | Ионный разрушитель
 BallLauncher             | Ball Launcher      | -               | Метатель шаров
 SuperShockRifle          | Super Shock Rifle  | -               | Фотонная супервинтовка
-```

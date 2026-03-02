@@ -29,7 +29,6 @@ Notes:
 
 ## Base gamemodes
 
-```text
 Technical name           | English name       | Current Russian                              | Old Russian
 -------------------------|--------------------|----------------------------------------------|--------------------------
 xDeathMatch              | DeathMatch         | Бой насмерть                                 | Смертельный матч
@@ -39,13 +38,11 @@ xDoubleDom               | Double Domination  | Двойное доминиро�
 xBombingRun              | Bombing Run        | Бомбовый забег                               | Бомбардирбол
 ONSOnslaughtGame         | Onslaught          | -                                            | Натиск
 ASGameInfo               | Assault            | -                                            | Штурм
-```
 
 ---
 
 ## Other
 
-```text
 Technical name           | English name       | Current Russian                              | Old Russian
 -------------------------|--------------------|----------------------------------------------|--------------------------
 xVehicleCTFGame          | Vehicle CTF        | Захват флага с транспортом                   | Захват Флага с Техникой
@@ -53,4 +50,3 @@ InstagibCTF              | Instagib CTF       | Захват флага Instagib
 xLastManStandingGame     | Last Man Standing  | -                                            | Последний герой
 xMutantGame              | Mutant             | -                                            | Мутант
 Invasion                 | Invasion           | Вторжение                                    | Вторжение
-```

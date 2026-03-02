@@ -20,7 +20,7 @@ Old Russian: Documentation/rut_old.
 Format (Markdown table):
 
 Technical name | English name | Current Russian | Old Russian
----|---|---|---
+-------------- | ------------ | --------------- | ------------
 *(TechnicalKey)* | (English label) | - | (Old Russian or -)
 
 If no translation: `-`.
@@ -34,8 +34,8 @@ Notes:
 
 ## *(Category or section name)*
 
-Technical name | English name | Current Russian | Old Russian
----|---|---|---
-*(TechnicalKey)* | (English label) | - | (Old Russian or -)
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+*(TechnicalKey)*         | (English label)    | -               | (Old Russian or -)
 
-*(Add more sections and rows as needed. Keep column order and meaning the same across all tables.)*
+Add more sections and rows as needed. Keep column order and meaning the same across all tables. In the source file, use spaces to pad the first two columns up to a consistent width so that tables stay visually aligned in a monospaced editor.

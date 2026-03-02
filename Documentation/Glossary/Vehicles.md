@@ -32,7 +32,6 @@ Notes:
 
 ## Onslaught vehicles
 
-```text
 Technical name                        | English name                    | Current Russian | Old Russian
 --------------------------------------|---------------------------------|-----------------|--------------------------
 ONSAttackCraft                        | Raptor                          | -               | Раптор
@@ -55,4 +54,3 @@ ONSArtillerySideGunPawn               | SPMA Side Turret                | -     
 ONSDualAttackCraft                    | Cicada                          | -               | Цикада
 ONSDualACGatlingGunPawn               | Cicada Laser Turret             | -               | Лазерная турель Цикады
 ONSShockTank                          | Paladin                         | -               | Паладин
-```

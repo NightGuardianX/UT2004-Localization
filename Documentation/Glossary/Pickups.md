@@ -33,7 +33,6 @@ Notes:
 
 ## Health & Armor
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 MiniHealthPack           | Health Vial        | -               | Ампула здоровья
@@ -41,24 +40,20 @@ TournamentHealth         | Health Pack        | -               | Комплек
 SuperHealthPack          | Big Keg O' Health  | -               | Большая бочка здоровья
 ShieldPickup             | Shield Pack        | -               | Защитный комплект
 SuperShieldPack          | Super Shield Pack  | -               | Суперзащитный комплект
-```
 
 ---
 
 ## Power-ups
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 AdrenalinePickup         | Adrenaline         | -               | Адреналин
 UDamagePack              | Double Damage      | -               | Двойной урон
-```
 
 ---
 
 ## Ammo
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 AssaultAmmo              | Bullets            | -               | Патроны
@@ -75,15 +70,12 @@ RedeemerAmmo             | Redeemer Ammo      | -               | Ядерная
 TransAmmo                | Translocator       | -               | Транслокатор
 BallAmmo                 | BallAmmo           | -               | Шаровые боеприпасы
 ClassicSniperAmmo        | Sniper Bullets     | -               | Снайперские патроны
-```
 
 ---
 
 ## Other
 
-```text
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 WeaponLocker             | Weapon Locker      | -               | Оружейный стояк
 ONSPainterPickup         | Target Painter     | -               | Маркер целеуказания
-```
