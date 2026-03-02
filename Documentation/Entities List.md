@@ -14,12 +14,13 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ## UI entities
 
-- StartMenuButtons
-- Menus
-- Dialogs
-- Popups
-- Tooltips
-- Notifications
+- StartMenuButtons — [Glossary: StartMenuButtons.md](Glossary/StartMenuButtons.md)
+- Menus           — [Glossary: Menus.md](Glossary/Menus.md)
+- Settings        — [Glossary: Settings.md](Glossary/Settings.md)
+- Dialogs         — [Glossary: Dialogs.md](Glossary/Dialogs.md)
+- Popups          — [Glossary: Popups.md](Glossary/Popups.md)
+- Tooltips        — [Glossary: Tooltips.md](Glossary/Tooltips.md)
+- Notifications   — [Glossary: Notifications.md](Glossary/Notifications.md)
 
 ## Narrative entities
 
@@ -35,4 +36,4 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ---
 
-Total: 19 entities
+Total: 20 entities
