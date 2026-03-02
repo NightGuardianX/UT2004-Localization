@@ -9,6 +9,7 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 - Game_Weapons    — [Glossary: Game_Weapons.md](Glossary/Game_Weapons.md)
 - Game_Vehicles   — [Glossary: Game_Vehicles.md](Glossary/Game_Vehicles.md)
 - Game_Pickups    — [Glossary: Game_Pickups.md](Glossary/Game_Pickups.md)
+- Game_Adrenaline — [Glossary: Game_Adrenaline.md](Glossary/Game_Adrenaline.md)
 - Game_Modes      — [Glossary: Game_Modes.md](Glossary/Game_Modes.md)
 - Game_Abilities  — [Glossary: Game_Abilities.md](Glossary/Game_Abilities.md)
 - Game_Mutators   — [Glossary: Game_Mutators.md](Glossary/Game_Mutators.md)
