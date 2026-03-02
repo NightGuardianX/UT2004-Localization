@@ -29,6 +29,7 @@ Notes:
 
 - *(Optional entity-specific notes.)*
 - When filling glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
+- After creating a new entity glossary file from this template, always add a linked entry for it to `Documentation/Entities List.md` (see [Glossary Rules](../Rules/Glossary%20Rules.md)).
 
 ---
 

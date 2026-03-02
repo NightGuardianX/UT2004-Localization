@@ -32,6 +32,8 @@ Notes:
 
 ## Onslaught vehicles
 
+### Base Onslaught vehicles
+
 Technical name                        | English name                    | Current Russian | Old Russian
 --------------------------------------|---------------------------------|-----------------|--------------------------
 ONSAttackCraft                        | Raptor                          | -               | Раптор
@@ -49,8 +51,13 @@ ONSHoverTank_IonPlasma                | Ion Plasma Tank                 | -     
 ONSMASSideGunPawn                     | Leviathan Turret                | -               | Пушка Левиафана
 ONSMobileAssaultStation               | Leviathan                       | -               | Левиафан
 ONSTankSecondaryTurretPawn_IonPlasma  | Ion Plasma Tank Minigun Turret  | -               | Пулемет Ионного танка
-ONSArtillery                          | SPMA                            | -               | Самоходное орудие
-ONSArtillerySideGunPawn               | SPMA Side Turret                | -               | турель Самоходного орудия
-ONSDualAttackCraft                    | Cicada                          | -               | Цикада
-ONSDualACGatlingGunPawn               | Cicada Laser Turret             | -               | Лазерная турель Цикады
-ONSShockTank                          | Paladin                         | -               | Паладин
+
+### Bonus pack vehicles
+
+Technical name                        | English name           | Current Russian | Old Russian
+--------------------------------------|------------------------|-----------------|--------------------------
+ONSArtillery                          | SPMA                   | -               | Самоходное орудие
+ONSArtillerySideGunPawn               | SPMA Side Turret       | -               | турель Самоходного орудия
+ONSDualAttackCraft                    | Cicada                 | -               | Цикада
+ONSDualACGatlingGunPawn               | Cicada Laser Turret    | -               | Лазерная турель Цикады
+ONSShockTank                          | Paladin                | -               | Паладин

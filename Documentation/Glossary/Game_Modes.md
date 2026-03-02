@@ -43,10 +43,17 @@ ASGameInfo               | Assault            | -                               
 
 ## Other
 
+### Other gamemodes
+
 Technical name           | English name       | Current Russian                              | Old Russian
 -------------------------|--------------------|----------------------------------------------|--------------------------
 xVehicleCTFGame          | Vehicle CTF        | Захват флага с транспортом                   | Захват Флага с Техникой
 InstagibCTF              | Instagib CTF       | Захват флага Instagib (мгновенная смерть)    | Снайперский матч ЗФ
+
+### Bonus pack gamemodes
+
+Technical name           | English name       | Current Russian                              | Old Russian
+-------------------------|--------------------|----------------------------------------------|--------------------------
 xLastManStandingGame     | Last Man Standing  | -                                            | Последний герой
 xMutantGame              | Mutant             | -                                            | Мутант
 Invasion                 | Invasion           | Вторжение                                    | Вторжение

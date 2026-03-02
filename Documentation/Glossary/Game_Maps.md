@@ -34,6 +34,8 @@ Notes:
 
 ## Deathmatch (DM-) maps
 
+### Base DM maps
+
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 DM-1on1-Albatross        | DM-1on1-Albatross  | -               | -
@@ -49,8 +51,6 @@ DM-1on1-Squader          | DM-1on1-Squader    | -               | -
 DM-1on1-Trite            | DM-1on1-Trite      | -               | -
 DM-Antalus               | DM-Antalus         | -               | -
 DM-Asbestos              | DM-Asbestos        | -               | -
-DM-BP2-Calandras         | DM-BP2-Calandras   | -               | -
-DM-BP2-GoopGod           | DM-BP2-GoopGod     | -               | -
 DM-Compressed            | DM-Compressed      | -               | -
 DM-Corrugation           | DM-Corrugation     | -               | -
 DM-Curse4                | DM-Curse4          | -               | -
@@ -83,15 +83,22 @@ DM-Sulphur               | DM-Sulphur         | -               | -
 DM-TokaraForest          | DM-TokaraForest    | -               | -
 DM-TrainingDay           | DM-TrainingDay     | -               | -
 
+### Bonus pack DM maps
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+DM-BP2-Calandras         | DM-BP2-Calandras   | -               | -
+DM-BP2-GoopGod           | DM-BP2-GoopGod     | -               | -
+
 ## Capture the Flag (CTF-) maps
+
+### Base CTF maps
 
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 CTF-1on1-Joust           | CTF-1on1-Joust     | -               | -
 CTF-AbsoluteZero         | CTF-AbsoluteZero   | -               | -
 CTF-Avaris               | CTF-Avaris         | -               | -
-CTF-BP2-Concentrate      | CTF-BP2-Concentrate | -              | -
-CTF-BP2-Pistola          | CTF-BP2-Pistola    | -               | -
 CTF-BridgeOfFate         | CTF-BridgeOfFate   | -               | -
 CTF-Chrome               | CTF-Chrome         | -               | -
 CTF-Citadel              | CTF-Citadel        | -               | -
@@ -111,6 +118,13 @@ CTF-Maul                 | CTF-Maul           | -               | -
 CTF-MoonDragon           | CTF-MoonDragon     | -               | -
 CTF-Smote                | CTF-Smote          | -               | -
 CTF-TwinTombs            | CTF-TwinTombs      | -               | -
+
+### Bonus pack CTF maps
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+CTF-BP2-Concentrate      | CTF-BP2-Concentrate | -              | -
+CTF-BP2-Pistola          | CTF-BP2-Pistola    | -               | -
 
 ## Bombing Run (BR-) maps
 
@@ -148,13 +162,10 @@ DOM-Suntemple            | DOM-Suntemple      | -               | -
 
 ## Assault (AS-) maps
 
+### Base Assault maps
+
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
-AS-BP2-Acatana           | AS-BP2-Acatana     | -               | -
-AS-BP2-Jumpship          | AS-BP2-Jumpship    | -               | -
-AS-BP2-Outback           | AS-BP2-Outback     | -               | -
-AS-BP2-SubRosa           | AS-BP2-SubRosa     | -               | -
-AS-BP2-Thrust            | AS-BP2-Thrust      | -               | -
 AS-Convoy                | AS-Convoy          | -               | Конвой
 AS-FallenCity            | AS-FallenCity      | -               | -
 AS-Glacier               | AS-Glacier         | -               | -
@@ -162,23 +173,40 @@ AS-Junkyard              | AS-Junkyard        | -               | -
 AS-Mothership            | AS-Mothership      | -               | -
 AS-RobotFactory          | AS-RobotFactory    | -               | -
 
-## Onslaught (ONS-) maps
+### Bonus pack Assault maps
 
 Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
-ONS-Adara                | ONS-Adara          | -               | -
+AS-BP2-Acatana           | AS-BP2-Acatana     | -               | -
+AS-BP2-Jumpship          | AS-BP2-Jumpship    | -               | -
+AS-BP2-Outback           | AS-BP2-Outback     | -               | -
+AS-BP2-SubRosa           | AS-BP2-SubRosa     | -               | -
+AS-BP2-Thrust            | AS-BP2-Thrust      | -               | -
+
+## Onslaught (ONS-) maps
+
+### Base Onslaught maps
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
 ONS-ArcticStronghold     | ONS-ArcticStronghold | -             | -
-ONS-Aridoom              | ONS-Aridoom        | -               | -
-ONS-Ascendancy           | ONS-Ascendancy     | -               | -
 ONS-Crossfire            | ONS-Crossfire      | -               | -
 ONS-Dawn                 | ONS-Dawn           | -               | -
 ONS-Dria                 | ONS-Dria           | -               | -
 ONS-FrostBite            | ONS-FrostBite      | -               | -
-ONS-IslandHop            | ONS-IslandHop      | -               | -
 ONS-Primeval             | ONS-Primeval       | -               | -
 ONS-RedPlanet            | ONS-RedPlanet      | -               | -
 ONS-Severance            | ONS-Severance      | -               | -
 ONS-Torlan               | ONS-Torlan         | -               | Торлан
+
+### Bonus pack Onslaught maps
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+ONS-Adara                | ONS-Adara          | -               | -
+ONS-Aridoom              | ONS-Aridoom        | -               | -
+ONS-Ascendancy           | ONS-Ascendancy     | -               | -
+ONS-IslandHop            | ONS-IslandHop      | -               | -
 ONS-Tricky               | ONS-Tricky         | -               | -
 ONS-Urban                | ONS-Urban          | -               | -
 

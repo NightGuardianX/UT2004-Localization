@@ -120,10 +120,20 @@ Notes:
 | HellionsDB     | Greith       | Greith          | Грейт        |
 | NewNightmare   | Abaddon      | Abaddon         | Абаддон      |
 | Ophelia        | Ophelia      | Ophelia         | Офелия       |
-| MechaSkaarj    | Mekkor       | Mekkor          | Меккор       |
-| MechaSkaarjB   | Skrilax      | Skrilax         | Скрилакс     |
-| BarkTooth      | BarkTooth    | BarkTooth       | Барктут      |
-| Karag          | Karag        | Karag           | Караг        |
-| Necris         | Kragoth      | Kragoth         | Крагот       |
-| NecrisB        | Thannis      | Thannis         | Таннис       |
+
+
+---
+
+## Bonus pack characters
+
+
+| Technical name | English name | Current Russian | Old Russian |
+| -------------- | ------------ | --------------- | ----------- |
+| MechaSkaarj    | Mekkor       | Mekkor          | Меккор      |
+| MechaSkaarjB   | Skrilax      | Skrilax         | Скрилакс    |
+| BarkTooth      | BarkTooth    | BarkTooth       | Барктут     |
+| Karag          | Karag        | Karag           | Караг       |
+| Necris         | Kragoth      | Kragoth         | Крагот      |
+| NecrisB        | Thannis      | Thannis         | Таннис      |
+
 
