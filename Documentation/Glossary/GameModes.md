@@ -54,4 +54,3 @@ xLastManStandingGame     | Last Man Standing  | -                               
 xMutantGame              | Mutant             | -                                            | Мутант
 Invasion                 | Invasion           | Вторжение                                    | Вторжение
 ```
-
