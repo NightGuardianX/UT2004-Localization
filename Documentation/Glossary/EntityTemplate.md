@@ -17,8 +17,13 @@ Source: *(list .int or other source files)*
 Current Russian: /rut.
 Old Russian: Documentation/rut_old.
 
-Format: Technical name | English name | Current Russian | Old Russian.
-If no translation: - .
+Format (Markdown table):
+
+Technical name | English name | Current Russian | Old Russian
+---|---|---|---
+*(TechnicalKey)* | (English label) | - | (Old Russian or -)
+
+If no translation: `-`.
 
 Notes:
 
@@ -29,11 +34,8 @@ Notes:
 
 ## *(Category or section name)*
 
-```text
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-*(TechnicalKey)          | (English label)    | -               | (Old Russian or -)
-```
+Technical name | English name | Current Russian | Old Russian
+---|---|---|---
+*(TechnicalKey)* | (English label) | - | (Old Russian or -)
 
-*(Add more sections and rows as needed.
-Keep column widths aligned across all tables.)*
+*(Add more sections and rows as needed. Keep column order and meaning the same across all tables.)*

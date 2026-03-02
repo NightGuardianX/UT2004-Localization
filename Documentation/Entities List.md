@@ -10,7 +10,7 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 - Vehicles — [Glossary: Vehicles.md](Glossary/Vehicles.md)
 - Pickups — [Glossary: Pickups.md](Glossary/Pickups.md)
 - GameModes — [Glossary: GameModes.md](Glossary/GameModes.md)
-- Abilities
+- Abilities — [Glossary: Abilities.md](Glossary/Abilities.md)
 
 ## UI entities
 
