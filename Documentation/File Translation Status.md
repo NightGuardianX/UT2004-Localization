@@ -1,6 +1,6 @@
 # File Translation Status
 
-This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[File Translation Status Rules](File%20Translation%20Status%20Rules.md)**.
+This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[File Translation Status Rules](Rules/File%20Translation%20Status%20Rules.md)**.
 
 **Total:** 186 · **Done:** 8 · **Verified:** 0
 
@@ -199,4 +199,4 @@ This page lists all localization files and their translation status. Status mean
 
 ---
 
-**How to update:** Use the criteria and status order from [File Translation Status Rules](File%20Translation%20Status%20Rules.md). Set **Verified** to YES after manual review.
+**How to update:** Use the criteria and status order from [File Translation Status Rules](Rules/File%20Translation%20Status%20Rules.md). Set **Verified** to YES after manual review.

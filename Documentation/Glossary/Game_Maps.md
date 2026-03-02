@@ -3,7 +3,7 @@
 ## Entity Glossary Rules (Game_Maps)
 
 *(Optional.
-This section defines rules specific to the Maps entity and overrides or extends the general [Glossary Rules](../Glossary%20Rules.md) where needed.)*
+This section defines rules specific to the Maps entity and overrides or extends the general [Glossary Rules](../Rules/Glossary%20Rules.md) where needed.)*
 
 - **Sources:** Map display names from `.int` files whose names start with `DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-` in the `/int` directory. Current Russian from `/rut/*.rut` with the same basename, when the `Title=` value is actually in Russian (Cyrillic). Old Russian from `/rut_old/*.rut` with the same basename.
 - **Structure / categories:** Sections are grouped by map type / filename prefix: Deathmatch (`DM-`), Capture the Flag (`CTF-`), Bombing Run (`BR-`), Double Domination / Domination (`DOM-`), Assault (`AS-`), Onslaught (`ONS-`), Tutorials (`TUT-`), Movies / intro (`MOV-`).
