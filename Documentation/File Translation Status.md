@@ -1,0 +1,200 @@
+# File Translation Status
+
+This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[File Translation Status Rules](File%20Translation%20Status%20Rules.md)**.
+
+**Total:** 186 · **Done:** 3 · **Verified:** 0
+
+## Status table
+
+| Base File                  | Localization               | Status       | Verified |
+|:---------------------------|:---------------------------|:-------------|:---------|
+| ALAudio.int                | ALAudio.rut                | Untranslated |          |
+| AS-BP2-Acatana.int         | AS-BP2-Acatana.rut         | Spanish!!!   |          |
+| AS-BP2-Jumpship.int        | AS-BP2-Jumpship.rut        | Spanish!!!   |          |
+| AS-BP2-Outback.int         | AS-BP2-Outback.rut         | Spanish!!!   |          |
+| AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | Spanish!!!   |          |
+| AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | Spanish!!!   |          |
+| AS-Convoy.int              | AS-Convoy.rut              | Spanish!!!   |          |
+| AS-FallenCity.int          | AS-FallenCity.rut          | Spanish!!!   |          |
+| AS-Glacier.int             | AS-Glacier.rut             | Spanish!!!   |          |
+| AS-Junkyard.int            | AS-Junkyard.rut            | Spanish!!!   |          |
+| AS-Mothership.int          | AS-Mothership.rut          | Spanish!!!   |          |
+| AS-RobotFactory.int        | AS-RobotFactory.rut        | Spanish!!!   |          |
+| BonusPack.int              | BonusPack.rut              | Spanish!!!   |          |
+| BR-Anubis.int              | BR-Anubis.rut              | Spanish!!!   |          |
+| BR-Bifrost.int             | BR-Bifrost.rut             | Untranslated |          |
+| BR-BridgeOfFate.int        | BR-BridgeOfFate.rut        | Spanish!!!   |          |
+| BR-Canyon.int              | BR-Canyon.rut              | Spanish!!!   |          |
+| BR-Colossus.int            | BR-Colossus.rut            | Spanish!!!   |          |
+| BR-DE-ElecFields.int       | BR-DE-ElecFields.rut       | Spanish!!!   |          |
+| BR-Disclosure.int          | BR-Disclosure.rut          | Spanish!!!   |          |
+| BR-IceFields.int           | BR-IceFields.rut           | Untranslated |          |
+| BR-Serenity.int            | BR-Serenity.rut            | Spanish!!!   |          |
+| BR-Skyline.int             | BR-Skyline.rut             | Spanish!!!   |          |
+| BR-Slaughterhouse.int      | BR-Slaughterhouse.rut      | Spanish!!!   |          |
+| BR-TwinTombs.int           | BR-TwinTombs.rut           | Untranslated |          |
+| Core.int                   | Core.rut                   | Spanish!!!   |          |
+| CTF-1on1-Joust.int         | CTF-1on1-Joust.rut         | Spanish!!!   |          |
+| CTF-AbsoluteZero.int       | CTF-AbsoluteZero.rut       | Spanish!!!   |          |
+| CTF-Avaris.int             | CTF-Avaris.rut             | Spanish!!!   |          |
+| CTF-BP2-Concentrate.int    | CTF-BP2-Concentrate.rut    | Spanish!!!   |          |
+| CTF-BP2-Pistola.int        | CTF-BP2-Pistola.rut        | Spanish!!!   |          |
+| CTF-BridgeOfFate.int       | CTF-BridgeOfFate.rut       | Spanish!!!   |          |
+| CTF-Chrome.int             | CTF-Chrome.rut             | Untranslated |          |
+| CTF-Citadel.int            | CTF-Citadel.rut            | Untranslated |          |
+| CTF-Colossus.int           | CTF-Colossus.rut           | Spanish!!!   |          |
+| CTF-DE-ElecFields.int      | CTF-DE-ElecFields.rut      | Spanish!!!   |          |
+| -                          | CTF-DE-LavaGiant2.rut      | No .int      |          |
+| CTF-December.int           | CTF-December.rut           | Untranslated |          |
+| CTF-DoubleDammage.int      | CTF-DoubleDammage.rut      | Spanish!!!   |          |
+| CTF-Face3.int              | CTF-Face3.rut              | Untranslated |          |
+| CTF-FaceClassic.int        | CTF-FaceClassic.rut        | Spanish!!!   |          |
+| CTF-Geothermal.int         | CTF-Geothermal.rut         | Untranslated |          |
+| CTF-Grassyknoll.int        | CTF-Grassyknoll.rut        | Spanish!!!   |          |
+| CTF-Grendelkeep.int        | CTF-Grendelkeep.rut        | Spanish!!!   |          |
+| CTF-January.int            | CTF-January.rut            | Spanish!!!   |          |
+| CTF-LostFaith.int          | CTF-LostFaith.rut          | Untranslated |          |
+| CTF-Magma.int              | CTF-Magma.rut              | Untranslated |          |
+| CTF-Maul.int               | CTF-Maul.rut               | Untranslated |          |
+| CTF-MoonDragon.int         | CTF-MoonDragon.rut         | Spanish!!!   |          |
+| CTF-Orbital2.int           | CTF-Orbital2.rut           | Untranslated |          |
+| CTF-Smote.int              | CTF-Smote.rut              | Spanish!!!   |          |
+| CTF-TwinTombs.int          | CTF-TwinTombs.rut          | Spanish!!!   |          |
+| D3DDrv.int                 | D3DDrv.rut                 | Spanish!!!   |          |
+| -                          | DemoLicense.rut            | No .int      |          |
+| DM-1on1-Albatross.int      | DM-1on1-Albatross.rut      | Spanish!!!   |          |
+| DM-1on1-Crash.int          | DM-1on1-Crash.rut          | Spanish!!!   |          |
+| DM-1on1-Desolation.int     | DM-1on1-Desolation.rut     | Spanish!!!   |          |
+| DM-1on1-Idoma.int          | DM-1on1-Idoma.rut          | Untranslated |          |
+| DM-1on1-Irondust.int       | DM-1on1-Irondust.rut       | Spanish!!!   |          |
+| DM-1on1-Mixer.int          | DM-1on1-Mixer.rut          | Spanish!!!   |          |
+| DM-1on1-Roughinery.int     | DM-1on1-Roughinery.rut     | Spanish!!!   |          |
+| DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | Spanish!!!   |          |
+| DM-1on1-Spirit.int         | DM-1on1-Spirit.rut         | Spanish!!!   |          |
+| DM-1on1-Squader.int        | DM-1on1-Squader.rut        | Spanish!!!   |          |
+| DM-1on1-Trite.int          | DM-1on1-Trite.rut          | Spanish!!!   |          |
+| DM-Antalus.int             | DM-Antalus.rut             | Spanish!!!   |          |
+| DM-Asbestos.int            | DM-Asbestos.rut            | Untranslated |          |
+| DM-BP2-Calandras.int       | DM-BP2-Calandras.rut       | Spanish!!!   |          |
+| DM-BP2-GoopGod.int         | DM-BP2-GoopGod.rut         | Spanish!!!   |          |
+| DM-Compressed.int          | DM-Compressed.rut          | Spanish!!!   |          |
+| DM-Corrugation.int         | DM-Corrugation.rut         | Spanish!!!   |          |
+| DM-Curse4.int              | DM-Curse4.rut              | Spanish!!!   |          |
+| DM-DE-Grendelkeep.int      | DM-DE-Grendelkeep.rut      | Spanish!!!   |          |
+| DM-DE-Ironic.int           | DM-DE-Ironic.rut           | Spanish!!!   |          |
+| DM-DE-Osiris2.int          | DM-DE-Osiris2.rut          | Spanish!!!   |          |
+| DM-Deck17.int              | DM-Deck17.rut              | Spanish!!!   |          |
+| DM-DesertIsle.int          | DM-DesertIsle.rut          | Spanish!!!   |          |
+| DM-Flux2.int               | DM-Flux2.rut               | Untranslated |          |
+| DM-Gael.int                | DM-Gael.rut                | Untranslated |          |
+| DM-Gestalt.int             | DM-Gestalt.rut             | Spanish!!!   |          |
+| DM-Goliath.int             | DM-Goliath.rut             | Spanish!!!   |          |
+| DM-HyperBlast2.int         | DM-HyperBlast2.rut         | Spanish!!!   |          |
+| DM-Icetomb.int             | DM-Icetomb.rut             | Spanish!!!   |          |
+| DM-Inferno.int             | DM-Inferno.rut             | Untranslated |          |
+| DM-Injector.int            | DM-Injector.rut            | Spanish!!!   |          |
+| DM-Insidious.int           | DM-Insidious.rut           | Spanish!!!   |          |
+| DM-IronDeity.int           | DM-IronDeity.rut           | Spanish!!!   |          |
+| DM-JunkYard.int            | DM-JunkYard.rut            | Spanish!!!   |          |
+| DM-Leviathan.int           | DM-Leviathan.rut           | Untranslated |          |
+| DM-Metallurgy.int          | DM-Metallurgy.rut          | Spanish!!!   |          |
+| DM-Morpheus3.int           | DM-Morpheus3.rut           | Spanish!!!   |          |
+| DM-Oceanic.int             | DM-Oceanic.rut             | Untranslated |          |
+| DM-Phobos2.int             | DM-Phobos2.rut             | Spanish!!!   |          |
+| DM-Plunge.int              | DM-Plunge.rut              | Untranslated |          |
+| DM-Rankin.int              | DM-Rankin.rut              | Spanish!!!   |          |
+| DM-Rrajigar.int            | DM-Rrajigar.rut            | Spanish!!!   |          |
+| DM-Rustatorium.int         | DM-Rustatorium.rut         | Spanish!!!   |          |
+| DM-Sulphur.int             | DM-Sulphur.rut             | Spanish!!!   |          |
+| DM-TokaraForest.int        | DM-TokaraForest.rut        | Spanish!!!   |          |
+| DM-TrainingDay.int         | DM-TrainingDay.rut         | Untranslated |          |
+| DOM-Access.int             | DOM-Access.rut             | Spanish!!!   |          |
+| DOM-Aswan.int              | DOM-Aswan.rut              | Spanish!!!   |          |
+| DOM-Atlantis.int           | DOM-Atlantis.rut           | Spanish!!!   |          |
+| DOM-Conduit.int            | DOM-Conduit.rut            | Spanish!!!   |          |
+| DOM-Core.int               | DOM-Core.rut               | Untranslated |          |
+| DOM-Junkyard.int           | DOM-Junkyard.rut           | Spanish!!!   |          |
+| DOM-OutRigger.int          | DOM-OutRigger.rut          | Spanish!!!   |          |
+| DOM-Renascent.int          | DOM-Renascent.rut          | Spanish!!!   |          |
+| DOM-Ruination.int          | DOM-Ruination.rut          | Untranslated |          |
+| DOM-ScorchedEarth.int      | DOM-ScorchedEarth.rut      | Untranslated |          |
+| DOM-SepukkuGorge.int       | DOM-SepukkuGorge.rut       | Untranslated |          |
+| DOM-Suntemple.int          | DOM-Suntemple.rut          | Spanish!!!   |          |
+| Editor.int                 | Editor.rut                 | Untranslated |          |
+| endgame.int                | endgame.rut                | Spanish!!!   |          |
+| Engine.int                 | Engine.rut                 | Spanish!!!   |          |
+| Entry.int                  | Entry.rut                  | Done         |          |
+| GamePlay.int               | GamePlay.rut               | Spanish!!!   |          |
+| -                          | Gestalt.rut                | No .int      |          |
+| GUI2K4.int                 | GUI2K4.rut                 | Spanish!!!   |          |
+| IpDrv.int                  | IpDrv.rut                  | Spanish!!!   |          |
+| -                          | License.rut                | No .int      |          |
+| -                          | Manifest.rut               | No .int      |          |
+| Mov-UT2-intro.int          | Mov-UT2-intro.rut          | Untranslated |          |
+| MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Untranslated |          |
+| NoIntro.int                | NoIntro.rut                | Done         |          |
+| NvidiaLogo.int             | NvidiaLogo.rut             | Done         |          |
+| ONS-Adara.int              | ONS-Adara.rut              | Spanish!!!   |          |
+| ONS-ArcticStronghold.int   | ONS-ArcticStronghold.rut   | Spanish!!!   |          |
+| ONS-Aridoom.int            | ONS-Aridoom.rut            | Spanish!!!   |          |
+| ONS-Ascendancy.int         | ONS-Ascendancy.rut         | Spanish!!!   |          |
+| ONS-Crossfire.int          | ONS-Crossfire.rut          | Spanish!!!   |          |
+| ONS-Dawn.int               | ONS-Dawn.rut               | Spanish!!!   |          |
+| ONS-Dria.int               | ONS-Dria.rut               | Spanish!!!   |          |
+| ONS-FrostBite.int          | ONS-FrostBite.rut          | Spanish!!!   |          |
+| ONS-IslandHop.int          | ONS-IslandHop.rut          | Spanish!!!   |          |
+| ONS-Primeval.int           | ONS-Primeval.rut           | Spanish!!!   |          |
+| ONS-RedPlanet.int          | ONS-RedPlanet.rut          | Spanish!!!   |          |
+| ONS-Severance.int          | ONS-Severance.rut          | Spanish!!!   |          |
+| ONS-Torlan.int             | ONS-Torlan.rut             | Spanish!!!   |          |
+| ONS-Tricky.int             | ONS-Tricky.rut             | Spanish!!!   |          |
+| ONS-Urban.int              | ONS-Urban.rut              | Spanish!!!   |          |
+| -                          | Onslaught.rut              | Spanish!!!   |          |
+| OnslaughtBP.int            | OnslaughtBP.rut            | Spanish!!!   |          |
+| OnslaughtFull.int          | OnslaughtFull.rut          | Spanish!!!   |          |
+| ParticleExamples.int       | ParticleExamples.rut       | Untranslated |          |
+| Setup.int                  | Setup.rut                  | Spanish!!!   |          |
+| -                          | SetupBonusPack.rut         | No .int      |          |
+| -                          | setupbrightskinsmod.rut    | No .int      |          |
+| -                          | SetupUT2003_Demo.rut       | No .int      |          |
+| -                          | SetupUT2003_Full.rut       | No .int      |          |
+| -                          | SetupUT2004Demo.rut        | No .int      |          |
+| -                          | setuput2004full.rut        | No .int      |          |
+| SkaarjPack.int             | SkaarjPack.rut             | Spanish!!!   |          |
+| Startup.int                | Startup.rut                | Spanish!!!   |          |
+| TeamSymbols_UT2003.int     | TeamSymbols_UT2003.rut     | Untranslated |          |
+| TeamSymbols_UT2004.int     | TeamSymbols_UT2004.rut     | Untranslated |          |
+| TUT-BR.int                 | TUT-BR.rut                 | Spanish!!!   |          |
+| TUT-CTF.int                | TUT-CTF.rut                | Untranslated |          |
+| TUT-DM.int                 | TUT-DM.rut                 | Untranslated |          |
+| TUT-DOM2.int               | TUT-DOM2.rut               | Untranslated |          |
+| TUT-ONS.int                | TUT-ONS.rut                | Untranslated |          |
+| -                          | UC.rut                     | No .int      |          |
+| UnrealEd.int               | UnrealEd.rut               | Untranslated |          |
+| UnrealGame.int             | UnrealGame.rut             | Spanish!!!   |          |
+| -                          | ut2003.rut                 | No .int      |          |
+| UT2004.int                 | UT2004.rut                 | Untranslated |          |
+| UT2k4Assault.int           | UT2k4Assault.rut           | Spanish!!!   |          |
+| UT2K4AssaultFull.int       | UT2K4AssaultFull.rut       | Spanish!!!   |          |
+| UTClassic.int              | UTClassic.rut              | Spanish!!!   |          |
+| UTV2004c.int               | UTV2004c.rut               | Untranslated |          |
+| UTV2004s.int               | UTV2004s.rut               | Spanish!!!   |          |
+| UWeb.int                   | UWeb.rut                   | Untranslated |          |
+| Vehicles.int               | Vehicles.rut               | Spanish!!!   |          |
+| Window.int                 | Window.rut                 | Spanish!!!   |          |
+| WinDrv.int                 | WinDrv.rut                 | Untranslated |          |
+| XAdmin.int                 | XAdmin.rut                 | Spanish!!!   |          |
+| -                          | XDemoMaps.rut              | No .int      |          |
+| XGame.int                  | XGame.rut                  | Spanish!!!   |          |
+| XInterface.int             | XInterface.rut             | Spanish!!!   |          |
+| XMaps.int                  | XMaps.rut                  | Spanish!!!   |          |
+| XPickups.int               | XPickups.rut               | Spanish!!!   |          |
+| XPlayers.int               | XPlayers.rut               | Spanish!!!   |          |
+| -                          | xplayers2.rut              | No .int      |          |
+| XVoting.int                | XVoting.rut                | Spanish!!!   |          |
+| -                          | XWeapons.rut               | Spanish!!!   |          |
+| XWebAdmin.int              | XWebAdmin.rut              | Spanish!!!   |          |
+
+---
+
+**How to update:** Use the criteria and status order from [File Translation Status Rules](File%20Translation%20Status%20Rules.md). Set **Verified** to YES after manual review.

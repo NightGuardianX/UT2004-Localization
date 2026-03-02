@@ -1,0 +1,75 @@
+# File Translation Status Rules
+
+## Description
+
+Rules for filling the **[File Translation Status](File%20Translation%20Status.md)** table: all localization files and their translation status are listed there; this document defines how to classify and update that table.
+
+## Rules for filling table
+
+### Counters (at the top of the status page)
+
+- **Total** — Number of rows in the table (all .int files that have a .rut + all .rut files that have no matching .int in /int).
+- **Done** — Number of rows where **Status** is `Done`.
+- **Verified** — Number of rows where **Verified** is `YES`.
+- Display as: `**Total:** N · **Done:** M · **Verified:** K`.
+- **Always update the counters** when you change or update the table (add/remove rows, change Status or Verified). Recalculate Total (number of data rows), Done (rows with Status = Done), Verified (rows with Verified = YES) and correct the line above the table.
+
+### Rows with no .int (orphan .rut files)
+
+- Some .rut files in /rut have **no corresponding .int** in /int (e.g. from another package or legacy file). Include them in the table so every .rut is listed.
+- For such rows set **Base File** to `-` (dash). **Localization** is the .rut filename. **Verified** as for other rows.
+- **Status for orphan .rut:** use **No .int** only when **both** are true: (1) there is no .int file in /int, and (2) the .rut has **Missing `; EN:`** (no `; EN: Key="..."` blocks for translatable strings). In all other cases (e.g. the orphan .rut has proper `; EN:` + translation), determine status as usual (Untranslated, Spanish!!!, Done, In Progress, etc.).
+- Place **all** rows (including these) in **one alphabetical order by Localization** (see Table format).
+
+### Table format
+
+- Use a **header row**, then a **separator row** with aligned column delimiters (`|:---|:---|:---|:---|`).
+- **Align columns** in source: pad cell content with spaces so that the first character of each column lines up vertically (Base File width ~26, Localization ~26, Status ~12, Verified ~8). This keeps the table readable when editing the .md file.
+- **Row order:** Sort **all** rows (with and without .int) in one **alphabetical order by Localization** (the .rut filename). So the table is a single A–Z list by the second column; rows with Base File = `-` are interleaved where their .rut name falls.
+
+### Table includes columns
+
+- **Base File** — .int filename in /int folder, or `-` when the .rut has no matching .int in this repo
+- **Localization** — .rut filename in /rut folder (same base name as .int when present: `Foo.int` → `Foo.rut`)
+- **Status** — No .rut, No .int, Untranslated, Spanish!!!, No Caption, In Progress, Done (see below)
+- **Verified** — YES when manually confirmed by translator; empty otherwise
+
+### Status clarification (check in this order)
+
+1. **No .rut** — The .int file has no matching .rut file in /rut. Set this first.
+2. **No .int** — Only when **both**: (a) the .rut has no matching .int in /int (Base File = `-`), and (b) the .rut has **Missing `; EN:`** (no `; EN:` blocks for translatable content). Otherwise determine status as usual (Untranslated, Spanish!!!, Done, etc.).
+3. **Untranslated** — .rut exists but has no Russian and no Spanish in user-facing strings (e.g. only English copied from .int or no `; EN:` blocks).
+4. **Spanish!!!** — .rut contains any Spanish strings (even if some lines are already Russian). One Spanish string = whole file gets this status.
+5. **No Caption** — .int has `Caption=` (or other translatable keys inside `Preferences=`, etc.) but in .rut that key is either missing or its value is still the English original (no `; EN:` + translation).
+6. **In Progress** — Some translatable strings are in Russian, but not all.
+7. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left).
+
+### How translation is organized
+
+- **.int** = source (English): sections `[Category]`, keys like `Key="English text"`, plus non-translatable lines (`Object=`, some `Preferences=`, etc.).
+- **.rut** = localization: same structure, with translatable lines in this form:
+
+```ini
+[Category]
+; EN: Key="English text"
+Key="Russian text"
+```
+
+- **Non-translatable lines** — `Object=(Name=...)`, many `Preferences=(Caption=...)` (when kept as technical config), `Delays[0]=...`, etc. may be copied as-is or omitted in .rut. Ignore them when judging status; only consider lines that carry user-visible text.
+- **Missing `; EN:`** — If a translatable key in .int has no `; EN: Key="..."` in .rut, treat as untranslated (or No Caption when it’s a caption). To check the intended English, use the same key in the corresponding .int file.
+
+Example (Done):
+
+```ini
+[ONSGrenadeLauncher]
+; EN: Description="The MGG Grenade Launcher fires magnetic sticky grenades, which will attach to enemy players and vehicles."
+Description="Гранатомет MGG стреляет магнитными липкими гранатами, которые прикрепляются к вражеским игрокам и технике."
+; EN: ItemName="Grenade Launcher"
+ItemName="Гранатомет"
+```
+
+### Quick checks from the sample
+
+- **Editor.rut** — No `; EN:` blocks, Captions in Preferences still in English → Untranslated (or No Caption for those entries).
+- **Startup.rut**, **Vehicles.rut**, **Engine.rut**, **XGame.rut** — `; EN:` + Russian → Done (watch for odd Spanish leftovers).
+- **GamePlay.rut**, **Core.rut**, **DM-Inferno.rut**, **XPickups.rut**, **Onslaught.rut** — Spanish present → Spanish!!! (even if some Russian).
