@@ -130,5 +130,24 @@ IRCLink.TimeOutError          | Timeout connecting to server.                   
 IRC_System.NotInAChannelText  | Not in a channel!                                  | -               | Вы не находитесь в канале!
 IRC_System.KickedFromText     | You were kicked from                               | -               | Вас выгнали из
 
+---
+
+## Vote messages (XVoting.int, Engine.int)
+
+Source: `XVoting.int` (`[xVotingHandler]`), `Engine.int` (`[GameMessage]`). Current Russian: `/rut/Engine.rut` (GameMessage); `/rut/XVoting.rut` has non‑Russian placeholder → `-`. Old Russian: `/rut_old/XVoting.rut`, `/rut_old/Engine.rut`.
+
+Technical name | English name | Current Russian | Old Russian
+-------------- | ------------ | --------------- | -----------
+GameMessage.VoteStarted | started a vote. | начал голосование. | начал голосование.
+GameMessage.VotePassed | Vote passed. | Голосование завершено. | голосование поддержано.
+xVotingHandler.lmsgKickVote | %playername1% placed a kick vote against %playername2% | - | %playername1% объявил голосование на выброс %playername2%
+xVotingHandler.lmsgAnonymousKickVote | A kick vote has been placed against %playername% | - | Объявлено голосование на выброс %playername%
+xVotingHandler.lmsgKickVoteAdmin | %playername% attempted to submit a kick vote against the server administrator ! | - | %playername% попытался предложить голосование на выброс администратора сервера !
+xVotingHandler.lmsgMapWon | %mapname% has won ! | - | Карта %mapname% победила !
+xVotingHandler.lmsgMidGameVote | Mid-Game Map Voting has been initiated !!!! | - | Инициировано голосование карты в игре !!!!
+xVotingHandler.lmsgSpectatorsCantVote | Sorry, Spectators can not vote. | - | Извините, наблюдатели не могут голосовать.
+xVotingHandler.lmsgMapVotedFor | %playername% has voted for %mapname% | - | %playername% проголосовал за %mapname%
+xVotingHandler.lmsgMapVotedForWithCount | %playername% has placed %votecount% votes for %mapname% | - | %playername% подал %votecount% голосов за карту %mapname%
+
 Additional notification strings from `XInterface.int` should be added here following the same structure and rules.
 

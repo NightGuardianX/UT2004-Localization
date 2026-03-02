@@ -252,3 +252,79 @@ UT2K4Tab_HudSettings.HudColorR.Caption | Red: | Красный | -
 UT2K4Tab_HudSettings.HudColorG.Caption | Green: | Зелёный: | -
 UT2K4Tab_HudSettings.HudColorB.Caption | Blue: | Синий: | -
 
+---
+
+## Voting / server options (XVoting.int, Engine.int)
+
+Source: `XVoting.int` (`[xVotingHandler]`), `Engine.int` (`[Info]`). Current Russian: `/rut/XVoting.rut`, `/rut/Engine.rut`. Old Russian: `/rut_old/XVoting.rut`, `/rut_old/Engine.rut`.
+
+### Server preference group names (Engine)
+
+Technical name | English name | Current Russian | Old Russian
+---------------|--------------|-----------------|------------
+Info.MapVoteGroup | Map Voting | Голосование за карту | Голосование по картам
+Info.KickVoteGroup | Kick Voting | Исключить голосованием | Голосование по игрокам
+
+### Map / kick voting options (xVotingHandler PropsDisplayText / PropDescription)
+
+Technical name | English name | Current Russian | Old Russian
+---------------|--------------|-----------------|------------
+xVotingHandler.PropsDisplayText[0] | Enable Map Voting | - | Разрешить голосование за карты
+xVotingHandler.PropsDisplayText[1] | Auto Open GUI | - | Автооткрытие графического интерфейса
+xVotingHandler.PropsDisplayText[2] | ScoreBoard Delay | - | Задержка таблицы очков
+xVotingHandler.PropsDisplayText[3] | Score Mode | - | Режим очков
+xVotingHandler.PropsDisplayText[4] | Accumulation Mode | - | Режим накопления
+xVotingHandler.PropsDisplayText[5] | Elimination Mode | - | Режим отсеивания
+xVotingHandler.PropsDisplayText[6] | Minimum Maps | - | Минимум карт
+xVotingHandler.PropsDisplayText[7] | Repeat Limit | - | Ограничение повтора
+xVotingHandler.PropsDisplayText[8] | Voting Time Limit | - | Ограничение времени
+xVotingHandler.PropsDisplayText[9] | Mid-Game Vote Percent | - | Процент голосов
+xVotingHandler.PropsDisplayText[10] | Default Current GameType | - | Текущий режим игры по умолчанию
+xVotingHandler.PropsDisplayText[11] | Enable Kick Voting | - | Разрешить голосование за вылет
+xVotingHandler.PropsDisplayText[12] | Kick Vote Percent | - | Процент голосов за вылет
+xVotingHandler.PropsDisplayText[13] | Anonymous Kick Voting | - | Анонимное голосование за вылет
+xVotingHandler.PropsDisplayText[14] | Allow Match Setup | - | Разрешить настройки матча
+xVotingHandler.PropsDisplayText[15] | Game Configuration | - | Конфигурация игры
+xVotingHandler.PropsDisplayText[16] | Map List Configuration | - | Конфигурация списка карт
+
+### Map / kick voting option descriptions (PropDescription)
+
+Technical name | English name | Current Russian | Old Russian
+---------------|--------------|-----------------|------------
+xVotingHandler.PropDescription[0] | If enabled players can vote for maps. | - | Если включено, игроки могут голосовать за карты.
+xVotingHandler.PropDescription[1] | If enabled the Map voting interface will automatically open at the end of each game. | - | Если включено, интерфейс голосования за карты будет автоматически открываться в конце каждой игры.
+xVotingHandler.PropDescription[2] | Sets the number of seconds to delay after the end of each game before opening the voting interface. | - | Задает количество секунд задержки после конца каждой игры до открытия интерфейса голосования.
+xVotingHandler.PropDescription[3] | If enabled, each player gets his or her score worth of votes. | - | Если включено, голоса игроков взвешиваются пропорционально их очкам.
+xVotingHandler.PropDescription[4] | If enabled, each player will accumulate votes each game until they win. | - | Если включено, игроки будут накапливать свои голоса каждую игру, пока они не выиграют.
+xVotingHandler.PropDescription[5] | If enabled, available maps are disabled as they are played until there are X maps left. | - | Если включено, доступные карты деактивируются после игры на них, пока не останется X карт.
+xVotingHandler.PropDescription[6] | The number of enabled maps that remain in the map list (in Elimination mode) before the map list is reset. | - | Количество разрешенных карт, которые остаются в списке карт (в режиме отсеивания), прежде чем список карт будет сброшен.
+xVotingHandler.PropDescription[7] | Number of previously played maps that should not be votable. | - | Количество отыгранных карт, которые не должны быть доступны для голосования.
+xVotingHandler.PropDescription[8] | Limits how much time (in seconds) to allow for voting. | - | Ограничивает время, отведенное на голосование, сек.
+xVotingHandler.PropDescription[9] | Percentage of players that must vote to trigger a Mid-Game vote. | - | Процент игроков, которые должны проголосовать чтобы включить голосование в процессе игры.
+xVotingHandler.PropDescription[10] | If enabled, and there are no players on the server then the server will stay on the current game type. | - | Если включено и на сервере нет игроков, сервер оставит текущий тип игры.
+xVotingHandler.PropDescription[11] | If enable players can vote to kick other players. | - | Если включено, игроки могут голосовать за изгнание других игроков.
+xVotingHandler.PropDescription[12] | The percentage of players that must vote against an individual player to have them kicked from the server. | - | Процент игроков, которые должны проголосовать против отдельного игрока, чтобы тот вылетел с сервера.
+xVotingHandler.PropDescription[13] | If enabled players can place Kick votes without anyone knowing who placed the vote. | - | Если включено, игроки могут подавать голоса за вылет, оставаясь неизвестными.
+xVotingHandler.PropDescription[14] | Enables match setup on the server - valid admin username & password is required in order to use this feature | - | Разрешает доступ к настройкам матча на сервере - требуется правильное имя и пароль администратора, чтобы использовать эту функцию
+xVotingHandler.PropDescription[15] | Opens the map voting game configuration screen | - | Открывает экран конфигурации голосования за карты
+xVotingHandler.PropDescription[16] | Opens the map voting list configuration screen | - | Открывает экран конфигурации списка голосования за карты
+
+### Voting list and footer labels (XVoting)
+
+Technical name | English name | Current Russian | Old Russian
+---------------|--------------|-----------------|------------
+KickVoteMultiColumnList.ColumnHeadings | Player Name, Team, ID, Votes | - | Имя игрока, Команда, ID, Голоса
+KickVoteMultiColumnListBox.RCMenu.ContextItems | Vote to Kick this Player, View Player Details, [Admin] Kick from Server, [Admin] Ban from Server | - | Голосовать за выброс, Просмотр деталей, [Admin] Выброс с сервера, [Admin] Запретить доступ
+MapVoteCountMultiColumnList.ColumnHeadings | GameType, MapName, Votes | - | Тип игры, Название карты, Число голосов
+MapVoteCountMultiColumnListBox.RCMenu.ContextItems | Vote for this Map, View Screenshot and Description | - | Проголосовать за карту, Скриншот и описание
+MapVoteMultiColumnList.ColumnHeadings | Map Name, Played, Seq | - | Имя карты, Сыграна, После
+MapVoteMultiColumnListBox.RCMenu.ContextItems | Vote for this Map, View Screenshot and Description | - | Голосовать за карту, Просмотр описания
+MapVoteFooter.AcceptButton.Caption | Accept | - | Ввод
+MapVoteFooter.CloseButton.Caption | Close | - | Закрыть
+MapVoteFooter.ChatEditbox.Caption | Say | - | Сказать
+MapVoteFooter.MapvoteFooterBackground.Caption | Chat | - | Чат
+MapVoteFooter.SubmitButton.Caption | Submit | - | ОТОСЛАТЬ
+KickVotingPage.KickButton.Caption | Kick | - | Удалить
+KickVotingPage.InfoButton.Caption | Info | - | Информация
+MapVotingPage.GameTypeCombo.Caption | Filter Game Type: | - | Фильтр типа игры:
+

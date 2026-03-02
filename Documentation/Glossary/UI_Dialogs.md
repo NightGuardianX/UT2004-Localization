@@ -61,5 +61,18 @@ UT2DeferChangeRes.DialogText2.Caption           | It will be applied when you ne
 UT2PerformWarn.DialogText.Caption               | WARNING                                                                      | -               | ВНИМАНИЕ!
 UT2PerformWarn.DialogText2.Caption              | The change you are making may adversely affect your performance.             | -               | Изменения могут повлиять на работу программы.
 
+---
+
+## Voting messages (XVoting.int)
+
+Source: `XVoting.int`. One-line messages shown when voting is disabled or a vote action fails. Current Russian: `/rut/XVoting.rut` (if Russian; else `-`). Old Russian: `/rut_old/XVoting.rut`.
+
+Technical name | English name | Current Russian | Old Russian
+-------------- | ------------ | --------------- | -----------
+KickVotingPage.lmsgKickVotingDisabled | Sorry, Kick Voting has been disabled by the server administrator. | - | Извините, голосование выброса отключено администратором сервера.
+MapVotingPage.lmsgMapVotingDisabled | Sorry, Map Voting has been disabled by the server administrator. | - | Извините, голосование за карты отключено администратором сервера.
+MapVotingPage.lmsgReplicationNotFinished | Map data download in progress. Please try again later. | - | Загрузка данных карты в процессе. Пожалуйста, попробуйте еще раз позднее.
+MapVotingPage.lmsgMapDisabled | The selected Map is disabled. | - | Выбранная карта отключена.
+
 Additional dialog titles and explanatory texts from `Setup.int` and `XInterface.int` should be added in this file following the same structure and rules.
 

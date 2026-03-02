@@ -145,3 +145,16 @@ UT2K4ServerInfo.PanelCaption                    | Server Info            | Ин�
 UT2K4OnslaughtMap                               | Onslaught Map Screen   | Карта режима Onslaught  | -
 UT2K4OnslaughtPowerLinkDesigner                 | Power Link Designer    | Редактор связей нод     | -
 
+---
+
+## Voting menus (XVoting.int)
+
+Source: `XVoting.int`. Current Russian: `/rut/XVoting.rut` (if Russian; else `-`). Old Russian: `/rut_old/XVoting.rut`.
+
+| Technical name                         | English name                      | Current Russian | Old Russian                          |
+| -------------------------------------- | --------------------------------- | --------------- | ------------------------------------ |
+| KickVotingPage.WindowName              | Kick Voting                       | -               | Выбор удаления                       |
+| MapVotingPage.WindowName               | Map Voting                        | -               | Голосование по картам                |
+| MapVoteGameConfigPage.WindowName       | Map Voting Game Configuration     | -               | Настройки голосования за карты       |
+| MapVoteMapListConfigPage.WindowName    | Map Voting List Configuration     | -               | Настройки списка голосования за карты |
+
