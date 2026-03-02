@@ -64,9 +64,14 @@ Technical Name | English Name | Current Russian Name | Old Russian Name
 
 - **Technical name** — identifier from the game (e.g. map name `AS-Convoy`, key `SinglePlayerButtonText`).
 - **English name** — from the corresponding file in `/int`.
-- **Current Russian name** — from the file with the same name in `/rut`.
+- **Current Russian name** — from the file with the same name in `/rut` (same basename as the `.int` source, e.g. `XGame.rut`, `BonusPack.rut`, `SkaarjPack.rut`, `UT2k4Assault.rut`, `Onslaught.rut`). Use the value on the actual key line (e.g. `GameName=`, `ItemName=`, `PickupMessage=`), not the `; EN:` comment above it.
+  - **Ignore Spanish placeholders:** Some `/rut` files still contain temporary Spanish text copied from `/est` (e.g. `BonusPack.rut` UI strings) — these are in Latin script and clearly not Russian. Do **not** treat such lines as valid current Russian; if the value is Spanish or otherwise non‑Russian, leave the **Current Russian** cell as `-` until a proper Russian translation is added.
 - **Old Russian name** — from the file with the same name in `/Documentation/rut_old/`.
-  Leave empty if it matches the current Russian name.
+  Fill it as `-` if it matches the current Russian name.
+
+**Filling Current / Old Russian when creating a new entity page:** When you generate a new glossary file (new entity), always try to fill both Russian columns immediately, not leave them all as `-`. For each row, look up `Current Russian name` in `/rut` and `Old Russian name` in `/Documentation/rut_old/` using the rules above. If either lookup fails (no Russian, only Spanish placeholder, or no entry), only that specific cell stays `-`.
+
+**Filling missing Old Russian:** When a glossary row has no Old Russian translation, look it up in `Documentation/rut_old/`. Use the same package/source file as the term (e.g. `XGame.rut` for `[xDeathMatch]` GameName, `BonusPack.rut` for BonusPack entities, `Onslaught.rut` for `[ONSOnslaughtGame]`, `UT2k4Assault.rut` for `[ASGameInfo]`, `SkaarjPack.rut` for `[Invasion]`). Match the section name `[SectionName]` and the key (e.g. `GameName`, `ItemName`, `PickupMessage`) to the English source in `/int`; the value in the matching `.rut` file is the Old Russian. If not found in rut_old, leave the cell as `-`.
 
 ## Entity Glossary Rules
 
