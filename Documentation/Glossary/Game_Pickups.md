@@ -7,7 +7,7 @@ These rules apply only to the Pickups entity and override the general Glossary R
 - **Categories:** Pickups are grouped into **Health & Armor**, **Power-ups**, **Ammo**, and **Other** (e.g. Weapon Locker, Onslaught pickups).
 - **Sources:** Terms from XPickups.int, XWeapons.int (ammo and WeaponLocker), OnslaughtFull.int (English).
   Current Russian: /rut.
-  Old Russian: Documentation/rut_old.
+  Old Russian: /rut_old.
 - **Weapons:** Weapon pickups (e.g. Assault Rifle, Flak Cannon) are not listed here; they belong in the Weapons entity. Only ammo and non-weapon pickups are included.
 - **Table format:** Tables use pipe-separated columns.
   First row is the header; second row is a separator line (dashes and pipes).
@@ -19,7 +19,7 @@ These rules apply only to the Pickups entity and override the general Glossary R
 
 Source: XPickups.int, XWeapons.int, OnslaughtFull.int (English).
 Current Russian: /rut.
-Old Russian: Documentation/rut_old.
+Old Russian: /rut_old.
 
 Format: Technical name | English name | Current Russian | Old Russian.
 If no translation: - .

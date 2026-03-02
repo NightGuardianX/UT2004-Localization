@@ -7,7 +7,7 @@ These rules apply only to the Weapons entity and override the general Glossary R
 - **Categories:** Weapons are grouped into three categories — **Основное (Primary)**, **Против техники (Against vehicles)**, **Особое (Special)** — in line with common game documentation (e.g. iGrowiki).
 - **Sources:** Terms from XWeapons.int, Onslaught.int, OnslaughtFull.int (English).
   Current Russian: /rut.
-  Old Russian: Documentation/rut_old.
+  Old Russian: /rut_old.
 - **Sniper rifles:** One in-game class is treated as two entries for localization: **SniperRifle (Lightning)** — Lightning Gun; **SniperRifle (Classic)** — Sniper Rifle.
   Both stay in Primary.
 - **Ammo / pickups:** Not listed here; they belong in a separate entity (e.g. Pickups).
@@ -21,7 +21,7 @@ These rules apply only to the Weapons entity and override the general Glossary R
 
 Source: XWeapons.int, Onslaught.int, OnslaughtFull.int (English).
 Current Russian: /rut.
-Old Russian: Documentation/rut_old.
+Old Russian: /rut_old.
 
 Format: Technical name | English name | Current Russian | Old Russian.
 If no translation: - .

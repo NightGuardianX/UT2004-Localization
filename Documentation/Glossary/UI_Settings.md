@@ -14,7 +14,7 @@ These rules apply only to the `UI_Settings` entity and override the general Glos
   - `UT2K4Tab_HudSettings` (HUD),
   - and any related `.int` classes used on the Settings screen.
 - **Current Russian:** `/rut/GUI2K4.rut` (matching sections and keys).  
-  **Old Russian:** `Documentation/rut_old/*.rut` (matching sections), where available.
+  **Old Russian:** `/rut_old/*.rut` (matching sections), where available.
 - **Scope:** Only the **individual settings controls and values** (e.g. *Brightness*, *Dynamic Lighting*, *Auto-Taunt*, *Weapon Bob*).  
   Names of whole menus / tabs (e.g. *Settings*, *Display*, *Audio*) are documented in the `UI_Menus` entity.
 - **Structure / categories:** Settings are grouped into sections mirroring the in‑game tabs:
@@ -38,7 +38,7 @@ Source: `GUI2K4.int` (sections `UT2K4Tab_*`) and related `.int` files.
 
 Current Russian: `/rut/GUI2K4.rut`.
 
-Old Russian: `Documentation/rut_old/*.rut`.
+Old Russian: `/rut_old/*.rut`.
 
 Format:
 

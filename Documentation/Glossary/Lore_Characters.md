@@ -2,7 +2,7 @@
 
 ## Entity Glossary Rules (Lore_Characters)
 
-- **Sources:** Terms from `XPlayers.int` (character / player names and related labels). Current Russian: `/rut/XPlayers.rut`. Old Russian: `Documentation/rut_old/XPlayers.rut`.
+- **Sources:** Terms from `XPlayers.int` (character / player names and related labels). Current Russian: `/rut/XPlayers.rut`. Old Russian: `/rut_old/XPlayers.rut`.
 - **Structure / categories:** Characters are listed in a single table grouped by their technical keys from `XPlayers.int`.
 - **Exclusions:** Generic UI labels, abilities, or menu items from `XPlayers.int` that belong to other entities (e.g. Abilities, Menus) are excluded.
 - **Table format:** Standard glossary table as defined in [Glossary Rules](../Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
@@ -11,7 +11,7 @@
 
 Source: `XPlayers.int`.
 Current Russian: `/rut/XPlayers.rut`.
-Old Russian: `Documentation/rut_old/XPlayers.rut`.
+Old Russian: `/rut_old/XPlayers.rut`.
 
 Format (Markdown table):
 
@@ -24,7 +24,7 @@ If no translation: `-`.
 
 Notes:
 
-- When filling this glossary, always check both the current `/rut` files and `Documentation/rut_old/` to populate Russian columns where possible.
+- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
 - Character names should match the in-game display names exactly, including capitalization and spacing.
 
 ---

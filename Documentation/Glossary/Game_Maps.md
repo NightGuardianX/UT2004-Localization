@@ -5,7 +5,7 @@
 *(Optional.
 This section defines rules specific to the Maps entity and overrides or extends the general [Glossary Rules](../Glossary%20Rules.md) where needed.)*
 
-- **Sources:** Map display names from `.int` files whose names start with `DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-` in the `/int` directory. Current Russian from `/rut/*.rut` with the same basename, when the `Title=` value is actually in Russian (Cyrillic). Old Russian from `Documentation/rut_old/*.rut` with the same basename.
+- **Sources:** Map display names from `.int` files whose names start with `DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-` in the `/int` directory. Current Russian from `/rut/*.rut` with the same basename, when the `Title=` value is actually in Russian (Cyrillic). Old Russian from `/rut_old/*.rut` with the same basename.
 - **Structure / categories:** Sections are grouped by map type / filename prefix: Deathmatch (`DM-`), Capture the Flag (`CTF-`), Bombing Run (`BR-`), Double Domination / Domination (`DOM-`), Assault (`AS-`), Onslaught (`ONS-`), Tutorials (`TUT-`), Movies / intro (`MOV-`).
 - **Exclusions:** Only overall map display names (`Title=` under `[LevelInfo0]` or `[LevelSummary]`) are included here. Per-volume `LocationName=` strings (in-map zone names) are excluded from this entity and may be documented elsewhere if needed.
 - **Table format:** Standard 4-column table for all rows: *Technical name | English name | Current Russian | Old Russian*.
@@ -19,7 +19,7 @@ Source: `DM-*.int`, `CTF-*.int`, `BR-*.int`, `DOM-*.int`, `AS-*.int`, `ONS-*.int
 
 Current Russian: `/rut/*.rut` (same basename as source).
 
-Old Russian: `Documentation/rut_old/*.rut` (same basename as source).
+Old Russian: `/rut_old/*.rut` (same basename as source).
 
 Format: Technical name | English name | Current Russian | Old Russian.
 
@@ -27,7 +27,7 @@ If no translation: `-`.
 
 Notes:
 
-- When filling glossary rows, always prefer actual Russian strings from `/rut` and `Documentation/rut_old/` and ignore Spanish or English placeholders that were temporarily copied from `/est` or left untranslated.
+- When filling glossary rows, always prefer actual Russian strings from `/rut` and `/rut_old/` and ignore Spanish or English placeholders that were temporarily copied from `/est` or left untranslated.
 - When both Current and Old Russian are present and identical, the **Old Russian** cell may be set to `-` to avoid duplication.
 
 ---

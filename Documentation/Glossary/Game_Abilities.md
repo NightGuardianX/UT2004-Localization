@@ -5,7 +5,7 @@
 These rules apply only to the Abilities entity and override the general Glossary Rules where they differ.
 
 - **Categories:** Abilities are grouped into **Movement**, **Special movement (no direct input)**, **Looking**, **Combat**, **Communication & taunts**, **HUD & display**, and **Game & misc**. Terms are player actions and control labels (key bindings), not weapon names.
-- **Sources:** Terms from XInterface.int (Bindings/Labels), GUI2K4.int (BindingLabel), GamePlay.int (ActionMessage_DM), UnrealGame.int (DMHints). Current Russian: /rut (GUI2K4.rut, section [ControlBinder]). Old Russian: Documentation/rut_old (GUI2K4.rut, section [ControlBinder]).
+- **Sources:** Terms from XInterface.int (Bindings/Labels), GUI2K4.int (BindingLabel), GamePlay.int (ActionMessage_DM), UnrealGame.int (DMHints). Current Russian: /rut (GUI2K4.rut, section [ControlBinder]). Old Russian: /rut_old (GUI2K4.rut, section [ControlBinder]).
 - **Exclusions:** Weapon selection labels (Shield Gun, Assault Rifle, etc.) belong in the Weapons entity. Only the generic actions Fire, Alt-Fire, Throw Weapon, Next/Prev Weapon, etc. are listed here.
 - **Table format:** Pipe-separated columns. Column order: Technical name | English name | Current Russian | Old Russian. If no translation: - .
 - **Alignment:** Same column widths across all tables.
@@ -14,7 +14,7 @@ These rules apply only to the Abilities entity and override the general Glossary
 
 Source: XInterface.int, GUI2K4.int, GamePlay.int, UnrealGame.int (English).
 Current Russian: /rut.
-Old Russian: Documentation/rut_old.
+Old Russian: /rut_old.
 
 Format: Technical name | English name | Current Russian | Old Russian.
 If no translation: - .
@@ -23,7 +23,7 @@ Notes:
 
 - **Dodge** and **Double Jump** appear in tutorial/hint text (e.g. "Double tap a key to dodge", "Press jump again at the peak of a jump"); they are not separate binding labels in the control list.
 - Binding labels may appear in prompts like "Press [Fire] to join" or in key config UI.
-- For control bindings, the primary Russian source is `GUI2K4.rut` `[ControlBinder]`; Current Russian uses `/rut/GUI2K4.rut`, Old Russian uses `Documentation/rut_old/GUI2K4.rut`.
+- For control bindings, the primary Russian source is `GUI2K4.rut` `[ControlBinder]`; Current Russian uses `/rut/GUI2K4.rut`, Old Russian uses `/rut_old/GUI2K4.rut`.
 - Special movement abilities **Double Jump** and **Dodge** are documented only in tutorial / hint text (e.g. `GamePlay.int` `[ActionMessage_DM]`, `UnrealGame.int` `DMHints`, `UTClassic.int` mutator help) and have no dedicated input bindings.
 
 Tutorial / hint sources:

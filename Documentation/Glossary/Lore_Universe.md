@@ -2,7 +2,7 @@
 
 ## Entity Glossary Rules (Lore_Universe)
 
-- **Sources:** Narrative strings from relevant `.int` files (species, locations, events, corporations such as Liandri, tournament lore, etc.). Typical sources include `XPlayers.int`, `XGame.int`, map description `.int` files, and other narrative-heavy packages. Current Russian: corresponding `.rut` files in `/rut`. Old Russian: `Documentation/rut_old/` counterparts.
+- **Sources:** Narrative strings from relevant `.int` files (species, locations, events, corporations such as Liandri, tournament lore, etc.). Typical sources include `XPlayers.int`, `XGame.int`, map description `.int` files, and other narrative-heavy packages. Current Russian: corresponding `.rut` files in `/rut`. Old Russian: `/rut_old/` counterparts.
 - **Structure / categories:** Lore terms may be grouped into subsections by type (e.g. Species, Corporations, Locations, Events) if needed; all use the same table format.
 - **Exclusions:** Purely technical or UI-only labels (menu items, button captions, ability names) that belong to other entities are excluded.
 - **Table format:** Standard glossary table as defined in [Glossary Rules](../Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
@@ -11,7 +11,7 @@
 
 Source: narrative sections of relevant `.int` files (`XPlayers.int`, `XGame.int`, map `.int` descriptions, etc.).
 Current Russian: corresponding `.rut` files in `/rut`.
-Old Russian: matching files in `Documentation/rut_old/`.
+Old Russian: matching files in `/rut_old/`.
 
 Format (Markdown table):
 
@@ -22,7 +22,7 @@ If no translation: `-`.
 
 Notes:
 
-- When filling this glossary, always check both the current `/rut` files and `Documentation/rut_old/` to populate Russian columns where possible.
+- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
 - Group related lore items consistently so that translators can see narrative context (e.g. all items for a given corporation together).
 
 ---

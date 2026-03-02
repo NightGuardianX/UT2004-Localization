@@ -4,7 +4,7 @@
 
 These rules apply only to the `UI_Menus` entity and override the general Glossary Rules where they differ.
 
-- **Sources:** Menu/page captions and window titles from `GUI2K4.int` (primary) and other UI `.int` files when needed. **Current Russian:** `/rut/GUI2K4.rut` (and related `/rut` files). **Old Russian:** `Documentation/rut_old`.
+- **Sources:** Menu/page captions and window titles from `GUI2K4.int` (primary) and other UI `.int` files when needed. **Current Russian:** `/rut/GUI2K4.rut` (and related `/rut` files). **Old Russian:** `/rut_old`.
 - **Scope:** Only distinct **screens/menus** and **major pages** of the front‑end UI and in‑game UI (e.g. Main Menu, Settings, Server Browser, Tournament, Mid‑game menu, etc.). Individual buttons inside these menus belong to other entities (e.g. `UI_StartMenuButtons`). Detailed terminology for individual settings controls (sliders, checkboxes, etc.) lives in the separate `UI_Settings` entity (`UI_Settings.md`).
 - **Structure / categories:** Menus are grouped into:
   - **Main / front‑end menus** (entry points from the main screen).
@@ -23,7 +23,7 @@ Source: primarily `GUI2K4.int` (sections like `[UT2k4MainMenu]`, `[UT2K4Settings
 
 Current Russian: `/rut/GUI2K4.rut` (matching sections).
 
-Old Russian: `Documentation/rut_old/*.rut` (matching sections), where available.
+Old Russian: `/rut_old/*.rut` (matching sections), where available.
 
 Format: 
 
@@ -36,7 +36,7 @@ If no translation: `-`.
 Notes:
 
 - **Technical name** is usually the section name and field, e.g. `UT2k4MainMenu` or `UT2K4Tab_DetailSettings.PanelCaption`. For composite menus (like `UT2K4SettingsPage` with tabs), the tabs are listed separately below.
-- When filling or updating this glossary, always check both the current `/rut` file and `Documentation/rut_old/` to populate Russian columns where possible.
+- When filling or updating this glossary, always check both the current `/rut` file and `/rut_old/` to populate Russian columns where possible.
 
 ---
 

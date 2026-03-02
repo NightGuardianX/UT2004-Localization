@@ -6,7 +6,7 @@
 Remove this section if the entity has no specific rules.
 Otherwise list rules that override or extend the general [Glossary Rules](../Glossary%20Rules.md) for this entity.)*
 
-- **Sources:** Terms from … (.int files). Current Russian: /rut. Old Russian: Documentation/rut_old.
+- **Sources:** Terms from … (.int files). Current Russian: /rut. Old Russian: /rut_old.
 - **Structure / categories:** *(e.g. how terms are grouped, any subcategories)*
 - **Exclusions:** *(e.g. what is not included and why)*
 - **Table format:** *(if different from general: column order, separator line, alignment)*
@@ -15,7 +15,7 @@ Otherwise list rules that override or extend the general [Glossary Rules](../Glo
 
 Source: *(list .int or other source files)*
 Current Russian: /rut.
-Old Russian: Documentation/rut_old.
+Old Russian: /rut_old.
 
 Format (Markdown table):
 
@@ -28,7 +28,7 @@ If no translation: `-`.
 Notes:
 
 - *(Optional entity-specific notes.)*
-- When filling glossary, always check both the current `/rut` files and `Documentation/rut_old/` to populate Russian columns where possible.
+- When filling glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
 
 ---
 

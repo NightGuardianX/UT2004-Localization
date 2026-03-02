@@ -2,7 +2,7 @@
 
 ## Entity Glossary Rules (Lore_Teams)
 
-- **Sources:** Terms from `XGame.int` (team names and related labels). Current Russian: `/rut/XGame.rut`. Old Russian: `Documentation/rut_old/XGame.rut`.
+- **Sources:** Terms from `XGame.int` (team names and related labels). Current Russian: `/rut/XGame.rut`. Old Russian: `/rut_old/XGame.rut`.
 - **Structure / categories:** Teams are listed in a single table using their technical keys from the source files.
 - **Exclusions:**
   - Generic game mode labels, notifications, or UI text from `XGame.int` that belong to other entities (e.g. GameModes, Notifications).
@@ -13,7 +13,7 @@
 
 Source: `XGame.int`.
 Current Russian: `/rut/XGame.rut`.
-Old Russian: `Documentation/rut_old/XGame.rut`.
+Old Russian: `/rut_old/XGame.rut`.
 
 Format (Markdown table):
 
@@ -24,7 +24,7 @@ If no translation: `-`.
 
 Notes:
 
-- When filling this glossary, always check both the current `/rut` files and `Documentation/rut_old/` to populate Russian columns where possible.
+- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
 - Team names and symbols should match the in-game presentation and canonical lore names.
 - `Phantom*` teams come from narrative-only sections in `XGame.int` (used for single-player ladder / cinematic descriptions) and are separated into their own subsection below for clarity.
 - Pairs `TeamX` / `TeamNewX` (for example, `TeamBlackLegion` / `TeamNewBlacklegion`) represent the old and “new” versions of the same team in the single-player ladder (updated roster/leader, etc.), but they are treated as different technical keys and therefore have separate rows.
