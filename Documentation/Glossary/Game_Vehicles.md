@@ -34,30 +34,30 @@ Notes:
 
 ### Base Onslaught vehicles
 
-Technical name                        | English name                    | Current Russian | Old Russian
---------------------------------------|---------------------------------|-----------------|--------------------------
-ONSAttackCraft                        | Raptor                          | -               | Раптор
-ONSHoverBike                          | Manta                           | -               | Манта
-ONSHoverTank                          | Goliath                         | -               | Голиаф
-ONSPRV                                | Hellbender                      | -               | Хеллбендер
-ONSPRVRearGunPawn                     | Hellbender Rear Gun             | -               | Задняя пушка Хеллбендера
-ONSPRVSideGunPawn                     | Hellbender Side Gun             | -               | Боковая пушка Хеллбендера
-ONSRV                                 | Scorpion                        | -               | Скорпион
-ONSStationaryWeaponPawn               | Energy Turret                   | -               | Энергопушка
-ONSTankSecondaryTurretPawn            | Goliath Minigun Turret          | -               | Пулемет Галиафа
-ONSBomber                             | DragonFly                       | -               | Драконфлай
-ONSGenericSD                          | TC-1200                         | -               | ТС-1200
-ONSHoverTank_IonPlasma                | Ion Plasma Tank                 | -               | Ионный танк
-ONSMASSideGunPawn                     | Leviathan Turret                | -               | Пушка Левиафана
-ONSMobileAssaultStation               | Leviathan                       | -               | Левиафан
-ONSTankSecondaryTurretPawn_IonPlasma  | Ion Plasma Tank Minigun Turret  | -               | Пулемет Ионного танка
+| Technical name                       | English name                   | Current Russian | Old Russian                 |
+| ------------------------------------ | ------------------------------ | --------------- | --------------------------- |
+| ONSAttackCraft                       | Raptor                         | -               | Раптор                      |
+| ONSHoverBike                         | Manta                          | -               | Манта                       |
+| ONSHoverTank                         | Goliath                        | -               | Голиаф                      |
+| ONSPRV                               | Hellbender                     | -               | Хеллбендер                  |
+| ONSPRVRearGunPawn                    | Hellbender Rear Gun            | -               | Задняя пушка Хеллбендера    |
+| ONSPRVSideGunPawn                    | Hellbender Side Gun            | -               | Боковая пушка Хеллбендера   |
+| ONSRV                                | Scorpion                       | -               | Скорпион                    |
+| ONSStationaryWeaponPawn              | Energy Turret                  | -               | Энергопушка                 |
+| ONSTankSecondaryTurretPawn           | Goliath Minigun Turret         | -               | Пулемет Галиафа             |
+| ONSBomber                            | DragonFly                      | -               | Драконфлай                  |
+| ONSGenericSD                         | TC-1200                        | -               | ТС-1200                     |
+| ONSHoverTank_IonPlasma               | Ion Plasma Tank                | -               | Ионный танк                 |
+| ON SMASSideGunPawn                   | Leviathan Turret               | -               | Пушка Левиафана             |
+| ONSMobileAssaultStation              | Leviathan                      | -               | Левиафан                    |
+| ONSTankSecondaryTurretPawn_IonPlasma | Ion Plasma Tank Minigun Turret | -               | Пулемет Ионного танка       |
 
 ### Bonus pack vehicles
 
-Technical name                        | English name           | Current Russian | Old Russian
---------------------------------------|------------------------|-----------------|--------------------------
-ONSArtillery                          | SPMA                   | -               | Самоходное орудие
-ONSArtillerySideGunPawn               | SPMA Side Turret       | -               | турель Самоходного орудия
-ONSDualAttackCraft                    | Cicada                 | -               | Цикада
-ONSDualACGatlingGunPawn               | Cicada Laser Turret    | -               | Лазерная турель Цикады
-ONSShockTank                          | Paladin                | -               | Паладин
+| Technical name          | English name        | Current Russian | Old Russian                 |
+| ----------------------- | ------------------- | --------------- | --------------------------- |
+| ONSArtillery            | SPMA                | -               | Самоходное орудие          |
+| ONSArtillerySideGunPawn | SPMA Side Turret    | -               | турель Самоходного орудия  |
+| ONSDualAttackCraft      | Cicada              | -               | Цикада                      |
+| ONSDualACGatlingGunPawn | Cicada Laser Turret | -               | Лазерная турель Цикады     |
+| ONSShockTank            | Paladin             | -               | Паладин                     |

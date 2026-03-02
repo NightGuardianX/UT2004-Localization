@@ -34,38 +34,38 @@ Notes:
 
 ## Primary
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-ShieldGun                | Shield Gun         | -               | Ударная винтовка
-AssaultRifle             | Assault Rifle      | -               | Автомат
-BioRifle                 | Bio-Rifle          | -               | Био-Ружье
-ShockRifle               | Shock Rifle        | -               | Фотонная винтовка
-LinkGun                  | Link Gun           | -               | Плазменная винтовка
-Minigun                  | Minigun            | -               | Пулемет
-FlakCannon               | Flak Cannon        | -               | Зенитная пушка
-RocketLauncher           | Rocket Launcher    | -               | Ракетница
-SniperRifle (Lightning)  | Lightning Gun      | -               | Световая пушка
-SniperRifle (Classic)    | Sniper Rifle       | -               | -
+| Technical name          | English name      | Current Russian | Old Russian           |
+| ----------------------- | ----------------- | --------------- | --------------------- |
+| ShieldGun               | Shield Gun        | -               | Ударная винтовка      |
+| AssaultRifle            | Assault Rifle     | -               | Автомат               |
+| BioRifle                | Bio-Rifle         | -               | Био-Ружье             |
+| ShockRifle              | Shock Rifle       | -               | Фотонная винтовка     |
+| LinkGun                 | Link Gun          | -               | Плазменная винтовка   |
+| Minigun                 | Minigun           | -               | Пулемет               |
+| FlakCannon              | Flak Cannon       | -               | Зенитная пушка        |
+| RocketLauncher          | Rocket Launcher   | -               | Ракетница             |
+| SniperRifle (Lightning) | Lightning Gun     | -               | Световая пушка        |
+| SniperRifle (Classic)   | Sniper Rifle      | -               | -                     |
 
 ---
 
 ## Onslaught
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-ONSAVRiL                 | AVRiL              | -               | АВРиЛ
-ONSGrenadeLauncher       | Grenade Launcher   | -               | Гранатомет
-ONSMineLayer             | Mine Layer         | -               | Миноукладчик
-ONSPainter               | Target Painter     | -               | Маркер целеуказания
+| Technical name     | English name     | Current Russian | Old Russian         |
+| ------------------ | ---------------- | --------------- | ------------------- |
+| ONSAVRiL           | AVRiL            | -               | АВРиЛ               |
+| ONSGrenadeLauncher | Grenade Launcher | -               | Гранатомет          |
+| ONSMineLayer       | Mine Layer       | -               | Миноукладчик        |
+| ONSPainter         | Target Painter   | -               | Маркер целеуказания |
 
 ---
 
 ## Special
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Translauncher            | Translocator       | -               | Транслокатор
-Redeemer                 | Redeemer           | -               | Искупитель
-Painter                  | Ion Painter        | -               | Ионный разрушитель
-BallLauncher             | Ball Launcher      | -               | Метатель шаров
-SuperShockRifle          | Super Shock Rifle  | -               | Фотонная супервинтовка
+| Technical name   | English name      | Current Russian | Old Russian               |
+| ---------------- | ----------------- | --------------- | ------------------------- |
+| Translauncher    | Translocator      | -               | Транслокатор              |
+| Redeemer         | Redeemer          | -               | Искупитель                |
+| Painter          | Ion Painter       | -               | Ионный разрушитель        |
+| BallLauncher     | Ball Launcher     | -               | Метатель шаров            |
+| SuperShockRifle  | Super Shock Rifle | -               | Фотонная супервинтовка    |

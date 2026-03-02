@@ -29,15 +29,15 @@ Notes:
 
 ## Base gamemodes
 
-Technical name           | English name       | Current Russian                              | Old Russian
--------------------------|--------------------|----------------------------------------------|--------------------------
-xDeathMatch              | DeathMatch         | Бой насмерть                                 | Смертельный матч
-xTeamGame                | Team DeathMatch    | Командный бой насмерть                       | Командный смертельный матч
-xCTFGame                 | Capture the Flag   | Захват флага                                 | Захватите Флаг
-xDoubleDom               | Double Domination  | Двойное доминирование                        | Двойное Доминирование
-xBombingRun              | Bombing Run        | Бомбовый забег                               | Бомбардирбол
-ONSOnslaughtGame         | Onslaught          | -                                            | Натиск
-ASGameInfo               | Assault            | -                                            | Штурм
+| Technical name   | English name      | Current Russian                           | Old Russian                  |
+| ---------------- | ----------------- | ----------------------------------------- | ---------------------------- |
+| xDeathMatch      | DeathMatch        | Бой насмерть                              | Смертельный матч             |
+| xTeamGame        | Team DeathMatch   | Командный бой насмерть                    | Командный смертельный матч   |
+| xCTFGame         | Capture the Flag  | Захват флага                              | Захватите Флаг               |
+| xDoubleDom       | Double Domination | Двойное доминирование                     | Двойное Доминирование        |
+| xBombingRun      | Bombing Run       | Бомбовый забег                            | Бомбардирбол                 |
+| ONSOnslaughtGame | Onslaught         | -                                         | Натиск                       |
+| ASGameInfo       | Assault           | -                                         | Штурм                        |
 
 ---
 
@@ -45,16 +45,16 @@ ASGameInfo               | Assault            | -                               
 
 ### Other gamemodes
 
-Technical name           | English name       | Current Russian                              | Old Russian
--------------------------|--------------------|----------------------------------------------|--------------------------
-xVehicleCTFGame          | Vehicle CTF        | Захват флага с транспортом                   | Захват Флага с Техникой
-InstagibCTF              | Instagib CTF       | Захват флага Instagib (мгновенная смерть)    | Снайперский матч ЗФ
+| Technical name    | English name  | Current Russian                           | Old Russian              |
+| ----------------- | ------------- | ----------------------------------------- | ------------------------ |
+| xVehicleCTFGame   | Vehicle CTF   | Захват флага с транспортом                | Захват Флага с Техникой |
+| InstagibCTF       | Instagib CTF  | Захват флага Instagib (мгновенная смерть) | Снайперский матч ЗФ     |
 
 ### Bonus pack gamemodes
 
-Technical name           | English name       | Current Russian                              | Old Russian
--------------------------|--------------------|----------------------------------------------|--------------------------
-xLastManStandingGame     | Last Man Standing  | -                                            | Последний герой
-xMutantGame              | Mutant             | -                                            | Мутант
-Invasion                 | Invasion           | Вторжение                                    | Вторжение
+| Technical name        | English name      | Current Russian | Old Russian     |
+| --------------------- | ----------------- | --------------- | --------------- |
+| xLastManStandingGame  | Last Man Standing | -               | Последний герой |
+| xMutantGame           | Mutant            | -               | Мутант          |
+| Invasion              | Invasion          | Вторжение       | Вторжение       |
 

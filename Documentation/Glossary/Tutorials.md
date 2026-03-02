@@ -15,9 +15,9 @@ Old Russian: `/rut_old/*.rut` (same basenames as the tutorial sources).
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
-*(TechnicalKey)* | (English label) | - | (Old Russian or -)
+| Technical name   | English name   | Current Russian | Old Russian        |
+| ---------------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
 
 If no translation: `-`.
 
@@ -38,16 +38,16 @@ Notes:
 
 ## Game mode tutorials
 
-Technical name           | English name                 | Current Russian | Old Russian
--------------------------|------------------------------|-----------------|------------
-XGame.DM0.MenuName       | Deathmatch Tutorial          | -               | -
-XInterface.DMLabel0      | Tutorial                     | -               | Обучающий
-XInterface.SelectMessage | Click to play tutorial for   | -               | Щелкните для просмотра пособия для
-XInterface.TabNameTutorials | Tutorials                 | -               | Обучение
-XInterface.TabHintTutorials | View tutorials for each game type | -      | Просмотр обучения для каждого типа игры
-GUI2K4.StartTutorial     | Click to play tutorial for   | -               | Щелкните, чтобы просмотреть обучающие ролик по
-GUI2K4.TutorialButtonCaption | Watch Game Tutorial      | -               | Просмотреть обучающий ролик
-GUI2K4.TutorialButtonHint | Watch the tutorial for this gametype. | -    | Просмотреть обучающий ролик по этому режиму игры.
+| Technical name              | English name                          | Current Russian | Old Russian                                         |
+| --------------------------- | ------------------------------------- | --------------- | -------------------------------------------------- |
+| XGame.DM0.MenuName          | Deathmatch Tutorial                   | -               | -                                                  |
+| XInterface.DMLabel0         | Tutorial                              | -               | Обучающий                                          |
+| XInterface.SelectMessage    | Click to play tutorial for            | -               | Щелкните для просмотра пособия для                 |
+| XInterface.TabNameTutorials | Tutorials                             | -               | Обучение                                           |
+| XInterface.TabHintTutorials | View tutorials for each game type     | -               | Просмотр обучения для каждого типа игры            |
+| GUI2K4.StartTutorial        | Click to play tutorial for            | -               | Щелкните, чтобы просмотреть обучающие ролик по     |
+| GUI2K4.TutorialButtonCaption| Watch Game Tutorial                   | -               | Просмотреть обучающий ролик                        |
+| GUI2K4.TutorialButtonHint   | Watch the tutorial for this gametype. | -               | Просмотреть обучающий ролик по этому режиму игры. |
 
 <!--
 The following sections are intentionally omitted for now.

@@ -29,9 +29,9 @@ Old Russian: `/rut_old`.
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
-*(TechnicalKey)* | (English label) | - | (Old Russian or -)
+| Technical name   | English name   | Current Russian | Old Russian        |
+| ---------------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
 
 If no translation: `-`.
 
@@ -44,20 +44,20 @@ Notes:
 
 ## Base Invasion monsters (`[UT2K4InvasionWaveConfig]`)
 
-Technical name           | English name       | Current Russian      | Old Russian
--------------------------|--------------------|----------------------|------------
-WaveMonsters.Pupae       | Pupae              | Личинка              | Куколка
-WaveMonsters.RazorFly    | Razor Fly          | Бритвомуха           | Бреющий полет
-WaveMonsters.Manta       | Manta              | Манта                | Манта
-WaveMonsters.Krall       | Krall              | Кралл                | Кралль
-WaveMonsters.EliteKrall  | Elite Krall        | Элитный Кралл        | Элитный Кралль
-WaveMonsters.Gasbag      | Gasbag             | Гэзбэг               | Болтун
-WaveMonsters.Brute       | Brute              | Брут                 | Грубиян
-WaveMonsters.Skaarj      | Skaarj             | Скаардж              | Скаардж
-WaveMonsters.Behemoth    | Behemoth           | Бегемот              | Бегемот
-WaveMonsters.IceSkaarj   | Ice Skaarj         | Ледяной Скаардж      | Ледяной Скаардж
-WaveMonsters.FireSkaarj  | Fire Skaarj        | Огненный Скаардж     | Огненный Скаардж
-WaveMonsters.Warlord     | Warlord            | Военачальник         | Военачальник / Повелитель
+| Technical name          | English name | Current Russian | Old Russian              |
+| ----------------------- | ------------| ----------------| ------------------------ |
+| WaveMonsters.Pupae      | Pupae       | Личинка         | Куколка                  |
+| WaveMonsters.RazorFly   | Razor Fly   | Бритвомуха      | Бреющий полет            |
+| WaveMonsters.Manta      | Manta       | Манта           | Манта                    |
+| WaveMonsters.Krall      | Krall       | Кралл           | Кралль                   |
+| WaveMonsters.EliteKrall | Elite Krall | Элитный Кралл   | Элитный Кралль           |
+| WaveMonsters.Gasbag     | Gasbag      | Гэзбэг          | Болтун                   |
+| WaveMonsters.Brute      | Brute       | Брут            | Грубиян                  |
+| WaveMonsters.Skaarj     | Skaarj      | Скаардж         | Скаардж                  |
+| WaveMonsters.Behemoth   | Behemoth    | Бегемот         | Бегемот                  |
+| WaveMonsters.IceSkaarj  | Ice Skaarj  | Ледяной Скаардж | Ледяной Скаардж          |
+| WaveMonsters.FireSkaarj | Fire Skaarj | Огненный Скаардж| Огненный Скаардж         |
+| WaveMonsters.Warlord    | Warlord     | Военачальник    | Военачальник / Повелитель|
 
 <!--
 Add more sections and rows as needed. Keep column order and meaning the same across all tables.

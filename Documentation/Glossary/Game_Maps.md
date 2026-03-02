@@ -36,193 +36,193 @@ Notes:
 
 ### Base DM maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-DM-1on1-Albatross        | DM-1on1-Albatross  | -               | -
-DM-1on1-Crash            | DM-1on1-Crash      | -               | -
-DM-1on1-Desolation       | DM-1on1-Desolation | -               | -
-DM-1on1-Idoma            | DM-1on1-Idoma      | -               | -
-DM-1on1-Irondust         | DM-1on1-Irondust   | -               | -
-DM-1on1-Mixer            | DM-1on1-Mixer      | -               | -
-DM-1on1-Roughinery       | DM-1on1-Roughinery | -               | -
-DM-1on1-Serpentine       | DM-1on1-Serpentine | -               | -
-DM-1on1-Spirit           | DM-1on1-Spirit     | -               | -
-DM-1on1-Squader          | DM-1on1-Squader    | -               | -
-DM-1on1-Trite            | DM-1on1-Trite      | -               | -
-DM-Antalus               | DM-Antalus         | -               | -
-DM-Asbestos              | DM-Asbestos        | -               | -
-DM-Compressed            | DM-Compressed      | -               | -
-DM-Corrugation           | DM-Corrugation     | -               | -
-DM-Curse4                | DM-Curse4          | -               | -
-DM-DE-Grendelkeep        | DM-DE-Grendelkeep  | -               | -
-DM-DE-Ironic             | DM-DE-Ironic       | -               | -
-DM-DE-Osiris2            | DM-DE-Osiris2      | -               | -
-DM-Deck17                | DM-Deck17          | -               | Палуба-17
-DM-DesertIsle            | DM-DesertIsle      | -               | -
-DM-Flux2                 | DM-Flux2           | -               | -
-DM-Gael                  | DM-Gael            | -               | -
-DM-Gestalt               | DM-Gestalt         | -               | -
-DM-Goliath               | DM-Goliath         | -               | -
-DM-HyperBlast2           | DM-HyperBlast2     | -               | -
-DM-Icetomb               | DM-Icetomb         | -               | -
-DM-Inferno               | DM-Inferno         | -               | -
-DM-Injector              | DM-Injector        | -               | -
-DM-Insidious             | DM-Insidious       | -               | -
-DM-IronDeity             | DM-IronDeity       | -               | -
-DM-JunkYard              | DM-JunkYard        | -               | -
-DM-Leviathan             | DM-Leviathan       | -               | -
-DM-Metallurgy            | DM-Metallurgy      | -               | -
-DM-Morpheus3             | DM-Morpheus3       | -               | -
-DM-Oceanic               | DM-Oceanic         | -               | -
-DM-Phobos2               | DM-Phobos2         | -               | -
-DM-Plunge                | DM-Plunge          | -               | -
-DM-Rankin                | DM-Rankin          | -               | Ранг
-DM-Rrajigar              | DM-Rrajigar        | -               | -
-DM-Rustatorium           | DM-Rustatorium     | -               | -
-DM-Sulphur               | DM-Sulphur         | -               | -
-DM-TokaraForest          | DM-TokaraForest    | -               | -
-DM-TrainingDay           | DM-TrainingDay     | -               | -
+| Technical name    | English name      | Current Russian | Old Russian |
+| ----------------- | ----------------- | --------------- | ----------- |
+| DM-1on1-Albatross | DM-1on1-Albatross | -               | -           |
+| DM-1on1-Crash     | DM-1on1-Crash     | -               | -           |
+| DM-1on1-Desolation| DM-1on1-Desolation| -               | -           |
+| DM-1on1-Idoma     | DM-1on1-Idoma     | -               | -           |
+| DM-1on1-Irondust  | DM-1on1-Irondust  | -               | -           |
+| DM-1on1-Mixer     | DM-1on1-Mixer     | -               | -           |
+| DM-1on1-Roughinery| DM-1on1-Roughinery| -               | -           |
+| DM-1on1-Serpentine| DM-1on1-Serpentine| -               | -           |
+| DM-1on1-Spirit    | DM-1on1-Spirit    | -               | -           |
+| DM-1on1-Squader   | DM-1on1-Squader   | -               | -           |
+| DM-1on1-Trite     | DM-1on1-Trite     | -               | -           |
+| DM-Antalus        | DM-Antalus        | -               | -           |
+| DM-Asbestos       | DM-Asbestos       | -               | -           |
+| DM-Compressed     | DM-Compressed     | -               | -           |
+| DM-Corrugation    | DM-Corrugation    | -               | -           |
+| DM-Curse4         | DM-Curse4         | -               | -           |
+| DM-DE-Grendelkeep | DM-DE-Grendelkeep | -               | -           |
+| DM-DE-Ironic      | DM-DE-Ironic      | -               | -           |
+| DM-DE-Osiris2     | DM-DE-Osiris2     | -               | -           |
+| DM-Deck17         | DM-Deck17         | -               | Палуба-17   |
+| DM-DesertIsle     | DM-DesertIsle     | -               | -           |
+| DM-Flux2          | DM-Flux2          | -               | -           |
+| DM-Gael           | DM-Gael           | -               | -           |
+| DM-Gestalt        | DM-Gestalt        | -               | -           |
+| DM-Goliath        | DM-Goliath        | -               | -           |
+| DM-HyperBlast2    | DM-HyperBlast2    | -               | -           |
+| DM-Icetomb        | DM-Icetomb        | -               | -           |
+| DM-Inferno        | DM-Inferno        | -               | -           |
+| DM-Injector       | DM-Injector       | -               | -           |
+| DM-Insidious      | DM-Insidious      | -               | -           |
+| DM-IronDeity      | DM-IronDeity      | -               | -           |
+| DM-JunkYard       | DM-JunkYard       | -               | -           |
+| DM-Leviathan      | DM-Leviathan      | -               | -           |
+| DM-Metallurgy     | DM-Metallurgy     | -               | -           |
+| DM-Morpheus3      | DM-Morpheus3      | -               | -           |
+| DM-Oceanic        | DM-Oceanic        | -               | -           |
+| DM-Phobos2        | DM-Phobos2        | -               | -           |
+| DM-Plunge         | DM-Plunge         | -               | -           |
+| DM-Rankin         | DM-Rankin         | -               | Ранг        |
+| DM-Rrajigar       | DM-Rrajigar       | -               | -           |
+| DM-Rustatorium    | DM-Rustatorium    | -               | -           |
+| DM-Sulphur        | DM-Sulphur        | -               | -           |
+| DM-TokaraForest   | DM-TokaraForest   | -               | -           |
+| DM-TrainingDay    | DM-TrainingDay    | -               | -           |
 
 ### Bonus pack DM maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-DM-BP2-Calandras         | DM-BP2-Calandras   | -               | -
-DM-BP2-GoopGod           | DM-BP2-GoopGod     | -               | -
+| Technical name     | English name      | Current Russian | Old Russian |
+| ------------------ | ----------------- | --------------- | ----------- |
+| DM-BP2-Calandras   | DM-BP2-Calandras  | -               | -           |
+| DM-BP2-GoopGod     | DM-BP2-GoopGod    | -               | -           |
 
 ## Capture the Flag (CTF-) maps
 
 ### Base CTF maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-CTF-1on1-Joust           | CTF-1on1-Joust     | -               | -
-CTF-AbsoluteZero         | CTF-AbsoluteZero   | -               | -
-CTF-Avaris               | CTF-Avaris         | -               | -
-CTF-BridgeOfFate         | CTF-BridgeOfFate   | -               | -
-CTF-Chrome               | CTF-Chrome         | -               | -
-CTF-Citadel              | CTF-Citadel        | -               | -
-CTF-Colossus             | CTF-Colossus       | -               | -
-CTF-DE-ElecFields        | CTF-DE-ElecFields  | -               | -
-CTF-December             | CTF-December       | -               | -
-CTF-DoubleDammage        | CTF-DoubleDammage  | -               | -
-CTF-Face3                | CTF-Face3          | -               | -
-CTF-FaceClassic          | CTF-FaceClassic    | -               | -
-CTF-Geothermal           | CTF-Geothermal     | -               | -
-CTF-Grassyknoll          | CTF-Grassyknoll    | -               | -
-CTF-Grendelkeep          | CTF-Grendelkeep    | -               | Хранитель
-CTF-January              | CTF-January        | -               | -
-CTF-LostFaith            | CTF-LostFaith      | -               | -
-CTF-Magma                | CTF-Magma          | -               | -
-CTF-Maul                 | CTF-Maul           | -               | -
-CTF-MoonDragon           | CTF-MoonDragon     | -               | -
-CTF-Smote                | CTF-Smote          | -               | -
-CTF-TwinTombs            | CTF-TwinTombs      | -               | -
+| Technical name    | English name      | Current Russian | Old Russian |
+| ----------------- | ----------------- | --------------- | ----------- |
+| CTF-1on1-Joust    | CTF-1on1-Joust    | -               | -           |
+| CTF-AbsoluteZero  | CTF-AbsoluteZero  | -               | -           |
+| CTF-Avaris        | CTF-Avaris        | -               | -           |
+| CTF-BridgeOfFate  | CTF-BridgeOfFate  | -               | -           |
+| CTF-Chrome        | CTF-Chrome        | -               | -           |
+| CTF-Citadel       | CTF-Citadel       | -               | -           |
+| CTF-Colossus      | CTF-Colossus      | -               | -           |
+| CTF-DE-ElecFields | CTF-DE-ElecFields | -               | -           |
+| CTF-December      | CTF-December      | -               | -           |
+| CTF-DoubleDammage | CTF-DoubleDammage | -               | -           |
+| CTF-Face3         | CTF-Face3         | -               | -           |
+| CTF-FaceClassic   | CTF-FaceClassic   | -               | -           |
+| CTF-Geothermal    | CTF-Geothermal    | -               | -           |
+| CTF-Grassyknoll   | CTF-Grassyknoll   | -               | -           |
+| CTF-Grendelkeep   | CTF-Grendelkeep   | -               | Хранитель   |
+| CTF-January       | CTF-January       | -               | -           |
+| CTF-LostFaith     | CTF-LostFaith     | -               | -           |
+| CTF-Magma         | CTF-Magma         | -               | -           |
+| CTF-Maul          | CTF-Maul          | -               | -           |
+| CTF-MoonDragon    | CTF-MoonDragon    | -               | -           |
+| CTF-Smote         | CTF-Smote         | -               | -           |
+| CTF-TwinTombs     | CTF-TwinTombs     | -               | -           |
 
 ### Bonus pack CTF maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-CTF-BP2-Concentrate      | CTF-BP2-Concentrate | -              | -
-CTF-BP2-Pistola          | CTF-BP2-Pistola    | -               | -
+| Technical name       | English name        | Current Russian | Old Russian |
+| -------------------- | ------------------- | --------------- | ----------- |
+| CTF-BP2-Concentrate  | CTF-BP2-Concentrate | -               | -           |
+| CTF-BP2-Pistola      | CTF-BP2-Pistola     | -               | -           |
 
 ## Bombing Run (BR-) maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-BR-Anubis                | BR-Anubis          | -               | Храм Анубиса
-BR-Bifrost               | BR-Bifrost         | -               | -
-BR-BridgeOfFate          | BR-BridgeOfFate    | -               | -
-BR-Canyon                | BR-Canyon          | -               | -
-BR-Colossus              | BR-Colossus        | -               | -
-BR-DE-ElecFields         | BR-DE-ElecFields   | -               | -
-BR-Disclosure            | BR-Disclosure      | -               | -
-BR-IceFields             | BR-IceFields       | -               | -
-BR-Serenity              | BR-Serenity        | -               | -
-BR-Skyline               | BR-Skyline         | -               | -
-BR-Slaughterhouse        | BR-Slaughterhouse  | -               | -
-BR-TwinTombs             | BR-TwinTombs       | -               | -
+| Technical name  | English name   | Current Russian | Old Russian      |
+| --------------- | -------------- | --------------- | ---------------- |
+| BR-Anubis       | BR-Anubis      | -               | Храм Анубиса     |
+| BR-Bifrost      | BR-Bifrost     | -               | -                |
+| BR-BridgeOfFate | BR-BridgeOfFate| -               | -                |
+| BR-Canyon       | BR-Canyon      | -               | -                |
+| BR-Colossus     | BR-Colossus    | -               | -                |
+| BR-DE-ElecFields| BR-DE-ElecFields| -              | -                |
+| BR-Disclosure   | BR-Disclosure  | -               | -                |
+| BR-IceFields    | BR-IceFields   | -               | -                |
+| BR-Serenity     | BR-Serenity    | -               | -                |
+| BR-Skyline      | BR-Skyline     | -               | -                |
+| BR-Slaughterhouse| BR-Slaughterhouse| -            | -                |
+| BR-TwinTombs    | BR-TwinTombs   | -               | -                |
 
 ## Double Domination / Domination (DOM-) maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-DOM-Access               | DOM-Access         | -               | -
-DOM-Atlantis             | DOM-Atlantis       | -               | -
-DOM-Aswan                | DOM-Aswan          | -               | -
-DOM-Conduit              | DOM-Conduit        | -               | -
-DOM-Core                 | DOM-Core           | -               | -
-DOM-Junkyard             | DOM-Junkyard       | -               | -
-DOM-OutRigger            | DOM-OutRigger      | -               | -
-DOM-Renascent            | DOM-Renascent      | -               | -
-DOM-Ruination            | DOM-Ruination      | -               | -
-DOM-ScorchedEarth        | DOM-ScorchedEarth  | -               | -
-DOM-SepukkuGorge         | DOM-SepukkuGorge   | -               | -
-DOM-Suntemple            | DOM-Suntemple      | -               | -
+| Technical name   | English name     | Current Russian | Old Russian |
+| ---------------- | ---------------- | --------------- | ----------- |
+| DOM-Access       | DOM-Access       | -               | -           |
+| DOM-Atlantis     | DOM-Atlantis     | -               | -           |
+| DOM-Aswan        | DOM-Aswan        | -               | -           |
+| DOM-Conduit      | DOM-Conduit      | -               | -           |
+| DOM-Core         | DOM-Core         | -               | -           |
+| DOM-Junkyard     | DOM-Junkyard     | -               | -           |
+| DOM-OutRigger    | DOM-OutRigger    | -               | -           |
+| DOM-Renascent    | DOM-Renascent    | -               | -           |
+| DOM-Ruination    | DOM-Ruination    | -               | -           |
+| DOM-ScorchedEarth| DOM-ScorchedEarth| -               | -           |
+| DOM-SepukkuGorge | DOM-SepukkuGorge | -               | -           |
+| DOM-Suntemple    | DOM-Suntemple    | -               | -           |
 
 ## Assault (AS-) maps
 
 ### Base Assault maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-AS-Convoy                | AS-Convoy          | -               | Конвой
-AS-FallenCity            | AS-FallenCity      | -               | -
-AS-Glacier               | AS-Glacier         | -               | -
-AS-Junkyard              | AS-Junkyard        | -               | -
-AS-Mothership            | AS-Mothership      | -               | -
-AS-RobotFactory          | AS-RobotFactory    | -               | -
+| Technical name | English name  | Current Russian | Old Russian |
+| -------------- | ------------- | --------------- | ----------- |
+| AS-Convoy      | AS-Convoy     | -               | Конвой      |
+| AS-FallenCity  | AS-FallenCity | -               | -           |
+| AS-Glacier     | AS-Glacier    | -               | -           |
+| AS-Junkyard    | AS-Junkyard   | -               | -           |
+| AS-Mothership  | AS-Mothership | -               | -           |
+| AS-RobotFactory| AS-RobotFactory| -              | -           |
 
 ### Bonus pack Assault maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-AS-BP2-Acatana           | AS-BP2-Acatana     | -               | -
-AS-BP2-Jumpship          | AS-BP2-Jumpship    | -               | -
-AS-BP2-Outback           | AS-BP2-Outback     | -               | -
-AS-BP2-SubRosa           | AS-BP2-SubRosa     | -               | -
-AS-BP2-Thrust            | AS-BP2-Thrust      | -               | -
+| Technical name   | English name    | Current Russian | Old Russian |
+| ---------------- | --------------- | --------------- | ----------- |
+| AS-BP2-Acatana   | AS-BP2-Acatana  | -               | -           |
+| AS-BP2-Jumpship  | AS-BP2-Jumpship | -               | -           |
+| AS-BP2-Outback   | AS-BP2-Outback  | -               | -           |
+| AS-BP2-SubRosa   | AS-BP2-SubRosa  | -               | -           |
+| AS-BP2-Thrust    | AS-BP2-Thrust   | -               | -           |
 
 ## Onslaught (ONS-) maps
 
 ### Base Onslaught maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-ONS-ArcticStronghold     | ONS-ArcticStronghold | -             | -
-ONS-Crossfire            | ONS-Crossfire      | -               | -
-ONS-Dawn                 | ONS-Dawn           | -               | -
-ONS-Dria                 | ONS-Dria           | -               | -
-ONS-FrostBite            | ONS-FrostBite      | -               | -
-ONS-Primeval             | ONS-Primeval       | -               | -
-ONS-RedPlanet            | ONS-RedPlanet      | -               | -
-ONS-Severance            | ONS-Severance      | -               | -
-ONS-Torlan               | ONS-Torlan         | -               | Торлан
+| Technical name      | English name        | Current Russian | Old Russian |
+| ------------------- | ------------------- | --------------- | ----------- |
+| ONS-ArcticStronghold| ONS-ArcticStronghold| -               | -           |
+| ONS-Crossfire       | ONS-Crossfire       | -               | -           |
+| ONS-Dawn            | ONS-Dawn            | -               | -           |
+| ONS-Dria            | ONS-Dria            | -               | -           |
+| ONS-FrostBite       | ONS-FrostBite       | -               | -           |
+| ONS-Primeval        | ONS-Primeval        | -               | -           |
+| ONS-RedPlanet       | ONS-RedPlanet       | -               | -           |
+| ONS-Severance       | ONS-Severance       | -               | -           |
+| ONS-Torlan          | ONS-Torlan          | -               | Торлан      |
 
 ### Bonus pack Onslaught maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-ONS-Adara                | ONS-Adara          | -               | -
-ONS-Aridoom              | ONS-Aridoom        | -               | -
-ONS-Ascendancy           | ONS-Ascendancy     | -               | -
-ONS-IslandHop            | ONS-IslandHop      | -               | -
-ONS-Tricky               | ONS-Tricky         | -               | -
-ONS-Urban                | ONS-Urban          | -               | -
+| Technical name | English name   | Current Russian | Old Russian |
+| -------------- | -------------- | --------------- | ----------- |
+| ONS-Adara      | ONS-Adara      | -               | -           |
+| ONS-Aridoom    | ONS-Aridoom    | -               | -           |
+| ONS-Ascendancy | ONS-Ascendancy | -               | -           |
+| ONS-IslandHop  | ONS-IslandHop  | -               | -           |
+| ONS-Tricky     | ONS-Tricky     | -               | -           |
+| ONS-Urban      | ONS-Urban      | -               | -           |
 
 ## Tutorial (TUT-) maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-TUT-BR                   | TUT-BR             | -               | -
-TUT-CTF                  | TUT-CTF            | -               | -
-TUT-DM                   | TUT-DM             | -               | -
-TUT-DOM2                 | TUT-DOM2           | -               | -
-TUT-ONS                  | TUT-ONS            | -               | -
+| Technical name | English name | Current Russian | Old Russian |
+| -------------- | ------------| ----------------| ----------- |
+| TUT-BR         | TUT-BR      | -               | -           |
+| TUT-CTF        | TUT-CTF     | -               | -           |
+| TUT-DM         | TUT-DM      | -               | -           |
+| TUT-DOM2       | TUT-DOM2    | -               | -           |
+| TUT-ONS        | TUT-ONS     | -               | -           |
 
 ## Movies / intro (MOV-) maps
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Mov-UT2-intro            | Mov-UT2-intro      | -               | -
-MOV-UT2004-Intro         | MOV-UT2004-Intro   | -               | -
+| Technical name   | English name     | Current Russian | Old Russian |
+| ---------------- | ---------------- | --------------- | ----------- |
+| Mov-UT2-intro    | Mov-UT2-intro    | -               | -           |
+| MOV-UT2004-Intro | MOV-UT2004-Intro | -               | -           |
