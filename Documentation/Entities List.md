@@ -23,9 +23,9 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ## Narrative entities
 
-- Characters
-- Teams
-- Lore
+- Characters — [Glossary: Characters.md](Glossary/Characters.md)
+- Teams      — [Glossary: Teams.md](Glossary/Teams.md)
+- Lore       — [Glossary: Lore.md](Glossary/Lore.md)
 
 ## Optional / technical
 
@@ -35,4 +35,4 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ---
 
-Total: 16 entities
+Total: 19 entities
