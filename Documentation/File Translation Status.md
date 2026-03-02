@@ -3,6 +3,7 @@
 This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[File Translation Status Rules](File%20Translation%20Status%20Rules.md)**.
 
 **Total:** 186 · **Done:** 8 · **Verified:** 0
+
 **Strings Total:** 9673 · **Translated:** 2963 · **Percent:** 30.6%
 
 ## Status table
