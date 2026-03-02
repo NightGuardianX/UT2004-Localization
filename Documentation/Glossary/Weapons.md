@@ -32,7 +32,7 @@ Notes:
 
 ---
 
-## Основное (Primary)
+## Primary
 
 ```text
 Technical name           | English name       | Current Russian | Old Russian
@@ -51,9 +51,7 @@ SniperRifle (Classic)    | Sniper Rifle       | -               | -
 
 ---
 
-## Против техники (Against vehicles)
-
-Source: Onslaught.int.
+## Onslaught
 
 ```text
 Technical name           | English name       | Current Russian | Old Russian
@@ -66,7 +64,7 @@ ONSPainter               | Target Painter     | -               | Маркер �
 
 ---
 
-## Особое (Special)
+## Special
 
 ```text
 Technical name           | English name       | Current Russian | Old Russian

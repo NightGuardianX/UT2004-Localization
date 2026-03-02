@@ -15,6 +15,8 @@ Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`, `StartM
 **When generating a new entity glossary file**, use the template: [Documentation/Glossary/EntityTemplate.md](Glossary/EntityTemplate.md).
 Follow its structure and placeholders; remove or fill optional sections as needed.
 
+All headers and rules should be in English. Russian is for translation entries only.
+
 ## Entity groups
 
 Terms are taken from files in the `/int` directory.
