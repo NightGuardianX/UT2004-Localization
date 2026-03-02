@@ -1,6 +1,6 @@
 # Maps glossary
 
-## Entity Glossary Rules (Maps)
+## Entity Glossary Rules (Game_Maps)
 
 *(Optional.
 This section defines rules specific to the Maps entity and overrides or extends the general [Glossary Rules](../Glossary%20Rules.md) where needed.)*

@@ -1,6 +1,6 @@
 # Teams glossary
 
-## Entity Glossary Rules (Teams)
+## Entity Glossary Rules (Lore_Teams)
 
 - **Sources:** Terms from `XGame.int` (team names and related labels). Current Russian: `/rut/XGame.rut`. Old Russian: `Documentation/rut_old/XGame.rut`.
 - **Structure / categories:** Teams are listed in a single table using their technical keys from the source files.
@@ -74,3 +74,4 @@ TeamSupernova                  | Supernova          | Сверхновая      
 TeamThundercrash               | Thunder Crash      | Удар Грома      | -
 TeamVenom                      | Venom              | Яд              | -
 TeamWarCry                     | WarCry             | Боевой клич     | -
+

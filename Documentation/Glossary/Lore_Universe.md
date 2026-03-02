@@ -1,6 +1,6 @@
 # Lore glossary
 
-## Entity Glossary Rules (Lore)
+## Entity Glossary Rules (Lore_Universe)
 
 - **Sources:** Narrative strings from relevant `.int` files (species, locations, events, corporations such as Liandri, tournament lore, etc.). Typical sources include `XPlayers.int`, `XGame.int`, map description `.int` files, and other narrative-heavy packages. Current Russian: corresponding `.rut` files in `/rut`. Old Russian: `Documentation/rut_old/` counterparts.
 - **Structure / categories:** Lore terms may be grouped into subsections by type (e.g. Species, Corporations, Locations, Events) if needed; all use the same table format.
@@ -57,7 +57,7 @@ LoreRedPlanetWorld       | Red Planet         | -               | -
 LoreBenial6              | Benial 6           | -               | -
 LoreEkron                | Ekron              | -               | -
 LoreKretzigGeothermal    | Kretzig Geothermal Facility | -      | -
-LoreJanuaryFacility32356 | Facility 32356 \"January\" | -       | -
+LoreJanuaryFacility32356 | Facility 32356 "January" | -        | -
 LoreEloreanSeasOutpost   | Elorean Seas outpost | -            | -
 LoreVortexRikers         | Vortex Rikers      | -               | -
 LoreSkaarjMothership     | Skaarj Mothership  | -               | -

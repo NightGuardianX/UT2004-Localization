@@ -1,6 +1,6 @@
 # Characters glossary
 
-## Entity Glossary Rules (Characters)
+## Entity Glossary Rules (Lore_Characters)
 
 - **Sources:** Terms from `XPlayers.int` (character / player names and related labels). Current Russian: `/rut/XPlayers.rut`. Old Russian: `Documentation/rut_old/XPlayers.rut`.
 - **Structure / categories:** Characters are listed in a single table grouped by their technical keys from `XPlayers.int`.
@@ -126,5 +126,4 @@ Notes:
 | Karag          | Karag        | Karag           | Караг        |
 | Necris         | Kragoth      | Kragoth         | Крагот       |
 | NecrisB        | Thannis      | Thannis         | Таннис       |
-
 

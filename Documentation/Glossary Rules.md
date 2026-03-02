@@ -7,10 +7,10 @@ Some entities have their own **Entity Glossary Rules** (see below).
 
 A separate glossary file is created for each **entity group** in the `/Documentation/Glossary/` folder.
 
-Entity groups are logical categories (e.g. Maps, Weapons, StartMenuButtons), not one file per `.int` source.
+Entity groups are logical categories (e.g. Game_Maps, Game_Weapons, UI_StartMenuButtons), not one file per `.int` source.
 Each group collects all relevant terms from one or more files in the `/int` directory.
 
-Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`, `StartMenuButtons.md`).
+Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`), with **optional type prefixes** for clarity (e.g. UI entities use `UI_EntityName.md` such as `UI_StartMenuButtons.md`).
 
 **When generating a new entity glossary file**, use the template: [Documentation/Glossary/EntityTemplate.md](Glossary/EntityTemplate.md).
 Follow its structure and placeholders; remove or fill optional sections as needed.
@@ -24,31 +24,32 @@ All headers and rules should be in English. Russian is for translation entries o
 Terms are taken from files in the `/int` directory.
 Map names come from `.int` files whose names start with map prefixes (DM-, CTF-, ONS-, BR-, DOM-, AS-, TUT-, MOV-).
 
-Game, UI, and narrative entities are kept in separate groups.
+Game, UI, and lore entities are kept in separate groups.
 
 ### Game entities
 
-- **Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files).
-- **Weapons** — Weapon names (Assault Rifle, Flak Cannon, etc.). Source: XWeapons.int.
-- **Vehicles** — Vehicle names. Source: Vehicles.int.
-- **Pickups** — Ammo, powerups, health, etc. Source: XPickups.int.
-- **GameModes** — Deathmatch, CTF, Onslaught, etc. Sources: XGame.int, XMaps.int.
-- **Abilities** — Dodge, Jump, Fire, Alt Fire, etc. Sources: XPlayers.int, XInterface.int.
+- **Game_Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files).
+- **Game_Weapons** — Weapon names (Assault Rifle, Flak Cannon, etc.). Source: XWeapons.int.
+- **Game_Vehicles** — Vehicle names. Source: Vehicles.int.
+- **Game_Pickups** — Ammo, powerups, health, etc. Source: XPickups.int.
+- **Game_GameModes** — Deathmatch, CTF, Onslaught, etc. Sources: XGame.int, XMaps.int.
+- **Game_Abilities** — Dodge, Jump, Fire, Alt Fire, etc. Sources: XPlayers.int, XInterface.int.
 
 ### UI entities
 
-- **StartMenuButtons** — Main menu button labels. Sources: Entry.int, Setup.int, XInterface.int.
-- **Menus** — Menu / screen names. Sources: XInterface.int, GUI2K4.int.
-- **Dialogs** — Dialog titles and key phrases. Sources: XInterface.int, Setup.int.
-- **Popups** — Popup messages. Source: XInterface.int.
-- **Tooltips** — Tooltip text. Sources: XInterface.int, Setup.int.
-- **Notifications** — Notifications, errors, warnings, success, info, help. Source: XInterface.int.
+- **UI_StartMenuButtons** — Main menu button labels. Sources: Entry.int, Setup.int, XInterface.int, GUI2K4.int.
+- **UI_Menus** — Menu / screen names. Sources: XInterface.int, GUI2K4.int.
+- **UI_Settings** — In‑game settings option labels and values. Source: GUI2K4.int.
+- **UI_Dialogs** — Dialog titles and key phrases. Sources: XInterface.int, Setup.int.
+- **UI_Popups** — Popup messages. Source: XInterface.int.
+- **UI_Tooltips** — Tooltip text. Sources: XInterface.int, Setup.int.
+- **UI_Notifications** — Notifications, errors, warnings, success, info, help. Source: XInterface.int.
 
-### Narrative entities
+### Lore entities
 
-- **Characters** — Character / player names. Source: XPlayers.int.
-- **Teams** — Team names and symbols. Sources: TeamSymbols_UT2004.int, XGame.int.
-- **Lore** — Species, locations, events, corporations (e.g. Liandri). Sources: narrative strings in relevant .int files.
+- **Lore_Characters** — Character / player names. Source: XPlayers.int.
+- **Lore_Teams** — Team names and symbols. Sources: TeamSymbols_UT2004.int, XGame.int.
+- **Lore_Lore** — Species, locations, events, corporations (e.g. Liandri). Sources: narrative strings in relevant .int files.
 
 ### Optional / technical
 

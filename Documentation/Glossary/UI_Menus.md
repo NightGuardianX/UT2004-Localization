@@ -1,18 +1,18 @@
-# Menus glossary
+# UI Menus glossary
 
-## Entity Glossary Rules (Menus)
+## Entity Glossary Rules (UI_Menus)
 
-These rules apply only to the Menus entity and override the general Glossary Rules where they differ.
+These rules apply only to the `UI_Menus` entity and override the general Glossary Rules where they differ.
 
 - **Sources:** Menu/page captions and window titles from `GUI2K4.int` (primary) and other UI `.int` files when needed. **Current Russian:** `/rut/GUI2K4.rut` (and related `/rut` files). **Old Russian:** `Documentation/rut_old`.
-- **Scope:** Only distinct **screens/menus** and **major pages** of the front‑end UI and in‑game UI (e.g. Main Menu, Settings, Server Browser, Tournament, Mid‑game menu, etc.). Individual buttons inside these menus belong to other entities (e.g. `StartMenuButtons`). Detailed terminology for individual settings controls (sliders, checkboxes, etc.) lives in the separate `Settings` entity (`Settings.md`).
+- **Scope:** Only distinct **screens/menus** and **major pages** of the front‑end UI and in‑game UI (e.g. Main Menu, Settings, Server Browser, Tournament, Mid‑game menu, etc.). Individual buttons inside these menus belong to other entities (e.g. `UI_StartMenuButtons`). Detailed terminology for individual settings controls (sliders, checkboxes, etc.) lives in the separate `UI_Settings` entity (`UI_Settings.md`).
 - **Structure / categories:** Menus are grouped into:
   - **Main / front‑end menus** (entry points from the main screen).
   - **Settings menus** (the `UT2K4SettingsPage` tabs).
   - **Online / server browser menus.**
   - **Single‑player tournament menus.**
   - **Mid‑game / in‑game menus.**
-- **Exclusions:** Purely modal confirmation boxes and tiny one‑off dialogs (e.g. simple OK/YES/NO popups) are covered by `Dialogs` / `Popups`, not by `Menus`, except where they behave like full screens.
+- **Exclusions:** Purely modal confirmation boxes and tiny one‑off dialogs (e.g. simple OK/YES/NO popups) are covered by dialog / popup entities, not by `UI_Menus`, except where they behave like full screens.
 - **Table format:** Standard 4‑column table, aligned with other entities:
   - Columns: **Technical name | English name | Current Russian | Old Russian**.
   - If no translation is known yet, use `-`.
@@ -57,7 +57,7 @@ UT2K4QuickPlay.Window    | Quick Play         | Быстрая игра      | -
 
 Source: `[UT2K4SettingsPage]` in `GUI2K4.int` / `/rut/GUI2K4.rut` and the corresponding tab classes (`UT2K4Tab_*`).
 
-The main Settings screen (`UT2K4SettingsPage`) has seven tabs. Each tab is treated here as a separate menu entity. **Only the tab/menu names are tracked in this file; all individual setting options and controls are documented in the `Settings` glossary (`Settings.md`).**
+The main Settings screen (`UT2K4SettingsPage`) has seven tabs. Each tab is treated here as a separate menu entity. **Only the tab/menu names are tracked in this file; all individual setting options and controls are documented in the `UI_Settings` glossary (`UI_Settings.md`).**
 
 ### Settings: Display tab
 

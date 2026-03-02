@@ -1,6 +1,6 @@
 # Vehicles glossary
 
-## Entity Glossary Rules (Vehicles)
+## Entity Glossary Rules (Game_Vehicles)
 
 These rules apply only to the Vehicles entity and override the general Glossary Rules where they differ.
 

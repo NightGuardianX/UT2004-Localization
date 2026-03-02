@@ -1,6 +1,6 @@
 # Pickups glossary
 
-## Entity Glossary Rules (Pickups)
+## Entity Glossary Rules (Game_Pickups)
 
 These rules apply only to the Pickups entity and override the general Glossary Rules where they differ.
 
@@ -79,3 +79,4 @@ Technical name           | English name       | Current Russian | Old Russian
 -------------------------|--------------------|-----------------|--------------------------
 WeaponLocker             | Weapon Locker      | -               | Оружейный стояк
 ONSPainterPickup         | Target Painter     | -               | Маркер целеуказания
+

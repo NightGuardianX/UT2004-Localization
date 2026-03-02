@@ -1,8 +1,8 @@
-# Settings glossary
+# UI Settings glossary
 
-## Entity Glossary Rules (Settings)
+## Entity Glossary Rules (UI_Settings)
 
-These rules apply only to the Settings entity and override the general Glossary Rules where they differ.
+These rules apply only to the `UI_Settings` entity and override the general Glossary Rules where they differ.
 
 - **Sources:** Text for options, sliders, checkboxes and other controls from the Settings menus:
   - `UT2K4Tab_DetailSettings` / `UT2K4Tab_DetailSettingsWS` (Display),
@@ -16,7 +16,7 @@ These rules apply only to the Settings entity and override the general Glossary 
 - **Current Russian:** `/rut/GUI2K4.rut` (matching sections and keys).  
   **Old Russian:** `Documentation/rut_old/*.rut` (matching sections), where available.
 - **Scope:** Only the **individual settings controls and values** (e.g. *Brightness*, *Dynamic Lighting*, *Auto-Taunt*, *Weapon Bob*).  
-  Names of whole menus / tabs (e.g. *Settings*, *Display*, *Audio*) are documented in the `Menus` entity.
+  Names of whole menus / tabs (e.g. *Settings*, *Display*, *Audio*) are documented in the `UI_Menus` entity.
 - **Structure / categories:** Settings are grouped into sections mirroring the in‑game tabs:
   - **Display settings**
   - **Audio settings**
@@ -26,8 +26,8 @@ These rules apply only to the Settings entity and override the general Glossary 
   - **Weapon settings**
   - **HUD settings**
 - **Exclusions:** 
-  - Main menu buttons belong to `StartMenuButtons`.
-  - Generic dialogs and confirmation popups belong to `Dialogs` / `Popups`.
+  - Main menu buttons belong to `UI_StartMenuButtons`.
+  - Generic dialogs and confirmation popups belong to dialog / popup entities.
 - **Table format:** Standard 4‑column table:
   - Columns: **Technical name | English name | Current Russian | Old Russian**.
   - If no translation is known yet, use `-`.

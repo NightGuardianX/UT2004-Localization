@@ -1,6 +1,6 @@
 # Weapons glossary
 
-## Entity Glossary Rules (Weapons)
+## Entity Glossary Rules (Game_Weapons)
 
 These rules apply only to the Weapons entity and override the general Glossary Rules where they differ.
 

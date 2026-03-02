@@ -1,6 +1,6 @@
 # Game modes glossary
 
-## Entity Glossary Rules (Game modes)
+## Entity Glossary Rules (Game_Modes)
 
 These rules apply only to the Game modes entity and override the general Glossary Rules where they differ.
 
@@ -50,3 +50,4 @@ InstagibCTF              | Instagib CTF       | Захват флага Instagib
 xLastManStandingGame     | Last Man Standing  | -                                            | Последний герой
 xMutantGame              | Mutant             | -                                            | Мутант
 Invasion                 | Invasion           | Вторжение                                    | Вторжение
+
