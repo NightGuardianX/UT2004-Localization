@@ -62,12 +62,12 @@ Game, UI, and lore entities are kept in separate groups.
 
 ## Glossary row format
 
-Each glossary uses a **Markdown table** with four columns:
+Each glossary uses a **Markdown table** with four columns in a **GitHub-style layout** (with leading and trailing `|` on each row):
 
-Technical Name | English Name | Current Russian Name | Old Russian Name
--------------- | ------------ | -------------------- | ----------------
+| Technical Name | English Name | Current Russian Name | Old Russian Name |
+| -------------- | ------------ | -------------------- | ---------------- |
 
-- In the **source .md files**, keep the first two columns (Technical / English) padded with spaces up to a consistent width (as in `Pickups.md` and `Maps.md`), so that tables read cleanly in a monospaced editor. Renderers ignore extra spaces around cell content, but this padding makes the raw markdown easier to scan and aligns visually in the IDE.
+- In the **source .md files**, prefer the same visual style and alignment as in `Game_Pickups.md` (columns aligned with spaces, header and separator rows present). This keeps tables readable both in rendered form and directly in a monospaced editor. Renderers ignore extra spaces around cell content, but this padding makes the raw markdown easier to scan and aligns visually in the IDE.
 
 - **Technical name** — identifier from the game (e.g. map name `AS-Convoy`, key `SinglePlayerButtonText`).
 - **English name** — from the corresponding file in `/int`.
