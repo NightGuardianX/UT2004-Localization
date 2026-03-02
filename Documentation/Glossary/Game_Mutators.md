@@ -101,12 +101,10 @@ If no translation: `-`.
 
 ## UTV mutators
 
-| Technical name        | English name | Current Russian | Old Russian |
-| --------------------- | ------------ | --------------- | ----------- |
-| UTV2004s.utvMutator   | UTV2004S     | -               | -           |
+> UTV-specific mutators, menus, and settings are documented in the dedicated entity [`Game_UTV.md`](Game_UTV.md).
 
 Notes:
 
-- When filling in Russian columns, always check both `/rut/` and `/rut_old/` for each mutator (by section name and by `MetaClass=Engine.Mutator` object) to avoid missing existing translations.
+- When filling in Russian columns for other mutators, always check both `/rut/` and `/rut_old/` for each mutator (by section name and by `MetaClass=Engine.Mutator` object) to avoid missing existing translations.
 - If a mutator appears both as an `Object=(MetaClass=Engine.Mutator, Name=Package.MutatorClass, ...)` and as a `[MutSomething]` section, treat this row as the shared logical mutator and do **not** duplicate it.
 

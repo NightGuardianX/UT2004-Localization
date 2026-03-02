@@ -15,9 +15,11 @@ Old Russian: `/rut_old/*.rut` (same basenames as the UTV sources).
 
 Format (Markdown table, GitHub-style as in `Game_Pickups.md`):
 
+
 | Technical name                  | English name                            | Current Russian | Old Russian        |
 | ------------------------------- | --------------------------------------- | --------------- | ------------------ |
 | *(TechnicalKey or Section.Key)* | (English label from the UTV UI/mutator) | -               | (Old Russian or -) |
+
 
 If no translation: `-`.
 
@@ -30,38 +32,44 @@ Notes:
 
 ## UTV primary settings menu
 
-| Technical name                      | English name                     | Current Russian | Old Russian |
-| ----------------------------------- | -------------------------------- | --------------- | ----------- |
-| UTV2004c.utvPrimaryMenu.Label1     | Total clients                    | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelD     | Delay                            | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelJP    | Join password                    | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelLP    | Listen port                      | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelMC    | Max clients                      | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelMute  | Show UTV Chat                    | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelNP    | Normal password                  | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelPP    | Primary password                 | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelSA    | Server address                   | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelSP    | Server port                      | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelTC    | tc                               | -               | -           |
-| UTV2004c.utvPrimaryMenu.LabelVP    | VIP password                     | -               | -           |
-| UTV2004c.utvPrimaryMenu.OkButton   | OK                               | -               | -           |
-| UTV2004c.utvPrimaryMenu.ResetButton| Reset                            | -               | -           |
-| UTV2004c.utvPrimaryMenu.TitleText  | UTV2004 Primary settings         | -               | -           |
+
+| Technical name                      | English name             | Current Russian | Old Russian |
+| ----------------------------------- | ------------------------ | --------------- | ----------- |
+| UTV2004c.utvPrimaryMenu.Label1      | Total clients            | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelD      | Delay                    | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelJP     | Join password            | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelLP     | Listen port              | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelMC     | Max clients              | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelMute   | Show UTV Chat            | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelNP     | Normal password          | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelPP     | Primary password         | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelSA     | Server address           | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelSP     | Server port              | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelTC     | tc                       | -               | -           |
+| UTV2004c.utvPrimaryMenu.LabelVP     | VIP password             | -               | -           |
+| UTV2004c.utvPrimaryMenu.OkButton    | OK                       | -               | -           |
+| UTV2004c.utvPrimaryMenu.ResetButton | Reset                    | -               | -           |
+| UTV2004c.utvPrimaryMenu.TitleText   | UTV2004 Primary settings | -               | -           |
+
 
 ## UTV watcher settings menu
 
-| Technical name                      | English name                     | Current Russian | Old Russian |
-| ----------------------------------- | -------------------------------- | --------------- | ----------- |
-| UTV2004c.utvWatcherMenu.Label1     | View rotation                    | -               | -           |
-| UTV2004c.utvWatcherMenu.Label2     | Follow primary                   | -               | -           |
-| UTV2004c.utvWatcherMenu.Label3     | Show UTV Chat                    | -               | -           |
-| UTV2004c.utvWatcherMenu.OkButton   | OK                               | -               | -           |
-| UTV2004c.utvWatcherMenu.TitleText  | UTV2004 Watcher settings         | -               | -           |
+
+| Technical name                    | English name             | Current Russian | Old Russian |
+| --------------------------------- | ------------------------ | --------------- | ----------- |
+| UTV2004c.utvWatcherMenu.Label1    | View rotation            | -               | -           |
+| UTV2004c.utvWatcherMenu.Label2    | Follow primary           | -               | -           |
+| UTV2004c.utvWatcherMenu.Label3    | Show UTV Chat            | -               | -           |
+| UTV2004c.utvWatcherMenu.OkButton  | OK                       | -               | -           |
+| UTV2004c.utvWatcherMenu.TitleText | UTV2004 Watcher settings | -               | -           |
+
 
 ## UTV mutator
 
-| Technical name            | English name | Current Russian | Old Russian |
-| ------------------------- | ------------ | --------------- | ----------- |
-| UTV2004s.utvMutator.Name | UTV2004S     | -               | -           |
-| UTV2004s.utvMutator.Desc | Required to support UTV2004 SeeAll mode | - | - |
+
+| Technical name           | English name                            | Current Russian | Old Russian |
+| ------------------------ | --------------------------------------- | --------------- | ----------- |
+| UTV2004s.utvMutator.Name | UTV2004S                                | -               | -           |
+| UTV2004s.utvMutator.Desc | Required to support UTV2004 SeeAll mode | -               | -           |
+
 
