@@ -14,6 +14,7 @@ Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`, `StartM
 
 **When generating a new entity glossary file**, use the template: [Documentation/Glossary/EntityTemplate.md](Glossary/EntityTemplate.md).
 Follow its structure and placeholders; remove or fill optional sections as needed.
+Always generate the document with **fully populated tables** for all relevant terms (from `/int`) and immediately attempt to fill both Russian columns using `/rut` and `Documentation/rut_old/`, not leaving placeholder rows.
 After creating a new entity glossary file, always add or update the corresponding entry (with a link to the new document) in `Documentation/Entities List.md`.
 
 All headers and rules should be in English. Russian is for translation entries only.

@@ -23,6 +23,7 @@ If no translation: - .
 Notes:
 
 - *(Optional entity-specific notes.)*
+- When filling glossary, always check both the current `/rut` files and `Documentation/rut_old/` to populate Russian columns where possible.
 
 ---
 
