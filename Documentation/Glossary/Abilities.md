@@ -1,0 +1,145 @@
+# Abilities glossary
+
+## Entity Glossary Rules (Abilities)
+
+These rules apply only to the Abilities entity and override the general Glossary Rules where they differ.
+
+- **Categories:** Abilities are grouped into **Movement**, **Special movement (no direct input)**, **Looking**, **Combat**, **Communication & taunts**, **HUD & display**, and **Game & misc**. Terms are player actions and control labels (key bindings), not weapon names.
+- **Sources:** Terms from XInterface.int (Bindings/Labels), GUI2K4.int (BindingLabel), GamePlay.int (ActionMessage_DM), UnrealGame.int (DMHints). Current Russian: /rut (GUI2K4.rut, section [ControlBinder]). Old Russian: Documentation/rut_old (GUI2K4.rut, section [ControlBinder]).
+- **Exclusions:** Weapon selection labels (Shield Gun, Assault Rifle, etc.) belong in the Weapons entity. Only the generic actions Fire, Alt-Fire, Throw Weapon, Next/Prev Weapon, etc. are listed here.
+- **Table format:** Pipe-separated columns. Column order: Technical name | English name | Current Russian | Old Russian. If no translation: - .
+- **Alignment:** Same column widths across all tables.
+
+---
+
+Source: XInterface.int, GUI2K4.int, GamePlay.int, UnrealGame.int (English).
+Current Russian: /rut.
+Old Russian: Documentation/rut_old.
+
+Format: Technical name | English name | Current Russian | Old Russian.
+If no translation: - .
+
+Notes:
+
+- **Dodge** and **Double Jump** appear in tutorial/hint text (e.g. "Double tap a key to dodge", "Press jump again at the peak of a jump"); they are not separate binding labels in the control list.
+- Binding labels may appear in prompts like "Press [Fire] to join" or in key config UI.
+- For control bindings, the primary Russian source is `GUI2K4.rut` `[ControlBinder]`; Current Russian uses `/rut/GUI2K4.rut`, Old Russian uses `Documentation/rut_old/GUI2K4.rut`.
+- Special movement abilities **Double Jump** and **Dodge** are documented only in tutorial / hint text (e.g. `GamePlay.int` `[ActionMessage_DM]`, `UnrealGame.int` `DMHints`, `UTClassic.int` mutator help) and have no dedicated input bindings.
+
+Tutorial / hint sources:
+
+- `int/GamePlay.int` — `[ActionMessage_DM]` ("Double tap a key to dodge", "Double jump").
+- `int/UnrealGame.int` — `DMHints` ("Press jump again at the peak of a jump…", dodge description).
+- `int/UTClassic.int` — `DJHelp`, `WDHelp`, `DDJHelp` (double jump, wall dodge, dodge double jump).
+
+---
+
+## Movement
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Forward                  | Forward            | Вперёд          | Вперед
+Backward                 | Backward           | Назад           | Назад
+Strafe Left              | Strafe Left        | Движение влево  | Смещение влево
+Strafe Right             | Strafe Right       | Движение вправо | Смещение вправо
+Jump                     | Jump               | Прыжок          | Прыжок
+Walk                     | Walk               | Ходьба          | Идти
+Crouch                   | Crouch             | Присед          | Приседание
+Strafe Toggle            | Strafe Toggle      | Переключение движения | Вкл/выкл смещение
+
+### Special movement (no direct input binding)
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Double Jump              | Double Jump        | -               | -
+Dodge                    | Dodge              | -               | -
+
+---
+
+## Looking
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Turn Left                | Turn Left          | Повернуться налево | Повернуться влево
+Turn Right               | Turn Right         | Повернуться направо | Повернуться вправо
+Look Up                  | Look Up            | Посмотреть вверх | Посмотреть вверх
+Look Down                | Look Down          | Посмотреть вниз | Посмотреть вниз
+Center View              | Center View        | Центрировать взгляд | Посмотреть вперед
+Toggle BehindView        | Toggle "BehindView"| Режим камеры от 3-го лица | Вкл/выкл вид от 3-го лица
+Toggle Camera Mode       | Toggle Camera Mode | Переключить режим камеры | Смена режима камеры
+
+---
+
+## Combat
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Fire                     | Fire               | Стрельба        | Основной режим стрельбы
+Alt-Fire                 | Alt-Fire           | Альт. режим стрельбы | Альтернативный режим стрельбы
+Throw Weapon             | Throw Weapon       | Выбросить оружие | Бросить текущее оружие
+Best Weapon              | Best Weapon        | Лучшее оружие   | Выбрать лучшее оружие
+Next Weapon              | Next Weapon        | След. оружие    | Выбрать следующее оружие
+Prev Weapon              | Prev Weapon        | Пред. оружие    | Выбрать предыдущее оружие
+Last Weapon              | Last Weapon        | Последнее оружие | Выбрать предпоследнее оружие
+Weapon Selection         | Weapon Selection   | Выбор оружия    | Выбор оружия
+Super Weapon             | Super Weapon       | Супероружие     | Супероружие
+Use                      | Use                | Использовать    | Использовать
+
+---
+
+## Communication & taunts
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Say                      | Say                | Сказать         | Текстовое сообщение всем
+Team Say                 | Team Say           | Сказать команде | Текстовое сообщение команде
+Speech Menu              | Speech Menu        | Меню общения    | Меню голосовых команд
+In Game Chat             | In Game Chat       | Внутриигровой чат | Открыть окно чата
+Taunts                   | Taunts             | Насмешки        | Жесты
+Pelvic Thrust            | Pelvic Thrust      | Вращение таза   | Удар по Печени
+Ass Smack                | Ass Smack          | Шлепок по заднице | 'Поцелуй меня в задницу!'
+Throat Cut               | Throat Cut         | Перерезать глотку | 'Голову снесу!'
+Brag                     | Brag               | Хвастовство     | Нахальство
+
+---
+
+## HUD & display
+
+Technical name           | English name       | Current Russian | Old Russian
+-------------------------|--------------------|-----------------|--------------------------
+Grow Hud                 | Grow Hud           | Увеличить размер интерфейса | Увеличить HUD
+Shrink Hud               | Shrink Hud         | Уменьшить размер интерфейса | Уменьшить HUD
+ScoreBoard               | ScoreBoard         | Таблица результатов | Табло счета
+ScoreBoard Toggle        | ScoreBoard Toggle  | Показать таблицу результатов | Отобразить/скрыть табло счета
+Show Radar Map           | Show Radar Map     | Показать радар   | Показать/скрыть карту-радар
+Show Personal Stats      | Show Personal Stats| Показать персональную статистику | Показать/скрыть личную статистику
+View Next Player's Stats | View Next Player's Stats | Показать статистику следующего игрока | Показать статистику следующего игрока
+
+---
+
+## Game & misc
+
+Technical name                 | English name                 | Current Russian | Old Russian
+-------------------------------|------------------------------|-----------------|--------------------------
+Pause                          | Pause                        | Пауза           | Пауза
+Screenshot                     | Screenshot                   | Скриншот        | Сделать скриншот
+Menu                           | Menu                         | Меню            | Меню
+Server Info                    | Server Info                  | Информация о сервере | Сведения о сервере
+Vehicle Horn                   | Vehicle Horn                 | Гудок           | Звуковой сигнал транспорта
+Find Red Base                  | Find Red Base                | Найти красную базу | Показать путь к базе красной команды
+Find Blue Base                 | Find Blue Base               | Найти голубую базу | Показать путь к базе синей команды
+Next Inventory Item            | Next Inventory Item          | Следующий предмет в инвентаре | Выбрать следующий предмет инвентаря
+Previous Inventory Item        | Previous Inventory Item      | Предыдущий предмет в инвентаре | Выбрать предыдущий предмет инвентаря
+Activate Current Inventory Item| Activate Current Inventory Item | Использовать текущий предмет в инвентаре | Активировать текущий предмет инвентаря
+Music Player                   | Music Player                 | Музыкальный плеер | Проигрыватель музыки
+Voting Menu                    | Voting Menu                  | Меню голосования | Меню голосования
+Toggle Console                 | Toggle Console               | Переключить консоль | Открыть/закрыть консоль
+View Connection Status         | View Connection Status       | Посмотреть состояние подключения | Показать статистику соединения
+Cancel Pending Connection      | Cancel Pending Connection    | Отменить ожидающее соединение | Отменить текущую попытку соединения
+Activate Microphone            | Activate Microphone          | Включить микрофон | Включить микрофон
+Speak in Public Channel        | Speak in Public Channel      | Говорить в публичном канале | Говорить в общем канале
+Speak in local Channel         | Speak in local Channel       | Говорить в локальном канале | Говорить в локальном канале
+Speak in Team Channel          | Speak in Team Channel        | Говорить с командой | Говорить в командном канале
+Toggle Public Channel          | Toggle Public Channel        | Переключиться на публичный канал | Вкл/выкл общий канал
+Toggle Local Channel           | Toggle Local Channel         | Переключиться на локальный канал | Вкл/выкл локальный канал
+Toggle Team Channel            | Toggle Team Channel          | Переключиться на канал команды | Вкл/выкл командный канал
