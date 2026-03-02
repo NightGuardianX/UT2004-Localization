@@ -15,7 +15,7 @@ This section defines rules specific to the Maps entity and overrides or extends 
 
 ---
 
-Source: `DM-*.int`, `CTF-*.int`, `BR-*.int`, `DOM-*.int`, `AS-*.int`, `ONS-*.int`, `TUT-*.int`, `MOV-*.int` in `/int`.
+Source: `DM-*.int`, `CTF-*.int`, `BR-*.int`, `DOM-*.int`, `AS-*.int`, `ONS-*.int`, `TUT-*.int`, `MOV-*.int` in `/int`, plus special map-like levels explicitly listed below (e.g. `endgame.int`).
 
 Current Russian: `/rut/*.rut` (same basename as source).
 
@@ -226,3 +226,9 @@ Notes:
 | ---------------- | ---------------- | --------------- | ----------- |
 | Mov-UT2-intro    | Mov-UT2-intro    | -               | -           |
 | MOV-UT2004-Intro | MOV-UT2004-Intro | -               | -           |
+
+## Special maps
+
+| Technical name | English name | Current Russian | Old Russian |
+| -------------- | ------------ | --------------- | ----------- |
+| endgame        | endgame      | -               | -           |

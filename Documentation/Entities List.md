@@ -14,6 +14,7 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 - Game_Abilities  — [Glossary: Game_Abilities.md](Glossary/Game_Abilities.md)
 - Game_Mutators   — [Glossary: Game_Mutators.md](Glossary/Game_Mutators.md)
 - Game_Monsters   — [Glossary: Game_Monsters.md](Glossary/Game_Monsters.md)
+- Game_UTV        — [Glossary: Game_UTV.md](Glossary/Game_UTV.md)
 
 ## UI entities
 
@@ -25,6 +26,7 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 - UI_Tooltips         — [Glossary: UI_Tooltips.md](Glossary/UI_Tooltips.md)
 - UI_Notifications    — [Glossary: UI_Notifications.md](Glossary/UI_Notifications.md)
 - UI_Loading          — [Glossary: UI_Loading.md](Glossary/UI_Loading.md)
+- UI_Startup          — [Glossary: UI_Startup.md](Glossary/UI_Startup.md)
 
 ## Lore entities
 
@@ -34,10 +36,10 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ## Optional / technical
 
-- Tutorials  — [Glossary: Tutorials.md](Glossary/Tutorials.md)
-- BonusPack  — [Glossary: BonusPack.md](Glossary/BonusPack.md)
-- WebAdmin   — [Glossary: WebAdmin.md](Glossary/WebAdmin.md)
+- Game_Tutorials  — [Glossary: Game_Tutorials.md](Glossary/Game_Tutorials.md)
+- Game_BonusPack  — [Glossary: Game_BonusPack.md](Glossary/Game_BonusPack.md)
+- Tech_WebAdmin   — [Glossary: Tech_WebAdmin.md](Glossary/Tech_WebAdmin.md)
 
 ---
 
-Total: 23 entities
+Total: 25 entities

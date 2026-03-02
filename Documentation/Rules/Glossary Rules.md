@@ -22,13 +22,13 @@ All headers and rules should be in English. Russian is for translation entries o
 ## Entity groups
 
 Terms are taken from files in the `/int` directory.
-Map names come from `.int` files whose names start with map prefixes (DM-, CTF-, ONS-, BR-, DOM-, AS-, TUT-, MOV-).
+Map names come from `.int` files whose names start with map prefixes (DM-, CTF-, ONS-, BR-, DOM-, AS-, TUT-, MOV-), plus special map-like levels such as `endgame.int` where documented explicitly in the corresponding entity rules.
 
 Game, UI, and lore entities are kept in separate groups.
 
 ### Game entities
 
-- **Game_Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files).
+- **Game_Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files), plus special cases like `endgame.int` when explicitly included in the entity rules.
 - **Game_Weapons** — Weapon names (Assault Rifle, Flak Cannon, etc.). Source: XWeapons.int.
 - **Game_Vehicles** — Vehicle names. Sources: Vehicles.int, Onslaught.int, OnslaughtFull.int.
 - **Game_Pickups** — Ammo, powerups, health, etc. Sources: XPickups.int, XWeapons.int, OnslaughtFull.int.
@@ -48,6 +48,7 @@ Game, UI, and lore entities are kept in separate groups.
 - **UI_Tooltips** — Tooltip text for controls. Sources: XInterface.int, Setup.int.
 - **UI_Notifications** — HUD and console notifications, errors, warnings, success, info, help. Sources: XInterface.int, UnrealGame.int, XGame.int, GUI2K4.int.
 - **UI_Loading** — Loading / progress labels and messages. Sources: XInterface.int, GUI2K4.int, Engine.int, Core.int, XWebAdmin.int.
+- **UI_Startup** — Launcher / startup and safe-mode dialogs shown before entering the game. Sources: Startup.int, UT2004.int (launcher-related strings).
 
 ### Lore entities
 
@@ -57,9 +58,15 @@ Game, UI, and lore entities are kept in separate groups.
 
 ### Optional / technical
 
-- **Tutorials** — Tutorial strings and tutorial-related UI text. Sources: GamePlay.int, UnrealGame.int, UTClassic.int, XInterface.int, GUI2K4.int, TUT-*.int.
-- **BonusPack** — Bonus pack titles and high-level bonus content labels. Source: BonusPack.int and related bonus .int files.
-- **WebAdmin** — Web admin UI strings. Sources: XWebAdmin.int, XAdmin.int, UWeb.int.
+- **Game_Tutorials** — Tutorial strings and tutorial-related UI text. Sources: GamePlay.int, UnrealGame.int, UTClassic.int, XInterface.int, GUI2K4.int, TUT-*.int.
+- **Game_BonusPack** — Bonus pack titles and high-level bonus content labels. Source: BonusPack.int and related bonus .int files.
+- **Tech_WebAdmin** — Web admin UI strings. Sources: XWebAdmin.int, XAdmin.int, UWeb.int.
+- **Game_UTV** — UTV spectator / broadcast UI and mutator strings. Sources: UTV2004c.int, UTV2004s.int and other UTV-specific `.int` files.
+
+#### System / editor / driver messages
+
+- Low-level engine, driver, and system messages (e.g. from `Engine.int`, `Core.int`, `Window.int`, `D3DDrv.int`, `ALAudio.int`, `WinDrv.int`, `IpDrv.int`) are **localized directly** in `/rut` and `/rut_old/` **without** a dedicated glossary entity.
+- Editor- and tool-only texts (e.g. `UnrealEd.int`, `Editor.int`, `ParticleExamples.int`, installer/demonstration packages for UT2003/UT2004) are also localized without separate glossary entities and are not part of the UT2004 in-game glossary structure.
 
 ## Glossary row format
 
