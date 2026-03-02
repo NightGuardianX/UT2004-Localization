@@ -2,15 +2,15 @@
 
 This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[File Translation Status Rules](File%20Translation%20Status%20Rules.md)**.
 
-**Total:** 186 · **Done:** 3 · **Verified:** 0
+**Total:** 186 · **Done:** 8 · **Verified:** 0
 
 ## Status table
 
 | Base File                  | Localization               | Status       | Verified |
 |:---------------------------|:---------------------------|:-------------|:---------|
 | ALAudio.int                | ALAudio.rut                | Untranslated |          |
-| AS-BP2-Acatana.int         | AS-BP2-Acatana.rut         | Spanish!!!   |          |
-| AS-BP2-Jumpship.int        | AS-BP2-Jumpship.rut        | Spanish!!!   |          |
+| AS-BP2-Acatana.int         | AS-BP2-Acatana.rut         | Done         |          |
+| AS-BP2-Jumpship.int        | AS-BP2-Jumpship.rut        | Done         |          |
 | AS-BP2-Outback.int         | AS-BP2-Outback.rut         | Spanish!!!   |          |
 | AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | Spanish!!!   |          |
 | AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | Spanish!!!   |          |
@@ -22,7 +22,7 @@ This page lists all localization files and their translation status. Status mean
 | AS-RobotFactory.int        | AS-RobotFactory.rut        | Spanish!!!   |          |
 | BonusPack.int              | BonusPack.rut              | Spanish!!!   |          |
 | BR-Anubis.int              | BR-Anubis.rut              | Spanish!!!   |          |
-| BR-Bifrost.int             | BR-Bifrost.rut             | Untranslated |          |
+| BR-Bifrost.int             | BR-Bifrost.rut             | Spanish!!!   |          |
 | BR-BridgeOfFate.int        | BR-BridgeOfFate.rut        | Spanish!!!   |          |
 | BR-Canyon.int              | BR-Canyon.rut              | Spanish!!!   |          |
 | BR-Colossus.int            | BR-Colossus.rut            | Spanish!!!   |          |
@@ -30,9 +30,9 @@ This page lists all localization files and their translation status. Status mean
 | BR-Disclosure.int          | BR-Disclosure.rut          | Spanish!!!   |          |
 | BR-IceFields.int           | BR-IceFields.rut           | Untranslated |          |
 | BR-Serenity.int            | BR-Serenity.rut            | Spanish!!!   |          |
-| BR-Skyline.int             | BR-Skyline.rut             | Spanish!!!   |          |
+| BR-Skyline.int             | BR-Skyline.rut             | Untranslated |          |
 | BR-Slaughterhouse.int      | BR-Slaughterhouse.rut      | Spanish!!!   |          |
-| BR-TwinTombs.int           | BR-TwinTombs.rut           | Untranslated |          |
+| BR-TwinTombs.int           | BR-TwinTombs.rut           | Spanish!!!   |          |
 | Core.int                   | Core.rut                   | Spanish!!!   |          |
 | CTF-1on1-Joust.int         | CTF-1on1-Joust.rut         | Spanish!!!   |          |
 | CTF-AbsoluteZero.int       | CTF-AbsoluteZero.rut       | Spanish!!!   |          |
@@ -40,41 +40,41 @@ This page lists all localization files and their translation status. Status mean
 | CTF-BP2-Concentrate.int    | CTF-BP2-Concentrate.rut    | Spanish!!!   |          |
 | CTF-BP2-Pistola.int        | CTF-BP2-Pistola.rut        | Spanish!!!   |          |
 | CTF-BridgeOfFate.int       | CTF-BridgeOfFate.rut       | Spanish!!!   |          |
-| CTF-Chrome.int             | CTF-Chrome.rut             | Untranslated |          |
+| CTF-Chrome.int             | CTF-Chrome.rut             | Spanish!!!   |          |
 | CTF-Citadel.int            | CTF-Citadel.rut            | Untranslated |          |
 | CTF-Colossus.int           | CTF-Colossus.rut           | Spanish!!!   |          |
 | CTF-DE-ElecFields.int      | CTF-DE-ElecFields.rut      | Spanish!!!   |          |
 | CTF-DE-LavaGiant2.est      | CTF-DE-LavaGiant2.rut      | Spanish!!!   |          |
-| CTF-December.int           | CTF-December.rut           | Untranslated |          |
+| CTF-December.int           | CTF-December.rut           | Spanish!!!   |          |
 | CTF-DoubleDammage.int      | CTF-DoubleDammage.rut      | Spanish!!!   |          |
-| CTF-Face3.int              | CTF-Face3.rut              | Untranslated |          |
+| CTF-Face3.int              | CTF-Face3.rut              | Spanish!!!   |          |
 | CTF-FaceClassic.int        | CTF-FaceClassic.rut        | Spanish!!!   |          |
-| CTF-Geothermal.int         | CTF-Geothermal.rut         | Untranslated |          |
+| CTF-Geothermal.int         | CTF-Geothermal.rut         | Spanish!!!   |          |
 | CTF-Grassyknoll.int        | CTF-Grassyknoll.rut        | Spanish!!!   |          |
 | CTF-Grendelkeep.int        | CTF-Grendelkeep.rut        | Spanish!!!   |          |
 | CTF-January.int            | CTF-January.rut            | Spanish!!!   |          |
-| CTF-LostFaith.int          | CTF-LostFaith.rut          | Untranslated |          |
+| CTF-LostFaith.int          | CTF-LostFaith.rut          | Spanish!!!   |          |
 | CTF-Magma.int              | CTF-Magma.rut              | Untranslated |          |
 | CTF-Maul.int               | CTF-Maul.rut               | Untranslated |          |
 | CTF-MoonDragon.int         | CTF-MoonDragon.rut         | Spanish!!!   |          |
-| CTF-Orbital2.int           | CTF-Orbital2.rut           | Untranslated |          |
+| CTF-Orbital2.int           | CTF-Orbital2.rut           | Spanish!!!   |          |
 | CTF-Smote.int              | CTF-Smote.rut              | Spanish!!!   |          |
 | CTF-TwinTombs.int          | CTF-TwinTombs.rut          | Spanish!!!   |          |
-| D3DDrv.int                 | D3DDrv.rut                 | Spanish!!!   |          |
+| D3DDrv.int                 | D3DDrv.rut                 | In Progress  |          |
 | DemoLicense.est            | DemoLicense.rut            | Untranslated |          |
 | DM-1on1-Albatross.int      | DM-1on1-Albatross.rut      | Spanish!!!   |          |
 | DM-1on1-Crash.int          | DM-1on1-Crash.rut          | Spanish!!!   |          |
 | DM-1on1-Desolation.int     | DM-1on1-Desolation.rut     | Spanish!!!   |          |
-| DM-1on1-Idoma.int          | DM-1on1-Idoma.rut          | Untranslated |          |
+| DM-1on1-Idoma.int          | DM-1on1-Idoma.rut          | Spanish!!!   |          |
 | DM-1on1-Irondust.int       | DM-1on1-Irondust.rut       | Spanish!!!   |          |
 | DM-1on1-Mixer.int          | DM-1on1-Mixer.rut          | Spanish!!!   |          |
 | DM-1on1-Roughinery.int     | DM-1on1-Roughinery.rut     | Spanish!!!   |          |
-| DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | Spanish!!!   |          |
+| DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | Untranslated |          |
 | DM-1on1-Spirit.int         | DM-1on1-Spirit.rut         | Spanish!!!   |          |
 | DM-1on1-Squader.int        | DM-1on1-Squader.rut        | Spanish!!!   |          |
 | DM-1on1-Trite.int          | DM-1on1-Trite.rut          | Spanish!!!   |          |
 | DM-Antalus.int             | DM-Antalus.rut             | Spanish!!!   |          |
-| DM-Asbestos.int            | DM-Asbestos.rut            | Untranslated |          |
+| DM-Asbestos.int            | DM-Asbestos.rut            | Spanish!!!   |          |
 | DM-BP2-Calandras.int       | DM-BP2-Calandras.rut       | Spanish!!!   |          |
 | DM-BP2-GoopGod.int         | DM-BP2-GoopGod.rut         | Spanish!!!   |          |
 | DM-Compressed.int          | DM-Compressed.rut          | Spanish!!!   |          |
@@ -86,58 +86,58 @@ This page lists all localization files and their translation status. Status mean
 | DM-Deck17.int              | DM-Deck17.rut              | Spanish!!!   |          |
 | DM-DesertIsle.int          | DM-DesertIsle.rut          | Spanish!!!   |          |
 | DM-Flux2.int               | DM-Flux2.rut               | Untranslated |          |
-| DM-Gael.int                | DM-Gael.rut                | Untranslated |          |
+| DM-Gael.int                | DM-Gael.rut                | Spanish!!!   |          |
 | DM-Gestalt.int             | DM-Gestalt.rut             | Spanish!!!   |          |
 | DM-Goliath.int             | DM-Goliath.rut             | Spanish!!!   |          |
 | DM-HyperBlast2.int         | DM-HyperBlast2.rut         | Spanish!!!   |          |
 | DM-Icetomb.int             | DM-Icetomb.rut             | Spanish!!!   |          |
-| DM-Inferno.int             | DM-Inferno.rut             | Untranslated |          |
+| DM-Inferno.int             | DM-Inferno.rut             | Spanish!!!   |          |
 | DM-Injector.int            | DM-Injector.rut            | Spanish!!!   |          |
 | DM-Insidious.int           | DM-Insidious.rut           | Spanish!!!   |          |
 | DM-IronDeity.int           | DM-IronDeity.rut           | Spanish!!!   |          |
 | DM-JunkYard.int            | DM-JunkYard.rut            | Spanish!!!   |          |
-| DM-Leviathan.int           | DM-Leviathan.rut           | Untranslated |          |
+| DM-Leviathan.int           | DM-Leviathan.rut           | Spanish!!!   |          |
 | DM-Metallurgy.int          | DM-Metallurgy.rut          | Spanish!!!   |          |
 | DM-Morpheus3.int           | DM-Morpheus3.rut           | Spanish!!!   |          |
-| DM-Oceanic.int             | DM-Oceanic.rut             | Untranslated |          |
+| DM-Oceanic.int             | DM-Oceanic.rut             | Spanish!!!   |          |
 | DM-Phobos2.int             | DM-Phobos2.rut             | Spanish!!!   |          |
-| DM-Plunge.int              | DM-Plunge.rut              | Untranslated |          |
+| DM-Plunge.int              | DM-Plunge.rut              | Spanish!!!   |          |
 | DM-Rankin.int              | DM-Rankin.rut              | Spanish!!!   |          |
 | DM-Rrajigar.int            | DM-Rrajigar.rut            | Spanish!!!   |          |
 | DM-Rustatorium.int         | DM-Rustatorium.rut         | Spanish!!!   |          |
 | DM-Sulphur.int             | DM-Sulphur.rut             | Spanish!!!   |          |
-| DM-TokaraForest.int        | DM-TokaraForest.rut        | Spanish!!!   |          |
-| DM-TrainingDay.int         | DM-TrainingDay.rut         | Untranslated |          |
+| DM-TokaraForest.int        | DM-TokaraForest.rut        | Untranslated |          |
+| DM-TrainingDay.int         | DM-TrainingDay.rut         | Spanish!!!   |          |
 | DOM-Access.int             | DOM-Access.rut             | Spanish!!!   |          |
 | DOM-Aswan.int              | DOM-Aswan.rut              | Spanish!!!   |          |
 | DOM-Atlantis.int           | DOM-Atlantis.rut           | Spanish!!!   |          |
 | DOM-Conduit.int            | DOM-Conduit.rut            | Spanish!!!   |          |
-| DOM-Core.int               | DOM-Core.rut               | Untranslated |          |
+| DOM-Core.int               | DOM-Core.rut               | Spanish!!!   |          |
 | DOM-Junkyard.int           | DOM-Junkyard.rut           | Spanish!!!   |          |
 | DOM-OutRigger.int          | DOM-OutRigger.rut          | Spanish!!!   |          |
 | DOM-Renascent.int          | DOM-Renascent.rut          | Spanish!!!   |          |
 | DOM-Ruination.int          | DOM-Ruination.rut          | Untranslated |          |
-| DOM-ScorchedEarth.int      | DOM-ScorchedEarth.rut      | Untranslated |          |
+| DOM-ScorchedEarth.int      | DOM-ScorchedEarth.rut      | Spanish!!!   |          |
 | DOM-SepukkuGorge.int       | DOM-SepukkuGorge.rut       | Untranslated |          |
-| DOM-Suntemple.int          | DOM-Suntemple.rut          | Spanish!!!   |          |
+| DOM-Suntemple.int          | DOM-Suntemple.rut          | Untranslated |          |
 | Editor.int                 | Editor.rut                 | Untranslated |          |
-| endgame.int                | endgame.rut                | Spanish!!!   |          |
+| endgame.int                | endgame.rut                | Untranslated |          |
 | Engine.int                 | Engine.rut                 | Spanish!!!   |          |
 | Entry.int                  | Entry.rut                  | Done         |          |
 | GamePlay.int               | GamePlay.rut               | Spanish!!!   |          |
 | Gestalt.est                | Gestalt.rut                | Spanish!!!   |          |
-| GUI2K4.int                 | GUI2K4.rut                 | Spanish!!!   |          |
-| IpDrv.int                  | IpDrv.rut                  | Spanish!!!   |          |
+| GUI2K4.int                 | GUI2K4.rut                 | In Progress  |          |
+| IpDrv.int                  | IpDrv.rut                  | In Progress  |          |
 | License.est                | License.rut                | Untranslated |          |
 | Manifest.est               | Manifest.rut               | Spanish!!!   |          |
 | Mov-UT2-intro.int          | Mov-UT2-intro.rut          | Untranslated |          |
-| MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Untranslated |          |
+| MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Spanish!!!   |          |
 | NoIntro.int                | NoIntro.rut                | Done         |          |
 | NvidiaLogo.int             | NvidiaLogo.rut             | Done         |          |
 | ONS-Adara.int              | ONS-Adara.rut              | Spanish!!!   |          |
 | ONS-ArcticStronghold.int   | ONS-ArcticStronghold.rut   | Spanish!!!   |          |
 | ONS-Aridoom.int            | ONS-Aridoom.rut            | Spanish!!!   |          |
-| ONS-Ascendancy.int         | ONS-Ascendancy.rut         | Spanish!!!   |          |
+| ONS-Ascendancy.int         | ONS-Ascendancy.rut         | Untranslated |          |
 | ONS-Crossfire.int          | ONS-Crossfire.rut          | Spanish!!!   |          |
 | ONS-Dawn.int               | ONS-Dawn.rut               | Spanish!!!   |          |
 | ONS-Dria.int               | ONS-Dria.rut               | Spanish!!!   |          |
@@ -152,7 +152,7 @@ This page lists all localization files and their translation status. Status mean
 | Onslaught.est              | Onslaught.rut              | Spanish!!!   |          |
 | OnslaughtBP.int            | OnslaughtBP.rut            | Spanish!!!   |          |
 | OnslaughtFull.int          | OnslaughtFull.rut          | Spanish!!!   |          |
-| ParticleExamples.int       | ParticleExamples.rut       | Untranslated |          |
+| ParticleExamples.int       | ParticleExamples.rut       | Spanish!!!   |          |
 | Setup.int                  | Setup.rut                  | Spanish!!!   |          |
 | SetupBonusPack.est         | SetupBonusPack.rut         | Untranslated |          |
 | setupbrightskinsmod.est    | setupbrightskinsmod.rut    | Untranslated |          |
@@ -160,14 +160,14 @@ This page lists all localization files and their translation status. Status mean
 | SetupUT2003_Full.est       | SetupUT2003_Full.rut       | Spanish!!!   |          |
 | SetupUT2004Demo.est        | SetupUT2004Demo.rut        | Spanish!!!   |          |
 | setuput2004full.est        | setuput2004full.rut        | Spanish!!!   |          |
-| SkaarjPack.int             | SkaarjPack.rut             | Spanish!!!   |          |
+| SkaarjPack.int             | SkaarjPack.rut             | Done         |          |
 | Startup.int                | Startup.rut                | Spanish!!!   |          |
 | TeamSymbols_UT2003.int     | TeamSymbols_UT2003.rut     | Untranslated |          |
 | TeamSymbols_UT2004.int     | TeamSymbols_UT2004.rut     | Untranslated |          |
 | TUT-BR.int                 | TUT-BR.rut                 | Spanish!!!   |          |
 | TUT-CTF.int                | TUT-CTF.rut                | Untranslated |          |
-| TUT-DM.int                 | TUT-DM.rut                 | Untranslated |          |
-| TUT-DOM2.int               | TUT-DOM2.rut               | Untranslated |          |
+| TUT-DM.int                 | TUT-DM.rut                 | Spanish!!!   |          |
+| TUT-DOM2.int               | TUT-DOM2.rut               | Spanish!!!   |          |
 | TUT-ONS.int                | TUT-ONS.rut                | Untranslated |          |
 | UC.est                     | UC.rut                     | Untranslated |          |
 | UnrealEd.int               | UnrealEd.rut               | Untranslated |          |
@@ -177,12 +177,12 @@ This page lists all localization files and their translation status. Status mean
 | UT2k4Assault.int           | UT2k4Assault.rut           | Spanish!!!   |          |
 | UT2K4AssaultFull.int       | UT2K4AssaultFull.rut       | Spanish!!!   |          |
 | UTClassic.int              | UTClassic.rut              | Spanish!!!   |          |
-| UTV2004c.int               | UTV2004c.rut               | Untranslated |          |
-| UTV2004s.int               | UTV2004s.rut               | Spanish!!!   |          |
+| UTV2004c.int               | UTV2004c.rut               | Spanish!!!   |          |
+| UTV2004s.int               | UTV2004s.rut               | Untranslated |          |
 | UWeb.int                   | UWeb.rut                   | Untranslated |          |
-| Vehicles.int               | Vehicles.rut               | Spanish!!!   |          |
+| Vehicles.int               | Vehicles.rut               | Done         |          |
 | Window.int                 | Window.rut                 | Spanish!!!   |          |
-| WinDrv.int                 | WinDrv.rut                 | Untranslated |          |
+| WinDrv.int                 | WinDrv.rut                 | Spanish!!!   |          |
 | XAdmin.int                 | XAdmin.rut                 | Spanish!!!   |          |
 | XDemoMaps.est              | XDemoMaps.rut              | Spanish!!!   |          |
 | XGame.int                  | XGame.rut                  | Spanish!!!   |          |
@@ -193,7 +193,7 @@ This page lists all localization files and their translation status. Status mean
 | xplayers2.est              | xplayers2.rut              | Spanish!!!   |          |
 | XVoting.int                | XVoting.rut                | Spanish!!!   |          |
 | XWeapons.est               | XWeapons.rut               | Spanish!!!   |          |
-| XWebAdmin.int              | XWebAdmin.rut              | Spanish!!!   |          |
+| XWebAdmin.int              | XWebAdmin.rut              | Done         |          |
 
 ---
 
