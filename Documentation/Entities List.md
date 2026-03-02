@@ -22,7 +22,7 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 - UI_Dialogs          — [Glossary: UI_Dialogs.md](Glossary/UI_Dialogs.md)
 - UI_Popups           — [Glossary: UI_Popups.md](Glossary/UI_Popups.md)
 - UI_Tooltips         — [Glossary: UI_Tooltips.md](Glossary/UI_Tooltips.md)
-- UI_Notification s   — [Glossary: UI_Notifications.md](Glossary/UI_Notifications.md)
+- UI_Notifications    — [Glossary: UI_Notifications.md](Glossary/UI_Notifications.md)
 - UI_Loading          — [Glossary: UI_Loading.md](Glossary/UI_Loading.md)
 
 ## Lore entities

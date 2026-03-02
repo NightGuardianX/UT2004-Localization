@@ -1,3 +1,5 @@
+# UI Start menu buttons glossary
+
 ## Entity Glossary Rules (UI_StartMenuButtons)
 
 - **Sources:** Main menu button labels from `[UT2MainMenu]` in `XInterface.int` and `[UT2K4MainMenu]` in `GUI2K4.int`. **Current Russian uses `/rut/GUI2K4.rut` (`[UT2K4MainMenu]`) as the primary and canonical source**. Old Russian from `/rut_old/XInterface.rut`.

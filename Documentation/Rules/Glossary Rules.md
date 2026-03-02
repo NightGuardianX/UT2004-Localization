@@ -30,31 +30,34 @@ Game, UI, and lore entities are kept in separate groups.
 
 - **Game_Maps** — All map display names. Sources: DM-*, CTF-*, ONS-*, BR-*, DOM-*, AS-*, TUT-*, MOV-* (.int files).
 - **Game_Weapons** — Weapon names (Assault Rifle, Flak Cannon, etc.). Source: XWeapons.int.
-- **Game_Vehicles** — Vehicle names. Source: Vehicles.int.
-- **Game_Pickups** — Ammo, powerups, health, etc. Source: XPickups.int.
-- **Game_GameModes** — Deathmatch, CTF, Onslaught, etc. Sources: XGame.int, XMaps.int.
-- **Game_Abilities** — Dodge, Jump, Fire, Alt Fire, etc. Sources: XPlayers.int, XInterface.int.
+- **Game_Vehicles** — Vehicle names. Sources: Vehicles.int, Onslaught.int, OnslaughtFull.int.
+- **Game_Pickups** — Ammo, powerups, health, etc. Sources: XPickups.int, XWeapons.int, OnslaughtFull.int.
+- **Game_Modes** — Deathmatch, CTF, Onslaught, Assault, etc. Sources: XGame.int, BonusPack.int, SkaarjPack.int, UT2k4Assault.int, OnslaughtFull.int.
+- **Game_Abilities** — Movement, combat, HUD, and game control bindings (Forward, Jump, Fire, etc.). Sources: XInterface.int, GUI2K4.int, GamePlay.int, UnrealGame.int.
+- **Game_Monsters** — Invasion and other monster / enemy names. Sources: GUI2K4.int (`UT2K4InvasionWaveConfig`), XGame.int, SkaarjPack.int.
+- **Game_Mutators** — Game mutator names. Sources: UnrealGame.int, XGame.int, XWeapons.int, OnslaughtFull.int, OnslaughtBP.int, UTClassic.int, BonusPack.int, UTV2004s.int.
 
 ### UI entities
 
-- **UI_StartMenuButtons** — Main menu button labels. Sources: Entry.int, Setup.int, XInterface.int, GUI2K4.int.
-- **UI_Menus** — Menu / screen names. Sources: XInterface.int, GUI2K4.int.
+- **UI_StartMenuButtons** — Main menu button labels. Sources: XInterface.int, GUI2K4.int.
+- **UI_Menus** — Menu / screen names. Source: GUI2K4.int (plus related UI .int where needed).
 - **UI_Settings** — In‑game settings option labels and values. Source: GUI2K4.int.
-- **UI_Dialogs** — Dialog titles and key phrases. Sources: XInterface.int, Setup.int.
-- **UI_Popups** — Popup messages. Source: XInterface.int.
-- **UI_Tooltips** — Tooltip text. Sources: XInterface.int, Setup.int.
-- **UI_Notifications** — Notifications, errors, warnings, success, info, help. Source: XInterface.int.
+- **UI_Dialogs** — Dialog titles and key phrases. Sources: Setup.int, XInterface.int.
+- **UI_Popups** — Short popup status messages. Source: XInterface.int.
+- **UI_Tooltips** — Tooltip text for controls. Sources: XInterface.int, Setup.int.
+- **UI_Notifications** — HUD and console notifications, errors, warnings, success, info, help. Sources: XInterface.int, UnrealGame.int, XGame.int, GUI2K4.int.
+- **UI_Loading** — Loading / progress labels and messages. Sources: XInterface.int, GUI2K4.int, Engine.int, Core.int, XWebAdmin.int.
 
 ### Lore entities
 
 - **Lore_Characters** — Character / player names. Source: XPlayers.int.
 - **Lore_Teams** — Team names and symbols. Sources: TeamSymbols_UT2004.int, XGame.int.
-- **Lore_Lore** — Species, locations, events, corporations (e.g. Liandri). Sources: narrative strings in relevant .int files.
+- **Lore_Universe** — Species, locations, events, corporations (e.g. Liandri). Sources: narrative strings in relevant .int files (XPlayers.int, XGame.int, map .int descriptions, etc.).
 
 ### Optional / technical
 
-- **Tutorials** — Tutorial map/text names. Source: TUT-*.int.
-- **BonusPack** — Bonus content labels. Source: BonusPack.int.
+- **Tutorials** — Tutorial strings and tutorial-related UI text. Sources: GamePlay.int, UnrealGame.int, UTClassic.int, XInterface.int, GUI2K4.int, TUT-*.int.
+- **BonusPack** — Bonus pack titles and high-level bonus content labels. Source: BonusPack.int and related bonus .int files.
 - **WebAdmin** — Web admin UI strings. Sources: XWebAdmin.int, XAdmin.int, UWeb.int.
 
 ## Glossary row format
