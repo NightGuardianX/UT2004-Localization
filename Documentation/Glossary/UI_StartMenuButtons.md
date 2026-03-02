@@ -4,7 +4,7 @@
 
 - **Sources:** Main menu button labels from `[UT2MainMenu]` in `XInterface.int` and `[UT2K4MainMenu]` in `GUI2K4.int`. **Current Russian uses `/rut/GUI2K4.rut` (`[UT2K4MainMenu]`) as the primary and canonical source**. Old Russian from `/rut_old/XInterface.rut`.
 - **Scope:** Only the primary buttons visible on the main / front-end menu screen: Host, Instant Action, Multiplayer, Quit, Settings, Single Player.
-- **Exclusions:** Submenu buttons (inside Instant Action, Settings, etc.) and mid‑game menu entries are not included here; they belong to other UI entities (e.g. `UI_Menus`, dialogs, popups).
+- **Exclusions:** Submenu buttons (inside Instant Action, Settings, etc.) and mid‑game menu entries are not included here; they belong to other UI entities (e.g. `UI_Menus`, dialogs, popups). The main menu screen itself is tracked in the `UI_Menus` entity as `UT2k4MainMenu`.
 - **Table format:** Standard 4‑column table: *Technical name | English name | Current Russian | Old Russian*.
 
 ---

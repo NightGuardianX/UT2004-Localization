@@ -44,7 +44,7 @@ Notes:
 
 Technical name           | English name       | Current Russian   | Old Russian
 -------------------------|--------------------|-------------------|--------------------------
-UT2k4MainMenu            | Main Menu          | Главное меню      | -
+UT2k4MainMenu            | Main Menu          | Главное меню      | -    *(main screen; primary buttons are listed in `UI_StartMenuButtons.md`)*
 UT2K4SettingsPage        | Settings           | Настройки         | -
 UT2K4SP_Main.PageCaption | Tournament         | Турнир            | -
 UT2k4ServerBrowser       | Server Browser     | -                 | -
