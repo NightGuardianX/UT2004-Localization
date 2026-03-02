@@ -36,6 +36,7 @@ Game, UI, and lore entities are kept in separate groups.
 - **Game_Abilities** — Movement, combat, HUD, and game control bindings (Forward, Jump, Fire, etc.). Sources: XInterface.int, GUI2K4.int, GamePlay.int, UnrealGame.int.
 - **Game_Monsters** — Invasion and other monster / enemy names. Sources: GUI2K4.int (`UT2K4InvasionWaveConfig`), XGame.int, SkaarjPack.int.
 - **Game_Mutators** — Game mutator names. Sources: UnrealGame.int, XGame.int, XWeapons.int, OnslaughtFull.int, OnslaughtBP.int, UTClassic.int, BonusPack.int, UTV2004s.int.
+- **Game_Adrenaline** — Adrenaline resource, standard and bonus Adrenaline combos, and closely related mutators/options. Sources: XPickups.int, GamePlay.int, UnrealGame.int, XGame.int, BonusPack.int.
 
 ### UI entities
 
@@ -80,6 +81,12 @@ Each glossary uses a **Markdown table** with four columns. For new and edited do
 **Filling Current / Old Russian when creating a new entity page:** When you generate a new glossary file (new entity), always try to fill both Russian columns immediately, not leave them all as `-`. For each row, look up `Current Russian name` in `/rut` and `Old Russian name` in `/rut_old/` using the rules above. If either lookup fails (no Russian, only Spanish placeholder, or no entry), only that specific cell stays `-`. The corresponding table cells remain `-`.
 
 **Filling missing Old Russian:** When a glossary row has no Old Russian translation, look it up in `/rut_old/`. Use the same package/source file as the term (e.g. `XGame.rut` for `[xDeathMatch]` GameName, `BonusPack.rut` for BonusPack entities, `Onslaught.rut` for `[ONSOnslaughtGame]`, `UT2k4Assault.rut` for `[ASGameInfo]`, `SkaarjPack.rut` for `[Invasion]`). Match the section name `[SectionName]` and the key (e.g. `GameName`, `ItemName`, `PickupMessage`) to the English source in `/int`; the value in the matching `.rut` file is the Old Russian. If not found in rut_old, leave the cell as `-`.
+
+**Mechanic-focused entities (like Game_Adrenaline):** In some cases it is useful to introduce additional `Game_*` entities that focus on a specific game mechanic (resource, combo system, etc.) and reuse objects from existing entities (e.g. pickups, mutators). Such mechanic entities are allowed as **subtypes** that cut across `Game_Pickups`, `Game_Mutators`, `Game_Modes`, etc., but they must:
+
+- not duplicate full coverage of those entities (only include rows needed to describe the mechanic consistently);
+- follow the same four-column glossary format and source rules as the base entities;
+- clearly describe in their own Entity Glossary Rules how they relate to the primary entities (what is referenced vs. what is redefined).
 
 ## Entity Glossary Rules
 

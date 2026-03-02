@@ -40,4 +40,4 @@ One glossary file per entity: `Documentation/Glossary/<Entity>.md`.
 
 ---
 
-Total: 22 entities
+Total: 23 entities

@@ -48,7 +48,7 @@ Notes:
 | ONSBomber                            | DragonFly                      | -               | Драконфлай                  |
 | ONSGenericSD                         | TC-1200                        | -               | ТС-1200                     |
 | ONSHoverTank_IonPlasma               | Ion Plasma Tank                | -               | Ионный танк                 |
-| ON SMASSideGunPawn                   | Leviathan Turret               | -               | Пушка Левиафана             |
+| ONSMASSideGunPawn                    | Leviathan Turret               | -               | Пушка Левиафана             |
 | ONSMobileAssaultStation              | Leviathan                      | -               | Левиафан                    |
 | ONSTankSecondaryTurretPawn_IonPlasma | Ion Plasma Tank Minigun Turret | -               | Пулемет Ионного танка       |
 
