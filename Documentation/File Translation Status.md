@@ -44,7 +44,7 @@ This page lists all localization files and their translation status. Status mean
 | CTF-Citadel.int            | CTF-Citadel.rut            | Untranslated |          |
 | CTF-Colossus.int           | CTF-Colossus.rut           | Spanish!!!   |          |
 | CTF-DE-ElecFields.int      | CTF-DE-ElecFields.rut      | Spanish!!!   |          |
-| -                          | CTF-DE-LavaGiant2.rut      | No .int      |          |
+| CTF-DE-LavaGiant2.est      | CTF-DE-LavaGiant2.rut      | Spanish!!!   |          |
 | CTF-December.int           | CTF-December.rut           | Untranslated |          |
 | CTF-DoubleDammage.int      | CTF-DoubleDammage.rut      | Spanish!!!   |          |
 | CTF-Face3.int              | CTF-Face3.rut              | Untranslated |          |
@@ -61,7 +61,7 @@ This page lists all localization files and their translation status. Status mean
 | CTF-Smote.int              | CTF-Smote.rut              | Spanish!!!   |          |
 | CTF-TwinTombs.int          | CTF-TwinTombs.rut          | Spanish!!!   |          |
 | D3DDrv.int                 | D3DDrv.rut                 | Spanish!!!   |          |
-| -                          | DemoLicense.rut            | No .int      |          |
+| DemoLicense.est            | DemoLicense.rut            | Untranslated |          |
 | DM-1on1-Albatross.int      | DM-1on1-Albatross.rut      | Spanish!!!   |          |
 | DM-1on1-Crash.int          | DM-1on1-Crash.rut          | Spanish!!!   |          |
 | DM-1on1-Desolation.int     | DM-1on1-Desolation.rut     | Spanish!!!   |          |
@@ -125,11 +125,11 @@ This page lists all localization files and their translation status. Status mean
 | Engine.int                 | Engine.rut                 | Spanish!!!   |          |
 | Entry.int                  | Entry.rut                  | Done         |          |
 | GamePlay.int               | GamePlay.rut               | Spanish!!!   |          |
-| -                          | Gestalt.rut                | No .int      |          |
+| Gestalt.est                | Gestalt.rut                | Spanish!!!   |          |
 | GUI2K4.int                 | GUI2K4.rut                 | Spanish!!!   |          |
 | IpDrv.int                  | IpDrv.rut                  | Spanish!!!   |          |
-| -                          | License.rut                | No .int      |          |
-| -                          | Manifest.rut               | No .int      |          |
+| License.est                | License.rut                | Untranslated |          |
+| Manifest.est               | Manifest.rut               | Spanish!!!   |          |
 | Mov-UT2-intro.int          | Mov-UT2-intro.rut          | Untranslated |          |
 | MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Untranslated |          |
 | NoIntro.int                | NoIntro.rut                | Done         |          |
@@ -149,17 +149,17 @@ This page lists all localization files and their translation status. Status mean
 | ONS-Torlan.int             | ONS-Torlan.rut             | Spanish!!!   |          |
 | ONS-Tricky.int             | ONS-Tricky.rut             | Spanish!!!   |          |
 | ONS-Urban.int              | ONS-Urban.rut              | Spanish!!!   |          |
-| -                          | Onslaught.rut              | Spanish!!!   |          |
+| Onslaught.est              | Onslaught.rut              | Spanish!!!   |          |
 | OnslaughtBP.int            | OnslaughtBP.rut            | Spanish!!!   |          |
 | OnslaughtFull.int          | OnslaughtFull.rut          | Spanish!!!   |          |
 | ParticleExamples.int       | ParticleExamples.rut       | Untranslated |          |
 | Setup.int                  | Setup.rut                  | Spanish!!!   |          |
-| -                          | SetupBonusPack.rut         | No .int      |          |
-| -                          | setupbrightskinsmod.rut    | No .int      |          |
-| -                          | SetupUT2003_Demo.rut       | No .int      |          |
-| -                          | SetupUT2003_Full.rut       | No .int      |          |
-| -                          | SetupUT2004Demo.rut        | No .int      |          |
-| -                          | setuput2004full.rut        | No .int      |          |
+| SetupBonusPack.est         | SetupBonusPack.rut         | Untranslated |          |
+| setupbrightskinsmod.est    | setupbrightskinsmod.rut    | Untranslated |          |
+| SetupUT2003_Demo.est       | SetupUT2003_Demo.rut       | Spanish!!!   |          |
+| SetupUT2003_Full.est       | SetupUT2003_Full.rut       | Spanish!!!   |          |
+| SetupUT2004Demo.est        | SetupUT2004Demo.rut        | Spanish!!!   |          |
+| setuput2004full.est        | setuput2004full.rut        | Spanish!!!   |          |
 | SkaarjPack.int             | SkaarjPack.rut             | Spanish!!!   |          |
 | Startup.int                | Startup.rut                | Spanish!!!   |          |
 | TeamSymbols_UT2003.int     | TeamSymbols_UT2003.rut     | Untranslated |          |
@@ -169,10 +169,10 @@ This page lists all localization files and their translation status. Status mean
 | TUT-DM.int                 | TUT-DM.rut                 | Untranslated |          |
 | TUT-DOM2.int               | TUT-DOM2.rut               | Untranslated |          |
 | TUT-ONS.int                | TUT-ONS.rut                | Untranslated |          |
-| -                          | UC.rut                     | No .int      |          |
+| UC.est                     | UC.rut                     | Untranslated |          |
 | UnrealEd.int               | UnrealEd.rut               | Untranslated |          |
 | UnrealGame.int             | UnrealGame.rut             | Spanish!!!   |          |
-| -                          | ut2003.rut                 | No .int      |          |
+| ut2003.est                 | ut2003.rut                 | Spanish!!!   |          |
 | UT2004.int                 | UT2004.rut                 | Untranslated |          |
 | UT2k4Assault.int           | UT2k4Assault.rut           | Spanish!!!   |          |
 | UT2K4AssaultFull.int       | UT2K4AssaultFull.rut       | Spanish!!!   |          |
@@ -184,15 +184,15 @@ This page lists all localization files and their translation status. Status mean
 | Window.int                 | Window.rut                 | Spanish!!!   |          |
 | WinDrv.int                 | WinDrv.rut                 | Untranslated |          |
 | XAdmin.int                 | XAdmin.rut                 | Spanish!!!   |          |
-| -                          | XDemoMaps.rut              | No .int      |          |
+| XDemoMaps.est              | XDemoMaps.rut              | Spanish!!!   |          |
 | XGame.int                  | XGame.rut                  | Spanish!!!   |          |
 | XInterface.int             | XInterface.rut             | Spanish!!!   |          |
 | XMaps.int                  | XMaps.rut                  | Spanish!!!   |          |
 | XPickups.int               | XPickups.rut               | Spanish!!!   |          |
 | XPlayers.int               | XPlayers.rut               | Spanish!!!   |          |
-| -                          | xplayers2.rut              | No .int      |          |
+| xplayers2.est              | xplayers2.rut              | Spanish!!!   |          |
 | XVoting.int                | XVoting.rut                | Spanish!!!   |          |
-| -                          | XWeapons.rut               | Spanish!!!   |          |
+| XWeapons.est               | XWeapons.rut               | Spanish!!!   |          |
 | XWebAdmin.int              | XWebAdmin.rut              | Spanish!!!   |          |
 
 ---
