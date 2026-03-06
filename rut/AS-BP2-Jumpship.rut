@@ -1,6 +1,6 @@
 [ASCriticalObjectiveVolume1]
 ; EN: LocationName="Coolant Valve Control"
-LocationName="Управление клапана охлаждения"
+LocationName="Управление клапаном охлаждения"
 
 [ASCriticalObjectiveVolume2]
 ; EN: LocationName="Teleporter Console"
@@ -20,7 +20,7 @@ LocationName="Консоль центрального компьютера"
 
 [DestroyableObjective_SM0]
 ; EN: DestructionMessage="Coolant Valve Control Destroyed!"
-DestructionMessage="Управление клапана охлаждения уничтожено!"
+DestructionMessage="Управление клапаном охлаждения уничтожено!"
 ; EN: ObjectiveDescription="Destroy Thermal Control Regulator to cool Jumpship engines."
 ObjectiveDescription="Уничтожьте регулятор теплового контроля, чтобы охладить двигатели десантного корабля."
 ; EN: Objective_Info_Attacker="Destroy Thermal Control Regulator"
