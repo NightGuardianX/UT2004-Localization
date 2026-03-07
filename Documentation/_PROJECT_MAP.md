@@ -22,6 +22,9 @@ Language list: [_LANGUAGES_LIST.md](_LANGUAGES_LIST.md).
 | [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) | Table of .rut file translation statuses |
 | [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md) | Glossary index and entity list with links to glossaries |
 | [GLOSSARY_RULES](GLOSSARY_RULES.md) · [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) | Rules (file status, entity glossaries) |
+| [DUPLICATED_KEYS](DUPLICATED_KEYS.md) · [_DUPLICATED_KEYS_LIST](_DUPLICATED_KEYS_LIST.md) | Keys duplicated across .rut files; list and sync rules |
+| [\_INCOMING_ANALYSIS.md](_INCOMING_ANALYSIS.md) | Handoff: changed files and .rut key/value list (written by Sync step, read by Validate step) |
+| [\_VALIDATION_REPORT.md](_VALIDATION_REPORT.md) | Handoff: validation issues and mismatches for the translator (written by Validate step, read by translator) |
 | [Glossary/](Glossary/) | Entity glossaries + [LOCALIZATION_GLOSSARY.md](Glossary/LOCALIZATION_GLOSSARY.md) |
 
 ## Key Links
