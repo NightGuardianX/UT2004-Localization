@@ -28,10 +28,10 @@ When asked to validate .rut changes against glossaries and update Current Russia
 
 ### 2. Map each modified .rut to relevant glossaries
 
-- For each distinct **basename** of a modified .rut (e.g. `XGame`, `BonusPack`), determine which **entity glossaries** can contain terms from that file.
-- **Source of truth:** [GLOSSARY_RULES](GLOSSARY_RULES.md) “Entity groups” and “Sources” (which .int files each entity uses). Same basename applies: `XGame.rut` ↔ `XGame.int`.
-- **Optional shortcut:** In `Documentation/Glossary/`, grep for `"Basename.int"` (e.g. `XGame.int`) to get the list of glossary files that mention that source. Then only those glossary files are relevant for that .rut.
-- Result: for each modified .rut file, a **list of glossary file paths** (e.g. `Game_Adrenaline.md`, `Game_Mutators.md`, `Lore_Teams.md` for `XGame.rut`).
+- For each distinct **basename** of a modified .rut (e.g. `XGame.rut`, `BonusPack.rut`), determine which **entity glossaries** can contain terms from that file.
+- **When glossaries have a “.rut file” column** ([GLOSSARY_RULES](GLOSSARY_RULES.md) optional fifth column): grep that column for the basename (e.g. `GUI2K4.rut`) in `Documentation/Glossary/*.md` to get only the rows that belong to that file; then match changed keys to those rows. No need to derive the glossary list from entity Sources.
+- **When the column is absent:** Use [GLOSSARY_RULES](GLOSSARY_RULES.md) “Entity groups” and “Sources” (which .int files each entity uses). Same basename applies: `XGame.rut` ↔ `XGame.int`. In `Documentation/Glossary/`, grep for `"Basename.int"` (e.g. `XGame.int`) to get the list of glossary files that mention that source; then only those glossary files are relevant for that .rut.
+- Result: for each modified .rut file, either a **set of matching glossary rows** (if .rut file column is used) or a **list of glossary file paths** to search.
 
 ### 3. For each changed key, find the glossary row (minimal read)
 

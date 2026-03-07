@@ -37,6 +37,15 @@ Entity glossary tables include an **Old Russian** column — strings from the ol
 
 List: [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md). Groups: Game_*, UI_*, Lore_*, Tech_* (entity glossaries in [Glossary/](Glossary/)).
 
+## Scripts
+
+Scripts in `/scripts` are **canonical**: use them as-is for the steps that reference them. Do **not** recreate or reimplement; update a script only when the process/step changes, the script fails, or the file format differs.
+
+| Script | Used in | Purpose |
+|--------|---------|---------|
+| [diff_rut_merge.py](../scripts/diff_rut_merge.py) | [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md) | When `git diff` reports binary for .rut (e.g. UTF-16): get key-level changes from merge and write \_diff_rut_result.json. |
+| classify_status.ps1 | *(status/classification)* | *(document when used)* |
+
 ## Process
 
 | Stage | Tool / method |

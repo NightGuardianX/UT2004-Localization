@@ -70,13 +70,15 @@ Game, UI, and lore entities are kept in separate groups.
 
 ## Glossary row format
 
-Each glossary uses a **Markdown table** with four columns. For new and edited documents the **preferred layout** is GitHub‑style (with leading and trailing `|` on each row), for example:
+Each glossary uses a **Markdown table** with four columns (or five if the optional **.rut file** column is used). For new and edited documents the **preferred layout** is GitHub‑style (with leading and trailing `|` on each row), for example:
 
 | Technical Name | English Name | Current Russian Name | Old Russian Name |
 | -------------- | ------------ | -------------------- | ---------------- |
 
+**Optional fifth column: .rut file** — To simplify [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) and lookup, a column **.rut file** can be added (e.g. as the second column: `Technical name | .rut file | English name | Current Russian | Old Russian`). Value: the basename of the `.rut` file where this key lives (e.g. `XGame.rut`, `GUI2K4.rut`). Then, when processing the diff, the step can filter glossary rows by this column instead of resolving key↔file via entity Sources each time. For entities with a single source, the column can be omitted or filled once per table; for entities that mix several sources (e.g. Game_Abilities with GUI2K4.rut and XInterface.rut), filling it per row is recommended.
+
 - In the **source .md files**, prefer the same visual style and alignment as in `Game_Pickups.md` (columns aligned with spaces, header and separator rows present). This keeps tables readable both in rendered form and directly in a monospaced editor. Renderers ignore extra spaces around cell content, but this padding makes the raw markdown easier to scan and aligns visually in the IDE.
-- Legacy tables that use the older style without leading/trailing `|` are still considered valid as long as they keep the same four columns and semantics; they may stay in the current format until the file is edited for content anyway (then it can be migrated to GitHub-style if desired).
+- Legacy tables that use the older style without leading/trailing `|` are still considered valid as long as they keep the same four columns and semantics; they may stay in the current format until the file is edited for content anyway (then it can be migrated to GitHub-style and optionally to the five-column format if desired).
 
 - **Technical name** — identifier from the game (e.g. map name `AS-Convoy`, key `SinglePlayerButtonText`).
 - **English name** — from the corresponding file in `/int`.

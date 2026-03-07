@@ -17,11 +17,11 @@ Source: *(list .int or other source files)*
 Current Russian: /rut.
 Old Russian: /rut_old.
 
-Format (Markdown table, GitHub-style as in `Game_Pickups.md`):
+Format (Markdown table, GitHub-style as in `Game_Pickups.md`). Optional: add **.rut file** column (second column) to simplify validation-step lookup; use basename only (e.g. `XGame.rut`).
 
-| Technical name   | English name   | Current Russian | Old Russian        |
-| ---------------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
+| Technical name   | (.rut file)    | English name   | Current Russian | Old Russian        |
+| ---------------- | -------------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)*| *(e.g. XGame.rut)* | (English label)| -               | (Old Russian or -) |
 
 If no translation: `-`.
 
@@ -35,8 +35,8 @@ Notes:
 
 ## *(Category or section name)*
 
-| Technical name   | English name   | Current Russian | Old Russian        |
-| ---------------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
+| Technical name   | (.rut file)    | English name   | Current Russian | Old Russian        |
+| ---------------- | -------------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | *(e.g. XGame.rut)* | (English label)| -               | (Old Russian or -) |
 
 Add more sections and rows as needed. Keep column order and meaning the same across all tables. Prefer GitHub-style tables (with leading and trailing `|`) and align columns similar to `Game_Pickups.md` so that they stay readable both in rendered form and in a monospaced editor.
