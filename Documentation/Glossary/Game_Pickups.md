@@ -2,32 +2,12 @@
 
 ## Entity Glossary Rules (Game_Pickups)
 
-These rules apply only to the Pickups entity and override the general Glossary Rules where they differ.
+- **Sources:** XPickups.int, XWeapons.int (ammo, WeaponLocker), OnslaughtFull.int.
+- **Categories:** Health & Armor, Power-ups, Ammo, Other (Weapon Locker, Onslaught pickups).
+- **Exclusions:** Weapon pickups (Assault Rifle, etc.) → Game_Weapons. Ammo display names from `ItemName` (XWeapons); Health/Shield from PickupMessage (XPickups). Assault and Minigun "Bullets" listed once as AssaultAmmo.
+- **Table:** 5 columns.
 
-- **Categories:** Pickups are grouped into **Health & Armor**, **Power-ups**, **Ammo**, and **Other** (e.g. Weapon Locker, Onslaught pickups).
-- **Sources:** Terms from XPickups.int, XWeapons.int (ammo and WeaponLocker), OnslaughtFull.int (English).
-Current Russian: /rut.
-Old Russian: /rut_old.
-- **Weapons:** Weapon pickups (e.g. Assault Rifle, Flak Cannon) are not listed here; they belong in the Weapons entity. Only ammo and non-weapon pickups are included.
-- **Table format:** Tables use pipe-separated columns.
-First row is the header; second row is a separator line (dashes and pipes).
-Column order: Technical name | .rut file | English name | Current Russian | Old Russian.
-If no translation, use `-`.
-- **Alignment:** All tables use the same column widths; columns are aligned across the document.
-
----
-
-Source: XPickups.int, XWeapons.int, OnslaughtFull.int (English).
-Current Russian: /rut.
-Old Russian: /rut_old.
-
-Format: Technical name | .rut file | English name | Current Russian | Old Russian.
-If no translation: - .
-
-Notes:
-
-- **Ammo** display names come from `ItemName` in XWeapons.int. Assault and Minigun both use "Bullets"; listed once under AssaultAmmo.
-- **Health/Shield** names are derived from PickupMessage in XPickups.int (e.g. "Health Vial", "Shield Pack").
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

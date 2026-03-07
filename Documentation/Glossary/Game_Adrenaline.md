@@ -49,24 +49,7 @@ These rules apply only to the Game_Adrenaline entity and override the general [G
 
 ---
 
-Source: `XPickups.int`, `GamePlay.int`, `UnrealGame.int`, `XGame.int`, `BonusPack.int`.
-Current Russian: /rut.
-Old Russian: /rut_old.
-
-Format (Markdown table):
-
-
-| Technical name   | .rut file   | English name    | Current Russian | Old Russian        |
-| ---------------- | ----------- | --------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (*.rut*)    | (English label) | -               | (Old Russian or -) |
-
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- Keep combo terminology consistent with `Game_Mutators` and `Game_Pickups` where the same technical objects appear (e.g. `AdrenalinePickup`, `MutNoAdrenaline`, `MutPintSizeCombo`).
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format). Keep combo terminology consistent with Game_Mutators and Game_Pickups where the same objects appear.
 
 ---
 

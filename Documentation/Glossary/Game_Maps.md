@@ -2,33 +2,12 @@
 
 ## Entity Glossary Rules (Game_Maps)
 
-*(Optional.
-This section defines rules specific to the Maps entity and overrides or extends the general [GLOSSARY_RULES](../GLOSSARY_RULES.md) where needed.)*
+- **Sources:** Map .int files: DM-*, CTF-*, BR-*, DOM-*, AS-*, ONS-*, TUT-*, MOV-* in /int; special cases (e.g. endgame.int) when listed.
+- **Structure:** By map type/prefix: Deathmatch, CTF, Bombing Run, Domination, Assault, Onslaught, Tutorials, Movies.
+- **Exclusions:** Only map display names (`Title=` under LevelInfo0/LevelSummary). Per-volume `LocationName=` (zone names) excluded.
+- **Table:** 5 columns. .rut file = map basename (e.g. DM-Deck17.rut). **English name** = **Technical name** (e.g. DM-Deck17); do not use Title from .int in the English column.
 
-- **Sources:** Map display names from `.int` files whose names start with `DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-` in the `/int` directory. Current Russian from `/rut/*.rut` with the same basename, when the `Title=` value is actually in Russian (Cyrillic). Old Russian from `/rut_old/*.rut` with the same basename.
-- **Structure / categories:** Sections are grouped by map type / filename prefix: Deathmatch (`DM-`), Capture the Flag (`CTF-`), Bombing Run (`BR-`), Double Domination / Domination (`DOM-`), Assault (`AS-`), Onslaught (`ONS-`), Tutorials (`TUT-`), Movies / intro (`MOV-`).
-- **Exclusions:** Only overall map display names (`Title=` under `[LevelInfo0]` or `[LevelSummary]`) are included here. Per-volume `LocationName=` strings (in-map zone names) are excluded from this entity and may be documented elsewhere if needed.
-- **Table format:** Standard 5-column table: *Technical name | .rut file | English name | Current Russian | Old Russian*. The .rut file is the map basename (e.g. DM-Deck17.rut).
-- **English name (maps):** For all map rows, the **English name** is always identical to the **Technical name** (full map name with prefix, e.g. `DM-Deck17`, `CTF-Grendelkeep`). Human‑readable titles from `.int` (`Title="..."`) are not used in this column for maps and serve only as reference in the source files.
-
-*(Practical note: At the current stage, some rows may have missing Current/Old Russian (marked as `-`) where translations are not yet finalized or where `/rut` still contains temporary non‑Russian placeholders. These will be filled in as the localization progresses.)*
-
----
-
-Source: `DM-*.int`, `CTF-*.int`, `BR-*.int`, `DOM-*.int`, `AS-*.int`, `ONS-*.int`, `TUT-*.int`, `MOV-*.int` in `/int`, plus special map-like levels explicitly listed below (e.g. `endgame.int`).
-
-Current Russian: `/rut/*.rut` (same basename as source).
-
-Old Russian: `/rut_old/*.rut` (same basename as source).
-
-Format: Technical name | .rut file | English name | Current Russian | Old Russian.
-
-If no translation: `-`.
-
-Notes:
-
-- When filling glossary rows, always prefer actual Russian strings from `/rut` and `/rut_old/` and ignore Spanish or English placeholders that were temporarily copied from `/est` or left untranslated.
-- When both Current and Old Russian are present and identical, the **Old Russian** cell may be set to `-` to avoid duplication.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

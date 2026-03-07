@@ -5,26 +5,9 @@
 - **Sources:** Narrative strings from relevant `.int` files (species, locations, events, corporations such as Liandri, tournament lore, etc.). Typical sources include `XPlayers.int`, `XGame.int`, map description `.int` files, and other narrative-heavy packages. Current Russian: corresponding `.rut` files in `/rut`. Old Russian: `/rut_old/` counterparts.
 - **Structure / categories:** Lore terms may be grouped into subsections by type (e.g. Species, Corporations, Locations, Events) if needed; all use the same table format.
 - **Exclusions:** Purely technical or UI-only labels (menu items, button captions, ability names) that belong to other entities are excluded.
-- **Table format:** Standard glossary table with optional **.rut file** column. For Lore_Universe, the column lists **all .rut files** where the term or concept appears (comma-separated); multiple files are common for narrative terms. Format: `Technical name | .rut file | English name | Current Russian | Old Russian`.
+- **Table:** 5 columns. **.rut file** column: list all .rut files where the term appears (comma-separated). Group related lore for context (e.g. corporation items together).
 
----
-
-Source: narrative sections of relevant `.int` files (`XPlayers.int`, `XGame.int`, map `.int` descriptions, etc.).
-Current Russian: corresponding `.rut` files in `/rut`.
-Old Russian: matching files in `/rut_old/`.
-
-Format (Markdown table). The **.rut file** column lists all .rut files where the term appears (comma-separated).
-
-Technical name | .rut file | English name | Current Russian | Old Russian
--------------- | --------- | ------------ | --------------- | ------------
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- Group related lore items consistently so that translators can see narrative context (e.g. all items for a given corporation together).
-- The **.rut file** column lists all known .rut files where the term or concept appears; for some terms the list may be incomplete (e.g. map-specific lore). You can extend it by searching the repo for the English name or a distinctive phrase.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

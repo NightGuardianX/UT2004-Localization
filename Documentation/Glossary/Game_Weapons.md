@@ -2,33 +2,13 @@
 
 ## Entity Glossary Rules (Game_Weapons)
 
-These rules apply only to the Weapons entity and override the general Glossary Rules where they differ.
+- **Sources:** XWeapons.int, Onslaught.int, OnslaughtFull.int.
+- **Categories:** Primary (Основное), Against vehicles (Против техники), Special (Особое) — per common docs (e.g. iGrowiki).
+- **Sniper rifles:** One class, two localization entries: SniperRifle (Lightning) = Lightning Gun; SniperRifle (Classic) = Sniper Rifle. Both in Primary.
+- **Exclusions:** Ammo/pickups → Game_Pickups.
+- **Table:** 5 columns.
 
-- **Categories:** Weapons are grouped into three categories — **Основное (Primary)**, **Против техники (Against vehicles)**, **Особое (Special)** — in line with common game documentation (e.g. iGrowiki).
-- **Sources:** Terms from XWeapons.int, Onslaught.int, OnslaughtFull.int (English).
-  Current Russian: /rut.
-  Old Russian: /rut_old.
-- **Sniper rifles:** One in-game class is treated as two entries for localization: **SniperRifle (Lightning)** — Lightning Gun; **SniperRifle (Classic)** — Sniper Rifle.
-  Both stay in Primary.
-- **Ammo / pickups:** Not listed here; they belong in a separate entity (e.g. Pickups).
-- **Table format:** Tables use pipe-separated columns.
-  First row is the header; second row is a separator line (dashes and pipes).
-  Column order: Technical name | .rut file | English name | Current Russian | Old Russian.
-  If no translation, use `-`.
-- **Alignment:** All tables use the same column widths; columns are aligned across the document.
-
----
-
-Source: XWeapons.int, Onslaught.int, OnslaughtFull.int (English).
-Current Russian: /rut.
-Old Russian: /rut_old.
-
-Format: Technical name | .rut file | English name | Current Russian | Old Russian.
-If no translation: - .
-
-Notes:
-
-- **SniperRifle** и **Lightning Gun** — один класс оружия, для игрока две пушки с разными названиями и локализацией; в глоссарии даны как подтипы.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

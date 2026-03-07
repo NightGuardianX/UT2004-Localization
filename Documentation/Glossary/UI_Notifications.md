@@ -2,43 +2,13 @@
 
 ## Entity Glossary Rules (UI_Notifications)
 
-These rules apply only to the `UI_Notifications` entity and override the general Glossary Rules where they differ.
+- **Sources:** `XInterface.int` (HUD, scoreboard, console, IRC/link errors); `UnrealGame.int`, `XGame.int`, `GUI2K4.int` (multi-kill/spree announcer and award messages).
+- **Scope:** Messages that inform about state, results, or errors (e.g. *You've won the match!*, *Server is now full*). Shown on HUD, scoreboard, or small message areas; not full dialogs.
+- **Exclusions:** Dialog titles and multi-line text → `UI_Dialogs`. Short popups tied to menu actions → `UI_Popups`. Tooltip help → `UI_Tooltips`.
+- **Table:** 5 columns. Technical names: `Section.Key` (e.g. `HudBase.YouveWonTheMatch`, `ExtendedConsole.ServerFullMsg`).
+- **Consistency (multi-kill / spree):** Same English term (e.g. Double Kill, Mega Kill, Killing Spree, Unstoppable) must use the **same Russian base term** across `UnrealGame` KillString[], `XGame` MultiKillMessage.KillString[], `GUI2K4` SpreeLabel[] / MultiKillsLabel[]. Case and punctuation may vary; base term must stay identical.
 
-- **Sources:** Notification, error, warning, success, info, and help messages from:
-  - `XInterface.int` (HUD messages, scoreboard labels, console notifications, IRC/link errors, etc.).
-- **Current Russian:** `/rut/XInterface.rut` (matching sections and keys).  
-  Where `/rut` still contains non‑Russian placeholder text (Spanish), the **Current Russian** column is left as `-` until proper Russian text is added.
-- **Old Russian:** `/rut_old/XInterface.rut`.
-- **Additional sources for announcer / award messages:** `UnrealGame.int`, `XGame.int`, `GUI2K4.int` (multi‑kill and spree messages such as *Double Kill!*, *Unstoppable!*, and their labels).
-- **Scope:** Messages that inform the player or user about state changes, results, or errors (e.g. *You've won the match!*, *Server is now full*, *Invalid server address, aborting.*). These may appear on the HUD, scoreboard, or in small message areas, but are not full dialogs.
-- **Exclusions:** 
-  - Dialog titles and multi‑line explanations belong to `UI_Dialogs`.
-  - Short one‑off popup progress strings closely tied to menu actions belong to `UI_Popups`.
-  - Tooltip help text for individual controls belongs to `UI_Tooltips`.
-- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**.  
-  Technical names use `Section.Key` form (for example `HudBase.YouveWonTheMatch`, `ExtendedConsole.ServerFullMsg`).
-
----
-
-Source: `XInterface.int`.
-
-Current Russian: `/rut/XInterface.rut`.
-
-Old Russian: `/rut_old/XInterface.rut`.
-
-Format (Markdown table):
-
-Technical name | .rut file | English name | Current Russian | Old Russian
--------------- | --------- | ------------ | --------------- | -----------
-
-If no translation: `-`.
-
-Notes:
-
-- When filling or updating this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- If a value in `/rut` is clearly non‑Russian (e.g. Spanish), leave **Current Russian** as `-` and rely on `/rut_old` for **Old Russian**.
-- **Consistency rule for multi‑kill / spree terms:** all related entries for the same English term (e.g. `Double Kill`, `Mega Kill`, `Killing Spree`, `Unstoppable`) **must use the same Russian term** across all sources: `KillString[]` in `UnrealGame`, `MultiKillMessage.KillString[]` in `XGame`, and `SpreeLabel[]` / `MultiKillsLabel[]` in `GUI2K4`.  
-  - Differences in case, punctuation, or surrounding text (e.g. `ДВОЙНОЕ УБИЙСТВО!` vs `Двойное убийство:`) are acceptable; the base term (*двойное убийство*, *мегаубийство*, etc.) must remain identical everywhere.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 
@@ -82,7 +52,7 @@ Notes:
 | ----------------------------------------- | -------------- | ------------------ | --------------- | ----------- |
 | UnrealGame.SelfSpreeNote[0]              | UnrealGame.rut | Killing Spree!     | -               | Убийственный порыв! |
 | UnrealGame.SelfSpreeNote[1]              | UnrealGame.rut | Rampage!           | -               | Ярость! |
-| UnrealGame.SelfSpreeNote[2]              | UnrealGame.rut | Dominating!        | -               | Доминирование! |
+| UnrealGame.SelfSpreeNote[2]              | UnrealGame.rut | Dominating!       | -               | Доминирование! |
 | UnrealGame.SelfSpreeNote[3]              | UnrealGame.rut | Unstoppable!       | -               | Непреодолим! |
 | UnrealGame.SelfSpreeNote[4]              | UnrealGame.rut | GODLIKE!           | -               | РАССВИРЕПЕЛ! |
 | UnrealGame.SelfSpreeNote[5]              | UnrealGame.rut | WICKED SICK!       | -               | БОГОПОДОБЕН! |
@@ -134,8 +104,6 @@ Notes:
 
 ## Vote messages (XVoting.int, Engine.int)
 
-Source: `XVoting.int` (`[xVotingHandler]`), `Engine.int` (`[GameMessage]`). Current Russian: `/rut/Engine.rut` (GameMessage); `/rut/XVoting.rut` has non‑Russian placeholder → `-`. Old Russian: `/rut_old/XVoting.rut`, `/rut_old/Engine.rut`.
-
 | Technical name | .rut file   | English name | Current Russian | Old Russian |
 | -------------- | ----------- | ------------ | --------------- | ----------- |
 | GameMessage.VoteStarted | Engine.rut  | started a vote. | начал голосование. | начал голосование. |
@@ -149,5 +117,4 @@ Source: `XVoting.int` (`[xVotingHandler]`), `Engine.int` (`[GameMessage]`). Curr
 | xVotingHandler.lmsgMapVotedFor | XVoting.rut | %playername% has voted for %mapname% | - | %playername% проголосовал за %mapname% |
 | xVotingHandler.lmsgMapVotedForWithCount | XVoting.rut | %playername% has placed %votecount% votes for %mapname% | - | %playername% подал %votecount% голосов за карту %mapname% |
 
-Additional notification strings from `XInterface.int` should be added here following the same structure and rules.
-
+Additional notification strings from `XInterface.int` should be added following the same structure and rules.

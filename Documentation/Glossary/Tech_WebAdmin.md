@@ -5,26 +5,9 @@
 - **Sources:** Strings used by the in-game WebAdmin (web-based administration interface), taken from `.int` files and any web-related localization resources that define WebAdmin labels, menu entries, button captions, tooltips, form field names, and inline help texts. Current Russian: matching `.rut` files in `/rut/`. Old Russian: matching `.rut` files in `/rut_old/`.
 - **Structure / categories:** Sections are grouped by WebAdmin area/page: login and session management, server information, map/playlist management, game settings (rules, bots, mutators), player administration (kick/ban), and logs/monitoring. Within each section, rows are ordered by technical key.
 - **Exclusions:** Server names, map names, mutator names, and similar content that is already covered by other entities (`Game_Maps`, `Game_Weapons`, `Game_Pickups`, `Game_Vehicles`, `Game_Modes`, `UI_Menus`, etc.) are not duplicated here unless the string is WebAdmin-specific (for example, a WebAdmin-only label that does not appear in the in-game UI).
-- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
+- **Table:** 5 columns. Group by WebAdmin page. Labels that appear in both WebAdmin and in-game UI → document in UI_*.md, reference from here if needed.
 
----
-
-Source: WebAdmin-related `.int` files and web localization resources (templates, config-based labels) that define the WebAdmin interface texts.
-Current Russian: `/rut/*.rut` (same basenames as the WebAdmin sources).
-Old Russian: `/rut_old/*.rut` (same basenames as the WebAdmin sources).
-
-Format (Markdown table):
-
-Technical name | .rut file     | English name | Current Russian | Old Russian
--------------- | ------------- | ------------ | --------------- | -----------
-*(TechnicalKey)* | XWebAdmin.rut | (English label) | - | (Old Russian or -)
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, keep strings grouped by WebAdmin page so that it is easy to see where each term appears in the interface.
-- If a label appears both in WebAdmin and the in-game UI, prefer documenting it in the relevant `UI_*.md` entity and reference that entity from here only when needed.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

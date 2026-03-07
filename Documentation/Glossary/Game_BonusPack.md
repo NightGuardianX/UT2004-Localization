@@ -1,32 +1,13 @@
 # Bonus packs glossary
 
-## Entity Glossary Rules (BonusPack)
+## Entity Glossary Rules (Game_BonusPack)
 
-- **Sources:** Names and descriptions of bonus content that ships outside the original retail game but is officially supported (e.g. bonus map packs, Editor's Choice content, additional mutators, models, or gametypes). Strings come from the corresponding bonus `.int` files in `/int/` (and subfolders, if any). Current Russian: matching `.rut` files in `/rut/`. Old Russian: matching `.rut` files in `/rut_old/`.
-- **Structure / categories:** Sections are grouped by content type: bonus packs as products (pack names and descriptions), bonus gametypes, bonus mutators, bonus models/characters, and any other clearly bonus-only features. Within each section, rows are ordered by technical key.
-- **Exclusions:** Individual maps, weapons, pickups, vehicles, or UI strings that already belong to other entities (`Game_Maps`, `Game_Weapons`, `Game_Pickups`, `Game_Vehicles`, `UI_`*, etc.) are not duplicated here. This entity only contains names and descriptions that specifically refer to the **bonus content itself** (e.g. pack titles, bonus-only gametypes, bonus-only mutators), not their per-item details.
-- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
+- **Sources:** Bonus content .int files (packs, Editor's Choice, mutators, models, gametypes) — officially supported content outside retail.
+- **Structure:** By content type: pack titles/descriptions, bonus gametypes, bonus mutators, bonus models/characters.
+- **Exclusions:** Per-item maps, weapons, pickups, vehicles, UI → their entities. Only names/descriptions that refer to the bonus content itself (pack titles, bonus-only gametypes/mutators).
+- **Table:** 5 columns. Only high-level bonus name/description here if a feature has a detailed entry elsewhere.
 
----
-
-Source: Bonus content `.int` files in `/int/` that define additional packs, gametypes, mutators, or models.
-Current Russian: `/rut/*.rut` (same basenames as the bonus sources).
-Old Russian: `/rut_old/*.rut` (same basenames as the bonus sources).
-
-Format (Markdown table):
-
-
-| Technical name   | English name    | Current Russian | Old Russian        |
-| ---------------- | --------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label) | -               | (Old Russian or -) |
-
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, double‑check that a string truly belongs to bonus content and is not part of the base game (to avoid duplication with other entities).
-- If a bonus feature (e.g. a gametype) already has a detailed entry in another entity, this file should only contain the high‑level name/description that markets or groups that feature as part of the bonus pack.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

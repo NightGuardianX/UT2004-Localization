@@ -21,24 +21,7 @@ These rules apply only to the `Game_Monsters` entity and override the general Gl
 
 ---
 
-Source: `GUI2K4.int` (`[UT2K4InvasionWaveConfig]`), `XGame.int`, `SkaarjPack.int` and other monster‑related `.int` files.
-
-Current Russian: `/rut`.
-
-Old Russian: `/rut_old`.
-
-Format (Markdown table):
-
-| Technical name   | .rut file   | English name   | Current Russian | Old Russian        |
-| ---------------- | ----------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (*.rut*)    | (English label)| -               | (Old Russian or -) |
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- Use a consistent Russian term for the same monster across all entities and tables (e.g. `Pupae` should always map to the same Russian name).
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

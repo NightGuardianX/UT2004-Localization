@@ -5,19 +5,9 @@
 - **Sources:** Mutator names and descriptions from `UnrealGame.int`, `XGame.int`, `XWeapons.int`, `OnslaughtFull.int`, `OnslaughtBP.int`, `Onslaught.est`, `UTClassic.int`, `BonusPack.int`, and the UTV mutator definition (`UTV2004s.*`). Current Russian: matching `/rut` files. Old Russian: matching `/rut_old` files.
 - **Structure / categories:** Mutators are grouped by source package (`UnrealGame`, `XGame`, `UTClassic`, `BonusPack`, `Onslaught*`, `XWeapons`, `UTV`) with one table per group. Inside each table, rows are ordered by technical name.
 - **Exclusions:** This entity only covers **game mutators** (objects that modify game rules or loadouts, usually defined as `MetaClass=Engine.Mutator` or `[Mut...]` sections). Vehicle options, weapon properties, or UI-only strings that are not standalone mutators are documented in their own entities (`Game_Vehicles`, `Game_Weapons`, `UI`_*, etc.) and are not duplicated here.
-- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
+- **Table:** 5 columns.
 
----
-
-Source: `UnrealGame.int`, `XGame.int`, `XWeapons.int`, `OnslaughtFull.int`, `OnslaughtBP.int`, `Onslaught.est`, `UTClassic.int`, `BonusPack.int`, UTV (`UTV2004s.`*).
-
-Current Russian: `/rut/*.rut` (same basenames / sections where available).
-
-Old Russian: `/rut_old/*.rut` (same basenames / sections where available).
-
-Format (Markdown table) is the same in every section.
-
-If no translation: `-`.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

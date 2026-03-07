@@ -2,41 +2,13 @@
 
 ## Entity Glossary Rules (UI_Menus)
 
-These rules apply only to the `UI_Menus` entity and override the general Glossary Rules where they differ.
+- **Sources:** `GUI2K4.int` (primary; sections like `UT2k4MainMenu`, `UT2K4SettingsPage`, `UT2k4ServerBrowser`, `UT2K4SP_Main`) and other UI .int when needed.
+- **Scope:** Distinct screens/menus and major pages (Main Menu, Settings, Server Browser, Tournament, Mid-game menu). Buttons → `UI_StartMenuButtons`. Setting controls → `UI_Settings`.
+- **Structure:** Main/front-end menus; Settings (UT2K4SettingsPage tabs); Online/server browser; Single-player tournament; Mid-game/in-game.
+- **Exclusions:** Modal OK/YES/NO dialogs → dialog/popup entities (unless they behave like full screens).
+- **Table:** 5 columns. Technical name: section and field (e.g. `UT2k4MainMenu`, `UT2K4Tab_DetailSettings.PanelCaption`).
 
-- **Sources:** Menu/page captions and window titles from `GUI2K4.int` (primary) and other UI `.int` files when needed. **Current Russian:** `/rut/GUI2K4.rut` (and related `/rut` files). **Old Russian:** `/rut_old`.
-- **Scope:** Only distinct **screens/menus** and **major pages** of the front‑end UI and in‑game UI (e.g. Main Menu, Settings, Server Browser, Tournament, Mid‑game menu, etc.). Individual buttons inside these menus belong to other entities (e.g. `UI_StartMenuButtons`). Detailed terminology for individual settings controls (sliders, checkboxes, etc.) lives in the separate `UI_Settings` entity (`UI_Settings.md`).
-- **Structure / categories:** Menus are grouped into:
-  - **Main / front‑end menus** (entry points from the main screen).
-  - **Settings menus** (the `UT2K4SettingsPage` tabs).
-  - **Online / server browser menus.**
-  - **Single‑player tournament menus.**
-  - **Mid‑game / in‑game menus.**
-- **Exclusions:** Purely modal confirmation boxes and tiny one‑off dialogs (e.g. simple OK/YES/NO popups) are covered by dialog / popup entities, not by `UI_Menus`, except where they behave like full screens.
-- **Table format:** Standard 4‑column table, aligned with other entities:
-  - Columns: **Technical name | .rut file | English name | Current Russian | Old Russian**.
-  - If no translation is known yet, use `-`.
-
----
-
-Source: primarily `GUI2K4.int` (sections like `[UT2k4MainMenu]`, `[UT2K4SettingsPage]`, `[UT2k4ServerBrowser]`, `[UT2K4SP_Main]`, etc.).
-
-Current Russian: `/rut/GUI2K4.rut` (matching sections).
-
-Old Russian: `/rut_old/*.rut` (matching sections), where available.
-
-Format: 
-
-Technical name           | .rut file   | English name       | Current Russian        | Old Russian
--------------------------|-------------|--------------------|------------------------|--------------------------
-*(Section.Key or class)* | (*.rut*)    | (UI label)         | (Current Russian text) | (Old Russian text or -)
-
-If no translation: `-`.
-
-Notes:
-
-- **Technical name** is usually the section name and field, e.g. `UT2k4MainMenu` or `UT2K4Tab_DetailSettings.PanelCaption`. For composite menus (like `UT2K4SettingsPage` with tabs), the tabs are listed separately below.
-- When filling or updating this glossary, always check both the current `/rut` file and `/rut_old/` to populate Russian columns where possible.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 
@@ -55,9 +27,7 @@ Notes:
 
 ## Settings menus (UT2K4SettingsPage tabs)
 
-Source: `[UT2K4SettingsPage]` in `GUI2K4.int` / `/rut/GUI2K4.rut` and the corresponding tab classes (`UT2K4Tab_*`).
-
-The main Settings screen (`UT2K4SettingsPage`) has seven tabs. Each tab is treated here as a separate menu entity. **Only the tab/menu names are tracked in this file; all individual setting options and controls are documented in the `UI_Settings` glossary (`UI_Settings.md`).**
+Only tab/menu names here; individual setting options → `UI_Settings.md`.
 
 ### Settings: Display tab
 
@@ -148,8 +118,6 @@ The main Settings screen (`UT2K4SettingsPage`) has seven tabs. Each tab is treat
 ---
 
 ## Voting menus (XVoting.int)
-
-Source: `XVoting.int`. Current Russian: `/rut/XVoting.rut` (if Russian; else `-`). Old Russian: `/rut_old/XVoting.rut`.
 
 | Technical name                         | .rut file    | English name                      | Current Russian | Old Russian                          |
 | -------------------------------------- | ------------ | --------------------------------- | --------------- | ------------------------------------ |

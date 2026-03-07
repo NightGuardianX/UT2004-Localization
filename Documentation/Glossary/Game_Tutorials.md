@@ -1,30 +1,13 @@
 # Tutorials glossary
 
-## Entity Glossary Rules (Tutorials)
+## Entity Glossary Rules (Game_Tutorials)
 
-- **Sources:** Tutorial- and training-related strings from `.int` files that ship with the base game and bonus content (e.g. movement / weapon training, game mode tutorials, vehicle training, in-game help overlays). Current Russian: matching `.rut` files in `/rut/`. Old Russian: matching `.rut` files in `/rut_old/`.
-- **Structure / categories:** Sections are grouped by tutorial type or focus area, for example: basic controls, movement, weapons, game modes, vehicles, and advanced tactics. Within each section, rows are ordered by their technical keys as they appear in the source files.
-- **Exclusions:** Map display names (`DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-`) belong to the `Game_Maps` entity and are not duplicated here. General UI labels, menus, dialogs, popups, notifications, and tooltips belong to the corresponding `UI_*.md` entities and are only included here if the string is strictly tutorial-specific and does not appear in regular UI contexts.
-- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
+- **Sources:** Tutorial/training strings from base and bonus .int (movement, weapon, game mode, vehicle training, in-game help).
+- **Structure:** By tutorial type: basic controls, movement, weapons, game modes, vehicles, advanced tactics. Rows by technical key.
+- **Exclusions:** Map names → Game_Maps. General UI → UI_*; include here only if strictly tutorial-specific.
+- **Table:** 5 columns. Group by functional area (movement hints together, weapon hints together, etc.).
 
----
-
-Source: Tutorial- and training-related `.int` files in `/int/` (and related subfolders, if any).
-Current Russian: `/rut/*.rut` (same basenames as the tutorial sources).
-Old Russian: `/rut_old/*.rut` (same basenames as the tutorial sources).
-
-Format (Markdown table):
-
-| Technical name   | .rut file   | English name   | Current Russian | Old Russian        |
-| ---------------- | ----------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | *(e.g. XInterface.rut)* | (English label)| -               | (Old Russian or -) |
-
-If no translation: `-`.
-
-Notes:
-
-- When filling the glossary, always check both `/rut/` and `/rut_old/` to populate Russian columns where possible.
-- Keep tutorial strings grouped by their functional area so it is easy to see coverage (e.g. all movement hints together, all weapon hints together, etc.).
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

@@ -2,31 +2,14 @@
 
 ## Entity Glossary Rules (Game_Vehicles)
 
-These rules apply only to the Vehicles entity and override the general Glossary Rules where they differ.
-
-- **Categories:** Vehicles are grouped by source (Onslaught base, OnslaughtFull, OnslaughtBP). Only vehicle display names are listed.
-- **Sources:** Terms from OnslaughtFull.int, Onslaught.int, Vehicles.int (English).  
-  Current Russian: /rut.  
-  Old Russian: /rut_old.
-- **Scope:** Only vehicle display names that the player sees in the UI (scoreboard, HUD, vehicle selection, etc.) are listed. Technical helper messages (e.g. “Press [Use] To Enter Vehicle.”) are not included here.
-- **Table format:** Tables use pipe-separated columns.  
-  First row is the header; second row is a separator line (dashes and pipes).  
-  Column order: Technical name | .rut file | English name | Current Russian | Old Russian.  
-  If no translation, use `-`.
-- **Alignment:** All tables use the same column widths; columns are aligned across the document.
+- **Sources:** OnslaughtFull.int, Onslaught.int, Vehicles.int.
+- **Categories:** By source (Onslaught base, OnslaughtFull, OnslaughtBP). Only vehicle display names.
+- **Scope:** Display names in UI (scoreboard, HUD, vehicle selection) only. Helper messages (e.g. “Press [Use] To Enter Vehicle.”).
+- **Table:** 5 columns.
 
 ---
 
-Source: OnslaughtFull.int, Onslaught.int, Vehicles.int (English).  
-Current Russian: /rut.  
-Old Russian: /rut_old.
-
-Format: Technical name | .rut file | English name | Current Russian | Old Russian.  
-If no translation: - .
-
-Notes:
-
-- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 

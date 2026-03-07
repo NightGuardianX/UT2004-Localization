@@ -7,28 +7,11 @@
 - **Exclusions:**
   - Generic game mode labels, notifications, or UI text from `XGame.int` that belong to other entities (e.g. GameModes, Notifications).
   - **Custom exclusion:** symbols-only entries from `TeamSymbols_UT2004.int` (`TeamSymbols_UT2004.*`) – these are treated as purely graphical assets and are not listed as Teams glossary rows.
-- **Table format:** Standard glossary table: Technical name | .rut file | English name | Current Russian | Old Russian.
+- **Table:** 5 columns. Team names/symbols match in-game and canonical lore. Phantom* = narrative-only (XGame.int, SP ladder). TeamX / TeamNewX = old vs new ladder version; separate rows.
+
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
-
-Source: `XGame.int`.
-Current Russian: `/rut/XGame.rut`.
-Old Russian: `/rut_old/XGame.rut`.
-
-Format (Markdown table):
-
-Technical name | .rut file  | English name | Current Russian | Old Russian
--------------- | ---------- | ------------ | --------------- | ------------
-
-If no translation: `-`.
-
-Notes:
-
-- When filling this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- Team names and symbols should match the in-game presentation and canonical lore names.
-- `Phantom*` teams come from narrative-only sections in `XGame.int` (used for single-player ladder / cinematic descriptions) and are separated into their own subsection below for clarity.
-- Pairs `TeamX` / `TeamNewX` (for example, `TeamBlackLegion` / `TeamNewBlacklegion`) represent the old and “new” versions of the same team in the single-player ladder (updated roster/leader, etc.), but they are treated as different technical keys and therefore have separate rows.
-
 ---
 
 ## Teams

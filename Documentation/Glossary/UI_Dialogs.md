@@ -2,39 +2,12 @@
 
 ## Entity Glossary Rules (UI_Dialogs)
 
-These rules apply only to the `UI_Dialogs` entity and override the general Glossary Rules where they differ.
+- **Sources:** `Setup.int` (`[IDDIALOG_*]` wizard/confirmation dialogs), `XInterface.int` (e.g. `UT2ArenaConfig`, `UT2DeferChangeRes`, `UT2PerformWarn`).
+- **Scope:** Full-screen or windowed dialog boxes with their own layout and explanatory text (installer wizards, blocking warnings, confirmations). Short one-line notifications → `UI_Popups` / `UI_Notifications`.
+- **Exclusions:** Generic button captions (OK, Cancel, Yes, No) reused across dialogs are not repeated here unless the dialog is defined only by that text.
+- **Table:** 5 columns. Technical names: `Section.Key` (e.g. `IDDIALOG_WizardDialog.IDC_WizardDialog`, `UT2ArenaConfig.DialogText.Caption`).
 
-- **Sources:** Dialog titles and key phrases from:
-  - `Setup.int` (`[IDDIALOG_*]` wizard pages and confirmation dialogs),
-  - `XInterface.int` (dedicated dialog pages such as `UT2ArenaConfig`, `UT2DeferChangeRes`, `UT2PerformWarn`, and similar UI classes).
-- **Current Russian:** `/rut/Setup.rut`, `/rut/XInterface.rut` (matching sections and keys).  
-  At the current stage many values in `/rut` are temporary non‑Russian placeholders (Spanish); such values are **not** copied into the glossary and the **Current Russian** column stays `-` until proper Russian text is added.
-- **Old Russian:** `/rut_old/Setup.rut`, `/rut_old/XInterface.rut` (matching sections and keys).
-- **Scope:** Full‑screen or windowed dialog boxes with their own layout and explanatory text (installer wizards, blocking warnings, confirmation questions).  
-  Short one‑line in‑game notifications and status lines without a dedicated dialog belong to other entities (`UI_Popups`, `UI_Notifications`).
-- **Exclusions:** Generic button captions such as `OK`, `Cancel`, `Yes`, `No` that are reused across many dialogs and already covered by other UI entities are not repeated here unless the dialog itself is defined only by that button text.
-- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**.  
-  Technical names use `Section.Key` form (for example `IDDIALOG_WizardDialog.IDC_WizardDialog`, `UT2ArenaConfig.DialogText.Caption`).
-
----
-
-Source: `Setup.int`, `XInterface.int`.
-
-Current Russian: `/rut/Setup.rut`, `/rut/XInterface.rut`.
-
-Old Russian: `/rut_old/Setup.rut`, `/rut_old/XInterface.rut`.
-
-Format (Markdown table):
-
-Technical name | .rut file | English name | Current Russian | Old Russian
--------------- | --------- | ------------ | --------------- | -----------
-
-If no translation: `-`.
-
-Notes:
-
-- When filling or updating this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- If a value in `/rut` is clearly not Russian (e.g. Spanish from `/est`), leave **Current Russian** as `-` and treat only `/rut_old` as a valid Russian reference for that row.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 
@@ -65,8 +38,6 @@ Notes:
 
 ## Voting messages (XVoting.int)
 
-Source: `XVoting.int`. One-line messages shown when voting is disabled or a vote action fails. Current Russian: `/rut/XVoting.rut` (if Russian; else `-`). Old Russian: `/rut_old/XVoting.rut`.
-
 | Technical name | .rut file   | English name | Current Russian | Old Russian |
 | -------------- | ----------- | ------------ | --------------- | ----------- |
 | KickVotingPage.lmsgKickVotingDisabled | XVoting.rut | Sorry, Kick Voting has been disabled by the server administrator. | - | Извините, голосование выброса отключено администратором сервера. |
@@ -74,5 +45,4 @@ Source: `XVoting.int`. One-line messages shown when voting is disabled or a vote
 | MapVotingPage.lmsgReplicationNotFinished | XVoting.rut | Map data download in progress. Please try again later. | - | Загрузка данных карты в процессе. Пожалуйста, попробуйте еще раз позднее. |
 | MapVotingPage.lmsgMapDisabled | XVoting.rut | The selected Map is disabled. | - | Выбранная карта отключена. |
 
-Additional dialog titles and explanatory texts from `Setup.int` and `XInterface.int` should be added in this file following the same structure and rules.
-
+Additional dialog titles and explanatory texts from `Setup.int` and `XInterface.int` should be added following the same structure and rules.

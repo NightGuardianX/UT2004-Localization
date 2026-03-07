@@ -2,44 +2,13 @@
 
 ## Entity Glossary Rules (UI_Loading)
 
-These rules apply only to the `UI_Loading` entity and override the general Glossary Rules where they differ.
+- **Sources:** `XInterface.int`, `GUI2K4.int`, `Engine.int`, `Core.int`, `XWebAdmin.int` (loading/progress labels and messages from these and related UI .int files).
+- **Scope:** UI text that describes **loading / in‑progress operations** (e.g. `LOADING...`, `Loading file %s...`, `Loading Game Types`, `. . . LOADING`): HUD indicators, loading screens, server loading, progress in menus or WebAdmin.
+- **Exclusions:** Technical log/console messages not shown in UI; general notifications → `UI_Notifications`; dialog titles and long loading-error text → `UI_Dialogs`.
+- **Table:** 5 columns. Technical names: `Section.Key` (e.g. `HudBase.LevelActionLoading`) or class/global key (e.g. `Engine.Loading`).
+- **Consistency:** For repeated loading strings, keep punctuation and casing consistent across HUD, menus, SP ladder, server, WebAdmin. For English `Loading` or `Loading <Entity>`, use the **same Russian base noun** (e.g. «загрузка») both in short labels and in longer sentences; register and punctuation may vary.
 
-- **Sources:** Loading / progress texts and labels from:
-  - `XInterface.int` (HUD and SP ladder loading messages).
-  - `GUI2K4.int` (server loading, SP ladder loading, weapon database loading).
-  - `Engine.int`, `Core.int` (generic `Loading` / file progress).
-  - `XWebAdmin.int` (loading games / maps in WebAdmin).
-- **Current Russian:** matching entries in `/rut/*.rut` (`XInterface.rut`, `GUI2K4.rut`, `Engine.rut`, `Core.rut`, `XWebAdmin.rut`, etc.).  
-  Where `/rut` still contains non‑Russian placeholder text (e.g. Spanish), the **Current Russian** column is left as `-` until proper Russian text is added.
-- **Old Russian:** corresponding entries in `/rut_old`.
-- **Scope:** Any UI text that explicitly describes **loading / in‑progress operations** (e.g. `LOADING...`, `Loading file %s...`, `Loading Game Types`, `. . . LOADING`). This includes HUD loading indicators, loading screens, server loading messages, and progress texts in menus or WebAdmin.
-- **Exclusions:**
-  - Purely technical log / console messages that are never shown in UI are outside this entity.
-  - General notifications not tied to loading belong to `UI_Notifications`.
-  - Dialog titles and detailed multi‑line explanations of loading errors belong to `UI_Dialogs`.
-- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**.  
-  Technical names usually use `Section.Key` (e.g. `HudBase.LevelActionLoading`, `UT2K4ServerLoading.OpLoading.Text`, `Progress.Loading`), but may also refer to a class or global key when appropriate (e.g. `Engine.Loading`).
-
----
-
-Source: `XInterface.int`, `GUI2K4.int`, `Engine.int`, `Core.int`, `XWebAdmin.int` (and related UI `.int` files if needed).
-
-Current Russian: `/rut/*.rut` for the same classes / sections.
-
-Old Russian: `/rut_old/*.rut` for the same classes / sections, where available.
-
-Format (Markdown table):
-
-Technical name | .rut file | English name | Current Russian | Old Russian
--------------- | --------- | ------------ | --------------- | -----------
-
-If no translation: `-`.
-
-Notes:
-
-- When filling or updating this glossary, always check both the current `/rut` files and `/rut_old/` to populate Russian columns where possible.
-- For core, frequently repeated loading strings (e.g. `LOADING...`, `Loading file %s...`, `. . . LOADING`) strive to keep **consistent punctuation and casing** across all usages (HUD, menus, SP ladder, server loading, WebAdmin), unless the original deliberately differs for stylistic reasons.
-- **Consistency rule for the base term “Loading”:** if the English text is a single word `Loading` or a simple pattern `Loading <Entity>` (e.g. `Loading Game Types`, `Loading Weapon Database`), all such cases must use the **same Russian base noun** (e.g. «загрузка») across the project. Differences in **register** (uppercase / lowercase) and **punctuation** (`…`, `...`, `. . .`) are allowed, as are clearly **context‑driven paraphrases** in longer descriptive sentences; but short UI labels of the `Loading` / `Loading <Entity>` type must stay lexically aligned.
+Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_Rules.md#glossary-row-format).
 
 ---
 
@@ -77,4 +46,3 @@ Notes:
 | -------------------------------- | ------------- | ------------------------ | --------------- | ----------- |
 | XWebAdmin.LoadingGames          | XWebAdmin.rut | Loading Game Types       | -               | - |
 | XWebAdmin.LoadingMaps           | XWebAdmin.rut | Loading Available Maps   | -               | - |
-
