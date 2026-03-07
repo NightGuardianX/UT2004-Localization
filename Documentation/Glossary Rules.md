@@ -12,7 +12,7 @@ Each group collects all relevant terms from one or more files in the `/int` dire
 
 Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`), with **optional type prefixes** for clarity (e.g. UI entities use `UI_EntityName.md` such as `UI_StartMenuButtons.md`).
 
-**When generating a new entity glossary file**, use the template: [Documentation/Templates/EntityTemplate.md](../Templates/EntityTemplate.md).
+**When generating a new entity glossary file**, use the template: [Documentation/Templates/EntityTemplate.md](Templates/EntityTemplate.md).
 Follow its structure and placeholders; remove or fill optional sections as needed.
 Always generate the document with **fully populated tables** for all relevant terms (from `/int`) and immediately attempt to fill both Russian columns using `/rut` and `/rut_old/`, not leaving placeholder rows.
 After creating a new entity glossary file, always add or update the corresponding entry (with a link to the new document) in `Documentation/_СПИСОК_ГЛОССАРИЕВ.md`.
@@ -47,7 +47,7 @@ Game, UI, and lore entities are kept in separate groups.
 - **UI_Popups** — Short popup status messages. Source: XInterface.int.
 - **UI_Tooltips** — Tooltip text for controls. Sources: XInterface.int, Setup.int.
 - **UI_Notifications** — HUD and console notifications, errors, warnings, success, info, help. Sources: XInterface.int, UnrealGame.int, XGame.int, GUI2K4.int.
-- **UI_Loading** — Loading / progress labels and messages. Sources: XInterface.int, GUI2K4.int, Engine.int, Core.int, XWebAdmin.int.
+- **UI_Loading** — Loading / progress labels and messages. Sources: XInterface.int, Engine.int, Core.int, XWebAdmin.int.
 - **UI_Startup** — Launcher / startup and safe-mode dialogs shown before entering the game. Sources: Startup.int, UT2004.int (launcher-related strings).
 
 ### Lore entities

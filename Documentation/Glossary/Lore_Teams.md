@@ -7,7 +7,7 @@
 - **Exclusions:**
   - Generic game mode labels, notifications, or UI text from `XGame.int` that belong to other entities (e.g. GameModes, Notifications).
   - **Custom exclusion:** symbols-only entries from `TeamSymbols_UT2004.int` (`TeamSymbols_UT2004.*`) – these are treated as purely graphical assets and are not listed as Teams glossary rows.
-- **Table format:** Standard glossary table as defined in [Glossary Rules](../Rules/Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
+- **Table format:** Standard glossary table as defined in [Glossary Rules](../Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
 
 ---
 

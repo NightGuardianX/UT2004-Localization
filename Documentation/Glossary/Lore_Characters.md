@@ -5,7 +5,7 @@
 - **Sources:** Terms from `XPlayers.int` (character / player names and related labels). Current Russian: `/rut/XPlayers.rut`. Old Russian: `/rut_old/XPlayers.rut`.
 - **Structure / categories:** Characters are listed in a single table grouped by their technical keys from `XPlayers.int`.
 - **Exclusions:** Generic UI labels, abilities, or menu items from `XPlayers.int` that belong to other entities (e.g. Abilities, Menus) are excluded.
-- **Table format:** Standard glossary table as defined in [Glossary Rules](../Rules/Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
+- **Table format:** Standard glossary table as defined in [Glossary Rules](../Glossary%20Rules.md): Technical name, English name, Current Russian, Old Russian.
 
 ---
 

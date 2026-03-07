@@ -2,7 +2,7 @@
 
 ## Entity Glossary Rules (Game_Adrenaline)
 
-These rules apply only to the Game_Adrenaline entity and override the general [Glossary Rules](../Rules/Glossary%20Rules.md) where they differ.
+These rules apply only to the Game_Adrenaline entity and override the general [Glossary Rules](../Glossary%20Rules.md) where they differ.
 
 - **Sources:** Adrenaline-related terms from:
   - `XPickups.int` (`[AdrenalinePickup]`).
