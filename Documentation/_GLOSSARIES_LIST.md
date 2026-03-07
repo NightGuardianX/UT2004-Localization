@@ -1,16 +1,16 @@
-# Список глоссариев
+# Glossary List
 
-> Индекс глоссариев пайплайна локализации. Определения терминов — только в глоссариях; в остальных документах — ссылки ([GENERAL_RULES](GENERAL_RULES.md)).
+> Index of glossaries for the localization pipeline. Term definitions live **only in glossaries**; other documents reference them ([GENERAL_RULES](GENERAL_RULES.md)).
 >
-> Один файл глоссария на сущность: `Documentation/Glossary/<Entity>.md` (от корня репо) или `Glossary/<Entity>.md` (от этой папки).
+> One glossary file per entity: `Documentation/Glossary/<Entity>.md` (from repo root) or `Glossary/<Entity>.md` (from this folder).
 
-## Глоссарий процесса локализации
+## Localization Process Glossary
 
-- **LOCALIZATION_GLOSSARY** — [Glossary/LOCALIZATION_GLOSSARY.md](Glossary/LOCALIZATION_GLOSSARY.md) — термины пайплайна (базовый файл, ключ, статус, валидация и т.д.)
+- **LOCALIZATION_GLOSSARY** — [Glossary/LOCALIZATION_GLOSSARY.md](Glossary/LOCALIZATION_GLOSSARY.md) — pipeline terms (base file, key, status, validation, etc.)
 
-## Глоссарии сущностей (игровые термины)
+## Entity Glossaries (game terms)
 
-Группы: Game_* (карты, оружие, транспорт, режимы, мутаторы и др.), UI_*, Lore_*, Tech_*.
+Groups: Game_* (maps, weapons, vehicles, modes, mutators, etc.), UI_*, Lore_*, Tech_*.
 
 ### Game entities
 
@@ -51,4 +51,4 @@
 
 ---
 
-Всего сущностей: 25
+Total entities: 25

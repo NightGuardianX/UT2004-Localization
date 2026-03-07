@@ -1,0 +1,15 @@
+---
+description: Documentation language — English only; Russian only in glossaries and localization files
+alwaysApply: true
+---
+
+# Documentation Language
+
+**Documentation** in this project (including `Documentation/` outside the Glossary folder) must be written in **English**.
+
+**Russian text** is allowed only in these cases:
+
+1. **Glossary entries** — in the format of translated terms and strings (e.g. Current Russian Name, Old Russian Name columns in entity glossaries, and concept translations in `Documentation/Glossary/`).
+2. **Localization files** — when translating or editing localization files (e.g. `.rut`) into the target language.
+
+All other project documentation (process descriptions, rules, config, indexes, project map) must be in English.

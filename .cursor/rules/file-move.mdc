@@ -1,16 +1,16 @@
 ---
-description: Перенос и переименование файлов — именно move/rename, не копировать и удалять
+description: Moving and renaming files — use move/rename, not copy and delete
 alwaysApply: true
 ---
 
-# Перенос и переименование файлов
+# Moving and Renaming Files
 
-**Перенос.** Если пользователь просит **перенести** файл в другое место:
-- **Делать:** переместить файл (например, через `git mv` или аналог).
-- **Не делать:** создавать новый файл в целевом месте и удалять исходный.
+**Moving.** If the user asks to **move** a file to another location:
+- **Do:** move the file (e.g. via `git mv` or equivalent).
+- **Do not:** create a new file at the destination and delete the original.
 
-**Переименование.** Если пользователь просит **переименовать** файл:
-- **Делать:** переименовать имеющийся файл (например, через `git mv` или аналог).
-- **Не делать:** создавать новый файл с новым именем и удалять старый.
+**Renaming.** If the user asks to **rename** a file:
+- **Do:** rename the existing file (e.g. via `git mv` or equivalent).
+- **Do not:** create a new file with the new name and delete the old one.
 
-В обоих случаях использовать именно move/rename, а не «скопировать → удалить».
+In both cases, use actual move/rename operations, not "copy → delete".

@@ -1,11 +1,11 @@
-# Список языков
+# Language List
 
-> В пайплайне участвуют только русская локализация и её источники. Остальные локали (itt, det, frt и т.д.) не используются.
+> Only Russian localization and its sources participate in the pipeline. Other locales (itt, det, frt, etc.) are not used.
 
-| Код | Папка | Роль | Язык |
-|-----|--------|------|------|
-| en | /int | Источник (основной) | English |
-| et | /est | Источник (если нет .int) | Eesti |
-| ru | /rut | Целевая локаль | Русский |
+| Code | Folder | Role | Language |
+|------|--------|------|----------|
+| en | /int | Source (primary) | English |
+| et | /est | Source (when no .int) | Eesti |
+| ru | /rut | Target locale | Russian |
 
-Определения: [LOCALIZATION_GLOSSARY](Glossary/LOCALIZATION_GLOSSARY.md) (исходный язык, целевой язык, базовый файл).
+Definitions: [LOCALIZATION_GLOSSARY](Glossary/LOCALIZATION_GLOSSARY.md) (source language, target language, base file).

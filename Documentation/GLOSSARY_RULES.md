@@ -76,7 +76,7 @@ Each glossary uses a **Markdown table** with four columns. For new and edited do
 | -------------- | ------------ | -------------------- | ---------------- |
 
 - In the **source .md files**, prefer the same visual style and alignment as in `Game_Pickups.md` (columns aligned with spaces, header and separator rows present). This keeps tables readable both in rendered form and directly in a monospaced editor. Renderers ignore extra spaces around cell content, but this padding makes the raw markdown easier to scan and aligns visually in the IDE.
-- Legacy tables that use the older style without leading/trailing `|` are still considered valid as long as they keep the same four columns and semantics; они могут оставаться в текущем формате до момента, когда файл всё равно правится по содержанию (тогда его можно мигрировать на GitHub‑style по желанию).
+- Legacy tables that use the older style without leading/trailing `|` are still considered valid as long as they keep the same four columns and semantics; they may stay in the current format until the file is edited for content anyway (then it can be migrated to GitHub-style if desired).
 
 - **Technical name** — identifier from the game (e.g. map name `AS-Convoy`, key `SinglePlayerButtonText`).
 - **English name** — from the corresponding file in `/int`.

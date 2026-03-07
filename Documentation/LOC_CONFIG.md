@@ -1,58 +1,49 @@
-# Конфиг: Пайплайн локализации UT2004
+# Config: UT2004 Localization Pipeline
 
-> Только русская локализация. Источники ключей и базовых строк: `/int`, `/est`.
+> Russian localization only. Key and base string sources: `/int`, `/est`.
 
-## Вопросы при инициализации
+## Initialization Questions
 
+| Question | Answer |
+|----------|--------|
+| Engine integration | External: text .int files (Unreal Engine 2) |
+| Tools | Manual translation, scripts (status), AI agent for iterations when needed |
+| File format | UE2: .int (sections `[Category]`, keys `Key="Value"`). Pair: source (.int or .est) ↔ .rut |
 
-| Вопрос               | Ответ                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------------- |
-| Интеграция с движком | Внешняя: текстовые файлы .int (Unreal Engine 2)                                             |
-| Инструменты          | Ручной перевод, скрипты (статус), при необходимости AI-агент для итераций                   |
-| Формат файлов        | UE2: .int (секции `[Category]`, ключи `Key="Value"`). Пара: исходник (.int или .est) ↔ .rut |
+## General
 
+| Field | Value |
+|-------|-------|
+| Project name | UT2004 Localization (RU) |
+| Repository | *(current)* |
+| Target language | ru (Russian) |
 
-## Общее
+## Sources and Locale
 
+| Role | Folder | Description |
+|------|--------|-------------|
+| Source 1 | /int | English .int — primary source of keys and reference strings |
+| Source 2 | /est | Estonian .est — additional source when no matching .int in /int (same file name → .rut) |
+| Localization | /rut | Russian translation files; one .rut per source file (.int or .est) |
+| Reference | /rut_old | Old Russian localization. May be used for comparison. **Not a translation source:** strings from /rut_old must never be copied into .rut. |
 
-| Поле         | Значение                 |
-| ------------ | ------------------------ |
-| Имя проекта  | UT2004 Localization (RU) |
-| Репозиторий  | *(текущий)*              |
-| Целевой язык | ru (русский)             |
+Other locale folders (itt, det, frt, etc.) are not used in the pipeline.
 
+### About the Old Russian column in glossaries
 
-## Источники и локаль
+Entity glossary tables include an **Old Russian** column — strings from the old translation (/rut_old). This column is **for visual comparison only**. Use only sources (/int, /est) for translation; do not use Old Russian as source text for .rut.
 
+## Namespaces / entities
 
-| Роль        | Папка | Описание                                                                                                  |
-| ----------- | ----- | --------------------------------------------------------------------------------------------------------- |
-| Источник 1  | /int  | Английские .int — основной источник ключей и эталонных строк                                              |
-| Источник 2  | /est  | Эстонские .est — дополнительный источник, когда в /int нет соответствующего .int (то же имя файла → .rut) |
-| Локализация | /rut  | Русские файлы перевода; один .rut на один исходный файл (.int или .est)                                   |
-| Справочно   | /rut_old | Старая русская локализация. Можно иногда обращаться для сравнения. **Не источник перевода:** строки из /rut_old никогда не переносим в .rut. |
+List: [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md). Groups: Game_*, UI_*, Lore_*, Tech_* (entity glossaries in [Glossary/](Glossary/)).
 
+## Process
 
-Остальные папки локалей (itt, det, frt и т.д.) в пайплайне не используются.
-
-### Про колонку Old Russian в глоссариях
-
-В таблицах глоссариев сущностей есть колонка **Old Russian** — туда вынесены строки из старого перевода (/rut_old). Эта колонка **исключительно для визуального сравнения**. Берём строки для перевода только из исходников (/int, /est); колонку Old Russian не используем как источник текста для .rut.
-
-## Неймспейсы / сущности (entity)
-
-Список: [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md). Группы: Game_*, UI_*, Lore_*, Tech_* (глоссарии по сущностям в [Glossary/](Glossary/)).
-
-## Процесс
-
-
-| Этап       | Инструмент / способ                                                                                        |
-| ---------- | ---------------------------------------------------------------------------------------------------------- |
-| Анализ     | Обзор .int/.est, [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)                                   |
-| Глоссарий  | Глоссарии сущностей, [GLOSSARY_RULES](GLOSSARY_RULES.md)                                             |
-| Валидация  | По глоссарию и [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) |
-| Перевод    | Ручной, при необходимости итерации с AI                                                                    |
-| Ревью      | Ручной                                                                                                     |
-| Интеграция | Копирование .rut в установку игры                                                                          |
-
-
+| Stage | Tool / method |
+|-------|----------------|
+| Analysis | Review .int/.est, [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) |
+| Glossary | Entity glossaries, [GLOSSARY_RULES](GLOSSARY_RULES.md) |
+| Validation | By glossary and [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) |
+| Translation | Manual, AI iterations when needed |
+| Review | Manual |
+| Integration | Copy .rut into game installation |
