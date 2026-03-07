@@ -5,7 +5,7 @@
 - **Sources:** Tutorial- and training-related strings from `.int` files that ship with the base game and bonus content (e.g. movement / weapon training, game mode tutorials, vehicle training, in-game help overlays). Current Russian: matching `.rut` files in `/rut/`. Old Russian: matching `.rut` files in `/rut_old/`.
 - **Structure / categories:** Sections are grouped by tutorial type or focus area, for example: basic controls, movement, weapons, game modes, vehicles, and advanced tactics. Within each section, rows are ordered by their technical keys as they appear in the source files.
 - **Exclusions:** Map display names (`DM-`, `CTF-`, `BR-`, `DOM-`, `AS-`, `ONS-`, `TUT-`, `MOV-`) belong to the `Game_Maps` entity and are not duplicated here. General UI labels, menus, dialogs, popups, notifications, and tooltips belong to the corresponding `UI_*.md` entities and are only included here if the string is strictly tutorial-specific and does not appear in regular UI contexts.
-- **Table format:** Standard glossary format: Technical name, English name, Current Russian, Old Russian.
+- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
 
 ---
 
@@ -15,9 +15,9 @@ Old Russian: `/rut_old/*.rut` (same basenames as the tutorial sources).
 
 Format (Markdown table):
 
-| Technical name   | English name   | Current Russian | Old Russian        |
-| ---------------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
+| Technical name   | .rut file   | English name   | Current Russian | Old Russian        |
+| ---------------- | ----------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | *(e.g. XInterface.rut)* | (English label)| -               | (Old Russian or -) |
 
 If no translation: `-`.
 
@@ -38,16 +38,16 @@ Notes:
 
 ## Game mode tutorials
 
-| Technical name              | English name                          | Current Russian | Old Russian                                         |
-| --------------------------- | ------------------------------------- | --------------- | -------------------------------------------------- |
-| XGame.DM0.MenuName          | Deathmatch Tutorial                   | -               | -                                                  |
-| XInterface.DMLabel0         | Tutorial                              | -               | Обучающий                                          |
-| XInterface.SelectMessage    | Click to play tutorial for            | -               | Щелкните для просмотра пособия для                 |
-| XInterface.TabNameTutorials | Tutorials                             | -               | Обучение                                           |
-| XInterface.TabHintTutorials | View tutorials for each game type     | -               | Просмотр обучения для каждого типа игры            |
-| GUI2K4.StartTutorial        | Click to play tutorial for            | -               | Щелкните, чтобы просмотреть обучающие ролик по     |
-| GUI2K4.TutorialButtonCaption| Watch Game Tutorial                   | -               | Просмотреть обучающий ролик                        |
-| GUI2K4.TutorialButtonHint   | Watch the tutorial for this gametype. | -               | Просмотреть обучающий ролик по этому режиму игры. |
+| Technical name              | .rut file     | English name                          | Current Russian | Old Russian                                         |
+| --------------------------- | ------------- | ------------------------------------- | --------------- | -------------------------------------------------- |
+| XGame.DM0.MenuName          | XGame.rut     | Deathmatch Tutorial                   | -               | -                                                  |
+| XInterface.DMLabel0         | XInterface.rut | Tutorial                              | -               | Обучающий                                          |
+| XInterface.SelectMessage    | XInterface.rut | Click to play tutorial for            | -               | Щелкните для просмотра пособия для                 |
+| XInterface.TabNameTutorials | XInterface.rut | Tutorials                             | -               | Обучение                                           |
+| XInterface.TabHintTutorials | XInterface.rut | View tutorials for each game type     | -               | Просмотр обучения для каждого типа игры            |
+| GUI2K4.StartTutorial        | GUI2K4.rut    | Click to play tutorial for            | -               | Щелкните, чтобы просмотреть обучающие ролик по     |
+| GUI2K4.TutorialButtonCaption| GUI2K4.rut    | Watch Game Tutorial                   | -               | Просмотреть обучающий ролик                        |
+| GUI2K4.TutorialButtonHint   | GUI2K4.rut    | Watch the tutorial for this gametype. | -               | Просмотреть обучающий ролик по этому режиму игры. |
 
 <!--
 The following sections are intentionally omitted for now.

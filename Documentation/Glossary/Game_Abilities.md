@@ -7,7 +7,7 @@ These rules apply only to the Abilities entity and override the general Glossary
 - **Categories:** Abilities are grouped into **Movement**, **Special movement (no direct input)**, **Looking**, **Combat**, **Communication & taunts**, **HUD & display**, and **Game & misc**. Terms are player actions and control labels (key bindings), not weapon names.
 - **Sources:** Terms from XInterface.int (Bindings/Labels), GUI2K4.int (BindingLabel), GamePlay.int (ActionMessage_DM), UnrealGame.int (DMHints). Current Russian: /rut (GUI2K4.rut, section [ControlBinder]). Old Russian: /rut_old (GUI2K4.rut, section [ControlBinder]).
 - **Exclusions:** Weapon selection labels (Shield Gun, Assault Rifle, etc.) belong in the Weapons entity. Only the generic actions Fire, Alt-Fire, Throw Weapon, Next/Prev Weapon, etc. are listed here.
-- **Table format:** Pipe-separated columns. Column order: Technical name | English name | Current Russian | Old Russian. If no translation: - .
+- **Table format:** Pipe-separated columns. Column order: Technical name | .rut file | English name | Current Russian | Old Russian. If no translation: - .
 - **Alignment:** Same column widths across all tables.
 
 ---
@@ -16,7 +16,7 @@ Source: XInterface.int, GUI2K4.int, GamePlay.int, UnrealGame.int (English).
 Current Russian: /rut.
 Old Russian: /rut_old.
 
-Format: Technical name | English name | Current Russian | Old Russian.
+Format: Technical name | .rut file | English name | Current Russian | Old Russian.
 If no translation: - .
 
 Notes:
@@ -36,111 +36,111 @@ Tutorial / hint sources:
 
 ## Movement
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Forward                  | Forward            | Вперёд          | Вперед
-Backward                 | Backward           | Назад           | Назад
-Strafe Left              | Strafe Left        | Движение влево  | Смещение влево
-Strafe Right             | Strafe Right       | Движение вправо | Смещение вправо
-Jump                     | Jump               | Прыжок          | Прыжок
-Walk                     | Walk               | Ходьба          | Идти
-Crouch                   | Crouch             | Присед          | Приседание
-Strafe Toggle            | Strafe Toggle      | Переключение движения | Вкл/выкл смещение
+| Technical name   | .rut file    | English name       | Current Russian | Old Russian |
+| ---------------- | ------------ | ------------------ | --------------- | ----------- |
+| Forward          | GUI2K4.rut   | Forward            | Вперёд          | Вперед |
+| Backward         | GUI2K4.rut   | Backward           | Назад           | Назад |
+| Strafe Left      | GUI2K4.rut   | Strafe Left        | Движение влево  | Смещение влево |
+| Strafe Right     | GUI2K4.rut   | Strafe Right       | Движение вправо | Смещение вправо |
+| Jump             | GUI2K4.rut   | Jump               | Прыжок          | Прыжок |
+| Walk             | GUI2K4.rut   | Walk               | Ходьба          | Идти |
+| Crouch           | GUI2K4.rut   | Crouch             | Присед          | Приседание |
+| Strafe Toggle    | GUI2K4.rut   | Strafe Toggle       | Переключение движения | Вкл/выкл смещение |
 
 ### Special movement (no direct input binding)
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Double Jump              | Double Jump        | -               | -
-Dodge                    | Dodge              | -               | -
+| Technical name   | .rut file   | English name  | Current Russian | Old Russian |
+| ---------------- | ----------- | ------------- | --------------- | ----------- |
+| Double Jump      | GamePlay.rut| Double Jump   | -               | - |
+| Dodge            | GamePlay.rut| Dodge         | -               | - |
 
 ---
 
 ## Looking
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Turn Left                | Turn Left          | Повернуться налево | Повернуться влево
-Turn Right               | Turn Right         | Повернуться направо | Повернуться вправо
-Look Up                  | Look Up            | Посмотреть вверх | Посмотреть вверх
-Look Down                | Look Down          | Посмотреть вниз | Посмотреть вниз
-Center View              | Center View        | Центрировать взгляд | Посмотреть вперед
-Toggle BehindView        | Toggle "BehindView"| Режим камеры от 3-го лица | Вкл/выкл вид от 3-го лица
-Toggle Camera Mode       | Toggle Camera Mode | Переключить режим камеры | Смена режима камеры
+| Technical name     | .rut file  | English name        | Current Russian | Old Russian |
+| ------------------ | ---------- | ------------------- | --------------- | ----------- |
+| Turn Left          | GUI2K4.rut | Turn Left           | Повернуться налево | Повернуться влево |
+| Turn Right         | GUI2K4.rut | Turn Right          | Повернуться направо | Повернуться вправо |
+| Look Up            | GUI2K4.rut | Look Up             | Посмотреть вверх | Посмотреть вверх |
+| Look Down          | GUI2K4.rut | Look Down           | Посмотреть вниз | Посмотреть вниз |
+| Center View        | GUI2K4.rut | Center View         | Центрировать взгляд | Посмотреть вперед |
+| Toggle BehindView  | GUI2K4.rut | Toggle "BehindView" | Режим камеры от 3-го лица | Вкл/выкл вид от 3-го лица |
+| Toggle Camera Mode | GUI2K4.rut | Toggle Camera Mode  | Переключить режим камеры | Смена режима камеры |
 
 ---
 
 ## Combat
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Fire                     | Fire               | Стрельба        | Основной режим стрельбы
-Alt-Fire                 | Alt-Fire           | Альт. режим стрельбы | Альтернативный режим стрельбы
-Throw Weapon             | Throw Weapon       | Выбросить оружие | Бросить текущее оружие
-Best Weapon              | Best Weapon        | Лучшее оружие   | Выбрать лучшее оружие
-Next Weapon              | Next Weapon        | След. оружие    | Выбрать следующее оружие
-Prev Weapon              | Prev Weapon        | Пред. оружие    | Выбрать предыдущее оружие
-Last Weapon              | Last Weapon        | Последнее оружие | Выбрать предпоследнее оружие
-Weapon Selection         | Weapon Selection   | Выбор оружия    | Выбор оружия
-Super Weapon             | Super Weapon       | Супероружие     | Супероружие
-Use                      | Use                | Использовать    | Использовать
+| Technical name   | .rut file  | English name     | Current Russian | Old Russian |
+| ---------------- | ---------- | ---------------- | --------------- | ----------- |
+| Fire             | GUI2K4.rut | Fire             | Стрельба        | Основной режим стрельбы |
+| Alt-Fire         | GUI2K4.rut | Alt-Fire         | Альт. режим стрельбы | Альтернативный режим стрельбы |
+| Throw Weapon     | GUI2K4.rut | Throw Weapon     | Выбросить оружие | Бросить текущее оружие |
+| Best Weapon      | GUI2K4.rut | Best Weapon      | Лучшее оружие   | Выбрать лучшее оружие |
+| Next Weapon      | GUI2K4.rut | Next Weapon      | След. оружие    | Выбрать следующее оружие |
+| Prev Weapon      | GUI2K4.rut | Prev Weapon      | Пред. оружие    | Выбрать предыдущее оружие |
+| Last Weapon      | GUI2K4.rut | Last Weapon      | Последнее оружие | Выбрать предпоследнее оружие |
+| Weapon Selection | GUI2K4.rut | Weapon Selection | Выбор оружия    | Выбор оружия |
+| Super Weapon     | GUI2K4.rut | Super Weapon     | Супероружие     | Супероружие |
+| Use              | GUI2K4.rut | Use              | Использовать    | Использовать |
 
 ---
 
 ## Communication & taunts
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Say                      | Say                | Сказать         | Текстовое сообщение всем
-Team Say                 | Team Say           | Сказать команде | Текстовое сообщение команде
-Speech Menu              | Speech Menu        | Меню общения    | Меню голосовых команд
-In Game Chat             | In Game Chat       | Внутриигровой чат | Открыть окно чата
-Taunts                   | Taunts             | Насмешки        | Жесты
-Pelvic Thrust            | Pelvic Thrust      | Вращение таза   | Удар по Печени
-Ass Smack                | Ass Smack          | Шлепок по заднице | 'Поцелуй меня в задницу!'
-Throat Cut               | Throat Cut         | Перерезать глотку | 'Голову снесу!'
-Brag                     | Brag               | Хвастовство     | Нахальство
+| Technical name   | .rut file  | English name   | Current Russian | Old Russian |
+| ---------------- | ---------- | -------------- | --------------- | ----------- |
+| Say              | GUI2K4.rut | Say            | Сказать         | Текстовое сообщение всем |
+| Team Say         | GUI2K4.rut | Team Say       | Сказать команде | Текстовое сообщение команде |
+| Speech Menu      | GUI2K4.rut | Speech Menu    | Меню общения    | Меню голосовых команд |
+| In Game Chat     | GUI2K4.rut | In Game Chat   | Внутриигровой чат | Открыть окно чата |
+| Taunts           | GUI2K4.rut | Taunts         | Насмешки        | Жесты |
+| Pelvic Thrust    | GUI2K4.rut | Pelvic Thrust  | Вращение таза   | Удар по Печени |
+| Ass Smack        | GUI2K4.rut | Ass Smack      | Шлепок по заднице | 'Поцелуй меня в задницу!' |
+| Throat Cut       | GUI2K4.rut | Throat Cut     | Перерезать глотку | 'Голову снесу!' |
+| Brag             | GUI2K4.rut | Brag           | Хвастовство     | Нахальство |
 
 ---
 
 ## HUD & display
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-Grow Hud                 | Grow Hud           | Увеличить размер интерфейса | Увеличить HUD
-Shrink Hud               | Shrink Hud         | Уменьшить размер интерфейса | Уменьшить HUD
-ScoreBoard               | ScoreBoard         | Таблица результатов | Табло счета
-ScoreBoard Toggle        | ScoreBoard Toggle  | Показать таблицу результатов | Отобразить/скрыть табло счета
-Show Radar Map           | Show Radar Map     | Показать радар   | Показать/скрыть карту-радар
-Show Personal Stats      | Show Personal Stats| Показать персональную статистику | Показать/скрыть личную статистику
-View Next Player's Stats | View Next Player's Stats | Показать статистику следующего игрока | Показать статистику следующего игрока
+| Technical name            | .rut file  | English name            | Current Russian | Old Russian |
+| ------------------------- | ---------- | ----------------------- | --------------- | ----------- |
+| Grow Hud                  | GUI2K4.rut | Grow Hud                | Увеличить размер интерфейса | Увеличить HUD |
+| Shrink Hud                | GUI2K4.rut | Shrink Hud              | Уменьшить размер интерфейса | Уменьшить HUD |
+| ScoreBoard                | GUI2K4.rut | ScoreBoard              | Таблица результатов | Табло счета |
+| ScoreBoard Toggle         | GUI2K4.rut | ScoreBoard Toggle       | Показать таблицу результатов | Отобразить/скрыть табло счета |
+| Show Radar Map            | GUI2K4.rut | Show Radar Map          | Показать радар   | Показать/скрыть карту-радар |
+| Show Personal Stats       | GUI2K4.rut | Show Personal Stats     | Показать персональную статистику | Показать/скрыть личную статистику |
+| View Next Player's Stats  | GUI2K4.rut | View Next Player's Stats | Показать статистику следующего игрока | Показать статистику следующего игрока |
 
 ---
 
 ## Game & misc
 
-Technical name                 | English name                 | Current Russian | Old Russian
--------------------------------|------------------------------|-----------------|--------------------------
-Pause                          | Pause                        | Пауза           | Пауза
-Screenshot                     | Screenshot                   | Скриншот        | Сделать скриншот
-Menu                           | Menu                         | Меню            | Меню
-Server Info                    | Server Info                  | Информация о сервере | Сведения о сервере
-Vehicle Horn                   | Vehicle Horn                 | Гудок           | Звуковой сигнал транспорта
-Find Red Base                  | Find Red Base                | Найти красную базу | Показать путь к базе красной команды
-Find Blue Base                 | Find Blue Base               | Найти голубую базу | Показать путь к базе синей команды
-Next Inventory Item            | Next Inventory Item          | Следующий предмет в инвентаре | Выбрать следующий предмет инвентаря
-Previous Inventory Item        | Previous Inventory Item      | Предыдущий предмет в инвентаре | Выбрать предыдущий предмет инвентаря
-Activate Current Inventory Item| Activate Current Inventory Item | Использовать текущий предмет в инвентаре | Активировать текущий предмет инвентаря
-Music Player                   | Music Player                 | Музыкальный плеер | Проигрыватель музыки
-Voting Menu                    | Voting Menu                  | Меню голосования | Меню голосования
-Toggle Console                 | Toggle Console               | Переключить консоль | Открыть/закрыть консоль
-View Connection Status         | View Connection Status       | Посмотреть состояние подключения | Показать статистику соединения
-Cancel Pending Connection      | Cancel Pending Connection    | Отменить ожидающее соединение | Отменить текущую попытку соединения
-Activate Microphone            | Activate Microphone          | Включить микрофон | Включить микрофон
-Speak in Public Channel        | Speak in Public Channel      | Говорить в публичном канале | Говорить в общем канале
-Speak in local Channel         | Speak in local Channel       | Говорить в локальном канале | Говорить в локальном канале
-Speak in Team Channel          | Speak in Team Channel        | Говорить с командой | Говорить в командном канале
-Toggle Public Channel          | Toggle Public Channel        | Переключиться на публичный канал | Вкл/выкл общий канал
-Toggle Local Channel           | Toggle Local Channel         | Переключиться на локальный канал | Вкл/выкл локальный канал
-Toggle Team Channel            | Toggle Team Channel          | Переключиться на канал команды | Вкл/выкл командный канал
+| Technical name                  | .rut file  | English name                 | Current Russian | Old Russian |
+| ------------------------------- | ---------- | ---------------------------- | --------------- | ----------- |
+| Pause                           | GUI2K4.rut | Pause                        | Пауза           | Пауза |
+| Screenshot                      | GUI2K4.rut | Screenshot                   | Скриншот        | Сделать скриншот |
+| Menu                            | GUI2K4.rut | Menu                         | Меню            | Меню |
+| Server Info                     | GUI2K4.rut | Server Info                  | Информация о сервере | Сведения о сервере |
+| Vehicle Horn                    | GUI2K4.rut | Vehicle Horn                 | Гудок           | Звуковой сигнал транспорта |
+| Find Red Base                   | GUI2K4.rut | Find Red Base                | Найти красную базу | Показать путь к базе красной команды |
+| Find Blue Base                  | GUI2K4.rut | Find Blue Base               | Найти голубую базу | Показать путь к базе синей команды |
+| Next Inventory Item             | GUI2K4.rut | Next Inventory Item          | Следующий предмет в инвентаре | Выбрать следующий предмет инвентаря |
+| Previous Inventory Item         | GUI2K4.rut | Previous Inventory Item     | Предыдущий предмет в инвентаре | Выбрать предыдущий предмет инвентаря |
+| Activate Current Inventory Item | GUI2K4.rut | Activate Current Inventory Item | Использовать текущий предмет в инвентаре | Активировать текущий предмет инвентаря |
+| Music Player                    | GUI2K4.rut | Music Player                 | Музыкальный плеер | Проигрыватель музыки |
+| Voting Menu                     | GUI2K4.rut | Voting Menu                  | Меню голосования | Меню голосования |
+| Toggle Console                  | GUI2K4.rut | Toggle Console               | Переключить консоль | Открыть/закрыть консоль |
+| View Connection Status         | GUI2K4.rut | View Connection Status       | Посмотреть состояние подключения | Показать статистику соединения |
+| Cancel Pending Connection       | GUI2K4.rut | Cancel Pending Connection    | Отменить ожидающее соединение | Отменить текущую попытку соединения |
+| Activate Microphone             | GUI2K4.rut | Activate Microphone          | Включить микрофон | Включить микрофон |
+| Speak in Public Channel         | GUI2K4.rut | Speak in Public Channel      | Говорить в публичном канале | Говорить в общем канале |
+| Speak in local Channel          | GUI2K4.rut | Speak in local Channel       | Говорить в локальном канале | Говорить в локальном канале |
+| Speak in Team Channel           | GUI2K4.rut | Speak in Team Channel        | Говорить с командой | Говорить в командном канале |
+| Toggle Public Channel           | GUI2K4.rut | Toggle Public Channel        | Переключиться на публичный канал | Вкл/выкл общий канал |
+| Toggle Local Channel            | GUI2K4.rut | Toggle Local Channel         | Переключиться на локальный канал | Вкл/выкл локальный канал |
+| Toggle Team Channel             | GUI2K4.rut | Toggle Team Channel          | Переключиться на канал команды | Вкл/выкл командный канал |
 

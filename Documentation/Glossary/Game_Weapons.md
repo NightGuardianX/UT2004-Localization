@@ -13,7 +13,7 @@ These rules apply only to the Weapons entity and override the general Glossary R
 - **Ammo / pickups:** Not listed here; they belong in a separate entity (e.g. Pickups).
 - **Table format:** Tables use pipe-separated columns.
   First row is the header; second row is a separator line (dashes and pipes).
-  Column order: Technical name | English name | Current Russian | Old Russian.
+  Column order: Technical name | .rut file | English name | Current Russian | Old Russian.
   If no translation, use `-`.
 - **Alignment:** All tables use the same column widths; columns are aligned across the document.
 
@@ -23,7 +23,7 @@ Source: XWeapons.int, Onslaught.int, OnslaughtFull.int (English).
 Current Russian: /rut.
 Old Russian: /rut_old.
 
-Format: Technical name | English name | Current Russian | Old Russian.
+Format: Technical name | .rut file | English name | Current Russian | Old Russian.
 If no translation: - .
 
 Notes:
@@ -34,38 +34,38 @@ Notes:
 
 ## Primary
 
-| Technical name          | English name      | Current Russian | Old Russian           |
-| ----------------------- | ----------------- | --------------- | --------------------- |
-| ShieldGun               | Shield Gun        | -               | Ударная винтовка      |
-| AssaultRifle            | Assault Rifle     | -               | Автомат               |
-| BioRifle                | Bio-Rifle         | -               | Био-Ружье             |
-| ShockRifle              | Shock Rifle       | -               | Фотонная винтовка     |
-| LinkGun                 | Link Gun          | -               | Плазменная винтовка   |
-| Minigun                 | Minigun           | -               | Пулемет               |
-| FlakCannon              | Flak Cannon       | -               | Зенитная пушка        |
-| RocketLauncher          | Rocket Launcher   | -               | Ракетница             |
-| SniperRifle (Lightning) | Lightning Gun     | -               | Световая пушка        |
-| SniperRifle (Classic)   | Sniper Rifle      | -               | -                     |
+| Technical name          | .rut file     | English name      | Current Russian | Old Russian           |
+| ----------------------- | ------------- | ----------------- | --------------- | --------------------- |
+| ShieldGun               | XWeapons.rut  | Shield Gun        | -               | Ударная винтовка      |
+| AssaultRifle            | XWeapons.rut  | Assault Rifle     | -               | Автомат               |
+| BioRifle                | XWeapons.rut  | Bio-Rifle         | -               | Био-Ружье             |
+| ShockRifle              | XWeapons.rut  | Shock Rifle       | -               | Фотонная винтовка     |
+| LinkGun                 | XWeapons.rut  | Link Gun          | -               | Плазменная винтовка   |
+| Minigun                 | XWeapons.rut  | Minigun           | -               | Пулемет               |
+| FlakCannon              | XWeapons.rut  | Flak Cannon       | -               | Зенитная пушка        |
+| RocketLauncher          | XWeapons.rut  | Rocket Launcher   | -               | Ракетница             |
+| SniperRifle (Lightning) | XWeapons.rut  | Lightning Gun     | -               | Световая пушка        |
+| SniperRifle (Classic)   | XWeapons.rut  | Sniper Rifle      | -               | -                     |
 
 ---
 
 ## Onslaught
 
-| Technical name     | English name     | Current Russian | Old Russian         |
-| ------------------ | ---------------- | --------------- | ------------------- |
-| ONSAVRiL           | AVRiL            | -               | АВРиЛ               |
-| ONSGrenadeLauncher | Grenade Launcher | -               | Гранатомет          |
-| ONSMineLayer       | Mine Layer       | -               | Миноукладчик        |
-| ONSPainter         | Target Painter   | -               | Маркер целеуказания |
+| Technical name     | .rut file        | English name     | Current Russian | Old Russian         |
+| ------------------ | ---------------- | ---------------- | --------------- | ------------------- |
+| ONSAVRiL           | Onslaught.rut    | AVRiL            | -               | АВРиЛ               |
+| ONSGrenadeLauncher | Onslaught.rut    | Grenade Launcher | -               | Гранатомет          |
+| ONSMineLayer       | Onslaught.rut    | Mine Layer       | -               | Миноукладчик        |
+| ONSPainter         | OnslaughtFull.rut| Target Painter   | -               | Маркер целеуказания |
 
 ---
 
 ## Special
 
-| Technical name   | English name      | Current Russian | Old Russian               |
-| ---------------- | ----------------- | --------------- | ------------------------- |
-| Translauncher    | Translocator      | -               | Транслокатор              |
-| Redeemer         | Redeemer          | -               | Искупитель                |
-| Painter          | Ion Painter       | -               | Ионный разрушитель        |
-| BallLauncher     | Ball Launcher     | -               | Метатель шаров            |
-| SuperShockRifle  | Super Shock Rifle | -               | Фотонная супервинтовка    |
+| Technical name   | .rut file    | English name      | Current Russian | Old Russian               |
+| ---------------- | ------------ | ----------------- | --------------- | ------------------------- |
+| Translauncher    | XWeapons.rut | Translocator      | -               | Транслокатор              |
+| Redeemer         | XWeapons.rut | Redeemer          | -               | Искупитель                |
+| Painter          | XWeapons.rut | Ion Painter       | -               | Ионный разрушитель        |
+| BallLauncher     | XWeapons.rut | Ball Launcher     | -               | Метатель шаров            |
+| SuperShockRifle  | XWeapons.rut | Super Shock Rifle | -               | Фотонная супервинтовка    |

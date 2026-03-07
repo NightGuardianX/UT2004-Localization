@@ -7,7 +7,7 @@
 - **Exclusions:**
   - Generic game mode labels, notifications, or UI text from `XGame.int` that belong to other entities (e.g. GameModes, Notifications).
   - **Custom exclusion:** symbols-only entries from `TeamSymbols_UT2004.int` (`TeamSymbols_UT2004.*`) – these are treated as purely graphical assets and are not listed as Teams glossary rows.
-- **Table format:** Standard glossary table as defined in [GLOSSARY_RULES](../GLOSSARY_RULES.md): Technical name, English name, Current Russian, Old Russian.
+- **Table format:** Standard glossary table: Technical name | .rut file | English name | Current Russian | Old Russian.
 
 ---
 
@@ -17,8 +17,8 @@ Old Russian: `/rut_old/XGame.rut`.
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | ------------
+Technical name | .rut file  | English name | Current Russian | Old Russian
+-------------- | ---------- | ------------ | --------------- | ------------
 
 If no translation: `-`.
 
@@ -35,43 +35,43 @@ Notes:
 
 ### Phantom / narrative teams
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-PhantomBloodReavers            | Blood Reavers      | Blood Reavers   | Кровавые Грабители
-PhantomDarkPhalanx             | Dark Phalanx       | Dark Phalanx    | Черная Фаланга
-PhantomEpic                    | Epic Games, Inc.   | Epic Games, Inc.| Epic Games, Inc.
-PhantomNecrisBlackLegion       | Necris Black Legion| Necris Black Legion | Черный Легион Некрис
-PhantomRawSteel                | Raw Steel          | Raw Steel       | Чистая Сталь
+| Technical name           | .rut file  | English name       | Current Russian | Old Russian |
+| -------------------------| ---------- |--------------------|-----------------| ----------- |
+| PhantomBloodReavers      | XGame.rut  | Blood Reavers      | Blood Reavers   | Кровавые Грабители |
+| PhantomDarkPhalanx       | XGame.rut  | Dark Phalanx       | Dark Phalanx    | Черная Фаланга |
+| PhantomEpic              | XGame.rut  | Epic Games, Inc.   | Epic Games, Inc.| Epic Games, Inc. |
+| PhantomNecrisBlackLegion  | XGame.rut  | Necris Black Legion| Necris Black Legion | Черный Легион Некрис |
+| PhantomRawSteel          | XGame.rut  | Raw Steel          | Raw Steel       | Чистая Сталь |
 
 ### Ladder / playable teams
 
-Technical name           | English name       | Current Russian | Old Russian
--------------------------|--------------------|-----------------|--------------------------
-TeamApocalypse                 | Apocalypse         | Апокалипсис     | -
-TeamBlackLegion                | BlackLegion        | Черный Легион   | -
-TeamBloodFists                 | BloodFists         | Кровавые Кулаки | -
-TeamBoneCrushers               | BoneCrushers       | Сокрушители Костей | -
-TeamColdSteel                  | ColdSteel          | Холодная Сталь  | -
-TeamCorrupt                    | The Corrupt        | Искаженные      | -
-TeamCrusaders                  | Crusaders          | Крестоносцы     | -
-TeamDragonBreath               | DragonBreath       | Дыхание Дракона | -
-TeamFirestorm                  | Firestorm          | Огненный Шторм  | -
-TeamGoliath                    | Goliath            | Голиаф          | -
-TeamHellions                   | Hellions           | Геллионы        | -
-TeamIronGuard                  | IronGuard          | Железная Стража | -
-TeamIronSkull                  | Iron Skull Skaarj  | Скаарджи Железного Черепа | -
-TeamJuggernauts                | Juggernauts        | Джаггернауты    | -
-TeamNewBlacklegion             | Black Legion       | Черный Легион   | -
-TeamNewBloodfist               | Blood Fist         | Кровавые Кулаки | -
-TeamNewFirestorm               | Firestorm          | Огненный Шторм  | -
-TeamNewIronGuard               | Iron Guard         | Железная Стража | -
-TeamNewSunblade                | Sun Blade          | Солнечный Клинок | -
-TeamNewSuperNova               | Super Nova         | Сверхновая      | -
-TeamNightstalkers              | Nightstalkers      | Ночные Охотники | -
-TeamPainMachine                | PainMachine        | Машина Боли     | -
-TeamSunBlades                  | SunBlades          | Солнечные Клинки | -
-TeamSupernova                  | Supernova          | Сверхновая      | -
-TeamThundercrash               | Thunder Crash      | Удар Грома      | -
-TeamVenom                      | Venom              | Яд              | -
-TeamWarCry                     | WarCry             | Боевой клич     | -
+| Technical name           | .rut file  | English name       | Current Russian | Old Russian |
+| -------------------------| ---------- |--------------------|-----------------| ----------- |
+| TeamApocalypse           | XGame.rut  | Apocalypse         | Апокалипсис     | - |
+| TeamBlackLegion          | XGame.rut  | BlackLegion        | Черный Легион   | - |
+| TeamBloodFists           | XGame.rut  | BloodFists         | Кровавые Кулаки | - |
+| TeamBoneCrushers         | XGame.rut  | BoneCrushers       | Сокрушители Костей | - |
+| TeamColdSteel            | XGame.rut  | ColdSteel          | Холодная Сталь  | - |
+| TeamCorrupt              | XGame.rut  | The Corrupt        | Искаженные      | - |
+| TeamCrusaders            | XGame.rut  | Crusaders          | Крестоносцы     | - |
+| TeamDragonBreath         | XGame.rut  | DragonBreath       | Дыхание Дракона | - |
+| TeamFirestorm            | XGame.rut  | Firestorm          | Огненный Шторм  | - |
+| TeamGoliath              | XGame.rut  | Goliath            | Голиаф          | - |
+| TeamHellions             | XGame.rut  | Hellions           | Геллионы        | - |
+| TeamIronGuard            | XGame.rut  | IronGuard          | Железная Стража | - |
+| TeamIronSkull            | XGame.rut  | Iron Skull Skaarj  | Скаарджи Железного Черепа | - |
+| TeamJuggernauts          | XGame.rut  | Juggernauts        | Джаггернауты    | - |
+| TeamNewBlacklegion       | XGame.rut  | Black Legion       | Черный Легион   | - |
+| TeamNewBloodfist         | XGame.rut  | Blood Fist         | Кровавые Кулаки | - |
+| TeamNewFirestorm         | XGame.rut  | Firestorm          | Огненный Шторм  | - |
+| TeamNewIronGuard         | XGame.rut  | Iron Guard         | Железная Стража | - |
+| TeamNewSunblade          | XGame.rut  | Sun Blade          | Солнечный Клинок | - |
+| TeamNewSuperNova         | XGame.rut  | Super Nova         | Сверхновая      | - |
+| TeamNightstalkers        | XGame.rut  | Nightstalkers      | Ночные Охотники | - |
+| TeamPainMachine          | XGame.rut  | PainMachine        | Машина Боли     | - |
+| TeamSunBlades            | XGame.rut  | SunBlades          | Солнечные Клинки | - |
+| TeamSupernova            | XGame.rut  | Supernova          | Сверхновая      | - |
+| TeamThundercrash         | XGame.rut  | Thunder Crash      | Удар Грома      | - |
+| TeamVenom                | XGame.rut  | Venom              | Яд              | - |
+| TeamWarCry               | XGame.rut  | WarCry             | Боевой клич     | - |
 

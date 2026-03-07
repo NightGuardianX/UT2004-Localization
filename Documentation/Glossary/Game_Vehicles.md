@@ -11,7 +11,7 @@ These rules apply only to the Vehicles entity and override the general Glossary 
 - **Scope:** Only vehicle display names that the player sees in the UI (scoreboard, HUD, vehicle selection, etc.) are listed. Technical helper messages (e.g. “Press [Use] To Enter Vehicle.”) are not included here.
 - **Table format:** Tables use pipe-separated columns.  
   First row is the header; second row is a separator line (dashes and pipes).  
-  Column order: Technical name | English name | Current Russian | Old Russian.  
+  Column order: Technical name | .rut file | English name | Current Russian | Old Russian.  
   If no translation, use `-`.
 - **Alignment:** All tables use the same column widths; columns are aligned across the document.
 
@@ -21,7 +21,7 @@ Source: OnslaughtFull.int, Onslaught.int, Vehicles.int (English).
 Current Russian: /rut.  
 Old Russian: /rut_old.
 
-Format: Technical name | English name | Current Russian | Old Russian.  
+Format: Technical name | .rut file | English name | Current Russian | Old Russian.  
 If no translation: - .
 
 Notes:
@@ -34,30 +34,30 @@ Notes:
 
 ### Base Onslaught vehicles
 
-| Technical name                       | English name                   | Current Russian | Old Russian                 |
-| ------------------------------------ | ------------------------------ | --------------- | --------------------------- |
-| ONSAttackCraft                       | Raptor                         | -               | Раптор                      |
-| ONSHoverBike                         | Manta                          | -               | Манта                       |
-| ONSHoverTank                         | Goliath                        | -               | Голиаф                      |
-| ONSPRV                               | Hellbender                     | -               | Хеллбендер                  |
-| ONSPRVRearGunPawn                    | Hellbender Rear Gun            | -               | Задняя пушка Хеллбендера    |
-| ONSPRVSideGunPawn                    | Hellbender Side Gun            | -               | Боковая пушка Хеллбендера   |
-| ONSRV                                | Scorpion                       | -               | Скорпион                    |
-| ONSStationaryWeaponPawn              | Energy Turret                  | -               | Энергопушка                 |
-| ONSTankSecondaryTurretPawn           | Goliath Minigun Turret         | -               | Пулемет Галиафа             |
-| ONSBomber                            | DragonFly                      | -               | Драконфлай                  |
-| ONSGenericSD                         | TC-1200                        | -               | ТС-1200                     |
-| ONSHoverTank_IonPlasma               | Ion Plasma Tank                | -               | Ионный танк                 |
-| ONSMASSideGunPawn                    | Leviathan Turret               | -               | Пушка Левиафана             |
-| ONSMobileAssaultStation              | Leviathan                      | -               | Левиафан                    |
-| ONSTankSecondaryTurretPawn_IonPlasma | Ion Plasma Tank Minigun Turret | -               | Пулемет Ионного танка       |
+| Technical name                       | .rut file          | English name                   | Current Russian | Old Russian                 |
+| ------------------------------------ | ------------------ | ------------------------------ | --------------- | --------------------------- |
+| ONSAttackCraft                       | Onslaught.rut      | Raptor                         | -               | Раптор                      |
+| ONSHoverBike                         | Onslaught.rut      | Manta                          | -               | Манта                       |
+| ONSHoverTank                         | Onslaught.rut      | Goliath                        | -               | Голиаф                      |
+| ONSPRV                               | Onslaught.rut      | Hellbender                     | -               | Хеллбендер                  |
+| ONSPRVRearGunPawn                    | Onslaught.rut      | Hellbender Rear Gun            | -               | Задняя пушка Хеллбендера    |
+| ONSPRVSideGunPawn                    | Onslaught.rut      | Hellbender Side Gun            | -               | Боковая пушка Хеллбендера   |
+| ONSRV                                | Onslaught.rut      | Scorpion                       | -               | Скорпион                    |
+| ONSStationaryWeaponPawn              | Onslaught.rut      | Energy Turret                  | -               | Энергопушка                 |
+| ONSTankSecondaryTurretPawn           | Onslaught.rut      | Goliath Minigun Turret         | -               | Пулемет Галиафа             |
+| ONSBomber                            | OnslaughtFull.rut  | DragonFly                      | -               | Драконфлай                  |
+| ONSGenericSD                         | OnslaughtFull.rut  | TC-1200                        | -               | ТС-1200                     |
+| ONSHoverTank_IonPlasma               | OnslaughtFull.rut  | Ion Plasma Tank                | -               | Ионный танк                 |
+| ONSMASSideGunPawn                    | OnslaughtFull.rut  | Leviathan Turret               | -               | Пушка Левиафана             |
+| ONSMobileAssaultStation              | OnslaughtFull.rut  | Leviathan                      | -               | Левиафан                    |
+| ONSTankSecondaryTurretPawn_IonPlasma | OnslaughtFull.rut  | Ion Plasma Tank Minigun Turret | -               | Пулемет Ионного танка       |
 
 ### Bonus pack vehicles
 
-| Technical name          | English name        | Current Russian | Old Russian                 |
-| ----------------------- | ------------------- | --------------- | --------------------------- |
-| ONSArtillery            | SPMA                | -               | Самоходное орудие          |
-| ONSArtillerySideGunPawn | SPMA Side Turret    | -               | турель Самоходного орудия  |
-| ONSDualAttackCraft      | Cicada              | -               | Цикада                      |
-| ONSDualACGatlingGunPawn | Cicada Laser Turret | -               | Лазерная турель Цикады     |
-| ONSShockTank            | Paladin             | -               | Паладин                     |
+| Technical name          | .rut file         | English name        | Current Russian | Old Russian                 |
+| ----------------------- | ----------------- | ------------------- | --------------- | --------------------------- |
+| ONSArtillery            | OnslaughtBP.rut   | SPMA                | -               | Самоходное орудие          |
+| ONSArtillerySideGunPawn | OnslaughtBP.rut   | SPMA Side Turret    | -               | турель Самоходного орудия  |
+| ONSDualAttackCraft      | OnslaughtBP.rut   | Cicada              | -               | Цикада                      |
+| ONSDualACGatlingGunPawn | OnslaughtBP.rut   | Cicada Laser Turret | -               | Лазерная турель Цикады     |
+| ONSShockTank            | OnslaughtBP.rut   | Paladin             | -               | Паладин                     |

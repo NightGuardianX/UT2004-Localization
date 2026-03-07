@@ -5,7 +5,7 @@
 - **Sources:** Names and descriptions of bonus content that ships outside the original retail game but is officially supported (e.g. bonus map packs, Editor's Choice content, additional mutators, models, or gametypes). Strings come from the corresponding bonus `.int` files in `/int/` (and subfolders, if any). Current Russian: matching `.rut` files in `/rut/`. Old Russian: matching `.rut` files in `/rut_old/`.
 - **Structure / categories:** Sections are grouped by content type: bonus packs as products (pack names and descriptions), bonus gametypes, bonus mutators, bonus models/characters, and any other clearly bonus-only features. Within each section, rows are ordered by technical key.
 - **Exclusions:** Individual maps, weapons, pickups, vehicles, or UI strings that already belong to other entities (`Game_Maps`, `Game_Weapons`, `Game_Pickups`, `Game_Vehicles`, `UI_`*, etc.) are not duplicated here. This entity only contains names and descriptions that specifically refer to the **bonus content itself** (e.g. pack titles, bonus-only gametypes, bonus-only mutators), not their per-item details.
-- **Table format:** Standard glossary format: Technical name, English name, Current Russian, Old Russian.
+- **Table format:** Standard glossary format: Technical name | .rut file | English name | Current Russian | Old Russian.
 
 ---
 
@@ -33,11 +33,11 @@ Notes:
 ## Bonus packs (titles and descriptions)
 
 
-| Technical name | English name | Current Russian | Old Russian |
-| -------------- | ------------ | --------------- | ----------- |
-| XPBonusPack    | XP Bonus Pack (ONSBonusMapPack) | - | - |
-| ECEBonusPack   | Editor's Choice Edition Bonus Pack | - | - |
-| MegaBonusPack  | Mega Bonus Pack (BP2)           | - | - |
+| Technical name | .rut file     | English name | Current Russian | Old Russian |
+| -------------- | ------------- | ------------ | --------------- | ----------- |
+| XPBonusPack    | BonusPack.rut | XP Bonus Pack (ONSBonusMapPack) | - | - |
+| ECEBonusPack   | BonusPack.rut | Editor's Choice Edition Bonus Pack | - | - |
+| MegaBonusPack  | BonusPack.rut | Mega Bonus Pack (BP2)           | - | - |
 
 ```text
 Bonus packs

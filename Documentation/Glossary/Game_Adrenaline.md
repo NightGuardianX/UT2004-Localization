@@ -20,7 +20,7 @@ These rules apply only to the Game_Adrenaline entity and override the general [G
   - Generic game mutators are fully documented in `Game_Mutators` and are **not duplicated** here beyond Adrenaline-specific rows needed for combo context.
   - Map location names that mention Adrenaline (e.g. *Adrenaline Alley*, *Blue Adrenaline*) remain in `Game_Maps`.
   - Generic UI labels (e.g. `GameSpeedString`) remain in their UI entities.
-- **Table format:** Standard glossary format: `Technical name | English name | Current Russian | Old Russian`. If no translation: `-`.
+- **Table format:** Standard glossary format with optional .rut file column: `Technical name | .rut file | English name | Current Russian | Old Russian`. If no translation: `-`.
 
 **Consistency rules for “Adrenaline” and combos**
 
@@ -56,9 +56,9 @@ Old Russian: /rut_old.
 Format (Markdown table):
 
 
-| Technical name   | English name    | Current Russian | Old Russian        |
-| ---------------- | --------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label) | -               | (Old Russian or -) |
+| Technical name   | .rut file   | English name    | Current Russian | Old Russian        |
+| ---------------- | ----------- | --------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | (*.rut*)    | (English label) | -               | (Old Russian or -) |
 
 
 If no translation: `-`.
@@ -73,11 +73,11 @@ Notes:
 ## Core Adrenaline mechanic
 
 
-| Technical name        | English name                      | Current Russian | Old Russian |
-| --------------------- | --------------------------------- | --------------- | ----------- |
-| AdrenalinePickup      | Adrenaline                        | -               | Адреналин   |
-| GamePlay.Messages[25] | Adrenaline                        | -               | -           |
-| GamePlay.Messages[26] | Adrenaline can be used for combos | -               | -           |
+| Technical name        | .rut file    | English name                      | Current Russian | Old Russian |
+| --------------------- | ------------ | --------------------------------- | --------------- | ----------- |
+| AdrenalinePickup      | XPickups.rut | Adrenaline                        | -               | Адреналин   |
+| GamePlay.Messages[25] | GamePlay.rut | Adrenaline                        | -               | -           |
+| GamePlay.Messages[26] | GamePlay.rut | Adrenaline can be used for combos | -               | -           |
 
 
 ---
@@ -85,17 +85,17 @@ Notes:
 ## Standard Adrenaline combos
 
 
-| Technical name                   | English name      | Current Russian | Old Russian |
-| -------------------------------- | ----------------- | --------------- | ----------- |
-| UnrealGame.AdrenalineCombos      | ADRENALINE COMBOS | -               | -           |
-| UnrealGame.ComboNames[0]         | Speed             | -               | -           |
-| UnrealGame.ComboNames[1]         | Berserk           | -               | -           |
-| UnrealGame.ComboNames[2]         | Booster           | -               | -           |
-| UnrealGame.ComboNames[3]         | Invisible         | -               | -           |
-| XGame.ComboSpeed.ExecMessage     | Speed!            | -               | -           |
-| XGame.ComboBerserk.ExecMessage   | Berserk!          | -               | -           |
-| XGame.ComboDefensive.ExecMessage | Booster!          | -               | -           |
-| XGame.ComboInvis.ExecMessage     | Invisible!        | -               | -           |
+| Technical name                   | .rut file      | English name      | Current Russian | Old Russian |
+| -------------------------------- | -------------- | ----------------- | --------------- | ----------- |
+| UnrealGame.AdrenalineCombos      | UnrealGame.rut | ADRENALINE COMBOS | -               | -           |
+| UnrealGame.ComboNames[0]         | UnrealGame.rut | Speed             | -               | -           |
+| UnrealGame.ComboNames[1]         | UnrealGame.rut | Berserk           | -               | -           |
+| UnrealGame.ComboNames[2]         | UnrealGame.rut | Booster           | -               | -           |
+| UnrealGame.ComboNames[3]         | UnrealGame.rut | Invisible         | -               | -           |
+| XGame.ComboSpeed.ExecMessage     | XGame.rut     | Speed!            | -               | -           |
+| XGame.ComboBerserk.ExecMessage   | XGame.rut     | Berserk!          | -               | -           |
+| XGame.ComboDefensive.ExecMessage | XGame.rut     | Booster!          | -               | -           |
+| XGame.ComboInvis.ExecMessage     | XGame.rut     | Invisible!        | -               | -           |
 
 
 ---
@@ -103,17 +103,17 @@ Notes:
 ## Bonus Adrenaline combos (BonusPack)
 
 
-| Technical name                          | English name                                                                 | Current Russian | Old Russian |
-| --------------------------------------- | ---------------------------------------------------------------------------- | --------------- | ----------- |
-| Bonuspack.MutCrateCombo                 | Bonus Combos                                                                 | -               | -           |
-| Bonuspack.MutPintSizeCombo              | Pint-sized Combo                                                             | -               | -           |
-| BonusPack.ComboCrate.ExecMessage        | Camouflaged!                                                                 | -               | -           |
-| BonusPack.ComboMiniMe.ExecMessage       | Pint-sized!                                                                  | -               | -           |
-| BonusPack.MutCrateCombo.CamoDisplayText | Camouflage Combo                                                             | -               | -           |
-| BonusPack.MutCrateCombo.MiniDisplayText | Pint-sized Combo                                                             | -               | -           |
-| BonusPack.MutCrateCombo.CamoDescText    | When enabled, this adrenaline combo covers you with a holographic projection | -               | -           |
-| BonusPack.MutCrateCombo.MiniDescText    | When enabled, this adrenaline combo makes you smaller                        | -               | -           |
-| BonusPack.MutCrateCombo.Description     | Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR).            | -               | -           |
+| Technical name                          | .rut file     | English name                                                                 | Current Russian | Old Russian |
+| --------------------------------------- | ------------- | ---------------------------------------------------------------------------- | --------------- | ----------- |
+| Bonuspack.MutCrateCombo                 | BonusPack.rut | Bonus Combos                                                                 | -               | -           |
+| Bonuspack.MutPintSizeCombo              | BonusPack.rut | Pint-sized Combo                                                             | -               | -           |
+| BonusPack.ComboCrate.ExecMessage        | BonusPack.rut | Camouflaged!                                                                 | -               | -           |
+| BonusPack.ComboMiniMe.ExecMessage       | BonusPack.rut | Pint-sized!                                                                  | -               | -           |
+| BonusPack.MutCrateCombo.CamoDisplayText | BonusPack.rut | Camouflage Combo                                                             | -               | -           |
+| BonusPack.MutCrateCombo.MiniDisplayText | BonusPack.rut | Pint-sized Combo                                                             | -               | -           |
+| BonusPack.MutCrateCombo.CamoDescText    | BonusPack.rut | When enabled, this adrenaline combo covers you with a holographic projection | -               | -           |
+| BonusPack.MutCrateCombo.MiniDescText    | BonusPack.rut | When enabled, this adrenaline combo makes you smaller                        | -               | -           |
+| BonusPack.MutCrateCombo.Description     | BonusPack.rut | Adds the Pint-sized combo (LLLL) and the Camouflage Combo (RRRR).            | -               | -           |
 
 
 ---
@@ -121,13 +121,13 @@ Notes:
 ## Adrenaline-related mutators and options
 
 
-| Technical name                              | English name                               | Current Russian | Old Russian    |
-| ------------------------------------------- | ------------------------------------------ | --------------- | -------------- |
-| XGame.MutNoAdrenaline                       | No Adrenaline                              | Без адреналина  | Нет адреналина |
-| UnrealGame.MutBerserk                       | Super Berserk                              | -               | Суперберсеркер |
-| UnrealGame.MutGameSpeed                     | Game Speed                                 | -               | Скорость Игры  |
-| BonusPack.IARulesLMSAllowAdrenaline.Caption | Allow Adrenaline                           | -               | -              |
-| BonusPack.IARulesLMSAllowAdrenaline.Hint    | When selected, players can use Adrenaline. | -               | -              |
-| BonusPack.LMSPropsDisplayText[6]            | Allow Adrenaline                           | -               | -              |
+| Technical name                              | .rut file      | English name                               | Current Russian | Old Russian    |
+| ------------------------------------------- | -------------- | ------------------------------------------ | --------------- | -------------- |
+| XGame.MutNoAdrenaline                       | XGame.rut     | No Adrenaline                              | Без адреналина  | Нет адреналина |
+| UnrealGame.MutBerserk                       | UnrealGame.rut | Super Berserk                              | -               | Суперберсеркер |
+| UnrealGame.MutGameSpeed                     | UnrealGame.rut | Game Speed                                 | -               | Скорость Игры  |
+| BonusPack.IARulesLMSAllowAdrenaline.Caption | BonusPack.rut  | Allow Adrenaline                           | -               | -              |
+| BonusPack.IARulesLMSAllowAdrenaline.Hint    | BonusPack.rut  | When selected, players can use Adrenaline. | -               | -              |
+| BonusPack.LMSPropsDisplayText[6]            | BonusPack.rut  | Allow Adrenaline                           | -               | -              |
 
 

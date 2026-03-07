@@ -9,7 +9,7 @@ These rules apply only to the Game modes entity and override the general Glossar
   Current Russian: /rut.
   Old Russian: /rut_old.
 - **Scope:** Only base game types that appear in the standard `Game Type` selection are listed. Mutators and ladder-specific variants are excluded.
-- **Table format:** Tables use pipe-separated columns. First row is the header; second row is a separator line (dashes and pipes). Column order: Technical name | English name | Current Russian | Old Russian. If no translation, use `-`.
+- **Table format:** Tables use pipe-separated columns. First row is the header; second row is a separator line (dashes and pipes). Column order: Technical name | .rut file | English name | Current Russian | Old Russian. If no translation, use `-`.
 - **Alignment:** All tables use the same column widths; columns are aligned across the document.
 
 ---
@@ -18,7 +18,7 @@ Source: XGame.int, BonusPack.int, SkaarjPack.int, UT2k4Assault.int, OnslaughtFul
 Current Russian: /rut.
 Old Russian: /rut_old.
 
-Format: Technical name | English name | Current Russian | Old Russian.
+Format: Technical name | .rut file | English name | Current Russian | Old Russian.
 If no translation: - .
 
 Notes:
@@ -29,15 +29,15 @@ Notes:
 
 ## Base gamemodes
 
-| Technical name   | English name      | Current Russian                           | Old Russian                  |
-| ---------------- | ----------------- | ----------------------------------------- | ---------------------------- |
-| xDeathMatch      | DeathMatch        | Бой насмерть                              | Смертельный матч             |
-| xTeamGame        | Team DeathMatch   | Командный бой насмерть                    | Командный смертельный матч   |
-| xCTFGame         | Capture the Flag  | Захват флага                              | Захватите Флаг               |
-| xDoubleDom       | Double Domination | Двойное доминирование                     | Двойное Доминирование        |
-| xBombingRun      | Bombing Run       | Бомбовый забег                            | Бомбардирбол                 |
-| ONSOnslaughtGame | Onslaught         | -                                         | Натиск                       |
-| ASGameInfo       | Assault           | -                                         | Штурм                        |
+| Technical name   | .rut file        | English name      | Current Russian                           | Old Russian                  |
+| ---------------- | ---------------- | ----------------- | ----------------------------------------- | ---------------------------- |
+| xDeathMatch      | XGame.rut        | DeathMatch        | Бой насмерть                              | Смертельный матч             |
+| xTeamGame        | XGame.rut        | Team DeathMatch   | Командный бой насмерть                    | Командный смертельный матч   |
+| xCTFGame         | XGame.rut        | Capture the Flag  | Захват флага                              | Захватите Флаг               |
+| xDoubleDom       | XGame.rut        | Double Domination | Двойное доминирование                     | Двойное Доминирование        |
+| xBombingRun      | XGame.rut        | Bombing Run       | Бомбовый забег                            | Бомбардирбол                 |
+| ONSOnslaughtGame | Onslaught.rut     | Onslaught         | -                                         | Натиск                       |
+| ASGameInfo       | UT2k4Assault.rut  | Assault           | -                                         | Штурм                        |
 
 ---
 
@@ -45,16 +45,16 @@ Notes:
 
 ### Other gamemodes
 
-| Technical name    | English name  | Current Russian                           | Old Russian              |
-| ----------------- | ------------- | ----------------------------------------- | ------------------------ |
-| xVehicleCTFGame   | Vehicle CTF   | Захват флага с транспортом                | Захват Флага с Техникой |
-| InstagibCTF       | Instagib CTF  | Захват флага Instagib (мгновенная смерть) | Снайперский матч ЗФ     |
+| Technical name    | .rut file   | English name  | Current Russian                           | Old Russian              |
+| ----------------- | ----------- | ------------- | ----------------------------------------- | ------------------------ |
+| xVehicleCTFGame   | XGame.rut   | Vehicle CTF   | Захват флага с транспортом                | Захват Флага с Техникой |
+| InstagibCTF       | XGame.rut   | Instagib CTF  | Захват флага Instagib (мгновенная смерть) | Снайперский матч ЗФ     |
 
 ### Bonus pack gamemodes
 
-| Technical name        | English name      | Current Russian | Old Russian     |
-| --------------------- | ----------------- | --------------- | --------------- |
-| xLastManStandingGame  | Last Man Standing | -               | Последний герой |
-| xMutantGame           | Mutant            | -               | Мутант          |
-| Invasion              | Invasion          | Вторжение       | Вторжение       |
+| Technical name        | .rut file      | English name      | Current Russian | Old Russian     |
+| --------------------- | -------------- | ----------------- | --------------- | --------------- |
+| xLastManStandingGame  | BonusPack.rut  | Last Man Standing | -               | Последний герой |
+| xMutantGame           | BonusPack.rut  | Mutant            | -               | Мутант          |
+| Invasion              | SkaarjPack.rut | Invasion          | Вторжение       | Вторжение       |
 

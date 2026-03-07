@@ -12,7 +12,7 @@ These rules apply only to the `UI_Popups` entity and override the general Glossa
 - **Scope:** Brief popup‑style status, progress, and result messages that appear over menus or in a small area (e.g. *Querying Master Server*, *Authentication Failed*, *Server is now full*).  
   In‑game HUD notifications and scoreboard text belong to `UI_Notifications`. Dialogs with their own title and multiple lines of explanatory text belong to `UI_Dialogs`.
 - **Exclusions:** Button captions and menu labels (covered by `UI_StartMenuButtons` and `UI_Menus`), and detailed setting descriptions (covered by `UI_Settings` and `UI_Tooltips`).
-- **Table format:** Standard 4‑column glossary tables: **Technical name | English name | Current Russian | Old Russian**. Technical names use `Section.Key` form (e.g. `Browser_Page.StartQueryString`).
+- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**. Technical names use `Section.Key` form (e.g. `Browser_Page.StartQueryString`).
 
 ---
 
@@ -24,8 +24,8 @@ Old Russian: `/rut_old/XInterface.rut`.
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
+Technical name | .rut file     | English name | Current Russian | Old Russian
+-------------- | ------------- | ------------ | --------------- | -----------
 
 If no translation: `-`.
 
@@ -38,25 +38,25 @@ Notes:
 
 ## Server browser popups (`[Browser_Page]`)
 
-Technical name                        | English name              | Current Russian | Old Russian
-------------------------------------- | ------------------------- | --------------- | ----------
-Browser_Page.StartQueryString         | Querying Master Server    | -               | Запрос основного сервера
-Browser_Page.AuthFailString           | Authentication Failed     | -               | Проверка на соответствие файлов не пройдена
-Browser_Page.ConnFailString           | Connection Failed - Retrying | -           | Соединение прервано - повтор попытки...
-Browser_Page.ConnTimeoutString        | Connection Timed Out      | -               | Время соединения закончилось
-Browser_Page.QueryCompleteString      | Query Complete!           | -               | Запрос завершен!
-Browser_Page.RefreshCompleteString    | Refresh Complete!         | -               | Обновление списка серверов закончено!
-Browser_Page.ReadyString              | Ready                     | -               | Готово
+| Technical name                        | .rut file     | English name              | Current Russian | Old Russian |
+| ------------------------------------- | ------------- | ------------------------- | --------------- | ----------- |
+| Browser_Page.StartQueryString         | XInterface.rut | Querying Master Server    | -               | Запрос основного сервера |
+| Browser_Page.AuthFailString           | XInterface.rut | Authentication Failed     | -               | Проверка на соответствие файлов не пройдена |
+| Browser_Page.ConnFailString           | XInterface.rut | Connection Failed - Retrying | -           | Соединение прервано - повтор попытки... |
+| Browser_Page.ConnTimeoutString        | XInterface.rut | Connection Timed Out      | -               | Время соединения закончилось |
+| Browser_Page.QueryCompleteString      | XInterface.rut | Query Complete!           | -               | Запрос завершен! |
+| Browser_Page.RefreshCompleteString    | XInterface.rut | Refresh Complete!         | -               | Обновление списка серверов закончено! |
+| Browser_Page.ReadyString              | XInterface.rut | Ready                     | -               | Готово |
 
 ---
 
 ## Extended console popups (`[ExtendedConsole]`)
 
-Technical name                        | English name                         | Current Russian | Old Russian
-------------------------------------- | ------------------------------------ | --------------- | ----------
-ExtendedConsole.AddedCurrentHead      | Added Server:                        | -               | Добавлен сервер:
-ExtendedConsole.AddedCurrentTail      | To Favorites!                        | -               | В избранное!
-ExtendedConsole.ServerFullMsg         | Server is now full                   | -               | Сервер сейчас заполнен
+| Technical name                        | .rut file     | English name                         | Current Russian | Old Russian |
+| ------------------------------------- | ------------- | ------------------------------------ | --------------- | ----------- |
+| ExtendedConsole.AddedCurrentHead      | XInterface.rut | Added Server:                        | -               | Добавлен сервер: |
+| ExtendedConsole.AddedCurrentTail      | XInterface.rut | To Favorites!                        | -               | В избранное! |
+| ExtendedConsole.ServerFullMsg         | XInterface.rut | Server is now full                   | -               | Сервер сейчас заполнен |
 
 Additional popup‑style messages from `XInterface.int` should be added here as they are identified, following the same structure and rules.
 

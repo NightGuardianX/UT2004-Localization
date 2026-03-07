@@ -15,8 +15,8 @@ These rules apply only to the `Game_Monsters` entity and override the general Gl
   - playable characters and teams (see `Lore_Characters`, `Lore_Teams`),
   - vehicles, weapons, pickups (see `Game_Vehicles`, `Game_Weapons`, `Game_Pickups`),
   - generic “monster” text that is part of long story bios.
-- **Table format:** Standard 4‑column glossary tables:  
-  Technical name | English name | Current Russian | Old Russian.  
+- **Table format:** Standard 5‑column glossary tables:  
+  Technical name | .rut file | English name | Current Russian | Old Russian.  
   If no translation, use `-`.
 
 ---
@@ -29,9 +29,9 @@ Old Russian: `/rut_old`.
 
 Format (Markdown table):
 
-| Technical name   | English name   | Current Russian | Old Russian        |
-| ---------------- | -------------- | --------------- | ------------------ |
-| *(TechnicalKey)* | (English label)| -               | (Old Russian or -) |
+| Technical name   | .rut file   | English name   | Current Russian | Old Russian        |
+| ---------------- | ----------- | -------------- | --------------- | ------------------ |
+| *(TechnicalKey)* | (*.rut*)    | (English label)| -               | (Old Russian or -) |
 
 If no translation: `-`.
 
@@ -44,20 +44,20 @@ Notes:
 
 ## Base Invasion monsters (`[UT2K4InvasionWaveConfig]`)
 
-| Technical name          | English name | Current Russian | Old Russian              |
-| ----------------------- | ------------| ----------------| ------------------------ |
-| WaveMonsters.Pupae      | Pupae       | Личинка         | Куколка                  |
-| WaveMonsters.RazorFly   | Razor Fly   | Бритвомуха      | Бреющий полет            |
-| WaveMonsters.Manta      | Manta       | Манта           | Манта                    |
-| WaveMonsters.Krall      | Krall       | Кралл           | Кралль                   |
-| WaveMonsters.EliteKrall | Elite Krall | Элитный Кралл   | Элитный Кралль           |
-| WaveMonsters.Gasbag     | Gasbag      | Гэзбэг          | Болтун                   |
-| WaveMonsters.Brute      | Brute       | Брут            | Грубиян                  |
-| WaveMonsters.Skaarj     | Skaarj      | Скаардж         | Скаардж                  |
-| WaveMonsters.Behemoth   | Behemoth    | Бегемот         | Бегемот                  |
-| WaveMonsters.IceSkaarj  | Ice Skaarj  | Ледяной Скаардж | Ледяной Скаардж          |
-| WaveMonsters.FireSkaarj | Fire Skaarj | Огненный Скаардж| Огненный Скаардж         |
-| WaveMonsters.Warlord    | Warlord     | Военачальник    | Военачальник / Повелитель|
+| Technical name          | .rut file   | English name | Current Russian | Old Russian              |
+| ----------------------- | ----------- | ------------ | ---------------- | ------------------------ |
+| WaveMonsters.Pupae      | GUI2K4.rut  | Pupae       | Личинка         | Куколка                  |
+| WaveMonsters.RazorFly   | GUI2K4.rut  | Razor Fly   | Бритвомуха      | Бреющий полет            |
+| WaveMonsters.Manta      | GUI2K4.rut  | Manta       | Манта           | Манта                    |
+| WaveMonsters.Krall      | GUI2K4.rut  | Krall       | Кралл           | Кралль                   |
+| WaveMonsters.EliteKrall | GUI2K4.rut  | Elite Krall | Элитный Кралл   | Элитный Кралль           |
+| WaveMonsters.Gasbag     | GUI2K4.rut  | Gasbag      | Гэзбэг          | Болтун                   |
+| WaveMonsters.Brute      | GUI2K4.rut  | Brute       | Брут            | Грубиян                  |
+| WaveMonsters.Skaarj     | GUI2K4.rut  | Skaarj      | Скаардж         | Скаардж                  |
+| WaveMonsters.Behemoth   | GUI2K4.rut  | Behemoth    | Бегемот         | Бегемот                  |
+| WaveMonsters.IceSkaarj  | GUI2K4.rut  | Ice Skaarj  | Ледяной Скаардж | Ледяной Скаардж          |
+| WaveMonsters.FireSkaarj | GUI2K4.rut  | Fire Skaarj | Огненный Скаардж| Огненный Скаардж         |
+| WaveMonsters.Warlord    | GUI2K4.rut  | Warlord     | Военачальник    | Военачальник / Повелитель|
 
 <!--
 Add more sections and rows as needed. Keep column order and meaning the same across all tables.

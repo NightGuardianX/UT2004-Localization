@@ -17,7 +17,7 @@ These rules apply only to the `UI_Loading` entity and override the general Gloss
   - Purely technical log / console messages that are never shown in UI are outside this entity.
   - General notifications not tied to loading belong to `UI_Notifications`.
   - Dialog titles and detailed multi‑line explanations of loading errors belong to `UI_Dialogs`.
-- **Table format:** Standard 4‑column glossary tables: **Technical name | English name | Current Russian | Old Russian**.  
+- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**.  
   Technical names usually use `Section.Key` (e.g. `HudBase.LevelActionLoading`, `UT2K4ServerLoading.OpLoading.Text`, `Progress.Loading`), but may also refer to a class or global key when appropriate (e.g. `Engine.Loading`).
 
 ---
@@ -30,8 +30,8 @@ Old Russian: `/rut_old/*.rut` for the same classes / sections, where available.
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
+Technical name | .rut file | English name | Current Russian | Old Russian
+-------------- | --------- | ------------ | --------------- | -----------
 
 If no translation: `-`.
 
@@ -45,36 +45,36 @@ Notes:
 
 ## HUD and in‑game loading indicators (`XInterface.int`)
 
-Technical name                     | English name          | Current Russian | Old Russian
----------------------------------- | --------------------- | --------------- | ----------
-HudBase.LevelActionLoading         | LOADING...            | -               | -
-UT2SP_LadderLoading.LoadingMessage | Loading...            | -               | -
+| Technical name                     | .rut file     | English name          | Current Russian | Old Russian |
+| ---------------------------------- | ------------- | --------------------- | --------------- | ----------- |
+| HudBase.LevelActionLoading         | XInterface.rut | LOADING...            | -               | - |
+| UT2SP_LadderLoading.LoadingMessage | XInterface.rut | Loading...            | -               | - |
 
 ---
 
 ## Single‑player and server loading screens (`GUI2K4.int`)
 
-Technical name                           | English name                 | Current Russian | Old Russian
----------------------------------------- | ---------------------------- | --------------- | ----------
-UT2K4SP_LadderLoading.LoadingMessage     | loading                      | -               | -
-UT2K4ServerLoading.OpLoading.Text        | . . . LOADING                | -               | -
-UT2K4Tab_WeaponPref.LoadingText          | ...Loading Weapon Database...| -               | -
+| Technical name                           | .rut file   | English name                 | Current Russian | Old Russian |
+| ---------------------------------------- | ----------- | ---------------------------- | --------------- | ----------- |
+| UT2K4SP_LadderLoading.LoadingMessage     | GUI2K4.rut  | loading                      | -               | - |
+| UT2K4ServerLoading.OpLoading.Text        | GUI2K4.rut  | . . . LOADING                | -               | - |
+| UT2K4Tab_WeaponPref.LoadingText          | GUI2K4.rut  | ...Loading Weapon Database...| -               | - |
 
 ---
 
 ## Generic engine / core loading texts (`Engine.int`, `Core.int`)
 
-Technical name      | English name              | Current Russian | Old Russian
-------------------- | ------------------------- | --------------- | ----------
-Engine.Loading      | Loading                   | -               | -
-Core.ProgressLoading| Loading file %s...        | -               | -
+| Technical name      | .rut file   | English name              | Current Russian | Old Russian |
+| ------------------- | ----------- | ------------------------- | --------------- | ----------- |
+| Engine.Loading      | Engine.rut  | Loading                   | -               | - |
+| Core.ProgressLoading| Core.rut    | Loading file %s...        | -               | - |
 
 ---
 
 ## WebAdmin loading messages (`XWebAdmin.int`)
 
-Technical name                  | English name             | Current Russian | Old Russian
-------------------------------- | ------------------------ | --------------- | ----------
-XWebAdmin.LoadingGames          | Loading Game Types       | -               | -
-XWebAdmin.LoadingMaps           | Loading Available Maps   | -               | -
+| Technical name                  | .rut file     | English name             | Current Russian | Old Russian |
+| -------------------------------- | ------------- | ------------------------ | --------------- | ----------- |
+| XWebAdmin.LoadingGames          | XWebAdmin.rut | Loading Game Types       | -               | - |
+| XWebAdmin.LoadingMaps           | XWebAdmin.rut | Loading Available Maps   | -               | - |
 

@@ -15,7 +15,7 @@ These rules apply only to the `UI_Notifications` entity and override the general
   - Dialog titles and multi‑line explanations belong to `UI_Dialogs`.
   - Short one‑off popup progress strings closely tied to menu actions belong to `UI_Popups`.
   - Tooltip help text for individual controls belongs to `UI_Tooltips`.
-- **Table format:** Standard 4‑column glossary tables: **Technical name | English name | Current Russian | Old Russian**.  
+- **Table format:** Standard 5‑column glossary tables: **Technical name | .rut file | English name | Current Russian | Old Russian**.  
   Technical names use `Section.Key` form (for example `HudBase.YouveWonTheMatch`, `ExtendedConsole.ServerFullMsg`).
 
 ---
@@ -28,8 +28,8 @@ Old Russian: `/rut_old/XInterface.rut`.
 
 Format (Markdown table):
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
+Technical name | .rut file | English name | Current Russian | Old Russian
+-------------- | --------- | ------------ | --------------- | -----------
 
 If no translation: `-`.
 
@@ -44,91 +44,91 @@ Notes:
 
 ## HUD match notifications (`[HudBase]`)
 
-Technical name                 | English name                               | Current Russian | Old Russian
------------------------------ | ------------------------------------------ | --------------- | ----------
-HudBase.WaitingToSpawn        | Press [Fire] to join the match!           | -               | Нажмите [Огонь] для присоединения к матчу!
-HudBase.AtMenus               | Press [ESC] to close menu                 | -               | Нажмите [ESC] чтобы закрыть меню
-HudBase.YouveWonTheMatch      | You've won the match!                     | -               | Вы выиграли матч!
-HudBase.YouveLostTheMatch     | You've lost the match.                    | -               | Вы проиграли матч.
-HudBase.NowViewing            | Now viewing                               | -               | Вид от
-HudBase.InitialViewingString  | Press Fire to View a different Player     | -               | Нажмите Огонь для просмотра другого игрока
+| Technical name                 | .rut file     | English name                               | Current Russian | Old Russian |
+| ------------------------------ | ------------- | ------------------------------------------ | --------------- | ----------- |
+| HudBase.WaitingToSpawn        | XInterface.rut | Press [Fire] to join the match!           | -               | Нажмите [Огонь] для присоединения к матчу! |
+| HudBase.AtMenus               | XInterface.rut | Press [ESC] to close menu                 | -               | Нажмите [ESC] чтобы закрыть меню |
+| HudBase.YouveWonTheMatch      | XInterface.rut | You've won the match!                     | -               | Вы выиграли матч! |
+| HudBase.YouveLostTheMatch     | XInterface.rut | You've lost the match.                    | -               | Вы проиграли матч. |
+| HudBase.NowViewing            | XInterface.rut | Now viewing                               | -               | Вид от |
+| HudBase.InitialViewingString  | XInterface.rut | Press Fire to View a different Player     | -               | Нажмите Огонь для просмотра другого игрока |
 
 ---
 
 ## Multi‑kill announcer messages (`KillString[]`)
 
-Technical name                            | English name       | Current Russian                       | Old Russian
----------------------------------------- | ------------------ | ------------------------------------- | ----------
-UnrealGame.KillString[0]                 | Double Kill!       | -                                     | Двойное убийство!
-UnrealGame.KillString[1]                 | MultiKill!         | -                                     | Мультиубийство!
-UnrealGame.KillString[2]                 | MegaKill!          | -                                     | Мегаубийство!
-UnrealGame.KillString[3]                 | UltraKill!         | -                                     | Ультраубийство!
-UnrealGame.KillString[4]                 | MONSTER KILL!      | -                                     | МОНСТР!
-UnrealGame.KillString[5]                 | LUDICROUS KILL!    | -                                     | ГЕНОЦИД!
-UnrealGame.KillString[6]                 | HOLY SHIT!         | -                                     | ДЬЯВОЛ!
-XGame.MultiKillMessage.KillString[0]     | Double Kill!       | Двойное убийство!                     | Двойное убийство!
-XGame.MultiKillMessage.KillString[1]     | Multi Kill!        | Серия убийств!                        | Мультиубийство!
-XGame.MultiKillMessage.KillString[2]     | Mega Kill!!        | Мега-убийство!                        | Мегаубийство!!
-XGame.MultiKillMessage.KillString[3]     | ULTRA KILL!!       | УЛЬТРА-НАСИЛИЕ                        | Ультраубийство!!
-XGame.MultiKillMessage.KillString[4]     | M O N S T E R  K I L L !!! | М О Н С Т Р У О З Н О !!!    | М О Н С Т Р !!!
-XGame.MultiKillMessage.KillString[5]     | L U D I C R O U S !!!      | Н Е М Ы С Л И М О !!!         | Г Е Н О Ц И Д !!!
-XGame.MultiKillMessage.KillString[6]     | H O L Y  S H I T !         | С Р А Н Ь  Г О С П О Д Н Я !  | Д Ь Я В О Л !!!
+| Technical name                            | .rut file      | English name       | Current Russian                       | Old Russian |
+| ----------------------------------------- | -------------- | ------------------ | ------------------------------------- | ----------- |
+| UnrealGame.KillString[0]                 | UnrealGame.rut | Double Kill!       | -                                     | Двойное убийство! |
+| UnrealGame.KillString[1]                 | UnrealGame.rut | MultiKill!         | -                                     | Мультиубийство! |
+| UnrealGame.KillString[2]                 | UnrealGame.rut | MegaKill!          | -                                     | Мегаубийство! |
+| UnrealGame.KillString[3]                 | UnrealGame.rut | UltraKill!         | -                                     | Ультраубийство! |
+| UnrealGame.KillString[4]                 | UnrealGame.rut | MONSTER KILL!      | -                                     | МОНСТР! |
+| UnrealGame.KillString[5]                 | UnrealGame.rut | LUDICROUS KILL!    | -                                     | ГЕНОЦИД! |
+| UnrealGame.KillString[6]                 | UnrealGame.rut | HOLY SHIT!         | -                                     | ДЬЯВОЛ! |
+| XGame.MultiKillMessage.KillString[0]     | XGame.rut      | Double Kill!       | Двойное убийство!                     | Двойное убийство! |
+| XGame.MultiKillMessage.KillString[1]     | XGame.rut      | Multi Kill!        | Серия убийств!                        | Мультиубийство! |
+| XGame.MultiKillMessage.KillString[2]     | XGame.rut      | Mega Kill!!        | Мега-убийство!                        | Мегаубийство!! |
+| XGame.MultiKillMessage.KillString[3]     | XGame.rut      | ULTRA KILL!!       | УЛЬТРА-НАСИЛИЕ                        | Ультраубийство!! |
+| XGame.MultiKillMessage.KillString[4]     | XGame.rut      | M O N S T E R  K I L L !!! | М О Н С Т Р У О З Н О !!!    | М О Н С Т Р !!! |
+| XGame.MultiKillMessage.KillString[5]     | XGame.rut      | L U D I C R O U S !!!      | Н Е М Ы С Л И М О !!!         | Г Е Н О Ц И Д !!! |
+| XGame.MultiKillMessage.KillString[6]     | XGame.rut      | H O L Y  S H I T !         | С Р А Н Ь  Г О С П О Д Н Я !  | Д Ь Я В О Л !!! |
 
 ---
 
 ## Spree announcer messages (`SelfSpreeNote[]`)
 
-Technical name                            | English name       | Current Russian | Old Russian
----------------------------------------- | ------------------ | --------------- | ----------
-UnrealGame.SelfSpreeNote[0]              | Killing Spree!     | -               | Убийственный порыв!
-UnrealGame.SelfSpreeNote[1]              | Rampage!           | -               | Ярость!
-UnrealGame.SelfSpreeNote[2]              | Dominating!        | -               | Доминирование!
-UnrealGame.SelfSpreeNote[3]              | Unstoppable!       | -               | Непреодолим!
-UnrealGame.SelfSpreeNote[4]              | GODLIKE!           | -               | РАССВИРЕПЕЛ!
-UnrealGame.SelfSpreeNote[5]              | WICKED SICK!       | -               | БОГОПОДОБЕН!
+| Technical name                            | .rut file      | English name       | Current Russian | Old Russian |
+| ----------------------------------------- | -------------- | ------------------ | --------------- | ----------- |
+| UnrealGame.SelfSpreeNote[0]              | UnrealGame.rut | Killing Spree!     | -               | Убийственный порыв! |
+| UnrealGame.SelfSpreeNote[1]              | UnrealGame.rut | Rampage!           | -               | Ярость! |
+| UnrealGame.SelfSpreeNote[2]              | UnrealGame.rut | Dominating!        | -               | Доминирование! |
+| UnrealGame.SelfSpreeNote[3]              | UnrealGame.rut | Unstoppable!       | -               | Непреодолим! |
+| UnrealGame.SelfSpreeNote[4]              | UnrealGame.rut | GODLIKE!           | -               | РАССВИРЕПЕЛ! |
+| UnrealGame.SelfSpreeNote[5]              | UnrealGame.rut | WICKED SICK!       | -               | БОГОПОДОБЕН! |
 
 ---
 
 ## Profile summary labels for sprees and multi‑kills (`GUI2K4.int`)
 
-Technical name                            | English name       | Current Russian      | Old Russian
----------------------------------------- | ------------------ | -------------------- | ----------
-GUI2K4.SpreeLabel[0]                     | Killing Spree:     | Серия убийств:       | Частые Убийства:
-GUI2K4.SpreeLabel[1]                     | Rampage:           | Буйство:             | Ярость:
-GUI2K4.SpreeLabel[2]                     | Dominating:        | Доминирование:       | Доминирующий:
-GUI2K4.SpreeLabel[3]                     | Unstoppable:       | Неудержимость:       | Неодолимый:
-GUI2K4.SpreeLabel[4]                     | GODLIKE:           | БОГОПОДОБЕН:         | БОГОПОДОБНЫЙ:
-GUI2K4.SpreeLabel[5]                     | WICKED SICK:       | ЧИСТОЕ БЕЗУМИЕ:      | ЗЛОБНЫЙ ПСИХ:
-GUI2K4.MultiKillsLabel[0]                | Double Kill:       | Двойное убийство:    | Двойное Убийца:
-GUI2K4.MultiKillsLabel[1]                | MultiKill:         | Серия убийств:       | Мульти Убийца:
-GUI2K4.MultiKillsLabel[2]                | MegaKill:          | Мегаубийство:        | Мега Убийца:
-GUI2K4.MultiKillsLabel[3]                | UltraKill:         | Ультранасилие:       | Ультра Убийца:
-GUI2K4.MultiKillsLabel[4]                | MONSTER KILL:      | МОНСТРУОЗНО:         | -
-GUI2K4.MultiKillsLabel[5]                | LUDICROUS KILL:    | НЕМЫСЛИМО:           | -
-GUI2K4.MultiKillsLabel[6]                | HOLY SHIT:         | СРАНЬ ГОСПОДНЯ:      | -
+| Technical name                            | .rut file   | English name       | Current Russian      | Old Russian |
+| ----------------------------------------- | ----------- | ------------------ | -------------------- | ----------- |
+| GUI2K4.SpreeLabel[0]                     | GUI2K4.rut  | Killing Spree:     | Серия убийств:       | Частые Убийства: |
+| GUI2K4.SpreeLabel[1]                     | GUI2K4.rut  | Rampage:           | Буйство:             | Ярость: |
+| GUI2K4.SpreeLabel[2]                     | GUI2K4.rut  | Dominating:        | Доминирование:       | Доминирующий: |
+| GUI2K4.SpreeLabel[3]                     | GUI2K4.rut  | Unstoppable:       | Неудержимость:       | Неодолимый: |
+| GUI2K4.SpreeLabel[4]                     | GUI2K4.rut  | GODLIKE:           | БОГОПОДОБЕН:         | БОГОПОДОБНЫЙ: |
+| GUI2K4.SpreeLabel[5]                     | GUI2K4.rut  | WICKED SICK:       | ЧИСТОЕ БЕЗУМИЕ:      | ЗЛОБНЫЙ ПСИХ: |
+| GUI2K4.MultiKillsLabel[0]                | GUI2K4.rut  | Double Kill:       | Двойное убийство:    | Двойное Убийца: |
+| GUI2K4.MultiKillsLabel[1]                | GUI2K4.rut  | MultiKill:         | Серия убийств:       | Мульти Убийца: |
+| GUI2K4.MultiKillsLabel[2]                | GUI2K4.rut  | MegaKill:          | Мегаубийство:        | Мега Убийца: |
+| GUI2K4.MultiKillsLabel[3]                | GUI2K4.rut  | UltraKill:         | Ультранасилие:       | Ультра Убийца: |
+| GUI2K4.MultiKillsLabel[4]                | GUI2K4.rut  | MONSTER KILL:      | МОНСТРУОЗНО:         | - |
+| GUI2K4.MultiKillsLabel[5]                | GUI2K4.rut  | LUDICROUS KILL:    | НЕМЫСЛИМО:           | - |
+| GUI2K4.MultiKillsLabel[6]                | GUI2K4.rut  | HOLY SHIT:         | СРАНЬ ГОСПОДНЯ:      | - |
 
 ---
 
 ## Server and console notifications (`[ExtendedConsole]`)
 
-Technical name                        | English name                         | Current Russian | Old Russian
-------------------------------------- | ------------------------------------ | --------------- | ----------
-ExtendedConsole.AddedCurrentHead      | Added Server:                        | -               | Добавлен сервер:
-ExtendedConsole.AddedCurrentTail      | To Favorites!                        | -               | В избранное!
-ExtendedConsole.ServerFullMsg         | Server is now full                   | -               | Сервер сейчас заполнен
+| Technical name                        | .rut file     | English name                         | Current Russian | Old Russian |
+| ------------------------------------- | ------------- | ------------------------------------ | --------------- | ----------- |
+| ExtendedConsole.AddedCurrentHead      | XInterface.rut | Added Server:                        | -               | Добавлен сервер: |
+| ExtendedConsole.AddedCurrentTail      | XInterface.rut | To Favorites!                        | -               | В избранное! |
+| ExtendedConsole.ServerFullMsg         | XInterface.rut | Server is now full                   | -               | Сервер сейчас заполнен |
 
 ---
 
 ## IRC / chat connection notifications (`[IRCLink]`, `[IRC_System]`)
 
-Technical name                 | English name                                        | Current Russian | Old Russian
------------------------------ | --------------------------------------------------- | --------------- | ----------
-IRCLink.InvalidAddressText    | Invalid server address, aborting.                  | -               | Неверный адрес сервера, прерывание.
-IRCLink.ErrorBindingText      | Error binding local port, aborting.                | -               | Ошибка привязки локального порта, прерывание.
-IRCLink.ResolveFailedText     | Failed to resolve server address, aborting.        | -               | Не удалось определить адрес сервера, прерывание.
-IRCLink.TimeOutError          | Timeout connecting to server.                      | -               | Время ожидания соединения с сервером истекло.
-IRC_System.NotInAChannelText  | Not in a channel!                                  | -               | Вы не находитесь в канале!
-IRC_System.KickedFromText     | You were kicked from                               | -               | Вас выгнали из
+| Technical name                 | .rut file     | English name                                        | Current Russian | Old Russian |
+| ------------------------------ | ------------- | --------------------------------------------------- | --------------- | ----------- |
+| IRCLink.InvalidAddressText    | XInterface.rut | Invalid server address, aborting.                  | -               | Неверный адрес сервера, прерывание. |
+| IRCLink.ErrorBindingText      | XInterface.rut | Error binding local port, aborting.                | -               | Ошибка привязки локального порта, прерывание. |
+| IRCLink.ResolveFailedText     | XInterface.rut | Failed to resolve server address, aborting.        | -               | Не удалось определить адрес сервера, прерывание. |
+| IRCLink.TimeOutError          | XInterface.rut | Timeout connecting to server.                      | -               | Время ожидания соединения с сервером истекло. |
+| IRC_System.NotInAChannelText  | XInterface.rut | Not in a channel!                                  | -               | Вы не находитесь в канале! |
+| IRC_System.KickedFromText     | XInterface.rut | You were kicked from                               | -               | Вас выгнали из |
 
 ---
 
@@ -136,18 +136,18 @@ IRC_System.KickedFromText     | You were kicked from                            
 
 Source: `XVoting.int` (`[xVotingHandler]`), `Engine.int` (`[GameMessage]`). Current Russian: `/rut/Engine.rut` (GameMessage); `/rut/XVoting.rut` has non‑Russian placeholder → `-`. Old Russian: `/rut_old/XVoting.rut`, `/rut_old/Engine.rut`.
 
-Technical name | English name | Current Russian | Old Russian
--------------- | ------------ | --------------- | -----------
-GameMessage.VoteStarted | started a vote. | начал голосование. | начал голосование.
-GameMessage.VotePassed | Vote passed. | Голосование завершено. | голосование поддержано.
-xVotingHandler.lmsgKickVote | %playername1% placed a kick vote against %playername2% | - | %playername1% объявил голосование на выброс %playername2%
-xVotingHandler.lmsgAnonymousKickVote | A kick vote has been placed against %playername% | - | Объявлено голосование на выброс %playername%
-xVotingHandler.lmsgKickVoteAdmin | %playername% attempted to submit a kick vote against the server administrator ! | - | %playername% попытался предложить голосование на выброс администратора сервера !
-xVotingHandler.lmsgMapWon | %mapname% has won ! | - | Карта %mapname% победила !
-xVotingHandler.lmsgMidGameVote | Mid-Game Map Voting has been initiated !!!! | - | Инициировано голосование карты в игре !!!!
-xVotingHandler.lmsgSpectatorsCantVote | Sorry, Spectators can not vote. | - | Извините, наблюдатели не могут голосовать.
-xVotingHandler.lmsgMapVotedFor | %playername% has voted for %mapname% | - | %playername% проголосовал за %mapname%
-xVotingHandler.lmsgMapVotedForWithCount | %playername% has placed %votecount% votes for %mapname% | - | %playername% подал %votecount% голосов за карту %mapname%
+| Technical name | .rut file   | English name | Current Russian | Old Russian |
+| -------------- | ----------- | ------------ | --------------- | ----------- |
+| GameMessage.VoteStarted | Engine.rut  | started a vote. | начал голосование. | начал голосование. |
+| GameMessage.VotePassed | Engine.rut  | Vote passed. | Голосование завершено. | голосование поддержано. |
+| xVotingHandler.lmsgKickVote | XVoting.rut | %playername1% placed a kick vote against %playername2% | - | %playername1% объявил голосование на выброс %playername2% |
+| xVotingHandler.lmsgAnonymousKickVote | XVoting.rut | A kick vote has been placed against %playername% | - | Объявлено голосование на выброс %playername% |
+| xVotingHandler.lmsgKickVoteAdmin | XVoting.rut | %playername% attempted to submit a kick vote against the server administrator ! | - | %playername% попытался предложить голосование на выброс администратора сервера ! |
+| xVotingHandler.lmsgMapWon | XVoting.rut | %mapname% has won ! | - | Карта %mapname% победила ! |
+| xVotingHandler.lmsgMidGameVote | XVoting.rut | Mid-Game Map Voting has been initiated !!!! | - | Инициировано голосование карты в игре !!!! |
+| xVotingHandler.lmsgSpectatorsCantVote | XVoting.rut | Sorry, Spectators can not vote. | - | Извините, наблюдатели не могут голосовать. |
+| xVotingHandler.lmsgMapVotedFor | XVoting.rut | %playername% has voted for %mapname% | - | %playername% проголосовал за %mapname% |
+| xVotingHandler.lmsgMapVotedForWithCount | XVoting.rut | %playername% has placed %votecount% votes for %mapname% | - | %playername% подал %votecount% голосов за карту %mapname% |
 
 Additional notification strings from `XInterface.int` should be added here following the same structure and rules.
 
