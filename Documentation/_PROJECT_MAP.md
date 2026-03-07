@@ -17,7 +17,9 @@ Language list: [_LANGUAGES_LIST.md](_LANGUAGES_LIST.md).
 | Item | Description |
 |------|-------------|
 | [LOC_CONFIG.md](LOC_CONFIG.md) | Pipeline config (sources, language, entities, process) |
-| [LOC_PROCESS.md](LOC_PROCESS.md) | Process: analysis → glossary → validation → translation → review → integration |
+| [LOC_PROCESS.md](LOC_PROCESS.md) | Process: roles, initial setup, Process 1 (game update), Process 2 (translation cycle) |
+| [PROCESS_GAME_UPDATE.md](PROCESS_GAME_UPDATE.md) | Agent directive: full run for localization update when game is updated |
+| [PROCESS_TRANSLATION_CYCLE.md](PROCESS_TRANSLATION_CYCLE.md) | Agent directive: full run for translation cycle (validate → report → hand off → repeat) |
 | [GENERAL_RULES.md](GENERAL_RULES.md) | General documentation rules |
 | [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) | Table of .rut file translation statuses |
 | [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md) | Glossary index and entity list with links to glossaries |
@@ -31,3 +33,5 @@ Language list: [_LANGUAGES_LIST.md](_LANGUAGES_LIST.md).
 
 - Config: [LOC_CONFIG.md](LOC_CONFIG.md)
 - Process: [LOC_PROCESS.md](LOC_PROCESS.md)
+- Full-process agent runs: [PROCESS_GAME_UPDATE.md](PROCESS_GAME_UPDATE.md) · [PROCESS_TRANSLATION_CYCLE.md](PROCESS_TRANSLATION_CYCLE.md)
+- Step-level agent directives: [STEP_SYNC_AND_ANALYZE_INCOMING.md](STEP_SYNC_AND_ANALYZE_INCOMING.md) · [STEP_VALIDATE_AND_UPDATE_GLOSSARY.md](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md)
