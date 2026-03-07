@@ -2,7 +2,7 @@
 
 ## Description
 
-Rules for filling the **[File Translation Status](File%20Translation%20Status.md)** table: all localization files and their translation status are listed there; this document defines how to classify and update that table.
+Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** table: all localization files and their translation status are listed there; this document defines how to classify and update that table.
 
 ## Rules for filling table
 

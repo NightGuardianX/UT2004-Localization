@@ -41,16 +41,16 @@
 
 ## Неймспейсы / сущности (entity)
 
-Список: [_СПИСОК_ГЛОССАРИЕВ.md](_СПИСОК_ГЛОССАРИЕВ.md). Группы: Game_*, UI_*, Lore_*, Tech_* (глоссарии по сущностям в [Glossary/](Glossary/)).
+Список: [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md). Группы: Game_*, UI_*, Lore_*, Tech_* (глоссарии по сущностям в [Glossary/](Glossary/)).
 
 ## Процесс
 
 
 | Этап       | Инструмент / способ                                                                                        |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| Анализ     | Обзор .int/.est, [File Translation Status](File%20Translation%20Status.md)                                   |
-| Глоссарий  | Глоссарии сущностей, [Glossary Rules](Glossary%20Rules.md)                                             |
-| Валидация  | По глоссарию и [File Translation Status Rules](File%20Translation%20Status%20Rules.md) |
+| Анализ     | Обзор .int/.est, [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)                                   |
+| Глоссарий  | Глоссарии сущностей, [GLOSSARY_RULES](GLOSSARY_RULES.md)                                             |
+| Валидация  | По глоссарию и [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) |
 | Перевод    | Ручной, при необходимости итерации с AI                                                                    |
 | Ревью      | Ручной                                                                                                     |
 | Интеграция | Копирование .rut в установку игры                                                                          |
