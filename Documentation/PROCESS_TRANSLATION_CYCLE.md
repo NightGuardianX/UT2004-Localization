@@ -10,7 +10,7 @@
 ## Steps (agent directive)
 
 1. **Sync and analyze incoming**
-   - Follow [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md).
+   - Follow [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md).
    - **Output:** [\_INCOMING_ANALYSIS.md](_INCOMING_ANALYSIS.md), [\_diff_rut_result.json](_diff_rut_result.json) (if .rut diff was used).
 
 2. **Checklist pass (when repeating)**  
@@ -20,12 +20,12 @@
    - **Important:** Do this **before** step 3 (validate) adds new items from the new \_diff_rut_result, so the same issues are not re-added and the process does not loop.
 
 3. **Validate .rut vs glossaries**
-   - Follow [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md).
+   - Follow [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md).
    - **Input:** \_INCOMING_ANALYSIS.md (and \_diff_rut_result.json where applicable).
    - **Output:** [\_VALIDATION_REPORT.md](_VALIDATION_REPORT.md) — when a previous report existed and a checklist pass was done, **merge**: keep remaining open items (not fixed in the new diff), add only **new** validation issues from this run; do not re-add items that were just resolved in the checklist. Glossary Current Russian filled where empty; duplicated keys synced.
 
 4. **Review report with agent (Stage 1)**  
-   - Follow [STEP_REVIEW_VALIDATION_REPORT](STEP_REVIEW_VALIDATION_REPORT.md).  
+   - Follow [STEP_03_REVIEW_VALIDATION_REPORT](STEP_03_REVIEW_VALIDATION_REPORT.md).  
    - Go through **Validation step output (glossary vs .rut)** by item or small thematic blocks. For each: accept as valid (update glossary, search for inconsistencies, move to **Validated (accepted as new term)** and add any other occurrences to **Discrepancies with updated term**) or leave in **For translator to fix**.  
    - **Output:** \_VALIDATION_REPORT.md updated with categories [Validated (accepted as new term)], [Discrepancies with updated term], [For translator to fix]; glossaries updated where terms were accepted.
 
@@ -57,6 +57,6 @@ After each run, report:
 ## Key links
 
 - [LOC_PROCESS](LOC_PROCESS.md) — overall process (Process 2 described there too).
-- [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md) · [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) · [STEP_REVIEW_VALIDATION_REPORT](STEP_REVIEW_VALIDATION_REPORT.md).
+- [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md) · [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md) · [STEP_03_REVIEW_VALIDATION_REPORT](STEP_03_REVIEW_VALIDATION_REPORT.md).
 - [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) · [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md).
 - [\_VALIDATION_REPORT.md](_VALIDATION_REPORT.md) — structure and categories; handoff to translator (Stage 2).

@@ -18,7 +18,7 @@
 
 ## Process integration
 
-- **Validation:** In [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) and translation validation: if a changed key is in the duplicated-keys list, ensure the same Russian is used in every listed .rut file; if not, sync and optionally update the list.
+-- **Validation:** In [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md) and translation validation: if a changed key is in the duplicated-keys list, ensure the same Russian is used in every listed .rut file; if not, sync and optionally update the list.
 - **Translation / review:** When editing .rut, check [_DUPLICATED_KEYS_LIST](_DUPLICATED_KEYS_LIST.md) for the key; if present, apply the same translation everywhere and update the list if you record “Agreed Russian”.
 - **New duplicates:** When you discover a key in multiple .rut files (e.g. via grep or diff), add a row to the list and sync translations.
 
@@ -26,4 +26,4 @@
 
 - [_DUPLICATED_KEYS_LIST](_DUPLICATED_KEYS_LIST.md) — duplicated keys and .rut files list
 - [LOC_PROCESS](LOC_PROCESS.md) — validation rules (duplicated keys)
-- [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) — validate and sync when processing changed .rut
+- [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md) — validate and sync when processing changed .rut

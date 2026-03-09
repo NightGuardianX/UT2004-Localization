@@ -86,7 +86,7 @@ Use these to drive analysis; then analyze only the diff or the changed file regi
 ## Key links
 
 - [LOC_PROCESS.md](LOC_PROCESS.md) — process stages (this step feeds into analysis/glossary/translation).
-- [\_INCOMING_ANALYSIS.md](_INCOMING_ANALYSIS.md) — handoff file written by this step; consumed by [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md).
-- [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) — next: validate changed .rut strings against glossaries and fill Current Russian (uses \_INCOMING_ANALYSIS.md).
+- [\_INCOMING_ANALYSIS.md](_INCOMING_ANALYSIS.md) — handoff file written by this step; consumed by [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md).
+- [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md) — next: validate changed .rut strings against glossaries and fill Current Russian (uses \_INCOMING_ANALYSIS.md).
 - [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) — update if new/changed files affect status.
 - [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md) — check if new entities or terms need glossary entries.

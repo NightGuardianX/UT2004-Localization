@@ -9,8 +9,8 @@
 
 ## Steps (agent directive)
 
-1. **Sync and analyze incoming**
-   - Follow [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md).
+1. **Sync and analyze incoming**  
+   - Follow [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md).
    - **Output:** [\_INCOMING_ANALYSIS.md](_INCOMING_ANALYSIS.md) with merge reference, changed files, and for modified `.rut`: changed keys and new Russian values.
 
 2. **Validate .rut vs glossaries**
@@ -39,5 +39,5 @@ After running, report:
 ## Key links
 
 - [LOC_PROCESS](LOC_PROCESS.md) — overall process (Process 1 described there too).
-- [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md) · [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md).
+- [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md) · [STEP_02_VALIDATE_AND_SYNC_GLOSSARY](STEP_02_VALIDATE_AND_SYNC_GLOSSARY.md).
 - [PROCESS_TRANSLATION_CYCLE](PROCESS_TRANSLATION_CYCLE.md) — next when new strings exist.

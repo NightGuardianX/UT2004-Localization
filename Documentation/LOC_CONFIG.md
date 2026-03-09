@@ -43,7 +43,7 @@ Scripts in `/scripts` are **canonical**: use them as-is for the steps that refer
 
 | Script | Used in | Purpose |
 |--------|---------|---------|
-| [diff_rut_merge.py](../scripts/diff_rut_merge.py) | [STEP_SYNC_AND_ANALYZE_INCOMING](STEP_SYNC_AND_ANALYZE_INCOMING.md) | When `git diff` reports binary for .rut (e.g. UTF-16): get key-level changes from merge and write \_diff_rut_result.json. |
+| [diff_rut_merge.py](../scripts/diff_rut_merge.py) | [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md) | When `git diff` reports binary for .rut (e.g. UTF-16): get key-level changes from merge and write \_diff_rut_result.json. |
 | classify_status.ps1 | *(status/classification)* | *(document when used)* |
 
 ## Process
