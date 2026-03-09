@@ -15,6 +15,20 @@
 - **Do not** re-read full .rut files: get changed keys and new values from the **diff** only.
 - **Do not** read full glossary files: determine which glossaries can contain the term (by source .int), then **grep** for the key / technical name and read only the **matching table row(s)** (single line or small context).
 
+## Validation scope: what to report in \_VALIDATION_REPORT
+
+### Lore terms, names, and consistency
+
+**Lore terms, character names, and titles are critical.** If a character (or other lore entity) has an established name in the glossaries, that **exact same form** must be used in every key and file where it is mentioned. Any change that introduces a different spelling or wording for the same entity (e.g. a character name, a location, a faction) must be treated as a **validation issue** and listed in \_VALIDATION_REPORT.md so the translator can align all occurrences.
+
+### When *not* to add to \_VALIDATION_REPORT
+
+If a **long or descriptive string** changed but **no glossary entity (term, option name, ability name, etc.)** changed its translation, do **not** count it as a validation issue. Example: the string was “Прыжок поможет вам перебраться через препятствие” and became “Используйте прыжок чтобы перебраться через препятствие”. The term “Jump” / “Прыжок” is still the same; only the surrounding phrase was rephrased. Such cases are **valid** — do not add them to \_VALIDATION_REPORT.md.
+
+### When *to* add to \_VALIDATION_REPORT
+
+If the **translation of a specific term or option** (something that acts as a named entity in the glossary, e.g. a setting label, an ability name, a UI option) **changed**, add it to \_VALIDATION_REPORT.md for translator review. Example: key `Antialiasing` — was “Антиалиас”, became “Сглаживание”. That is a **term change** and must be listed so the translator can decide whether to keep the new term everywhere and update the glossary, or revert to the glossary term.
+
 ---
 
 ## Agent directive
@@ -45,7 +59,8 @@ When asked to validate .rut changes against glossaries and update Current Russia
 - **4a. Current Russian is filled:**  
   Compare the **new .rut text** with the **Current Russian** cell.  
   - If they match or are clearly the same term (e.g. spelling variant), treat as **OK**.  
-  - If they differ in meaning or chosen term, report a **validation issue** (glossary says X, .rut now says Y; consider aligning one to the other per [GLOSSARY_RULES](GLOSSARY_RULES.md)).
+  - If the change is only **rephrasing** of a long string and the **glossary entity (term) itself** is unchanged, treat as **OK** — do not add to \_VALIDATION_REPORT (see [Validation scope](#validation-scope-what-to-report-in-_validation_report) above).  
+  - If the **term or option name** (entity) translation **changed** (e.g. “Антиалиас” → “Сглаживание”), or if a **lore name** is inconsistent with the glossary, report a **validation issue** (glossary says X, .rut now says Y; add to \_VALIDATION_REPORT per [Validation scope](#validation-scope-what-to-report-in-_validation_report)).
 
 - **4b. Current Russian is empty (`-` or blank):**  
   **Fill** the Current Russian cell with the **new text** from the .rut change.  
@@ -69,11 +84,11 @@ When asked to validate .rut changes against glossaries and update Current Russia
 
 Write **[\_VALIDATION_REPORT.md](_VALIDATION_REPORT.md)** in `Documentation/`. This file is **passed to the translator (human)** so they can fix issues at their discretion. It must contain:
 
-- **Validation issues:** Every row where **Current Russian** was filled in the glossary but the new .rut text **disagreed** (different term or meaning). For each: .rut file and key, glossary file and technical name, **glossary value** vs **.rut value**. No need to list “OK” matches — only problems. The translator decides whether to change the .rut to match the glossary or to update the glossary and keep the .rut.
+- **Validation issues:** Only **term/entity changes** (see [Validation scope](#validation-scope-what-to-report-in-_validation_report) above): rows where the **translation of a glossary entity** (option name, ability, lore name, etc.) **changed** in .rut, or where a **lore name** is inconsistent across keys. Do *not* list simple rephrasing of long strings when the entity term is unchanged. For each issue: .rut file and key, glossary file and technical name, **glossary value** vs **.rut value**. The translator decides whether to align .rut to the glossary or update the glossary.
 - **Duplicated keys:** For any changed key in [_DUPLICATED_KEYS_LIST](_DUPLICATED_KEYS_LIST.md), note what was synced (same Russian in all listed files) or if something still needs manual sync. If a new duplicate was added, list it and the agreed Russian.
 - **Other for review (optional):** Keys with no glossary row, suggested term changes, or any note that the translator might want to consider.
 
-If there are **no** validation issues and no duplicated-key follow-up, the file should state that clearly (e.g. “No issues for translator; all checked strings match glossaries.”). Overwrite the report each time this step runs so it always reflects the latest validation.
+If there are **no** validation issues and no duplicated-key follow-up, the file should state that clearly (e.g. “No issues for translator; all checked strings match glossaries.”). **Repeat cycle:** When [PROCESS_TRANSLATION_CYCLE](PROCESS_TRANSLATION_CYCLE.md) is in a repeat and \_VALIDATION_REPORT already exists, the **checklist pass** (process step 2) will have removed items fixed by the new diff. When writing the report here, **merge**: keep remaining open items, add only **new** validation issues from this run; do **not** re-add resolved items. Otherwise overwrite the report so it reflects the latest validation.
 
 ## One-shot workflow (summary)
 

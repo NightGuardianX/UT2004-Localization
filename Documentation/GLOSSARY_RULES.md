@@ -12,10 +12,7 @@ Each group collects all relevant terms from one or more files in the `/int` dire
 
 Files are named in `EntityName.md` format (e.g. `Maps.md`, `Weapons.md`), with **optional type prefixes** for clarity (e.g. UI entities use `UI_EntityName.md` such as `UI_StartMenuButtons.md`).
 
-**When generating a new entity glossary file**, use the template: [Glossary/_GLOSSARY_TEMPLATE.md](Glossary/_GLOSSARY_TEMPLATE.md).
-Follow its structure and placeholders; remove or fill optional sections as needed.
-Always generate the document with **fully populated tables** for all relevant terms (from `/int`) and immediately attempt to fill both Russian columns using `/rut` and `/rut_old/`, not leaving placeholder rows.
-After creating a new entity glossary file, always add or update the corresponding entry (with a link to the new document) in [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md).
+**When generating a new entity glossary file:** use [Glossary/_GLOSSARY_TEMPLATE.md](Glossary/_GLOSSARY_TEMPLATE.md) for structure and placeholders (it references this document for table format and filling rules). Populate tables for all relevant terms from `/int` and fill Russian columns from `/rut` and `/rut_old/` per [Glossary row format](#glossary-row-format) below. After creating the file, add or update the entry in [_GLOSSARIES_LIST.md](_GLOSSARIES_LIST.md).
 
 All headers and rules should be in English. Russian is for translation entries only.
 
@@ -75,7 +72,7 @@ Each glossary uses a **Markdown table** with four columns (or five if the option
 | Technical Name | English Name | Current Russian Name | Old Russian Name |
 | -------------- | ------------ | -------------------- | ---------------- |
 
-**Optional fifth column: .rut file** — To simplify [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) and lookup, a column **.rut file** can be added (e.g. as the second column: `Technical name | .rut file | English name | Current Russian | Old Russian`). Value: the basename of the `.rut` file where this key lives (e.g. `XGame.rut`, `GUI2K4.rut`). Then, when processing the diff, the step can filter glossary rows by this column instead of resolving key↔file via entity Sources each time. For entities with a single source, the column can be omitted or filled once per table; for entities that mix several sources (e.g. Game_Abilities with GUI2K4.rut and XInterface.rut), filling it per row is recommended.
+**Optional fifth column: .rut file** — To simplify [STEP_VALIDATE_AND_UPDATE_GLOSSARY](STEP_VALIDATE_AND_UPDATE_GLOSSARY.md) and lookup, a column **.rut file** can be added (e.g. as the second column: `Technical name | .rut file | English name | Current Russian | Old Russian`). Value: the basename of the `.rut` file where this key lives (e.g. `XGame.rut`, `GUI2K4.rut`). When a term or concept appears in **more than one** .rut file, list all of them (comma-separated), e.g. `XGame.rut, XPlayers.rut, AS-BP2-Jumpship.rut` — this is typical for entities like **Lore_Universe**, where narrative terms are used across several packages. Then, when processing the diff, the step can filter glossary rows by this column (e.g. include a row if the changed file is in the row’s .rut file list). For entities with a single source, the column can be omitted or filled once per table; for entities that mix several sources (e.g. Game_Abilities with GUI2K4.rut and XInterface.rut), filling it per row is recommended.
 
 - In the **source .md files**, prefer the same visual style and alignment as in `Game_Pickups.md` (columns aligned with spaces, header and separator rows present). This keeps tables readable both in rendered form and directly in a monospaced editor. Renderers ignore extra spaces around cell content, but this padding makes the raw markdown easier to scan and aligns visually in the IDE.
 - Legacy tables that use the older style without leading/trailing `|` are still considered valid as long as they keep the same four columns and semantics; they may stay in the current format until the file is edited for content anyway (then it can be migrated to GitHub-style and optionally to the five-column format if desired).
