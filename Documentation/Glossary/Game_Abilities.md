@@ -22,7 +22,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Jump             | GUI2K4.rut   | Jump               | Прыжок          | Прыжок |
 | Walk             | GUI2K4.rut   | Walk               | Ходьба          | Идти |
 | Crouch           | GUI2K4.rut   | Crouch             | Присед          | Приседание |
-| Strafe Toggle    | GUI2K4.rut   | Strafe Toggle       | Переключение движения | Вкл/выкл смещение |
+| Strafe Toggle    | GUI2K4.rut   | Strafe Toggle       | Переключение движения боком | Вкл/выкл смещение |
 
 ### Special movement (no direct input binding)
 
@@ -42,7 +42,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Look Up            | GUI2K4.rut | Look Up             | Посмотреть вверх | Посмотреть вверх |
 | Look Down          | GUI2K4.rut | Look Down           | Посмотреть вниз | Посмотреть вниз |
 | Center View        | GUI2K4.rut | Center View         | Центрировать взгляд | Посмотреть вперед |
-| Toggle BehindView  | GUI2K4.rut | Toggle "BehindView" | Режим камеры от 3-го лица | Вкл/выкл вид от 3-го лица |
+| Toggle BehindView  | GUI2K4.rut | Toggle "BehindView" | Режим камеры от третьего лица | Вкл/выкл вид от 3-го лица |
 | Toggle Camera Mode | GUI2K4.rut | Toggle Camera Mode  | Переключить режим камеры | Смена режима камеры |
 
 ---
@@ -57,7 +57,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Best Weapon      | GUI2K4.rut | Best Weapon      | Лучшее оружие   | Выбрать лучшее оружие |
 | Next Weapon      | GUI2K4.rut | Next Weapon      | След. оружие    | Выбрать следующее оружие |
 | Prev Weapon      | GUI2K4.rut | Prev Weapon      | Пред. оружие    | Выбрать предыдущее оружие |
-| Last Weapon      | GUI2K4.rut | Last Weapon      | Последнее оружие | Выбрать предпоследнее оружие |
+| Last Weapon      | GUI2K4.rut | Last Weapon      | Последнее исп. оружие | Выбрать предпоследнее оружие |
 | Weapon Selection | GUI2K4.rut | Weapon Selection | Выбор оружия    | Выбор оружия |
 | Super Weapon     | GUI2K4.rut | Super Weapon     | Супероружие     | Супероружие |
 | Use              | GUI2K4.rut | Use              | Использовать    | Использовать |
@@ -87,7 +87,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Grow Hud                  | GUI2K4.rut | Grow Hud                | Увеличить размер интерфейса | Увеличить HUD |
 | Shrink Hud                | GUI2K4.rut | Shrink Hud              | Уменьшить размер интерфейса | Уменьшить HUD |
 | ScoreBoard                | GUI2K4.rut | ScoreBoard              | Таблица результатов | Табло счета |
-| ScoreBoard Toggle         | GUI2K4.rut | ScoreBoard Toggle       | Показать таблицу результатов | Отобразить/скрыть табло счета |
+| ScoreBoard Toggle         | GUI2K4.rut | ScoreBoard Toggle       | Перекл. таблицы результатов | Отобразить/скрыть табло счета |
 | Show Radar Map            | GUI2K4.rut | Show Radar Map          | Показать радар   | Показать/скрыть карту-радар |
 | Show Personal Stats       | GUI2K4.rut | Show Personal Stats     | Показать персональную статистику | Показать/скрыть личную статистику |
 | View Next Player's Stats  | GUI2K4.rut | View Next Player's Stats | Показать статистику следующего игрока | Показать статистику следующего игрока |
@@ -99,7 +99,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Technical name                  | .rut file  | English name                 | Current Russian | Old Russian |
 | ------------------------------- | ---------- | ---------------------------- | --------------- | ----------- |
 | Pause                           | GUI2K4.rut | Pause                        | Пауза           | Пауза |
-| Screenshot                      | GUI2K4.rut | Screenshot                   | Скриншот        | Сделать скриншот |
+| Screenshot                      | GUI2K4.rut | Screenshot                   | Снимок экрана   | Сделать скриншот |
 | Menu                            | GUI2K4.rut | Menu                         | Меню            | Меню |
 | Server Info                     | GUI2K4.rut | Server Info                  | Информация о сервере | Сведения о сервере |
 | Vehicle Horn                    | GUI2K4.rut | Vehicle Horn                 | Гудок           | Звуковой сигнал транспорта |

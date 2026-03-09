@@ -37,9 +37,9 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | UnrealGame.KillString[5]                 | UnrealGame.rut | LUDICROUS KILL!    | -                                     | ГЕНОЦИД! |
 | UnrealGame.KillString[6]                 | UnrealGame.rut | HOLY SHIT!         | -                                     | ДЬЯВОЛ! |
 | XGame.MultiKillMessage.KillString[0]     | XGame.rut      | Double Kill!       | Двойное убийство!                     | Двойное убийство! |
-| XGame.MultiKillMessage.KillString[1]     | XGame.rut      | Multi Kill!        | Серия убийств!                        | Мультиубийство! |
+| XGame.MultiKillMessage.KillString[1]     | XGame.rut      | Multi Kill!        | Мульти-убийство!                      | Мультиубийство! |
 | XGame.MultiKillMessage.KillString[2]     | XGame.rut      | Mega Kill!!        | Мега-убийство!                        | Мегаубийство!! |
-| XGame.MultiKillMessage.KillString[3]     | XGame.rut      | ULTRA KILL!!       | УЛЬТРА-НАСИЛИЕ                        | Ультраубийство!! |
+| XGame.MultiKillMessage.KillString[3]     | XGame.rut      | ULTRA KILL!!       | УЛЬТРАНАСИЛИЕ                        | Ультраубийство!! |
 | XGame.MultiKillMessage.KillString[4]     | XGame.rut      | M O N S T E R  K I L L !!! | М О Н С Т Р У О З Н О !!!    | М О Н С Т Р !!! |
 | XGame.MultiKillMessage.KillString[5]     | XGame.rut      | L U D I C R O U S !!!      | Н Е М Ы С Л И М О !!!         | Г Е Н О Ц И Д !!! |
 | XGame.MultiKillMessage.KillString[6]     | XGame.rut      | H O L Y  S H I T !         | С Р А Н Ь  Г О С П О Д Н Я !  | Д Ь Я В О Л !!! |
@@ -70,7 +70,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | GUI2K4.SpreeLabel[4]                     | GUI2K4.rut  | GODLIKE:           | БОГОПОДОБЕН:         | БОГОПОДОБНЫЙ: |
 | GUI2K4.SpreeLabel[5]                     | GUI2K4.rut  | WICKED SICK:       | ЧИСТОЕ БЕЗУМИЕ:      | ЗЛОБНЫЙ ПСИХ: |
 | GUI2K4.MultiKillsLabel[0]                | GUI2K4.rut  | Double Kill:       | Двойное убийство:    | Двойное Убийца: |
-| GUI2K4.MultiKillsLabel[1]                | GUI2K4.rut  | MultiKill:         | Серия убийств:       | Мульти Убийца: |
+| GUI2K4.MultiKillsLabel[1]                | GUI2K4.rut  | MultiKill:         | Мульти-убийство:     | Мульти Убийца: |
 | GUI2K4.MultiKillsLabel[2]                | GUI2K4.rut  | MegaKill:          | Мегаубийство:        | Мега Убийца: |
 | GUI2K4.MultiKillsLabel[3]                | GUI2K4.rut  | UltraKill:         | Ультранасилие:       | Ультра Убийца: |
 | GUI2K4.MultiKillsLabel[4]                | GUI2K4.rut  | MONSTER KILL:      | МОНСТРУОЗНО:         | - |
