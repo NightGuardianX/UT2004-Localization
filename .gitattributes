@@ -7,7 +7,7 @@
 *.est	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
 *.frt	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
 *.hut	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
-*.int	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
+*.int	text working-tree-encoding=ansi diff=text eol=crlf
 *.itt	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
 *.jpt	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
 *.kot	text working-tree-encoding=utf-16le-bom diff=text eol=crlf
