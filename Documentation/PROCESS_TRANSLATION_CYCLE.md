@@ -33,7 +33,7 @@
    - For each modified `.rut` in the diff:
      - Update [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md): Status and Verified per [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md).
      - Recalculate counters at the top.
-   - Collect **bugs and checklist items** for the translator from \_VALIDATION_REPORT (sections **For translator to fix**, **Discrepancies with updated term**), plus duplicated keys, missing `; EN:`, Spanish placeholders, and other rules per [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) and [LOC_PROCESS](LOC_PROCESS.md).
+   - Collect **bugs and checklist items** for the translator from \_VALIDATION_REPORT (sections **For translator to fix**, **Discrepancies with updated term**), plus duplicated keys, missing `; EN:`, and other rules per [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) and [LOC_PROCESS](LOC_PROCESS.md).
 
 6. **Hand off to translator (Stage 2)**
    - Send [\_VALIDATION_REPORT.md](_VALIDATION_REPORT.md) (with all categories and optional comments) and the clear list of bugs/checklist items.
