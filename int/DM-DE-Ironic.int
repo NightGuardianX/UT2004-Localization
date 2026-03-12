@@ -9,7 +9,7 @@ Description="In the solitude of the abandoned coastal platforms of New Argentina
 LocationName="Shock Rifle"
 
 [ZoneInfo1]
-LocationName="Bio Rifle"
+LocationName="Flak Cannon"
 
 [ZoneInfo10]
 LocationName="Top Hallway"
@@ -18,16 +18,16 @@ LocationName="Top Hallway"
 LocationName="Top Hallway"
 
 [ZoneInfo12]
-LocationName="Flak Cannon"
+LocationName="Bio Rifle"
 
 [ZoneInfo13]
-LocationName="Flak Cannon"
+LocationName="Bio Rifle"
 
 [ZoneInfo14]
-LocationName="Pulse Gun"
+LocationName="Link Gun"
 
 [ZoneInfo15]
-LocationName="Amplifier"
+LocationName="Link Gun"
 
 [ZoneInfo16]
 LocationName="Rocket Launcher"
@@ -39,7 +39,7 @@ LocationName="Shock Rifle"
 LocationName="Rocket Launcher"
 
 [ZoneInfo19]
-LocationName="Shock Rifle"
+LocationName="Outside"
 
 [ZoneInfo2]
 LocationName="Rocket Launcher"
@@ -51,10 +51,10 @@ LocationName="Elevator"
 LocationName="Elevator"
 
 [ZoneInfo5]
-LocationName="Shield Room"
+LocationName="Super Shield Room"
 
 [ZoneInfo6]
-LocationName="Shield Room"
+LocationName="Super Shield Room"
 
 [ZoneInfo7]
 LocationName="Top Hallway"

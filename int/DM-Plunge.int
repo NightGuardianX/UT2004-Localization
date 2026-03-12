@@ -7,3 +7,42 @@ Title="Plunge"
 [PhysicsVolume0]
 LocationName="8 Miles High"
 
+[ZoneInfo1]
+LocationName="Outside"
+
+[ZoneInfo2]
+LocationName="Green Tower Corridor"
+
+[ZoneInfo4]
+LocationName="Pink Tower - Bottom"
+
+[ZoneInfo6]
+LocationName="Green Tower Corridor"
+
+[ZoneInfo7]
+LocationName="Green Tower Corridor"
+
+[ZoneInfo8]
+LocationName="Green Tower Corridor"
+
+[ZoneInfo13]
+LocationName="Yellow Tower Corridor"
+
+[ZoneInfo21]
+LocationName="Yellow Tower Corridor"
+
+[ZoneInfo22]
+LocationName="Yellow Tower Corridor"
+
+[ZoneInfo23]
+LocationName="Yellow Tower Corridor"
+
+[ZoneInfo24]
+LocationName="Yellow Tower Corridor"
+
+[ZoneInfo25]
+LocationName="Yellow Tower Boiler"
+
+[ZoneInfo27]
+LocationName="Yellow Tower Spawn"
+
