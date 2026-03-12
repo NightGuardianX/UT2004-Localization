@@ -51,7 +51,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | ShieldAmmo        | XWeapons.rut  | Shield            | -               | Щитовой заряд         |
 | ShockAmmo         | XWeapons.rut  | Shock Core        | -               | Фотонные заряды       |
 | SniperAmmo        | XWeapons.rut  | Lightning Charges | -               | Световые заряды       |
-| RedeemerAmmo      | XWeapons.rut  | Redeemer Ammo     | -               | Ядерная боеголовка    |
+| RedeemerAmmo      | XWeapons.rut  | Redeemer Ammo     | Ядерная боеголовка | Ядерная боеголовка    |
 | TransAmmo         | XWeapons.rut  | Translocator      | -               | Транслокатор          |
 | BallAmmo          | XWeapons.rut  | BallAmmo          | -               | Шаровые боеприпасы    |
 | ClassicSniperAmmo  | XWeapons.rut  | Sniper Bullets    | -               | Снайперские патроны   |

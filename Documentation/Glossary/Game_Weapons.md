@@ -45,7 +45,7 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Technical name   | .rut file    | English name      | Current Russian | Old Russian               |
 | ---------------- | ------------ | ----------------- | --------------- | ------------------------- |
 | Translauncher    | XWeapons.rut | Translocator      | -               | Транслокатор              |
-| Redeemer         | XWeapons.rut | Redeemer          | -               | Искупитель                |
+| Redeemer         | XWeapons.rut | Redeemer          | Искупитель      | Искупитель                |
 | Painter          | XWeapons.rut | Ion Painter       | -               | Ионный разрушитель        |
 | BallLauncher     | XWeapons.rut | Ball Launcher     | -               | Метатель шаров            |
 | SuperShockRifle  | XWeapons.rut | Super Shock Rifle | -               | Фотонная супервинтовка    |

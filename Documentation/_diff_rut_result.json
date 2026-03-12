@@ -1,0 +1,314 @@
+{
+  "merge": "b2b2b2c98b0558be9e7dbc10279751839f27abb8",
+  "files": {
+    "rut/BR-Anubis.rut": [
+      {
+        "key": "[ZoneInfo0]LocationName",
+        "new_value": "Искупитель"
+      }
+    ],
+    "rut/CTF-AbsoluteZero.rut": [
+      {
+        "key": "[Volume24]LocationName",
+        "new_value": "Puente del Искупитель"
+      },
+      {
+        "key": "[Volume25]LocationName",
+        "new_value": "Torre Francotirador Azul: Lado del Искупитель"
+      },
+      {
+        "key": "[Volume27]LocationName",
+        "new_value": "Torre Francotirador Roja: Lado del Искупитель"
+      }
+    ],
+    "rut/CTF-BP2-Pistola.rut": [
+      {
+        "key": "[LevelInfo0]Title",
+        "new_value": "Поля сражений Пистола"
+      },
+      {
+        "key": "[LevelSummary]Title",
+        "new_value": "Поля сражений Пистола"
+      },
+      {
+        "key": "[LevelSummary]Description",
+        "new_value": "Этот двойной комплекс из бетона и металла сочетает в себе природную красоту и грубые черты промышленного зодчества, образуя яростную арену для сражений.  Где же моя Пистола?"
+      },
+      {
+        "key": "[ZoneInfo0]LocationName",
+        "new_value": "Снаружи"
+      },
+      {
+        "key": "[ZoneInfo1]LocationName",
+        "new_value": "Зал с синим флагом"
+      },
+      {
+        "key": "[ZoneInfo11]LocationName",
+        "new_value": "Зал с красным флагом"
+      },
+      {
+        "key": "[ZoneInfo12]LocationName",
+        "new_value": "Красный сектор A"
+      },
+      {
+        "key": "[ZoneInfo13]LocationName",
+        "new_value": "Красный сектор B"
+      },
+      {
+        "key": "[ZoneInfo14]LocationName",
+        "new_value": "Вестибюль красных (Зенитка)"
+      },
+      {
+        "key": "[ZoneInfo15]LocationName",
+        "new_value": "Вестибюль красных A"
+      },
+      {
+        "key": "[ZoneInfo2]LocationName",
+        "new_value": "Синий сектор A"
+      },
+      {
+        "key": "[ZoneInfo3]LocationName",
+        "new_value": "Синий сектор B"
+      },
+      {
+        "key": "[ZoneInfo4]LocationName",
+        "new_value": "Вестибюль синих (Зенитка)"
+      },
+      {
+        "key": "[ZoneInfo5]LocationName",
+        "new_value": "Вестибюль синих A"
+      }
+    ],
+    "rut/CTF-FaceClassic.rut": [
+      {
+        "key": "[ZoneInfo21]LocationName",
+        "new_value": "Desván de Искупитель Azul"
+      },
+      {
+        "key": "[ZoneInfo3]LocationName",
+        "new_value": "Desván de Искупитель Rojo"
+      }
+    ],
+    "rut/CTF-Orbital2.rut": [
+      {
+        "key": "[LevelInfo0]Title",
+        "new_value": "Орбита2"
+      },
+      {
+        "key": "[LevelSummary]Title",
+        "new_value": "Орбита2"
+      },
+      {
+        "key": "[ZoneInfo0]LocationName",
+        "new_value": "Зал синего флага"
+      },
+      {
+        "key": "[ZoneInfo1]LocationName",
+        "new_value": "Зал синего флага"
+      },
+      {
+        "key": "[ZoneInfo10]LocationName",
+        "new_value": "Центральный зал"
+      },
+      {
+        "key": "[ZoneInfo11]LocationName",
+        "new_value": "Зал синих (Миниган)"
+      },
+      {
+        "key": "[ZoneInfo12]LocationName",
+        "new_value": "Нижние залы синих"
+      },
+      {
+        "key": "[ZoneInfo13]LocationName",
+        "new_value": "Верхние залы синих"
+      },
+      {
+        "key": "[ZoneInfo14]LocationName",
+        "new_value": "Нижние залы синих"
+      },
+      {
+        "key": "[ZoneInfo15]LocationName",
+        "new_value": "Зал красных (Объединитель)"
+      },
+      {
+        "key": "[ZoneInfo16]LocationName",
+        "new_value": "Верхние залы красных"
+      },
+      {
+        "key": "[ZoneInfo17]LocationName",
+        "new_value": "Зал красного флага"
+      },
+      {
+        "key": "[ZoneInfo18]LocationName",
+        "new_value": "Верхние залы красных"
+      },
+      {
+        "key": "[ZoneInfo19]LocationName",
+        "new_value": "Зал красных (Зенитка)"
+      },
+      {
+        "key": "[ZoneInfo2]LocationName",
+        "new_value": "Зал синего флага"
+      },
+      {
+        "key": "[ZoneInfo20]LocationName",
+        "new_value": "Нижние залы красных"
+      },
+      {
+        "key": "[ZoneInfo21]LocationName",
+        "new_value": "Зал красных (Миниган)"
+      },
+      {
+        "key": "[ZoneInfo22]LocationName",
+        "new_value": "Зал красного флага"
+      },
+      {
+        "key": "[ZoneInfo23]LocationName",
+        "new_value": "Зал красного флага"
+      },
+      {
+        "key": "[ZoneInfo24]LocationName",
+        "new_value": "Зал красного флага"
+      },
+      {
+        "key": "[ZoneInfo25]LocationName",
+        "new_value": "Нижние залы красных"
+      },
+      {
+        "key": "[ZoneInfo26]LocationName",
+        "new_value": "Верхние залы красных"
+      },
+      {
+        "key": "[ZoneInfo27]LocationName",
+        "new_value": "Зал красных (Миниган)"
+      },
+      {
+        "key": "[ZoneInfo3]LocationName",
+        "new_value": "Зал синего флага"
+      },
+      {
+        "key": "[ZoneInfo4]LocationName",
+        "new_value": "Центральный зал"
+      },
+      {
+        "key": "[ZoneInfo5]LocationName",
+        "new_value": "Верхние залы синих"
+      },
+      {
+        "key": "[ZoneInfo6]LocationName",
+        "new_value": "Зал синих (Зенитка)"
+      },
+      {
+        "key": "[ZoneInfo7]LocationName",
+        "new_value": "Зал синих (Миниган)"
+      },
+      {
+        "key": "[ZoneInfo8]LocationName",
+        "new_value": "Верхние залы синих"
+      },
+      {
+        "key": "[ZoneInfo9]LocationName",
+        "new_value": "Верхние залы синих"
+      }
+    ],
+    "rut/DM-BP2-GoopGod.rut": [
+      {
+        "key": "[LevelInfo0]Title",
+        "new_value": "Пристанище культа Бога слизи"
+      },
+      {
+        "key": "[LevelSummary]Title",
+        "new_value": "Пристанище культа Бога слизи"
+      },
+      {
+        "key": "[LevelSummary]Description",
+        "new_value": "Долгие годы монахи Нали скрывали это священное место погребения от мародёрствующих орд Скарджей.  Однако, им не удалось укрыть его от взора Liandri: храм был обнаружен в ходе планового спутникового сканирования в поисках месторождений таридиума.  Здесь развернули добычу ресурсов, а остатки строений приспособили под арену Турнира, не пощадив даже прах усопших."
+      }
+    ],
+    "rut/DM-Deck17.rut": [
+      {
+        "key": "[ZoneInfo58]LocationName",
+        "new_value": "Ascensores de arriba (Искупитель)"
+      }
+    ],
+    "rut/DM-IronDeity.rut": [
+      {
+        "key": "[LevelSummary]Description",
+        "new_value": "Este estadio grande e imponente es más apropiado para dos equipos de combatientes de tamaño medio. Procura que no te pillen corriendo por la estrecha sala del ventilador y asegúrate de controlar el Doble Daño. Por último, ¡estate atento al Искупитель oculto!"
+      }
+    ],
+    "rut/Engine.rut": [
+      {
+        "key": "[Errors]DemoFileMissing",
+        "new_value": "Отсутствует пакет %s для проигрывания демо-записи"
+      }
+    ],
+    "rut/GUI2K4.rut": [
+      {
+        "key": "[ControlBinder]BindingLabel[31]",
+        "new_value": "Объединитель"
+      },
+      {
+        "key": "[ControlBinder]BindingLabel[33]",
+        "new_value": "Зенитка"
+      },
+      {
+        "key": "[ControlBinder]BindingLabel[34]",
+        "new_value": "Ракетница"
+      }
+    ],
+    "rut/TUT-BR.rut": [
+      {
+        "key": "[ZoneInfo0]LocationName",
+        "new_value": "Искупитель"
+      }
+    ],
+    "rut/UTClassic.rut": [
+      {
+        "key": "[MutUTClassic]TranslocString",
+        "new_value": "Изменить Транслокатор"
+      },
+      {
+        "key": "[MutUTClassic]TranslocHelp",
+        "new_value": "Если активно, Транслокатор перезаряжается быстрее."
+      }
+    ],
+    "rut/UnrealGame.rut": [],
+    "rut/XAdmin.rut": [
+      {
+        "key": "[AdminIni]Msg_MapListNeedGameEdit",
+        "new_value": "Требуется использовать команду 'Game Edit' перед 'MapList'"
+      }
+    ],
+    "rut/XInterface.rut": [
+      {
+        "key": "[ServerBrowser]InvasionTypeName",
+        "new_value": "Вторжение"
+      }
+    ],
+    "rut/XVoting.rut": [
+      {
+        "key": "[MapInfoPage]MessageNoInfo",
+        "new_value": "Информация отсутствует!"
+      }
+    ],
+    "rut/XWeapons.rut": [
+      {
+        "key": "[Redeemer]Description",
+        "new_value": "La primera vez que veas en acción este dispositivo nuclear en miniatura, estarás de acuerdo en que es el arma más poderosa del Torneo.|Con el disparo primario, lanza un misil lento pero tremendamente devastador; y ten cuidado de estar fuera del impresionante radio de acción del Искупитель antes de que impacte. El disparo secundario te permite guiar el cohete personalmente, con una vista desde el mismo.||De todas maneras, no olvides que mientras apuntas el proyectil del Искупитель, eres vulnerable. Debido al enorme volumen de su munición, se queda sin cargas después de un disparo."
+      },
+      {
+        "key": "[Redeemer]ItemName",
+        "new_value": "Искупитель"
+      },
+      {
+        "key": "[RedeemerAmmo]ItemName",
+        "new_value": "Munición de Искупитель"
+      },
+      {
+        "key": "[RedeemerPickup]PickupMessage",
+        "new_value": "Has recogido el Искупитель."
+      }
+    ]
+  }
+}
