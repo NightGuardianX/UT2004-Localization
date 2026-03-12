@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Temple d'Anubis"
 
 [LevelInfo6]
@@ -8,22 +8,22 @@ Title="Temple d'Anubis"
 Title="Temple d'Anubis"
 
 [ZoneInfo0]
-LocationName="Rédempteur"
+LocationName="RÃ©dempteur"
 
 [ZoneInfo1]
 LocationName="Dune de sable recharge Bouclier + 100"
 
 [ZoneInfo10]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo12]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo13]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo14]
-LocationName="Entrée du Haut bleue"
+LocationName="EntrÃ©e du Haut bleue"
 
 [ZoneInfo15]
 LocationName="Base rouge"
@@ -32,31 +32,31 @@ LocationName="Base rouge"
 LocationName="Base rouge"
 
 [ZoneInfo17]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo18]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo19]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo2]
 LocationName="Canon Flak"
 
 [ZoneInfo20]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo21]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo22]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo23]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo24]
-LocationName="Point de réapparition bleu"
+LocationName="Point de rÃ©apparition bleu"
 
 [ZoneInfo25]
 LocationName="Centre"
@@ -74,7 +74,7 @@ LocationName="Canon Flak"
 LocationName="Centre"
 
 [ZoneInfo3]
-LocationName="Point de réapparition rouge"
+LocationName="Point de rÃ©apparition rouge"
 
 [ZoneInfo30]
 LocationName="Court rouge"
@@ -86,25 +86,25 @@ LocationName="Centre"
 LocationName="Court rouge"
 
 [ZoneInfo33]
-LocationName="Entrée du Haut bleue"
+LocationName="EntrÃ©e du Haut bleue"
 
 [ZoneInfo34]
-LocationName="Entrée du Haut bleue"
+LocationName="EntrÃ©e du Haut bleue"
 
 [ZoneInfo35]
-LocationName="Entrée du Haut rouge"
+LocationName="EntrÃ©e du Haut rouge"
 
 [ZoneInfo36]
-LocationName="Entrée du Haut bleue"
+LocationName="EntrÃ©e du Haut bleue"
 
 [ZoneInfo37]
-LocationName="Entrée du Haut rouge"
+LocationName="EntrÃ©e du Haut rouge"
 
 [ZoneInfo38]
-LocationName="Entrée du Haut rouge"
+LocationName="EntrÃ©e du Haut rouge"
 
 [ZoneInfo39]
-LocationName="Entrée du Haut rouge"
+LocationName="EntrÃ©e du Haut rouge"
 
 [ZoneInfo4]
 LocationName="Court bleue"

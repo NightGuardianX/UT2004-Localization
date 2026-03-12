@@ -1,4 +1,4 @@
-[LevelInfo0]
+﻿[LevelInfo0]
 Title="Orbital2"
 
 [LevelSummary]
@@ -71,7 +71,7 @@ LocationName="ROTER Minigun-Raum"
 LocationName="BLAUE Flaggenraum"
 
 [ZoneInfo4]
-LocationName="Gro�er Saal Mitte"
+LocationName="Großer Saal Mitte"
 
 [ZoneInfo5]
 LocationName="Oberer Saal BLAU"

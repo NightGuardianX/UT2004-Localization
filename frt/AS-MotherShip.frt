@@ -1,108 +1,108 @@
-[Counter0]
+ï»¿[Counter0]
 CompleteMessage="Conduits de noyau ouverts !"
 
 [Counter2]
-CompleteMessage="Bouclier énergétique désactivé !"
+CompleteMessage="Bouclier Ã©nergÃ©tique dÃ©sactivÃ© !"
 
 [Counter3]
-CompleteMessage="Portes et champ de force inférieur désactivés"
+CompleteMessage="Portes et champ de force infÃ©rieur dÃ©sactivÃ©s"
 
 [Counter4]
-CompleteMessage="Conducteurs de noyau détruits !"
+CompleteMessage="Conducteurs de noyau dÃ©truits !"
 
 [Counter5]
-CompleteMessage="Champ de force de hangar de chargement désactivé !"
+CompleteMessage="Champ de force de hangar de chargement dÃ©sactivÃ© !"
 
 [Counter6]
-CompleteMessage="Champs de force supérieurs désactivés !"
+CompleteMessage="Champs de force supÃ©rieurs dÃ©sactivÃ©s !"
 
 [DestroyVehicleObjective0]
 ObjectiveName="Tourelles sentinelles"
-DestructionMessage="Sentinelle détruite !"
-ObjectiveDescription="Détruire les tourelles sentinelles"
-Objective_Info_Attacker="Détruire sentinelle"
-Objective_Info_Defender="Protéger sentinelle"
+DestructionMessage="Sentinelle dÃ©truite !"
+ObjectiveDescription="DÃ©truire les tourelles sentinelles"
+Objective_Info_Attacker="DÃ©truire sentinelle"
+Objective_Info_Defender="ProtÃ©ger sentinelle"
 
 [DestroyVehicleObjective1]
 ObjectiveName="Tourelles sentinelles"
-DestructionMessage="Sentinelle détruite !"
+DestructionMessage="Sentinelle dÃ©truite !"
 LocationPrefix="lowerhull"
-ObjectiveDescription="Détruire les tourelles sentinelles"
-Objective_Info_Attacker="Détruire sentinelle"
-Objective_Info_Defender="Protéger sentinelle"
+ObjectiveDescription="DÃ©truire les tourelles sentinelles"
+Objective_Info_Attacker="DÃ©truire sentinelle"
+Objective_Info_Defender="ProtÃ©ger sentinelle"
 
 [DestroyVehicleObjective2]
 ObjectiveName="Tourelles sentinelles"
-DestructionMessage="Sentinelle détruite !"
-ObjectiveDescription="Détruire les tourelles sentinelles"
-Objective_Info_Attacker="Détruire sentinelle"
-Objective_Info_Defender="Protéger sentinelle"
+DestructionMessage="Sentinelle dÃ©truite !"
+ObjectiveDescription="DÃ©truire les tourelles sentinelles"
+Objective_Info_Attacker="DÃ©truire sentinelle"
+Objective_Info_Defender="ProtÃ©ger sentinelle"
 
 [DestroyableObjective_SM0]
-ObjectiveName="Dérivation énergétique"
-DestructionMessage="Dérivation énergétique détruite..."
-ObjectiveDescription="Détruire dérivation de champ laser"
-Objective_Info_Attacker="Détruire dérivation énergétique"
-Objective_Info_Defender="Protéger dérivation énergétique"
+ObjectiveName="DÃ©rivation Ã©nergÃ©tique"
+DestructionMessage="DÃ©rivation Ã©nergÃ©tique dÃ©truite..."
+ObjectiveDescription="DÃ©truire dÃ©rivation de champ laser"
+Objective_Info_Attacker="DÃ©truire dÃ©rivation Ã©nergÃ©tique"
+Objective_Info_Defender="ProtÃ©ger dÃ©rivation Ã©nergÃ©tique"
 
 [DestroyableObjective_SM1]
-ObjectiveName="Générateur bouclier supérieur"
-DestructionMessage="Générateur bouclier détruit"
-ObjectiveDescription="Détruire générateurs bouclier"
-Objective_Info_Attacker="Détruire générateur bouclier supérieur"
-Objective_Info_Defender="Protéger générateur bouclier supérieur"
+ObjectiveName="GÃ©nÃ©rateur bouclier supÃ©rieur"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit"
+ObjectiveDescription="DÃ©truire gÃ©nÃ©rateurs bouclier"
+Objective_Info_Attacker="DÃ©truire gÃ©nÃ©rateur bouclier supÃ©rieur"
+Objective_Info_Defender="ProtÃ©ger gÃ©nÃ©rateur bouclier supÃ©rieur"
 
 [DestroyableObjective_SM2]
-ObjectiveName="Générateur bouclier supérieur"
-DestructionMessage="Générateur bouclier détruit"
-ObjectiveDescription="Détruire générateurs bouclier"
-Objective_Info_Attacker="Détruire générateur bouclier supérieur"
-Objective_Info_Defender="Protéger générateur bouclier supérieur"
+ObjectiveName="GÃ©nÃ©rateur bouclier supÃ©rieur"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit"
+ObjectiveDescription="DÃ©truire gÃ©nÃ©rateurs bouclier"
+Objective_Info_Attacker="DÃ©truire gÃ©nÃ©rateur bouclier supÃ©rieur"
+Objective_Info_Defender="ProtÃ©ger gÃ©nÃ©rateur bouclier supÃ©rieur"
 
 [DestroyableObjective_SM3]
-ObjectiveName="Générateur bouclier inférieur"
-DestructionMessage="Générateur bouclier détruit"
-ObjectiveDescription="Détruire générateur bouclier inférieur"
-Objective_Info_Attacker="Détruire générateur bouclier inférieur"
-Objective_Info_Defender="Protéger générateur bouclier inférieur"
+ObjectiveName="GÃ©nÃ©rateur bouclier infÃ©rieur"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit"
+ObjectiveDescription="DÃ©truire gÃ©nÃ©rateur bouclier infÃ©rieur"
+Objective_Info_Attacker="DÃ©truire gÃ©nÃ©rateur bouclier infÃ©rieur"
+Objective_Info_Defender="ProtÃ©ger gÃ©nÃ©rateur bouclier infÃ©rieur"
 
 [DestroyableObjective_SM4]
 ObjectiveName="Conducteurs de noyau..."
-DestructionMessage="Conducteur détruit !"
-ObjectiveDescription="Détruire conducteur de noyau"
-Objective_Info_Attacker="Détruire le conducteur"
-Objective_Info_Defender="Protéger le conducteur"
+DestructionMessage="Conducteur dÃ©truit !"
+ObjectiveDescription="DÃ©truire conducteur de noyau"
+Objective_Info_Attacker="DÃ©truire le conducteur"
+Objective_Info_Defender="ProtÃ©ger le conducteur"
 
 [DestroyableObjective_SM5]
-ObjectiveName="Dérivation énergétique"
-DestructionMessage="Dérivation énergétique détruite..."
-ObjectiveDescription="Détruire dérivation de champ laser"
-Objective_Info_Attacker="Détruire dérivation énergétique"
-Objective_Info_Defender="Protéger dérivation énergétique"
+ObjectiveName="DÃ©rivation Ã©nergÃ©tique"
+DestructionMessage="DÃ©rivation Ã©nergÃ©tique dÃ©truite..."
+ObjectiveDescription="DÃ©truire dÃ©rivation de champ laser"
+Objective_Info_Attacker="DÃ©truire dÃ©rivation Ã©nergÃ©tique"
+Objective_Info_Defender="ProtÃ©ger dÃ©rivation Ã©nergÃ©tique"
 
 [DestroyableObjective_SM6]
 ObjectiveName="Conducteurs de noyau..."
-DestructionMessage="Conducteur détruit !"
-ObjectiveDescription="Détruire conducteur de noyau"
-Objective_Info_Attacker="Détruire le conducteur"
-Objective_Info_Defender="Protéger le conducteur"
+DestructionMessage="Conducteur dÃ©truit !"
+ObjectiveDescription="DÃ©truire conducteur de noyau"
+Objective_Info_Attacker="DÃ©truire le conducteur"
+Objective_Info_Defender="ProtÃ©ger le conducteur"
 
 [HoldObjective0]
 ObjectiveName="Panneaux de noyau"
-DestructionMessage="Verrou écoutille 2 libéré !"
+DestructionMessage="Verrou Ã©coutille 2 libÃ©rÃ© !"
 ObjectiveDescription="Panneaux de noyau"
-Objective_Info_Attacker="Employer panneau pour libérer écoutille de noyau"
-Objective_Info_Defender="Empêcher l'emploi des panneaux de noyau"
+Objective_Info_Attacker="Employer panneau pour libÃ©rer Ã©coutille de noyau"
+Objective_Info_Defender="EmpÃªcher l'emploi des panneaux de noyau"
 
 [HoldObjective1]
 ObjectiveName="Panneaux de noyau"
-DestructionMessage="Verrou écoutille 1 libéré !"
+DestructionMessage="Verrou Ã©coutille 1 libÃ©rÃ© !"
 ObjectiveDescription="Panneaux de noyau"
-Objective_Info_Attacker="Employer panneau pour libérer écoutille de noyau"
-Objective_Info_Defender="Empêcher l'emploi des panneaux de noyau"
+Objective_Info_Attacker="Employer panneau pour libÃ©rer Ã©coutille de noyau"
+Objective_Info_Defender="EmpÃªcher l'emploi des panneaux de noyau"
 
 [InfoPod2]
-POD_Message="Tourelles internes inférieures"
+POD_Message="Tourelles internes infÃ©rieures"
 
 [InfoPod3]
 POD_Message="Canon Link"
@@ -111,51 +111,51 @@ POD_Message="Canon Link"
 POD_Message="Tourelles hangar de chargement"
 
 [InfoPod5]
-POD_Message="Tourelles internes supérieures"
+POD_Message="Tourelles internes supÃ©rieures"
 
 [InfoPod6]
-POD_Message="Tourelles externes supérieures"
+POD_Message="Tourelles externes supÃ©rieures"
 
 [InfoPod7]
-POD_Message="Tourelles externes inférieures"
+POD_Message="Tourelles externes infÃ©rieures"
 
 [InfoPod8]
 POD_Message="Canon Link"
 
 [LevelInfo0]
-Title="Assaut du vaisseau-mère"
+Title="Assaut du vaisseau-mÃ¨re"
 
 [LevelSummary]
-Title="Assaut du vaisseau-mère"
-Description="Le premier contact avec les skaarj eut lieu lors de la récupération du transporteur carcéral Vortex Rikers sur Na Pali. Moins d'un an plus tard, les skaarj étaient sur le point d'anéantir les humains. Ce scénario reproduit la bataille finale pour la Terre et l'incroyable victoire des humains alors que leur défaite était presque assurée. Un vaisseau-mère skaarj, en orbite terrestre, bombardait la planète en vue de l'invasion finale. Lors d'une mission suicide audacieuse, les humains attaquèrent le vaisseau-mère à bord de chasseurs monoplaces, espérant exploiter une faille révélée par leur analyse des défenses de ce vaisseau."
+Title="Assaut du vaisseau-mÃ¨re"
+Description="Le premier contact avec les skaarj eut lieu lors de la rÃ©cupÃ©ration du transporteur carcÃ©ral Vortex Rikers sur Na Pali. Moins d'un an plus tard, les skaarj Ã©taient sur le point d'anÃ©antir les humains. Ce scÃ©nario reproduit la bataille finale pour la Terre et l'incroyable victoire des humains alors que leur dÃ©faite Ã©tait presque assurÃ©e. Un vaisseau-mÃ¨re skaarj, en orbite terrestre, bombardait la planÃ¨te en vue de l'invasion finale. Lors d'une mission suicide audacieuse, les humains attaquÃ¨rent le vaisseau-mÃ¨re Ã  bord de chasseurs monoplaces, espÃ©rant exploiter une faille rÃ©vÃ©lÃ©e par leur analyse des dÃ©fenses de ce vaisseau."
 
 [MessageTrigger15]
-Message="Préparez-vous à attaquer !"
+Message="PrÃ©parez-vous Ã  attaquer !"
 
 [MessageTrigger17]
-Message="Préparez les défenses !"
+Message="PrÃ©parez les dÃ©fenses !"
 
 [ProximityObjective0]
 ObjectiveName="Hangar d'atterrissage"
-DestructionMessage="Les attaquants ont pénétré dans le vaisseau-mère !"
+DestructionMessage="Les attaquants ont pÃ©nÃ©trÃ© dans le vaisseau-mÃ¨re !"
 ObjectiveDescription="Entrer dans le vaisseau skaarj par le hangar d'atterrissage"
 Objective_Info_Attacker="Rejoindre le hangar d'atterrissage"
-Objective_Info_Defender="Empêcher les attaquants de se poser"
+Objective_Info_Defender="EmpÃªcher les attaquants de se poser"
 
 [SceneSubtitles0]
-SubTitles=("Le premier contact avec les Skaarjs eut lieu lors de la récupération du vaisseau-prison Vortex Rikers sur Na Pali.","En l'espace d'une année, les Skaarjs avaient presque réussi à anéantir l'humanité.","Ce scénario recrée la bataille finale pour le contrôle de la Terre et l'inattendue et incroyable victoire des Humains.","Un vaisseau-mère skaarj était en orbite autour de la Terre et bombardait la planète en préparation de l'invasion finale.","Tentant une incroyable mission suicide, les Humains attaquèrent le vaisseau-mère à bord de petits vaisseaux individuels, espérant profiter d'une faille détectée dans ses défenses.","Détruisez les deux générateurs dans la partie basse du vaisseau-mère skaarj pour désactiver les champs de force supérieurs.","Ensuite, montez vers la partie principale du vaisseau-mère skaarj.","Détruisez les deux générateurs terminaux pour désactiver le bouclier de l'aire d'atterrissage.","Continuez et posez-vous sur l'aire d'atterrissage du vaisseau-mère.","Une fois à pied, continuez vers la prochaine section.","Il faudra détruire deux mécanismes de dérivation d'énergie pour arriver au compartiment-cargo.","Continuez pour atteindre le compartiment-cargo.","Trois sentinelles vous attendent dans le compartiment-cargo. Il faudra éliminer ces sentinelles pour pouvoir avancer.","Les champs de force sont désactivés une fois les trois sentinelles éliminées.","Les champs de force sont désactivés une fois les trois sentinelles éliminées.","Une fois passé le pont, le noyau vous attend.","Actionnez les panneaux pour déverrouiller les trappes de ventilation du noyau.","Une fois les panneaux actionnés, tirez dans les deux conducteurs d'énergie pour rendre le noyau instable.")
+SubTitles=("Le premier contact avec les Skaarjs eut lieu lors de la rÃ©cupÃ©ration du vaisseau-prison Vortex Rikers sur Na Pali.","En l'espace d'une annÃ©e, les Skaarjs avaient presque rÃ©ussi Ã  anÃ©antir l'humanitÃ©.","Ce scÃ©nario recrÃ©e la bataille finale pour le contrÃ´le de la Terre et l'inattendue et incroyable victoire des Humains.","Un vaisseau-mÃ¨re skaarj Ã©tait en orbite autour de la Terre et bombardait la planÃ¨te en prÃ©paration de l'invasion finale.","Tentant une incroyable mission suicide, les Humains attaquÃ¨rent le vaisseau-mÃ¨re Ã  bord de petits vaisseaux individuels, espÃ©rant profiter d'une faille dÃ©tectÃ©e dans ses dÃ©fenses.","DÃ©truisez les deux gÃ©nÃ©rateurs dans la partie basse du vaisseau-mÃ¨re skaarj pour dÃ©sactiver les champs de force supÃ©rieurs.","Ensuite, montez vers la partie principale du vaisseau-mÃ¨re skaarj.","DÃ©truisez les deux gÃ©nÃ©rateurs terminaux pour dÃ©sactiver le bouclier de l'aire d'atterrissage.","Continuez et posez-vous sur l'aire d'atterrissage du vaisseau-mÃ¨re.","Une fois Ã  pied, continuez vers la prochaine section.","Il faudra dÃ©truire deux mÃ©canismes de dÃ©rivation d'Ã©nergie pour arriver au compartiment-cargo.","Continuez pour atteindre le compartiment-cargo.","Trois sentinelles vous attendent dans le compartiment-cargo. Il faudra Ã©liminer ces sentinelles pour pouvoir avancer.","Les champs de force sont dÃ©sactivÃ©s une fois les trois sentinelles Ã©liminÃ©es.","Les champs de force sont dÃ©sactivÃ©s une fois les trois sentinelles Ã©liminÃ©es.","Une fois passÃ© le pont, le noyau vous attend.","Actionnez les panneaux pour dÃ©verrouiller les trappes de ventilation du noyau.","Une fois les panneaux actionnÃ©s, tirez dans les deux conducteurs d'Ã©nergie pour rendre le noyau instable.")
 
 [Trigger_ASMessageTrigger14]
-Message="Champ de force désactivé..."
+Message="Champ de force dÃ©sactivÃ©..."
 
 [Trigger_ASMessageTrigger15]
-Message="Déverrouillez le noyau !"
+Message="DÃ©verrouillez le noyau !"
 
 [Trigger_ASMessageTrigger3]
 Message="Ecoutilles de noyau ouvertes..."
 
 [Trigger_ASMessageTrigger4]
-Message="Champs de force supérieurs désactivés..."
+Message="Champs de force supÃ©rieurs dÃ©sactivÃ©s..."
 
 [Trigger_ASMessageTrigger5]
 Message="Les attaquants ont atterri !"
@@ -164,16 +164,16 @@ Message="Les attaquants ont atterri !"
 Message="Les attaquants sont dans le noyau !"
 
 [Trigger_ASMessageTrigger8]
-Message="Noyau déstabilisé !"
+Message="Noyau dÃ©stabilisÃ© !"
 
 [Trigger_ASMessageTrigger9]
-Message="Champ de force du hangar d'atterrissage désactivé"
+Message="Champ de force du hangar d'atterrissage dÃ©sactivÃ©"
 
 [ZoneInfo1]
 LocationName="Couloir droit moteur gravifique"
 
 [ZoneInfo10]
-LocationName="Générateur énergie 2"
+LocationName="GÃ©nÃ©rateur Ã©nergie 2"
 
 [ZoneInfo12]
 LocationName="Le noyau"
@@ -185,28 +185,28 @@ LocationName="Conduit droit"
 LocationName="Conduit principal central"
 
 [ZoneInfo16]
-LocationName="Extérieur du noyau"
+LocationName="ExtÃ©rieur du noyau"
 
 [ZoneInfo17]
-LocationName="Extérieur du noyau"
+LocationName="ExtÃ©rieur du noyau"
 
 [ZoneInfo18]
-LocationName="Conduit interne supérieur"
+LocationName="Conduit interne supÃ©rieur"
 
 [ZoneInfo19]
-LocationName="Extérieur du noyau"
+LocationName="ExtÃ©rieur du noyau"
 
 [ZoneInfo2]
 LocationName="Dans l'espace"
 
 [ZoneInfo20]
-LocationName="Carrefour inférieur"
+LocationName="Carrefour infÃ©rieur"
 
 [ZoneInfo21]
-LocationName="Réapparition dérivation défenseurs"
+LocationName="RÃ©apparition dÃ©rivation dÃ©fenseurs"
 
 [ZoneInfo22]
-LocationName="Réapparition dérivation défenseurs"
+LocationName="RÃ©apparition dÃ©rivation dÃ©fenseurs"
 
 [ZoneInfo23]
 LocationName="Soute"
@@ -221,16 +221,16 @@ LocationName="Soute"
 LocationName="Soute"
 
 [ZoneInfo27]
-LocationName="Réapparition dérivation défenseurs"
+LocationName="RÃ©apparition dÃ©rivation dÃ©fenseurs"
 
 [ZoneInfo28]
-LocationName="Hangar à vaisseaux"
+LocationName="Hangar Ã  vaisseaux"
 
 [ZoneInfo29]
 LocationName="Couloir soute"
 
 [ZoneInfo3]
-LocationName="Conduit générateur section inférieure"
+LocationName="Conduit gÃ©nÃ©rateur section infÃ©rieure"
 
 [ZoneInfo30]
 LocationName="Cage ascenseur"
@@ -239,16 +239,16 @@ LocationName="Cage ascenseur"
 LocationName="Passage ascenseur"
 
 [ZoneInfo32]
-LocationName="Soute - pont supérieur gauche"
+LocationName="Soute - pont supÃ©rieur gauche"
 
 [ZoneInfo33]
-LocationName="Soute - pont supérieur droit"
+LocationName="Soute - pont supÃ©rieur droit"
 
 [ZoneInfo34]
 LocationName="Passage ascenseur"
 
 [ZoneInfo35]
-LocationName="Salle dérivation énergétique"
+LocationName="Salle dÃ©rivation Ã©nergÃ©tique"
 
 [ZoneInfo36]
 LocationName="Couloir gauche"
@@ -260,16 +260,16 @@ LocationName="Hangar atterrissage attaquants"
 LocationName="Couloir droit"
 
 [ZoneInfo39]
-LocationName="Entrée supérieure dérivation énergétique"
+LocationName="EntrÃ©e supÃ©rieure dÃ©rivation Ã©nergÃ©tique"
 
 [ZoneInfo4]
-LocationName="Hangar atterrissage défenseurs"
+LocationName="Hangar atterrissage dÃ©fenseurs"
 
 [ZoneInfo40]
-LocationName="Entrée du noyau"
+LocationName="EntrÃ©e du noyau"
 
 [ZoneInfo41]
-LocationName="Extérieur du noyau"
+LocationName="ExtÃ©rieur du noyau"
 
 [ZoneInfo42]
 LocationName="Passage gauche pont noyau"
@@ -296,7 +296,7 @@ LocationName="Passage droit pont noyau"
 LocationName="Soute"
 
 [ZoneInfo5]
-LocationName="Générateur énergie 1"
+LocationName="GÃ©nÃ©rateur Ã©nergie 1"
 
 [ZoneInfo50]
 LocationName="Couloir soute"
@@ -323,7 +323,7 @@ LocationName="Hangar d'atterrissage"
 LocationName="hangar d'atterrissage"
 
 [ZoneInfo8]
-LocationName="Hangar atterrissage défenseurs"
+LocationName="Hangar atterrissage dÃ©fenseurs"
 
 [ZoneInfo9]
 LocationName="Conduit gauche"

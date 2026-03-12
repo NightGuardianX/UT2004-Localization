@@ -1,4 +1,4 @@
-[Public]
+﻿[Public]
 ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutArena,Description="Sostituisce armi e munizioni nella mappa.")
 ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutNoSuperWeapon,Description="Nessun Redentore o cannone a ioni nella mappa.")
 ;Object=(Class=Class,MetaClass=Engine.Weapon,Name=XWeapons.AssaultRifle,Description="Economico e facile da produrre, l'AR770 costituisce una soluzione da combattimento leggera da 5,56 mm, assai efficace contro i nemici privi di armatura. Vista la capacità di penetrazione, da bassa a moderata, questo fucile si presta meglio come arma di supporto leggera. Il lanciagranate M355 facoltativo consente a quest'arma di colpire i nemici che dispongono di armature pesanti.")

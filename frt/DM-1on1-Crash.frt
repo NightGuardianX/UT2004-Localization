@@ -1,12 +1,12 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Crash"
 
 [LevelSummary]
 Title="Crash"
-Description="Il y a trËs longtemps, dans une galaxie lointaine, un homme au cúur brisÈ a b‚ti ce complexe pour mener son propre tournoi et mÈditer sur ses combats passÈs. La lÈgende ne dit pas s'il a trouvÈ la libertÈ, mais les plaintes Èternelles Èmanant de ces vieux murs semblent fournir la rÈponse..."
+Description="Il y a tr√®s longtemps, dans une galaxie lointaine, un homme au c≈ìur bris√© a b√¢ti ce complexe pour mener son propre tournoi et m√©diter sur ses combats pass√©s. La l√©gende ne dit pas s'il a trouv√© la libert√©, mais les plaintes √©ternelles √©manant de ces vieux murs semblent fournir la r√©ponse..."
 
 [ZoneInfo0]
-LocationName="Couloir dÈplacement"
+LocationName="Couloir d√©placement"
 
 [ZoneInfo1]
 LocationName="Salle fusil bio"
@@ -24,7 +24,7 @@ LocationName="Salle minigun"
 LocationName="Salle grande armure"
 
 [ZoneInfo6]
-LocationName="Couloir infÈrieur"
+LocationName="Couloir inf√©rieur"
 
 [ZoneInfo7]
 LocationName="Salle Flak"

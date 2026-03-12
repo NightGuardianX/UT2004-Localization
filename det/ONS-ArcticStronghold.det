@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Arctic Stronghold"
 
 [LevelSummary]
 Title="Arctic Stronghold"
-Description="Die Arctic Stronghold liegt auf einer Höhe von rund 7 km und ist hinter Nebel und konstantem Schneegestöber verborgen. Es ist der perfekte Ort, um nicht genehmigte Militärexperimente zur späteren Verwendung gegen die Skaarj durchzuführen. Diese Arena wurde für Onslaught umgebaut und ermöglicht mehrere Wege zu Ihrem Feind - und zahllose Wege für Narren oder Unaufmerksame in den Tod ..."
+Description="Die Arctic Stronghold liegt auf einer HÃ¶he von rund 7 km und ist hinter Nebel und konstantem SchneegestÃ¶ber verborgen. Es ist der perfekte Ort, um nicht genehmigte MilitÃ¤rexperimente zur spÃ¤teren Verwendung gegen die Skaarj durchzufÃ¼hren. Diese Arena wurde fÃ¼r Onslaught umgebaut und ermÃ¶glicht mehrere Wege zu Ihrem Feind - und zahllose Wege fÃ¼r Narren oder Unaufmerksame in den Tod ..."
 
 [Volume1]
 LocationName="ROTE Basis"
@@ -21,13 +21,13 @@ LocationName="Ost Knoten"
 LocationName="Zentraler Knoten"
 
 [Volume18]
-LocationName="Süd Knoten"
+LocationName="SÃ¼d Knoten"
 
 [Volume19]
 LocationName="West Knoten"
 
 [Volume20]
-LocationName="Brücke"
+LocationName="BrÃ¼cke"
 
 [ZoneInfo0]
-LocationName="Außen"
+LocationName="AuÃŸen"

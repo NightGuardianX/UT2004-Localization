@@ -1,11 +1,11 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="December"
 
 [LevelSummary]
 Title="December"
 
 [ZoneInfo0]
-LocationName="Accès inférieur bleu"
+LocationName="AccÃ¨s infÃ©rieur bleu"
 
 [ZoneInfo1]
 LocationName="Plate-forme bleue"
@@ -14,7 +14,7 @@ LocationName="Plate-forme bleue"
 LocationName="Sortie tuyau rouge"
 
 [ZoneInfo11]
-LocationName="Accès drapeau rouge"
+LocationName="AccÃ¨s drapeau rouge"
 
 [ZoneInfo12]
 LocationName="Portes rouges (droite)"
@@ -29,25 +29,25 @@ LocationName="Salle de soutien bunker bleu"
 LocationName="Base rouge"
 
 [ZoneInfo17]
-LocationName="Base supérieure rouge"
+LocationName="Base supÃ©rieure rouge"
 
 [ZoneInfo18]
-LocationName="Hall d'entrée bleu"
+LocationName="Hall d'entrÃ©e bleu"
 
 [ZoneInfo19]
-LocationName="Escaliers entrée bleue"
+LocationName="Escaliers entrÃ©e bleue"
 
 [ZoneInfo20]
 LocationName="Foyer bleu"
 
 [ZoneInfo21]
-LocationName="Accès inférieur rouge"
+LocationName="AccÃ¨s infÃ©rieur rouge"
 
 [ZoneInfo22]
 LocationName="Embranchement bleu"
 
 [ZoneInfo23]
-LocationName="Accès hall bleu"
+LocationName="AccÃ¨s hall bleu"
 
 [ZoneInfo24]
 LocationName="Portes bleues (gauche)"
@@ -56,10 +56,10 @@ LocationName="Portes bleues (gauche)"
 LocationName="Sortie tuyau bleu"
 
 [ZoneInfo26]
-LocationName="Accès drapeau bleu"
+LocationName="AccÃ¨s drapeau bleu"
 
 [ZoneInfo27]
-LocationName="Hall d'entrée rouge"
+LocationName="Hall d'entrÃ©e rouge"
 
 [ZoneInfo28]
 LocationName="Portes bleues (droite)"
@@ -68,22 +68,22 @@ LocationName="Portes bleues (droite)"
 LocationName="Ascenseur 2 bleu"
 
 [ZoneInfo3]
-LocationName="Escaliers entrée rouge"
+LocationName="Escaliers entrÃ©e rouge"
 
 [ZoneInfo31]
 LocationName="Base bleue"
 
 [ZoneInfo32]
-LocationName="Base supérieure bleue"
+LocationName="Base supÃ©rieure bleue"
 
 [ZoneInfo34]
-LocationName="Entrée bunker rouge"
+LocationName="EntrÃ©e bunker rouge"
 
 [ZoneInfo35]
 LocationName="Bunker bleu"
 
 [ZoneInfo36]
-LocationName="Couloir inférieur rouge"
+LocationName="Couloir infÃ©rieur rouge"
 
 [ZoneInfo38]
 LocationName="Docks"
@@ -95,7 +95,7 @@ LocationName="Salle ascenseur rouge"
 LocationName="Foyer rouge"
 
 [ZoneInfo40]
-LocationName="Couloir inférieur bleu"
+LocationName="Couloir infÃ©rieur bleu"
 
 [ZoneInfo41]
 LocationName="Hall aux. rouge"
@@ -128,4 +128,4 @@ LocationName="Embranchement rouge"
 LocationName="Portes rouges (gauche)"
 
 [ZoneInfo8]
-LocationName="Accès hall rouge"
+LocationName="AccÃ¨s hall rouge"

@@ -1,4 +1,4 @@
-[Setup]
+﻿[Setup]
 LocalProduct="Unreal Tournament 2004"
 DefaultFolder="C:\UT2004"
 ReadMe=Help\ReadMe.int.txt

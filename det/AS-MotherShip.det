@@ -1,14 +1,14 @@
-[Counter0]
-CompleteMessage="Kern-Luftschächte geöffnet!"
+ï»¿[Counter0]
+CompleteMessage="Kern-LuftschÃ¤chte geÃ¶ffnet!"
 
 [Counter2]
 CompleteMessage="Energieschilde deaktiviert!"
 
 [Counter3]
-CompleteMessage="Türen und unteres Energiefeld deaktiviert!"
+CompleteMessage="TÃ¼ren und unteres Energiefeld deaktiviert!"
 
 [Counter4]
-CompleteMessage="Kernkonduktoren zerstört!"
+CompleteMessage="Kernkonduktoren zerstÃ¶rt!"
 
 [Counter5]
 CompleteMessage="Ladebucht-Energiefeld deaktiviert!"
@@ -17,107 +17,107 @@ CompleteMessage="Ladebucht-Energiefeld deaktiviert!"
 CompleteMessage="Oberes Energiefeld deaktiviert!"
 
 [DestroyVehicleObjective0]
-ObjectiveName="Wach-Geschütz"
-DestructionMessage="Wachposten zerstört!"
-ObjectiveDescription="Wach-Geschütze zerstören"
-Objective_Info_Attacker="Wachposten zerstören"
+ObjectiveName="Wach-GeschÃ¼tz"
+DestructionMessage="Wachposten zerstÃ¶rt!"
+ObjectiveDescription="Wach-GeschÃ¼tze zerstÃ¶ren"
+Objective_Info_Attacker="Wachposten zerstÃ¶ren"
 Objective_Info_Defender="Wachposten verteidigen"
 
 [DestroyVehicleObjective1]
-ObjectiveName="Wach-Geschütz"
-DestructionMessage="Wachposten zerstört!"
+ObjectiveName="Wach-GeschÃ¼tz"
+DestructionMessage="Wachposten zerstÃ¶rt!"
 LocationPrefix="lowerhull"
-ObjectiveDescription="Wach-Geschütze zerstören"
-Objective_Info_Attacker="Wachposten zerstören"
+ObjectiveDescription="Wach-GeschÃ¼tze zerstÃ¶ren"
+Objective_Info_Attacker="Wachposten zerstÃ¶ren"
 Objective_Info_Defender="Wachposten verteidigen"
 
 [DestroyVehicleObjective2]
-ObjectiveName="Wach-Geschütz"
-DestructionMessage="Wachposten zerstört!"
-ObjectiveDescription="Wach-Geschütze zerstören"
-Objective_Info_Attacker="Wachposten zerstören"
+ObjectiveName="Wach-GeschÃ¼tz"
+DestructionMessage="Wachposten zerstÃ¶rt!"
+ObjectiveDescription="Wach-GeschÃ¼tze zerstÃ¶ren"
+Objective_Info_Attacker="Wachposten zerstÃ¶ren"
 Objective_Info_Defender="Wachposten verteidigen"
 
 [DestroyableObjective_SM0]
 ObjectiveName="Energieumleitung"
-DestructionMessage="Energieumleitung zerstört"
-ObjectiveDescription="Laserfeld-Umleitung zerstören"
-Objective_Info_Attacker="Energieumleitung zerstören"
+DestructionMessage="Energieumleitung zerstÃ¶rt"
+ObjectiveDescription="Laserfeld-Umleitung zerstÃ¶ren"
+Objective_Info_Attacker="Energieumleitung zerstÃ¶ren"
 Objective_Info_Defender="Energieumleitung verteidigen"
 
 [DestroyableObjective_SM1]
 ObjectiveName="Oberer Schildgenerator"
-DestructionMessage="Schildgenerator zerstört"
-ObjectiveDescription="Schildgenerator zerstören"
-Objective_Info_Attacker="Oberen Schildgenerator zerstören"
+DestructionMessage="Schildgenerator zerstÃ¶rt"
+ObjectiveDescription="Schildgenerator zerstÃ¶ren"
+Objective_Info_Attacker="Oberen Schildgenerator zerstÃ¶ren"
 Objective_Info_Defender="Oberen Schildgenerator verteidigen"
 
 [DestroyableObjective_SM2]
 ObjectiveName="Oberer Schildgenerator"
-DestructionMessage="Schildgenerator zerstört"
-ObjectiveDescription="Schildgenerator zerstören"
-Objective_Info_Attacker="Oberen Schildgenerator zerstören"
+DestructionMessage="Schildgenerator zerstÃ¶rt"
+ObjectiveDescription="Schildgenerator zerstÃ¶ren"
+Objective_Info_Attacker="Oberen Schildgenerator zerstÃ¶ren"
 Objective_Info_Defender="Oberen Schildgenerator verteidigen"
 
 [DestroyableObjective_SM3]
 ObjectiveName="Unterer Schildgenerator"
-DestructionMessage="Schildgenerator zerstört!"
-ObjectiveDescription="Unteren Schildgenerator zerstören"
-Objective_Info_Attacker="Unteren Schildgenerator zerstören"
+DestructionMessage="Schildgenerator zerstÃ¶rt!"
+ObjectiveDescription="Unteren Schildgenerator zerstÃ¶ren"
+Objective_Info_Attacker="Unteren Schildgenerator zerstÃ¶ren"
 Objective_Info_Defender="Unteren Schildgenerator verteidigen"
 
 [DestroyableObjective_SM4]
-ObjectiveName="Kernkonduktoren …"
-DestructionMessage="Konduktor zerstört!"
-ObjectiveDescription="Kernkonduktor zerstören"
-Objective_Info_Attacker="Konduktor zerstören"
+ObjectiveName="Kernkonduktoren â€¦"
+DestructionMessage="Konduktor zerstÃ¶rt!"
+ObjectiveDescription="Kernkonduktor zerstÃ¶ren"
+Objective_Info_Attacker="Konduktor zerstÃ¶ren"
 Objective_Info_Defender="Konduktor verteidigen"
 
 [DestroyableObjective_SM5]
 ObjectiveName="Energieumleitung"
-DestructionMessage="Energieumleitung zerstört"
-ObjectiveDescription="Laserfeld-Umleitung zerstören"
-Objective_Info_Attacker="Energieumleitung zerstören"
+DestructionMessage="Energieumleitung zerstÃ¶rt"
+ObjectiveDescription="Laserfeld-Umleitung zerstÃ¶ren"
+Objective_Info_Attacker="Energieumleitung zerstÃ¶ren"
 Objective_Info_Defender="Energieumleitung verteidigen"
 
 [DestroyableObjective_SM6]
-ObjectiveName="Kernkonduktoren …"
-DestructionMessage="Konduktor zerstört!"
-ObjectiveDescription="Kernkonduktor zerstören"
-Objective_Info_Attacker="Konduktor zerstören"
+ObjectiveName="Kernkonduktoren â€¦"
+DestructionMessage="Konduktor zerstÃ¶rt!"
+ObjectiveDescription="Kernkonduktor zerstÃ¶ren"
+Objective_Info_Attacker="Konduktor zerstÃ¶ren"
 Objective_Info_Defender="Konduktor verteidigen"
 
 [HoldObjective0]
 ObjectiveName="Kernschaltpulte."
-DestructionMessage="Lukenschloss #1 geöffnet!"
+DestructionMessage="Lukenschloss #1 geÃ¶ffnet!"
 ObjectiveDescription="Kernschaltpulte"
-Objective_Info_Attacker="Kernluken mit Schaltpult öffnen"
+Objective_Info_Attacker="Kernluken mit Schaltpult Ã¶ffnen"
 Objective_Info_Defender="Verwendung der Kernschaltpulte verhindern"
 
 [HoldObjective1]
 ObjectiveName="Kernschaltpulte."
-DestructionMessage="Lukenschloss #2 geöffnet!"
+DestructionMessage="Lukenschloss #2 geÃ¶ffnet!"
 ObjectiveDescription="Kernschaltpulte"
-Objective_Info_Attacker="Kernluken mit Schaltpult öffnen"
+Objective_Info_Attacker="Kernluken mit Schaltpult Ã¶ffnen"
 Objective_Info_Defender="Verwendung der Kernschaltpulte verhindern"
 
 [InfoPod2]
-POD_Message="Untere innere Geschütze"
+POD_Message="Untere innere GeschÃ¼tze"
 
 [InfoPod3]
 POD_Message="Link Cannon"
 
 [InfoPod4]
-POD_Message="Landebucht-Geschütze"
+POD_Message="Landebucht-GeschÃ¼tze"
 
 [InfoPod5]
-POD_Message="Obere innere Geschütze"
+POD_Message="Obere innere GeschÃ¼tze"
 
 [InfoPod6]
-POD_Message="Obere äußere Geschütze"
+POD_Message="Obere Ã¤uÃŸere GeschÃ¼tze"
 
 [InfoPod7]
-POD_Message="Untere äußere Geschütze"
+POD_Message="Untere Ã¤uÃŸere GeschÃ¼tze"
 
 [InfoPod8]
 POD_Message="Link Cannon"
@@ -127,7 +127,7 @@ Title="Mothership Assault"
 
 [LevelSummary]
 Title="Mothership Assault"
-Description="Der erste Kontakt mit den Skaarj ereignete sich während der Bergung des Gefangenentransporters Vortex Rikers auf Na Pali. Innerhalb eines Jahres hatten die Skaarj fast die gesamte Menschheit ausgelöscht. Dieses Szenario stellt die Entscheidungsschlacht um die Erde und den überragenden Sieg der Menschen nach. Ein Skaarj-Mutterschiff kreiste um die Erde und bombardierte den Planeten, um die Landung vorzubereiten. In einer selbstmörderischen Mission griffen die Menschen das Schiff in kleinen Ein-Mann-Jägern an, um eine vorher entdeckte Schwäche in der Verteidigung auszunutzen."
+Description="Der erste Kontakt mit den Skaarj ereignete sich wÃ¤hrend der Bergung des Gefangenentransporters Vortex Rikers auf Na Pali. Innerhalb eines Jahres hatten die Skaarj fast die gesamte Menschheit ausgelÃ¶scht. Dieses Szenario stellt die Entscheidungsschlacht um die Erde und den Ã¼berragenden Sieg der Menschen nach. Ein Skaarj-Mutterschiff kreiste um die Erde und bombardierte den Planeten, um die Landung vorzubereiten. In einer selbstmÃ¶rderischen Mission griffen die Menschen das Schiff in kleinen Ein-Mann-JÃ¤gern an, um eine vorher entdeckte SchwÃ¤che in der Verteidigung auszunutzen."
 
 [MessageTrigger15]
 Message="Fertig zum Angriff!"
@@ -140,22 +140,22 @@ ObjectiveName="Landebucht"
 DestructionMessage="Die Angreifer haben das Mutterschiff betreten!"
 ObjectiveDescription="Dringen Sie durch die Landebucht in das Skaarj-Schiff ein."
 Objective_Info_Attacker="Weiter zur Landebucht"
-Objective_Info_Defender="Die Menschen dürfen nicht landen"
+Objective_Info_Defender="Die Menschen dÃ¼rfen nicht landen"
 
 [SceneSubtitles0]
-SubTitles=("Der erste Kontakt mit den Skaarj ereignete sich während der Bergung des Gefangenentransporters Vortex Rikers auf Na Pali.       ","Innerhalb eines Jahres hatten die Skaarj fast die gesamte Menschheit ausgelöscht.","Dieses Szenario stellt die Entscheidungsschlacht um die Erde und den überragenden Sieg der Menschen nach.","Ein Skaarj-Mutterschiff kreiste um die Erde und bombardierte den Planeten, um die Landung vorzubereiten.","In einer selbstmörderischen Mission griffen die Menschen das Schiff in kleinen Ein-Mann-Jägern an, um eine vorher entdeckte Schwäche in der Verteidigung auszunutzen.","Schalten Sie die zwei Generatoren im unteren Bereich des Skaarj-Mutterschiffs aus, um die oberen Kraftschilde zu deaktivieren.","Danach fliegen Sie nach oben in die Hauptzone des Skaarj-Mutterschiffs. ","Zerstören Sie die zwei Feldgeneratoren, um das Kraftfeld der Landebucht zu deaktivieren.","Dann landen Sie in der Landebucht des Mutterschiffs.","Begeben Sie sich dann zu Fuß zur nächsten Sektion.","Um zum Frachtraum zu gelangen, müssen zwei Energieumleitungsmechanismen zerstört werden.","Begeben Sie sich weiter zum Frachtraum.","Im Frachtraum befinden sich drei Wachposten.","Vor dem weiteren Vorgehen müssen erst die Wachposten vernichtet werden.","Die Kraftschilde werden sofort nach der Vernichtung der drei Wachposten deaktiviert.","Hinter der Brücke befindet sich der Kern.","Öffnen Sie über das Schaltpult die Schlösser des Kernluftschachtest.","Wenn die Schaltpulte benutzt wurden, zerschießen Sie die zwei Energiekernkonduktoren, um den Kern zu destabilisieren.")
+SubTitles=("Der erste Kontakt mit den Skaarj ereignete sich wÃ¤hrend der Bergung des Gefangenentransporters Vortex Rikers auf Na Pali.       ","Innerhalb eines Jahres hatten die Skaarj fast die gesamte Menschheit ausgelÃ¶scht.","Dieses Szenario stellt die Entscheidungsschlacht um die Erde und den Ã¼berragenden Sieg der Menschen nach.","Ein Skaarj-Mutterschiff kreiste um die Erde und bombardierte den Planeten, um die Landung vorzubereiten.","In einer selbstmÃ¶rderischen Mission griffen die Menschen das Schiff in kleinen Ein-Mann-JÃ¤gern an, um eine vorher entdeckte SchwÃ¤che in der Verteidigung auszunutzen.","Schalten Sie die zwei Generatoren im unteren Bereich des Skaarj-Mutterschiffs aus, um die oberen Kraftschilde zu deaktivieren.","Danach fliegen Sie nach oben in die Hauptzone des Skaarj-Mutterschiffs. ","ZerstÃ¶ren Sie die zwei Feldgeneratoren, um das Kraftfeld der Landebucht zu deaktivieren.","Dann landen Sie in der Landebucht des Mutterschiffs.","Begeben Sie sich dann zu FuÃŸ zur nÃ¤chsten Sektion.","Um zum Frachtraum zu gelangen, mÃ¼ssen zwei Energieumleitungsmechanismen zerstÃ¶rt werden.","Begeben Sie sich weiter zum Frachtraum.","Im Frachtraum befinden sich drei Wachposten.","Vor dem weiteren Vorgehen mÃ¼ssen erst die Wachposten vernichtet werden.","Die Kraftschilde werden sofort nach der Vernichtung der drei Wachposten deaktiviert.","Hinter der BrÃ¼cke befindet sich der Kern.","Ã–ffnen Sie Ã¼ber das Schaltpult die SchlÃ¶sser des Kernluftschachtest.","Wenn die Schaltpulte benutzt wurden, zerschieÃŸen Sie die zwei Energiekernkonduktoren, um den Kern zu destabilisieren.")
 
 [Trigger_ASMessageTrigger14]
-Message="Energiefeld ausgeschaltet …"
+Message="Energiefeld ausgeschaltet â€¦"
 
 [Trigger_ASMessageTrigger15]
-Message="Kern öffnen!"
+Message="Kern Ã¶ffnen!"
 
 [Trigger_ASMessageTrigger3]
-Message="Die Kernluken sind geöffnet …"
+Message="Die Kernluken sind geÃ¶ffnet â€¦"
 
 [Trigger_ASMessageTrigger4]
-Message="Obere Energiefelder ausgeschaltet …"
+Message="Obere Energiefelder ausgeschaltet â€¦"
 
 [Trigger_ASMessageTrigger5]
 Message="Die Angreifer sind gelandet!"
@@ -185,16 +185,16 @@ LocationName="Rechter Schacht"
 LocationName="Hauptschacht Mitte"
 
 [ZoneInfo16]
-LocationName="Kern außen"
+LocationName="Kern auÃŸen"
 
 [ZoneInfo17]
-LocationName="Kern außen"
+LocationName="Kern auÃŸen"
 
 [ZoneInfo18]
 LocationName="Oberer Schacht innen"
 
 [ZoneInfo19]
-LocationName="Kern außen"
+LocationName="Kern auÃŸen"
 
 [ZoneInfo2]
 LocationName="Im Weltall"
@@ -239,10 +239,10 @@ LocationName="Aufzugschacht"
 LocationName="Aufzugdurchgang"
 
 [ZoneInfo32]
-LocationName="Obere Frachtraumbrücke links"
+LocationName="Obere FrachtraumbrÃ¼cke links"
 
 [ZoneInfo33]
-LocationName="Obere Frachtraumbrücke rechts"
+LocationName="Obere FrachtraumbrÃ¼cke rechts"
 
 [ZoneInfo34]
 LocationName="Aufzugdurchgang"
@@ -269,10 +269,10 @@ LocationName="Verteidiger-Landebucht"
 LocationName="Kern-Eingang"
 
 [ZoneInfo41]
-LocationName="Kern außen"
+LocationName="Kern auÃŸen"
 
 [ZoneInfo42]
-LocationName="Kernbrücke links"
+LocationName="KernbrÃ¼cke links"
 
 [ZoneInfo43]
 LocationName="Schwerkraftsmaschinenraum #1"
@@ -287,10 +287,10 @@ LocationName="Schwerkraftsmaschinen rechter Gang"
 LocationName="Schwerkraftsmaschinenraum #2"
 
 [ZoneInfo47]
-LocationName="Kernbrücke rechts"
+LocationName="KernbrÃ¼cke rechts"
 
 [ZoneInfo48]
-LocationName="Kernbrücke rechts"
+LocationName="KernbrÃ¼cke rechts"
 
 [ZoneInfo49]
 LocationName="Frachtraum"
@@ -305,7 +305,7 @@ LocationName="Frachtraum-Korridor"
 LocationName="Schwerkraftsmaschinen rechter Gang"
 
 [ZoneInfo52]
-LocationName="Kernbrücke links"
+LocationName="KernbrÃ¼cke links"
 
 [ZoneInfo53]
 LocationName="Schwerkraftsmaschinen rechter Gang"

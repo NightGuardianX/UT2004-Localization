@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Grendelkeep"
 
 [LevelInfo12]
@@ -9,13 +9,13 @@ Title="Grendelkeep"
 
 [LevelSummary]
 Title="Grendelkeep"
-Description="Prieth Callas war ein unbarmherziger Mann, der es liebte, seine Feinde zu foltern, bevor er sie tˆten lieﬂ. Er z¸chtete groﬂe, wilde Kreaturen, gegen die seine Gefangenen in eigens errichteten Arenen k‰mpfen mussten. Die verfallene Ruine von Grendelkeep war sein letztes diabolisches Gem‰uer. Hier warfen ihn seine eigenen M‰nner den Kreaturen vor, die er in den unteren Gewˆlben erschaffen hatte. Die Blutspuren sind l‰ngst verschwunden, aber das hier erschaffene Bˆse ist nie ganz fortgegangen. "
+Description="Prieth Callas war ein unbarmherziger Mann, der es liebte, seine Feinde zu foltern, bevor er sie t√∂ten lie√ü. Er z√ºchtete gro√üe, wilde Kreaturen, gegen die seine Gefangenen in eigens errichteten Arenen k√§mpfen mussten. Die verfallene Ruine von Grendelkeep war sein letztes diabolisches Gem√§uer. Hier warfen ihn seine eigenen M√§nner den Kreaturen vor, die er in den unteren Gew√∂lben erschaffen hatte. Die Blutspuren sind l√§ngst verschwunden, aber das hier erschaffene B√∂se ist nie ganz fortgegangen. "
 
 [ZoneInfo0]
 LocationName="BLAUER Hauptraum"
 
 [ZoneInfo1]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo10]
 LocationName="Mitte"
@@ -24,7 +24,7 @@ LocationName="Mitte"
 LocationName="BLAUE Haupthalle"
 
 [ZoneInfo12]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo13]
 LocationName="BLAUE untere Flak-Halle"
@@ -45,13 +45,13 @@ LocationName="Einstieg BLAU"
 LocationName="BLAUER Hauptraum"
 
 [ZoneInfo31]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo32]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo33]
-LocationName="Groﬂe Amp-Halle"
+LocationName="Gro√üe Amp-Halle"
 
 [ZoneInfo34]
 LocationName="Obere Raketen-Halle"
@@ -69,7 +69,7 @@ LocationName="Mini-Halle"
 LocationName="Mini-Halle"
 
 [ZoneInfo39]
-LocationName="Groﬂer Turm"
+LocationName="Gro√üer Turm"
 
 [ZoneInfo4]
 LocationName="BLAUER Hauptraum"
@@ -78,28 +78,28 @@ LocationName="BLAUER Hauptraum"
 LocationName="Sniper-Nest"
 
 [ZoneInfo41]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo42]
 LocationName="Untere Flak-Halle"
 
 [ZoneInfo43]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo44]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo45]
 LocationName="ROTE untere Flak-Halle"
 
 [ZoneInfo47]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo48]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo49]
-LocationName="Groﬂe Amp-Halle"
+LocationName="Gro√üe Amp-Halle"
 
 [ZoneInfo5]
 LocationName="Einstieg BLAU"
@@ -153,10 +153,10 @@ LocationName="ROTE untere Halle"
 LocationName="ROTER Hauptraum"
 
 [ZoneInfo66]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo67]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo68]
 LocationName="Obere Raketen-Halle"
@@ -177,13 +177,13 @@ LocationName="Sniper-Nest"
 LocationName="Sniper-Nest"
 
 [ZoneInfo74]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo76]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo77]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo8]
 LocationName="BLAUE Rundtreppe"

@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title=
 
 [LevelSummary]
@@ -38,7 +38,7 @@ LocationName="Couloir ROUGE"
 LocationName="Salle but BLEU"
 
 [ZoneInfo7]
-LocationName="Entrée ROUGE"
+LocationName="EntrÃ©e ROUGE"
 
 [ZoneInfo9]
-LocationName="Entrée BLEUE"
+LocationName="EntrÃ©e BLEUE"

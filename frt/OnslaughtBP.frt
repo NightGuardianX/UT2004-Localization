@@ -1,44 +1,44 @@
-[DamTypeArtilleryShell]
+ï»¿[DamTypeArtilleryShell]
 DeathString="%k a fait pleuvoir la mort sur %o."
-FemaleSuicide="%o a réussi à se tuer avec sa propre artillerie." 
-MaleSuicide="%o a réussi à se tuer avec sa propre artillerie."
+FemaleSuicide="%o a rÃ©ussi Ã  se tuer avec sa propre artillerie." 
+MaleSuicide="%o a rÃ©ussi Ã  se tuer avec sa propre artillerie."
 
 [DamTypeONSCicadaLaser]
-DeathString="Le blaster de %k a piqué %o."
-FemaleSuicide="%o a utilisé son blaster sur elle-même."
-MaleSuicide="%o a utilisé son blaster sur lui-même."
+DeathString="Le blaster de %k a piquÃ© %o."
+FemaleSuicide="%o a utilisÃ© son blaster sur elle-mÃªme."
+MaleSuicide="%o a utilisÃ© son blaster sur lui-mÃªme."
 
 [DamTypeONSCicadaRocket]
-DeathString="%k a pulvérisé %o."
-FemaleSuicide="%o s'est bien éclatée."
-MaleSuicide="%o s'est bien éclaté."
+DeathString="%k a pulvÃ©risÃ© %o."
+FemaleSuicide="%o s'est bien Ã©clatÃ©e."
+MaleSuicide="%o s'est bien Ã©clatÃ©."
 
 [DamTypeShockTankProximityExplosion]
-DeathString="%o a vu de trop près le Paladin de %k."
+DeathString="%o a vu de trop prÃ¨s le Paladin de %k."
 
 [DamTypeShockTankShockBall]
-DeathString="%o n'a pas pu éviter l'onde de choc du Paladin de %k."
+DeathString="%o n'a pas pu Ã©viter l'onde de choc du Paladin de %k."
 
 [ONSDualAttackCraft]
-LockedMsg=" Verrouillé "
+LockedMsg=" VerrouillÃ© "
 VehiclePositionString="dans un Cicada"
 VehicleNameString="Cicada"
 
 [MutVehiclePickups]
-FriendlyName="Ramassage véhicules"
-Description="Les véhicules ramassent les objets et les transmettent au pilote"
+FriendlyName="Ramassage vÃ©hicules"
+Description="Les vÃ©hicules ramassent les objets et les transmettent au pilote"
 
 [ONSArtillery]
 VehiclePositionString="Dans un SPMA"
 VehicleNameString="SPMA"
 
 [ONSArtilleryCannonPawn]
-VehiclePositionString="Dans le canon arrière d'un SPMA"
-VehicleNameString="Canon arrière de SPMA"
+VehiclePositionString="Dans le canon arriÃ¨re d'un SPMA"
+VehicleNameString="Canon arriÃ¨re de SPMA"
 
 [ONSArtillerySideGunPawn]
-VehiclePositionString="Dans une tourelle latérale de SPMA"
-VehicleNameString="Tourelle latérale de SPMA"
+VehiclePositionString="Dans une tourelle latÃ©rale de SPMA"
+VehicleNameString="Tourelle latÃ©rale de SPMA"
 
 [ONSDualACGatlingGunPawn]
 VehiclePositionString="Dans une tourelle Cicada"

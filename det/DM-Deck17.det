@@ -1,4 +1,4 @@
-[BlockingVolume3]
+ï»¿[BlockingVolume3]
 LocationName="In der Luft"
 
 [BlockingVolume61]
@@ -12,7 +12,7 @@ Title="Deck 17"
 Description="Gehen Sie auf Deck 17 - Magmaraffinerie ... Der HEISSE Nachbar von Deck 16."
 
 [Volume0]
-LocationName="D17 Aufzüge - Untere Ebene (Satz Schilde)"
+LocationName="D17 AufzÃ¼ge - Untere Ebene (Satz Schilde)"
 
 [Volume10]
 LocationName="D17 Hauptraum - Westen (Link Gun)"
@@ -24,7 +24,7 @@ LocationName="Hauptraum - unterer Vorsprung (U-Schaden)"
 LocationName="D17 Hauptraum - Ostvorsprung (Satz Schilde)"
 
 [Volume6]
-LocationName="D17 Aufzüge - Untere Ebene (2 Sätze Gesundheit)"
+LocationName="D17 AufzÃ¼ge - Untere Ebene (2 SÃ¤tze Gesundheit)"
 
 [Volume7]
 LocationName="D17 Hauptraum - Mitte (Minigun)"
@@ -48,7 +48,7 @@ LocationName="Oberer Gang"
 LocationName="Oberes kleines Lavabecken (Lightning Gun)"
 
 [ZoneInfo41]
-LocationName="Unteres Abluftgebläse nahe der Aufzüge"
+LocationName="Unteres AbluftgeblÃ¤se nahe der AufzÃ¼ge"
 
 [ZoneInfo43]
 LocationName="Gesperrter Eingang zu Deck 16"
@@ -75,7 +75,7 @@ LocationName="Deck 16 (Sperrzone)"
 LocationName="Deck 16 (Sperrzone)"
 
 [ZoneInfo53]
-LocationName="Nahe Aufzüge - östliche obere Ebene"
+LocationName="Nahe AufzÃ¼ge - Ã¶stliche obere Ebene"
 
 [ZoneInfo54]
 LocationName="Oberer Gang (Flak Cannon)"
@@ -87,16 +87,16 @@ LocationName="T-Bereich des oberen Ganges"
 LocationName="Haupteingang zum oberen Gang"
 
 [ZoneInfo57]
-LocationName="Aufzüge - obere Ebene"
+LocationName="AufzÃ¼ge - obere Ebene"
 
 [ZoneInfo58]
-LocationName="Über Aufzügen (Redeemer)"
+LocationName="Ãœber AufzÃ¼gen (Redeemer)"
 
 [ZoneInfo59]
-LocationName="Aufzüge - untere Ebene (Shock Rifle)"
+LocationName="AufzÃ¼ge - untere Ebene (Shock Rifle)"
 
 [ZoneInfo60]
-LocationName="Aufzüge - untere Ebene (Shock Rifle)"
+LocationName="AufzÃ¼ge - untere Ebene (Shock Rifle)"
 
 [ZoneInfo61]
 LocationName="Roter Aufzugskorridor - Osten"
@@ -111,7 +111,7 @@ LocationName="Gigantisches Lavabecken"
 LocationName="Gigantische Lavagrube (Satz Superschilde)"
 
 [ZoneInfo70]
-LocationName="Hauptraum - östlicher Vorsprung (Bio Rifle)"
+LocationName="Hauptraum - Ã¶stlicher Vorsprung (Bio Rifle)"
 
 [ZoneInfo71]
 LocationName="Hauptraum - Mitte"
@@ -120,10 +120,10 @@ LocationName="Hauptraum - Mitte"
 LocationName="Hauptraum - unterer Vorsprung (Shock Rifle)"
 
 [ZoneInfo74]
-LocationName="Hauptraum - Scharfschützenvorsprung (Lightning Gun)"
+LocationName="Hauptraum - ScharfschÃ¼tzenvorsprung (Lightning Gun)"
 
 [ZoneInfo76]
-LocationName="Großer Nordkorridor (2 Sätze Gesundheit)"
+LocationName="GroÃŸer Nordkorridor (2 SÃ¤tze Gesundheit)"
 
 [ZoneInfo77]
 LocationName="Unteres kleines Lavabecken (Flak Cannon)"

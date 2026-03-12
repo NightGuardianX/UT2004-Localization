@@ -1,15 +1,15 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Island Hop"
 
 [LevelSummary]
 Title="Island Hop"
-Description="Dieser Archipel vulkanischen Ursprungs diente einst, in den Menschenkriegen des 21. Jahrhunderts, als Stützpunkt. Er wurde für die Zwecke des Tournament umgestaltet, und jetzt verbindet eine Reihe von Brücken die Inseln. Diese Brücken sind zwar sehr gut für Bodenfahrzeuge geeignet, doch kann man über sie nicht direkt zur eigentlichen Kampfzone gelangen. Deshalb sind Mantas hier das Transportmittel erster Wahl."
+Description="Dieser Archipel vulkanischen Ursprungs diente einst, in den Menschenkriegen des 21. Jahrhunderts, als StÃ¼tzpunkt. Er wurde fÃ¼r die Zwecke des Tournament umgestaltet, und jetzt verbindet eine Reihe von BrÃ¼cken die Inseln. Diese BrÃ¼cken sind zwar sehr gut fÃ¼r Bodenfahrzeuge geeignet, doch kann man Ã¼ber sie nicht direkt zur eigentlichen Kampfzone gelangen. Deshalb sind Mantas hier das Transportmittel erster Wahl."
 
 [Volume0]
-LocationName="Südwest-Insel"
+LocationName="SÃ¼dwest-Insel"
 
 [Volume1]
-LocationName="Südwest-Insel"
+LocationName="SÃ¼dwest-Insel"
 
 [Volume11]
 LocationName="West-Insel"
@@ -33,7 +33,7 @@ LocationName="Nordost-Insel"
 LocationName="Ost-Insel"
 
 [Volume2]
-LocationName="Südwest-Insel"
+LocationName="SÃ¼dwest-Insel"
 
 [Volume20]
 LocationName="Kleine Nordost-Insel"
@@ -42,10 +42,10 @@ LocationName="Kleine Nordost-Insel"
 LocationName="Ost-Insel"
 
 [Volume23]
-LocationName="Südost-Insel"
+LocationName="SÃ¼dost-Insel"
 
 [Volume25]
-LocationName="Südost-Insel"
+LocationName="SÃ¼dost-Insel"
 
 [Volume26]
 LocationName="Vulkan"
@@ -54,7 +54,7 @@ LocationName="Vulkan"
 LocationName="West-Insel"
 
 [Volume9]
-LocationName="Kleine Südwest-Insel"
+LocationName="Kleine SÃ¼dwest-Insel"
 
 [WaterVolume1]
 LocationName="Unter Wasser"
@@ -93,5 +93,5 @@ LocationName="Unter Wasser"
 LocationName="Unter Wasser"
 
 [ZoneInfo1]
-LocationName="Draußen"
+LocationName="DrauÃŸen"
 

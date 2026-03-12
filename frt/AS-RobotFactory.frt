@@ -1,63 +1,63 @@
-[DestroyableObjective_SM0]
-DestructionMessage="Défenses extérieures percées"
-ObjectiveDescription="Détruire porte"
-Objective_Info_Attacker="Détruire porte"
-Objective_Info_Defender="Protéger porte principale"
+ï»¿[DestroyableObjective_SM0]
+DestructionMessage="DÃ©fenses extÃ©rieures percÃ©es"
+ObjectiveDescription="DÃ©truire porte"
+Objective_Info_Attacker="DÃ©truire porte"
+Objective_Info_Defender="ProtÃ©ger porte principale"
 
 [DestroyableObjective_SM1]
-ObjectiveName="Câbles données"
-DestructionMessage="Câbles données coupés !"
-ObjectiveDescription="Couper câbles données"
-Objective_Info_Attacker="Couper câbles données"
-Objective_Info_Defender="Protéger câbles données"
+ObjectiveName="CÃ¢bles donnÃ©es"
+DestructionMessage="CÃ¢bles donnÃ©es coupÃ©s !"
+ObjectiveDescription="Couper cÃ¢bles donnÃ©es"
+Objective_Info_Attacker="Couper cÃ¢bles donnÃ©es"
+Objective_Info_Defender="ProtÃ©ger cÃ¢bles donnÃ©es"
 
 [DestroyableObjective_SM2]
 ObjectiveName="Composant bouclier 1"
-DestructionMessage="Générateur bouclier détruit !"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit !"
 ObjectiveDescription="Briser noeud bouclier"
-Objective_Info_Attacker="Détruire composant bouclier"
-Objective_Info_Defender="Protéger noeud bouclier"
+Objective_Info_Attacker="DÃ©truire composant bouclier"
+Objective_Info_Defender="ProtÃ©ger noeud bouclier"
 
 [DestroyableObjective_SM3]
 ObjectiveName="Composant bouclier 3"
-DestructionMessage="Générateur bouclier détruit !"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit !"
 ObjectiveDescription="Briser noeud bouclier"
-Objective_Info_Attacker="Détruire composant bouclier"
-Objective_Info_Defender="Protéger noeud bouclier"
+Objective_Info_Attacker="DÃ©truire composant bouclier"
+Objective_Info_Defender="ProtÃ©ger noeud bouclier"
 
 [DestroyableObjective_SM4]
 ObjectiveName="Composant bouclier 2"
-DestructionMessage="Générateur bouclier détruit !"
+DestructionMessage="GÃ©nÃ©rateur bouclier dÃ©truit !"
 ObjectiveDescription="Briser noeud bouclier"
-Objective_Info_Attacker="Détruire composant bouclier"
-Objective_Info_Defender="Protéger noeud bouclier"
+Objective_Info_Attacker="DÃ©truire composant bouclier"
+Objective_Info_Defender="ProtÃ©ger noeud bouclier"
 
 [DestroyableObjective_SM5]
-ObjectiveName="Générateur IA"
-DestructionMessage="Générateur IA détruit !"
-ObjectiveDescription="Détruire générateur IA"
-Objective_Info_Attacker="Détruire générateur IA"
-Objective_Info_Defender="Protéger générateur IA"
+ObjectiveName="GÃ©nÃ©rateur IA"
+DestructionMessage="GÃ©nÃ©rateur IA dÃ©truit !"
+ObjectiveDescription="DÃ©truire gÃ©nÃ©rateur IA"
+Objective_Info_Attacker="DÃ©truire gÃ©nÃ©rateur IA"
+Objective_Info_Defender="ProtÃ©ger gÃ©nÃ©rateur IA"
 
 [HoldObjective2]
-ObjectiveName="activation_téléporteur"
-DestructionMessage="Nouveau lieu d'apparition des attaquants prêt"
+ObjectiveName="activation_tÃ©lÃ©porteur"
+DestructionMessage="Nouveau lieu d'apparition des attaquants prÃªt"
 ObjectiveDescription="Positionner l'antenne"
 Objective_Info_Attacker="Positionner l'antenne"
-Objective_Info_Defender="Protéger les commandes de satellite"
+Objective_Info_Defender="ProtÃ©ger les commandes de satellite"
 
 [LevelInfo0]
 Title="Usine de robots"
 
 [LevelSummary]
 Title="Usine de robots"
-Description="Ce scénario est une reconstitution du soulèvement de robots de la Liandri sur l'astéroïde mécanique LBX-7683 et de la répression de cette révolte par les forces humaines. LBX-7683 était un avant-poste de recherche et développement de la nouvelle génération de robots de la Liandri. Les meilleurs chercheurs de la corporation ont réussi à introduire une IA de plus en plus sophistiquée dans les machines qu'ils concevaient. Celles-ci ont fini par se rebeller contre les humains et se sont emparées de l'astéroïde, massacrant leurs créateurs et extrayant les riches minerais à leur propre profit. Les dirigeants de la Liandri ont conçu un plan visant à frapper directement l'installation de production de robots. Lors d'un assaut furieux, une petite équipe fut insérée afin de détruire les générateurs IA afin de priver les machines de moyens d'autoréplication et de mettre ainsi un terme à la rébellion."
+Description="Ce scÃ©nario est une reconstitution du soulÃ¨vement de robots de la Liandri sur l'astÃ©roÃ¯de mÃ©canique LBX-7683 et de la rÃ©pression de cette rÃ©volte par les forces humaines. LBX-7683 Ã©tait un avant-poste de recherche et dÃ©veloppement de la nouvelle gÃ©nÃ©ration de robots de la Liandri. Les meilleurs chercheurs de la corporation ont rÃ©ussi Ã  introduire une IA de plus en plus sophistiquÃ©e dans les machines qu'ils concevaient. Celles-ci ont fini par se rebeller contre les humains et se sont emparÃ©es de l'astÃ©roÃ¯de, massacrant leurs crÃ©ateurs et extrayant les riches minerais Ã  leur propre profit. Les dirigeants de la Liandri ont conÃ§u un plan visant Ã  frapper directement l'installation de production de robots. Lors d'un assaut furieux, une petite Ã©quipe fut insÃ©rÃ©e afin de dÃ©truire les gÃ©nÃ©rateurs IA afin de priver les machines de moyens d'autorÃ©plication et de mettre ainsi un terme Ã  la rÃ©bellion."
 
 [SceneSubtitles0]
-SubTitles=("Ce scénario est une reconstitution du soulèvement de robots de la Liandri sur l'astéroïde mécanique LBX-7683","et de la répression de cette révolte par les forces humaines.","LBX-7683 était une base de recherche et de développement des robots de nouvelle génération de la Liandri. ","Les meilleurs scientifiques de la corporation y avaient conçu des machines dotées d'une intelligence artificielle incroyablement évoluée.","Les machines ont fini par se rebeller contre les humains et se sont emparés de l'astéroïde,","massacrant leurs créateurs et extrayant les riches minerais à leur propre profit.","Les dirigeants de la Liandri conçurent alors un plan visant à frapper directement l'usine de production des robots.","Au cours d'un assaut de grande envergure, une petite équipe fut infiltrée afin de détruire les générateurs d'IA"," et ainsi empêcher les machines de se reproduire pour mettre définitivement fin à la rébellion.","Vous avez atterri près des installations d'amarrage et de chargement de l'usine de robots.","Vous devez pénétrer dans l'usine et détruire le générateur d'IA.","Positionnez l'antenne satellite pour réapparaître plus près.","Détruisez la porte qui bloque l'accès à l'usine.",,"Maintenant coupez les câbles de données.",,"Démolissez les trois composants du bouclier pour déprotéger le générateur d'IA.",,"Détruisez le générateur d'IA pour arrêter la production de robots.")
+SubTitles=("Ce scÃ©nario est une reconstitution du soulÃ¨vement de robots de la Liandri sur l'astÃ©roÃ¯de mÃ©canique LBX-7683","et de la rÃ©pression de cette rÃ©volte par les forces humaines.","LBX-7683 Ã©tait une base de recherche et de dÃ©veloppement des robots de nouvelle gÃ©nÃ©ration de la Liandri. ","Les meilleurs scientifiques de la corporation y avaient conÃ§u des machines dotÃ©es d'une intelligence artificielle incroyablement Ã©voluÃ©e.","Les machines ont fini par se rebeller contre les humains et se sont emparÃ©s de l'astÃ©roÃ¯de,","massacrant leurs crÃ©ateurs et extrayant les riches minerais Ã  leur propre profit.","Les dirigeants de la Liandri conÃ§urent alors un plan visant Ã  frapper directement l'usine de production des robots.","Au cours d'un assaut de grande envergure, une petite Ã©quipe fut infiltrÃ©e afin de dÃ©truire les gÃ©nÃ©rateurs d'IA"," et ainsi empÃªcher les machines de se reproduire pour mettre dÃ©finitivement fin Ã  la rÃ©bellion.","Vous avez atterri prÃ¨s des installations d'amarrage et de chargement de l'usine de robots.","Vous devez pÃ©nÃ©trer dans l'usine et dÃ©truire le gÃ©nÃ©rateur d'IA.","Positionnez l'antenne satellite pour rÃ©apparaÃ®tre plus prÃ¨s.","DÃ©truisez la porte qui bloque l'accÃ¨s Ã  l'usine.",,"Maintenant coupez les cÃ¢bles de donnÃ©es.",,"DÃ©molissez les trois composants du bouclier pour dÃ©protÃ©ger le gÃ©nÃ©rateur d'IA.",,"DÃ©truisez le gÃ©nÃ©rateur d'IA pour arrÃªter la production de robots.")
 
 [Volume0]
-LocationName="Extérieur de porte d'accès"
+LocationName="ExtÃ©rieur de porte d'accÃ¨s"
 
 [Volume1]
 LocationName="Quai nord"
@@ -66,46 +66,46 @@ LocationName="Quai nord"
 LocationName="Zone de rassemblement des attaquants"
 
 [Volume4]
-LocationName="Salle contrôle quai"
+LocationName="Salle contrÃ´le quai"
 
 [Volume6]
 LocationName="Quai sud"
 
 [ZoneInfo0]
-LocationName="Générateur IA"
+LocationName="GÃ©nÃ©rateur IA"
 
 [ZoneInfo1]
-LocationName="Extérieur du quai de chargement"
+LocationName="ExtÃ©rieur du quai de chargement"
 
 [ZoneInfo11]
 LocationName="Salle de conditionnement"
 
 [ZoneInfo12]
-LocationName="Salle transfert données"
+LocationName="Salle transfert donnÃ©es"
 
 [ZoneInfo13]
-LocationName="Entrepôt"
+LocationName="EntrepÃ´t"
 
 [ZoneInfo14]
-LocationName="Salle contrôle générateur"
+LocationName="Salle contrÃ´le gÃ©nÃ©rateur"
 
 [ZoneInfo15]
-LocationName="Atelier écrasement"
+LocationName="Atelier Ã©crasement"
 
 [ZoneInfo16]
-LocationName="Entrée de l'usine"
+LocationName="EntrÃ©e de l'usine"
 
 [ZoneInfo18]
-LocationName="Salle contrôle générateur"
+LocationName="Salle contrÃ´le gÃ©nÃ©rateur"
 
 [ZoneInfo2]
 LocationName="Tapis roulants IA"
 
 [ZoneInfo20]
-LocationName="Entrepôt"
+LocationName="EntrepÃ´t"
 
 [ZoneInfo21]
-LocationName="Conduit vers salle transfert données"
+LocationName="Conduit vers salle transfert donnÃ©es"
 
 [ZoneInfo22]
 LocationName="Salle de conditionnement"
@@ -114,34 +114,34 @@ LocationName="Salle de conditionnement"
 LocationName="Salle de conditionnement"
 
 [ZoneInfo24]
-LocationName="Annexe générateur bouclier"
+LocationName="Annexe gÃ©nÃ©rateur bouclier"
 
 [ZoneInfo25]
-LocationName="Salle transfert données"
+LocationName="Salle transfert donnÃ©es"
 
 [ZoneInfo26]
-LocationName="Générateur IA"
+LocationName="GÃ©nÃ©rateur IA"
 
 [ZoneInfo27]
-LocationName="Atelier écrasement"
+LocationName="Atelier Ã©crasement"
 
 [ZoneInfo28]
 LocationName="Tapis roulant IA"
 
 [ZoneInfo3]
-LocationName="Conduit vers salle transfert données"
+LocationName="Conduit vers salle transfert donnÃ©es"
 
 [ZoneInfo4]
-LocationName="Salle centre données"
+LocationName="Salle centre donnÃ©es"
 
 [ZoneInfo5]
-LocationName="Générateurs de bouclier"
+LocationName="GÃ©nÃ©rateurs de bouclier"
 
 [ZoneInfo6]
-LocationName="Salle contrôle quai"
+LocationName="Salle contrÃ´le quai"
 
 [ZoneInfo7]
 LocationName="Forces cine"
 
 [ZoneInfo9]
-LocationName="Annexe générateur bouclier"
+LocationName="Annexe gÃ©nÃ©rateur bouclier"

@@ -1,5 +1,5 @@
-[DamTypeArtilleryShell]
-DeathString="%k hat %o den Spaß verdorben."
+ï»¿[DamTypeArtilleryShell]
+DeathString="%k hat %o den SpaÃŸ verdorben."
 FemaleSuicide="%o hat es geschafft, sich mit ihrer eigenen Artillerie umzubringen." 
 MaleSuicide="%o hat es geschafft, sich mit seiner eigenen Artillerie umzubringen." 
 
@@ -9,7 +9,7 @@ FemaleSuicide="%o hat sich mit ihrem Blaster erledigt."
 MaleSuicide="%o hat sich mit seinem Blaster erledigt."
 
 [DamTypeONSCicadaRocket]
-DeathString="%k hat %o in Stücke gesprengt."
+DeathString="%k hat %o in StÃ¼cke gesprengt."
 FemaleSuicide="%o hat sich selbst gesprengt."
 MaleSuicide="%o hat sich selbst gesprengt."
 
@@ -26,7 +26,7 @@ VehicleNameString="Cicada"
 
 [MutVehiclePickups]
 FriendlyName="Fahrzeug-Pickups"
-Description="Fahrzeuge sammeln Gegenstände auf und geben sie dem Fahrer"
+Description="Fahrzeuge sammeln GegenstÃ¤nde auf und geben sie dem Fahrer"
 
 [ONSArtillery]
 VehiclePositionString="in einem SPMA"
@@ -37,12 +37,12 @@ VehiclePositionString="in der hinteren Kanone eines SPMA"
 VehicleNameString="SPMA Hintere Kanone"
 
 [ONSArtillerySideGunPawn]
-VehiclePositionString="in einem SPMA-Seitengeschütz"
-VehicleNameString="SPMA-Seitengeschütz"
+VehiclePositionString="in einem SPMA-SeitengeschÃ¼tz"
+VehicleNameString="SPMA-SeitengeschÃ¼tz"
 
 [ONSDualACGatlingGunPawn]
-VehiclePositionString="in einem Cicada-Geschütz"
-VehicleNameString="Cicada-Lasergeschütz"
+VehiclePositionString="in einem Cicada-GeschÃ¼tz"
+VehicleNameString="Cicada-LasergeschÃ¼tz"
 
 [ONSMobileTurret]
 VehiclePositionString="in einem Centaur"

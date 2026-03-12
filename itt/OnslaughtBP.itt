@@ -1,7 +1,7 @@
-[DamTypeArtilleryShell]
+ï»¿[DamTypeArtilleryShell]
 DeathString="%k ha fatto piovere morte su %o."
-FemaleSuicide="%o è riuscita a uccidersi con la sua stessa artiglieria." 
-MaleSuicide="%o è riuscito a uccidersi con la sua stessa artiglieria."
+FemaleSuicide="%o Ã¨ riuscita a uccidersi con la sua stessa artiglieria." 
+MaleSuicide="%o Ã¨ riuscito a uccidersi con la sua stessa artiglieria."
 
 [DamTypeONSCicadaLaser]
 DeathString="Il laser di %k ha colpito %o."
@@ -10,11 +10,11 @@ MaleSuicide="%o ha usato il laser su se stesso."
 
 [DamTypeONSCicadaRocket]
 DeathString="%k ha fatto %o a pezzi."
-FemaleSuicide="%o si è fatta saltare in aria."
-MaleSuicide="%o si è fatto saltare in aria."
+FemaleSuicide="%o si Ã¨ fatta saltare in aria."
+MaleSuicide="%o si Ã¨ fatto saltare in aria."
 
 [DamTypeShockTankProximityExplosion]
-DeathString="%o si è avvicinato troppo al Paladin di %k."
+DeathString="%o si Ã¨ avvicinato troppo al Paladin di %k."
 
 [DamTypeShockTankShockBall]
 DeathString="%o non ha saputo evitare il colpo del Paladin di %k."

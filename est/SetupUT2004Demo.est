@@ -1,4 +1,4 @@
-[Setup]
+﻿[Setup]
 LocalProduct="Demo de Unreal Tournament 2004"
 DefaultFolder="C:\UT2004Demo"
 ReadMe=Help\ReadMe-Demo.int.txt

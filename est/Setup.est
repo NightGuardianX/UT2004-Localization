@@ -1,4 +1,4 @@
-[Errors]
+﻿[Errors]
 MissingProductTitle="%s no puede ser %s en esta carpeta"
 MissingProductInstalled="instalado"
 MissingProductPatched="actualizado"

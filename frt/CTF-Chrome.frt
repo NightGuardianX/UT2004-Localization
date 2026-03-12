@@ -1,62 +1,62 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Chrome"
 
 [LevelSummary]
 Title="Chrome"
 
 [ZoneInfo0]
-LocationName="Générateur bleu"
+LocationName="GÃ©nÃ©rateur bleu"
 
 [ZoneInfo1]
 LocationName="Base bleue"
 
 [ZoneInfo10]
-LocationName="Point réapparition rouge"
+LocationName="Point rÃ©apparition rouge"
 
 [ZoneInfo11]
-LocationName="Entrée bleue"
+LocationName="EntrÃ©e bleue"
 
 [ZoneInfo12]
 LocationName="Milieu"
 
 [ZoneInfo13]
-LocationName="Générateur rouge"
+LocationName="GÃ©nÃ©rateur rouge"
 
 [ZoneInfo14]
-LocationName="Générateur rouge"
+LocationName="GÃ©nÃ©rateur rouge"
 
 [ZoneInfo15]
-LocationName="Générateur rouge"
+LocationName="GÃ©nÃ©rateur rouge"
 
 [ZoneInfo16]
-LocationName="Entrée rouge"
+LocationName="EntrÃ©e rouge"
 
 [ZoneInfo17]
-LocationName="Entrée rouge"
+LocationName="EntrÃ©e rouge"
 
 [ZoneInfo18]
-LocationName="Entrée rouge"
+LocationName="EntrÃ©e rouge"
 
 [ZoneInfo20]
-LocationName="Point réapparition bleu"
+LocationName="Point rÃ©apparition bleu"
 
 [ZoneInfo21]
-LocationName="Point réapparition bleu"
+LocationName="Point rÃ©apparition bleu"
 
 [ZoneInfo22]
 LocationName="Milieu"
 
 [ZoneInfo23]
-LocationName="Générateur rouge"
+LocationName="GÃ©nÃ©rateur rouge"
 
 [ZoneInfo24]
 LocationName="Milieu"
 
 [ZoneInfo25]
-LocationName="Entrée bleue"
+LocationName="EntrÃ©e bleue"
 
 [ZoneInfo26]
-LocationName="Entrée bleue"
+LocationName="EntrÃ©e bleue"
 
 [ZoneInfo27]
 LocationName="Milieu"
@@ -65,13 +65,13 @@ LocationName="Milieu"
 LocationName="Milieu"
 
 [ZoneInfo3]
-LocationName="Générateur bleu"
+LocationName="GÃ©nÃ©rateur bleu"
 
 [ZoneInfo4]
-LocationName="Entrée rouge"
+LocationName="EntrÃ©e rouge"
 
 [ZoneInfo5]
-LocationName="Entrée bleue"
+LocationName="EntrÃ©e bleue"
 
 [ZoneInfo6]
 LocationName="Milieu"
@@ -80,7 +80,7 @@ LocationName="Milieu"
 LocationName="Milieu"
 
 [ZoneInfo8]
-LocationName="Point réapparition rouge"
+LocationName="Point rÃ©apparition rouge"
 
 [ZoneInfo9]
 LocationName="Milieu"

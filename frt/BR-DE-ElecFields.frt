@@ -1,15 +1,15 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Champs Elec"
 
 [LevelSummary]
 Title="Champs Elec"
-Description="Les tours statiques du flux marakéen sont devenues l'un des lieux préférés des tournois depuis leur introduction lors de la saison dernière. On découvre la vraie nature des gladiateurs modernes en voyant les participants se tailler un chemin sanglant vers la victoire. En CDD comme en Bombe de balle, les joueurs combattant dans le ciel toxique de Purgatory doivent se rappeler en permanence une chose : la chute est longue !"
+Description="Les tours statiques du flux marakÃ©en sont devenues l'un des lieux prÃ©fÃ©rÃ©s des tournois depuis leur introduction lors de la saison derniÃ¨re. On dÃ©couvre la vraie nature des gladiateurs modernes en voyant les participants se tailler un chemin sanglant vers la victoire. En CDD comme en Bombe de balle, les joueurs combattant dans le ciel toxique de Purgatory doivent se rappeler en permanence une chose : la chute est longue !"
 
 [Volume0]
 LocationName="Avant Bleu"
 
 [Volume1]
-LocationName="Zone réapparition Bleue"
+LocationName="Zone rÃ©apparition Bleue"
 
 [Volume10]
 LocationName="Rampe base Rouge"
@@ -72,7 +72,7 @@ LocationName="Rampe inf. avant Bleue"
 LocationName="Base Bleue"
 
 [Volume3]
-LocationName="Zone réapparition Rouge"
+LocationName="Zone rÃ©apparition Rouge"
 
 [Volume4]
 LocationName="Avant Rouge"
@@ -93,5 +93,5 @@ LocationName="Avant Rouge"
 LocationName="Avant Bleu"
 
 [ZoneInfo0]
-LocationName="Extérieur"
+LocationName="ExtÃ©rieur"
 

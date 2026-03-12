@@ -1,4 +1,4 @@
-[Public]
+﻿[Public]
 Preferences=(Caption="Server web",Parent="Rete",Class=UWeb.WebServer)
 
 [WebResponse]

@@ -1,4 +1,4 @@
-[DefaultMapListLoader]
+﻿[DefaultMapListLoader]
 UseMapListPropsDisplayText="Usa elenchi mappe"
 UserMapListPropDescription="Se è attiva, vengono usati gli elenchi mappe anziché visualizzare i nomi di tutte le mappe."
 
