@@ -14,6 +14,10 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 - Display as: `**Total:** N · **Done:** M · **Verified:** K`.
 - **Always update the counters** when you change or update the table (add/remove rows, change Status or Verified). Recalculate Total (number of data rows), Done (rows with Status = Done), Verified (rows with Verified = YES) and correct the line above the table. When you recalculate global string statistics, also update the line **Strings Total:** ... under the counters (strings in all .rut, translated to Russian, and their percent).
 
+**How to recalculate the Strings Total line:** Run from the repo root: `python scripts/count_translation_stats.py`. The script writes a report to `Documentation/Translation Stats.txt` and prints it. Use the printed/output values: **Strings Total** = “Всего строк перевода в .rut”, **Translated** = “Из них переведено на русский”, **Percent** = “Доля в .rut (русский / все строки)” (one decimal). Update the line in [FILE_TRANSLATION_STATUS.md](FILE_TRANSLATION_STATUS.md) accordingly (e.g. `**Strings Total:** 9673 · **Translated:** 2963 · **Percent:** 30.6%`).
+
+**Optional — per-file status:** `python scripts/check_rut_status.py` outputs each .rut file with a suggested status (Done, In Progress, Spanish!!!, Untranslated). Use it as a helper when updating the Status column; the rules in “Status clarification” still apply (e.g. No .int, No Caption).
+
 ### Rows with no .int (base from .est when possible)
 
 - Some .rut files have **no corresponding .int** in /int. For such .rut, check for an **analogous .est** in /est (same base name: `Foo.rut` → `Foo.est`). If it exists, use it as **Base File** (`Foo.est`). If there is no .est either, set **Base File** to `-` (dash).

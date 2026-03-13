@@ -6,7 +6,8 @@ import os
 import re
 from pathlib import Path
 
-RUT_DIR = Path(__file__).parent / "rut"
+ROOT = Path(__file__).resolve().parent.parent
+RUT_DIR = ROOT / "rut"
 SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]')
 CYRILLIC = re.compile(r'[\u0400-\u04FF]')  # Cyrillic block
 

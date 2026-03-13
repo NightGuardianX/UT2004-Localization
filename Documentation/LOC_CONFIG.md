@@ -44,6 +44,8 @@ Scripts in `/scripts` are **canonical**: use them as-is for the steps that refer
 | Script | Used in | Purpose |
 |--------|---------|---------|
 | [diff_rut_merge.py](../scripts/diff_rut_merge.py) | [STEP_01_SYNC_AND_ANALYZE_INCOMING](STEP_01_SYNC_AND_ANALYZE_INCOMING.md) | When `git diff` reports binary for .rut (e.g. UTF-16): get key-level changes from merge and write \_diff_rut_result.json. |
+| [count_translation_stats.py](../scripts/count_translation_stats.py) | [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) | Recalculate Strings Total / Translated / Percent; writes Documentation/Translation Stats.txt. Update the counters line in [FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md) from the output. |
+| [check_rut_status.py](../scripts/check_rut_status.py) | [FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md) | Per-file status suggestion (Done, In Progress, Spanish!!!, Untranslated) when updating the Status column. |
 | classify_status.ps1 | *(status/classification)* | *(document when used)* |
 
 ## Process

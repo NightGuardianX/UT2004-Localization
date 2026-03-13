@@ -3,7 +3,7 @@
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parent.parent
 INT_DIR = ROOT / "int"
 EST_DIR = ROOT / "est"
 RUT_DIR = ROOT / "rut"
