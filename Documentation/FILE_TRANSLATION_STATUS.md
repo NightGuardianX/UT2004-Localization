@@ -2,7 +2,7 @@
 
 This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md)**.
 
-**Total:** 186 · **Done:** 8 · **Verified:** 0
+**Total:** 185 · **Done:** 8 · **Verified:** 0
 
 **Strings Total:** 9673 · **Translated:** 2963 · **Percent:** 30.6%
 
@@ -13,147 +13,146 @@ This page lists all localization files and their translation status. Status mean
 | ALAudio.int                | ALAudio.rut                | Untranslated |          |
 | AS-BP2-Acatana.int         | AS-BP2-Acatana.rut         | Done         |          |
 | AS-BP2-Jumpship.int        | AS-BP2-Jumpship.rut        | Done         |          |
-| AS-BP2-Outback.int         | AS-BP2-Outback.rut         | Spanish!!!   |          |
-| AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | Spanish!!!   |          |
-| AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | Spanish!!!   |          |
-| AS-Convoy.int              | AS-Convoy.rut              | Spanish!!!   |          |
-| AS-FallenCity.int          | AS-FallenCity.rut          | Spanish!!!   |          |
-| AS-Glacier.int             | AS-Glacier.rut             | Spanish!!!   |          |
-| AS-Junkyard.int            | AS-Junkyard.rut            | Spanish!!!   |          |
-| AS-Mothership.int          | AS-Mothership.rut          | Spanish!!!   |          |
-| AS-RobotFactory.int        | AS-RobotFactory.rut        | Spanish!!!   |          |
-| BonusPack.int              | BonusPack.rut              | Spanish!!!   |          |
-| BR-Anubis.int              | BR-Anubis.rut              | Spanish!!!   |          |
-| BR-Bifrost.int             | BR-Bifrost.rut             | Spanish!!!   |          |
-| BR-BridgeOfFate.int        | BR-BridgeOfFate.rut        | Spanish!!!   |          |
-| BR-Canyon.int              | BR-Canyon.rut              | Spanish!!!   |          |
-| BR-Colossus.int            | BR-Colossus.rut            | Spanish!!!   |          |
-| BR-DE-ElecFields.int       | BR-DE-ElecFields.rut       | Spanish!!!   |          |
-| BR-Disclosure.int          | BR-Disclosure.rut          | Spanish!!!   |          |
-| BR-IceFields.int           | BR-IceFields.rut           | Untranslated |          |
-| BR-Serenity.int            | BR-Serenity.rut            | Spanish!!!   |          |
-| BR-Skyline.int             | BR-Skyline.rut             | Untranslated |          |
-| BR-Slaughterhouse.int      | BR-Slaughterhouse.rut      | Spanish!!!   |          |
-| BR-TwinTombs.int           | BR-TwinTombs.rut           | Spanish!!!   |          |
-| Core.int                   | Core.rut                   | Spanish!!!   |          |
-| CTF-1on1-Joust.int         | CTF-1on1-Joust.rut         | Spanish!!!   |          |
-| CTF-AbsoluteZero.int       | CTF-AbsoluteZero.rut       | Spanish!!!   |          |
-| CTF-Avaris.int             | CTF-Avaris.rut             | Spanish!!!   |          |
-| CTF-BP2-Concentrate.int    | CTF-BP2-Concentrate.rut    | Spanish!!!   |          |
-| CTF-BP2-Pistola.int        | CTF-BP2-Pistola.rut        | Spanish!!!   |          |
-| CTF-BridgeOfFate.int       | CTF-BridgeOfFate.rut       | Spanish!!!   |          |
-| CTF-Chrome.int             | CTF-Chrome.rut             | Spanish!!!   |          |
-| CTF-Citadel.int            | CTF-Citadel.rut            | Untranslated |          |
-| CTF-Colossus.int           | CTF-Colossus.rut           | Spanish!!!   |          |
-| CTF-DE-ElecFields.int      | CTF-DE-ElecFields.rut      | Spanish!!!   |          |
-| CTF-DE-LavaGiant2.est      | CTF-DE-LavaGiant2.rut      | Spanish!!!   |          |
-| CTF-December.int           | CTF-December.rut           | Spanish!!!   |          |
-| CTF-DoubleDammage.int      | CTF-DoubleDammage.rut      | Spanish!!!   |          |
-| CTF-Face3.int              | CTF-Face3.rut              | Spanish!!!   |          |
-| CTF-FaceClassic.int        | CTF-FaceClassic.rut        | Spanish!!!   |          |
-| CTF-Geothermal.int         | CTF-Geothermal.rut         | Spanish!!!   |          |
-| CTF-Grassyknoll.int        | CTF-Grassyknoll.rut        | Spanish!!!   |          |
-| CTF-Grendelkeep.int        | CTF-Grendelkeep.rut        | Spanish!!!   |          |
-| CTF-January.int            | CTF-January.rut            | Spanish!!!   |          |
-| CTF-LostFaith.int          | CTF-LostFaith.rut          | Spanish!!!   |          |
-| CTF-Magma.int              | CTF-Magma.rut              | Untranslated |          |
-| CTF-Maul.int               | CTF-Maul.rut               | Untranslated |          |
-| CTF-MoonDragon.int         | CTF-MoonDragon.rut         | Spanish!!!   |          |
-| CTF-Orbital2.int           | CTF-Orbital2.rut           | Spanish!!!   |          |
-| CTF-Smote.int              | CTF-Smote.rut              | Spanish!!!   |          |
-| CTF-TwinTombs.int          | CTF-TwinTombs.rut          | Spanish!!!   |          |
+| AS-BP2-Outback.int         | AS-BP2-Outback.rut         | In Progress  |          |
+| AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | In Progress  |          |
+| AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | In Progress  |          |
+| AS-Convoy.int              | AS-Convoy.rut              | In Progress  |          |
+| AS-FallenCity.int          | AS-FallenCity.rut          | In Progress  |          |
+| AS-Glacier.int             | AS-Glacier.rut             | In Progress  |          |
+| AS-Junkyard.int            | AS-Junkyard.rut            | In Progress  |          |
+| AS-Mothership.int          | AS-Mothership.rut          | In Progress  |          |
+| AS-RobotFactory.int        | AS-RobotFactory.rut        | In Progress  |          |
+| BonusPack.int              | BonusPack.rut              | In Progress  |          |
+| BR-Anubis.int              | BR-Anubis.rut              | In Progress  |          |
+| BR-Bifrost.int             | BR-Bifrost.rut             | In Progress  |          |
+| BR-BridgeOfFate.int        | BR-BridgeOfFate.rut        | In Progress  |          |
+| BR-Canyon.int              | BR-Canyon.rut              | In Progress  |          |
+| BR-Colossus.int            | BR-Colossus.rut            | In Progress  |          |
+| BR-DE-ElecFields.int       | BR-DE-ElecFields.rut       | In Progress  |          |
+| BR-Disclosure.int          | BR-Disclosure.rut          | In Progress  |          |
+| BR-IceFields.int           | BR-IceFields.rut           | In Progress  |          |
+| BR-Serenity.int            | BR-Serenity.rut            | In Progress  |          |
+| BR-Skyline.int             | BR-Skyline.rut             | In Progress  |          |
+| BR-Slaughterhouse.int      | BR-Slaughterhouse.rut      | In Progress  |          |
+| BR-TwinTombs.int           | BR-TwinTombs.rut           | In Progress  |          |
+| Core.int                   | Core.rut                   | In Progress  |          |
+| CTF-1on1-Joust.int         | CTF-1on1-Joust.rut         | In Progress  |          |
+| CTF-AbsoluteZero.int       | CTF-AbsoluteZero.rut       | In Progress  |          |
+| CTF-Avaris.int             | CTF-Avaris.rut             | In Progress  |          |
+| CTF-BP2-Concentrate.int    | CTF-BP2-Concentrate.rut    | In Progress  |          |
+| CTF-BP2-Pistola.int        | CTF-BP2-Pistola.rut        | In Progress  |          |
+| CTF-BridgeOfFate.int       | CTF-BridgeOfFate.rut       | In Progress  |          |
+| CTF-Chrome.int             | CTF-Chrome.rut             | In Progress  |          |
+| CTF-Citadel.int            | CTF-Citadel.rut            | In Progress  |          |
+| CTF-Colossus.int           | CTF-Colossus.rut           | In Progress  |          |
+| CTF-DE-ElecFields.int      | CTF-DE-ElecFields.rut      | In Progress  |          |
+| CTF-December.int           | CTF-December.rut           | In Progress  |          |
+| CTF-DoubleDammage.int      | CTF-DoubleDammage.rut      | In Progress  |          |
+| CTF-Face3.int              | CTF-Face3.rut              | In Progress  |          |
+| CTF-FaceClassic.int        | CTF-FaceClassic.rut        | In Progress  |          |
+| CTF-Geothermal.int         | CTF-Geothermal.rut         | In Progress  |          |
+| CTF-Grassyknoll.int        | CTF-Grassyknoll.rut        | In Progress  |          |
+| CTF-Grendelkeep.int        | CTF-Grendelkeep.rut        | In Progress  |          |
+| CTF-January.int            | CTF-January.rut            | In Progress  |          |
+| CTF-LostFaith.int          | CTF-LostFaith.rut          | In Progress  |          |
+| CTF-Magma.int              | CTF-Magma.rut              | In Progress  |          |
+| CTF-Maul.int               | CTF-Maul.rut               | In Progress  |          |
+| CTF-MoonDragon.int         | CTF-MoonDragon.rut         | In Progress  |          |
+| CTF-Orbital2.int           | CTF-Orbital2.rut           | In Progress  |          |
+| CTF-Smote.int              | CTF-Smote.rut              | In Progress  |          |
+| CTF-TwinTombs.int          | CTF-TwinTombs.rut          | In Progress  |          |
 | D3DDrv.int                 | D3DDrv.rut                 | In Progress  |          |
 | DemoLicense.est            | DemoLicense.rut            | Untranslated |          |
-| DM-1on1-Albatross.int      | DM-1on1-Albatross.rut      | Spanish!!!   |          |
-| DM-1on1-Crash.int          | DM-1on1-Crash.rut          | Spanish!!!   |          |
-| DM-1on1-Desolation.int     | DM-1on1-Desolation.rut     | Spanish!!!   |          |
-| DM-1on1-Idoma.int          | DM-1on1-Idoma.rut          | Spanish!!!   |          |
-| DM-1on1-Irondust.int       | DM-1on1-Irondust.rut       | Spanish!!!   |          |
-| DM-1on1-Mixer.int          | DM-1on1-Mixer.rut          | Spanish!!!   |          |
-| DM-1on1-Roughinery.int     | DM-1on1-Roughinery.rut     | Spanish!!!   |          |
-| DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | Untranslated |          |
-| DM-1on1-Spirit.int         | DM-1on1-Spirit.rut         | Spanish!!!   |          |
-| DM-1on1-Squader.int        | DM-1on1-Squader.rut        | Spanish!!!   |          |
-| DM-1on1-Trite.int          | DM-1on1-Trite.rut          | Spanish!!!   |          |
-| DM-Antalus.int             | DM-Antalus.rut             | Spanish!!!   |          |
-| DM-Asbestos.int            | DM-Asbestos.rut            | Spanish!!!   |          |
-| DM-BP2-Calandras.int       | DM-BP2-Calandras.rut       | Spanish!!!   |          |
-| DM-BP2-GoopGod.int         | DM-BP2-GoopGod.rut         | Spanish!!!   |          |
-| DM-Compressed.int          | DM-Compressed.rut          | Spanish!!!   |          |
-| DM-Corrugation.int         | DM-Corrugation.rut         | Spanish!!!   |          |
-| DM-Curse4.int              | DM-Curse4.rut              | Spanish!!!   |          |
-| DM-DE-Grendelkeep.int      | DM-DE-Grendelkeep.rut      | Spanish!!!   |          |
-| DM-DE-Ironic.int           | DM-DE-Ironic.rut           | Spanish!!!   |          |
-| DM-DE-Osiris2.int          | DM-DE-Osiris2.rut          | Spanish!!!   |          |
-| DM-Deck17.int              | DM-Deck17.rut              | Spanish!!!   |          |
-| DM-DesertIsle.int          | DM-DesertIsle.rut          | Spanish!!!   |          |
-| DM-Flux2.int               | DM-Flux2.rut               | Untranslated |          |
-| DM-Gael.int                | DM-Gael.rut                | Spanish!!!   |          |
+| DM-1on1-Albatross.int      | DM-1on1-Albatross.rut      | In Progress  |          |
+| DM-1on1-Crash.int          | DM-1on1-Crash.rut          | In Progress  |          |
+| DM-1on1-Desolation.int     | DM-1on1-Desolation.rut     | In Progress  |          |
+| DM-1on1-Idoma.int          | DM-1on1-Idoma.rut          | In Progress  |          |
+| DM-1on1-Irondust.int       | DM-1on1-Irondust.rut       | In Progress  |          |
+| DM-1on1-Mixer.int          | DM-1on1-Mixer.rut          | In Progress  |          |
+| DM-1on1-Roughinery.int     | DM-1on1-Roughinery.rut     | In Progress  |          |
+| DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | In Progress  |          |
+| DM-1on1-Spirit.int         | DM-1on1-Spirit.rut         | In Progress  |          |
+| DM-1on1-Squader.int        | DM-1on1-Squader.rut        | In Progress  |          |
+| DM-1on1-Trite.int          | DM-1on1-Trite.rut          | In Progress  |          |
+| DM-Antalus.int             | DM-Antalus.rut             | In Progress  |          |
+| DM-Asbestos.int            | DM-Asbestos.rut            | In Progress  |          |
+| DM-BP2-Calandras.int       | DM-BP2-Calandras.rut       | In Progress  |          |
+| DM-BP2-GoopGod.int         | DM-BP2-GoopGod.rut         | In Progress  |          |
+| DM-Compressed.int          | DM-Compressed.rut          | In Progress  |          |
+| DM-Corrugation.int         | DM-Corrugation.rut         | In Progress  |          |
+| DM-Curse4.int              | DM-Curse4.rut              | In Progress  |          |
+| DM-DE-Grendelkeep.int      | DM-DE-Grendelkeep.rut      | In Progress  |          |
+| DM-DE-Ironic.int           | DM-DE-Ironic.rut           | In Progress  |          |
+| DM-DE-Osiris2.int          | DM-DE-Osiris2.rut          | In Progress  |          |
+| DM-Deck17.int              | DM-Deck17.rut              | In Progress  |          |
+| DM-DesertIsle.int          | DM-DesertIsle.rut          | In Progress  |          |
+| DM-Flux2.int               | DM-Flux2.rut               | In Progress  |          |
+| DM-Gael.int                | DM-Gael.rut                | In Progress  |          |
 | DM-Gestalt.int             | DM-Gestalt.rut             | Spanish!!!   |          |
-| DM-Goliath.int             | DM-Goliath.rut             | Spanish!!!   |          |
-| DM-HyperBlast2.int         | DM-HyperBlast2.rut         | Spanish!!!   |          |
-| DM-Icetomb.int             | DM-Icetomb.rut             | Spanish!!!   |          |
-| DM-Inferno.int             | DM-Inferno.rut             | Spanish!!!   |          |
-| DM-Injector.int            | DM-Injector.rut            | Spanish!!!   |          |
-| DM-Insidious.int           | DM-Insidious.rut           | Spanish!!!   |          |
-| DM-IronDeity.int           | DM-IronDeity.rut           | Spanish!!!   |          |
-| DM-JunkYard.int            | DM-JunkYard.rut            | Spanish!!!   |          |
-| DM-Leviathan.int           | DM-Leviathan.rut           | Spanish!!!   |          |
-| DM-Metallurgy.int          | DM-Metallurgy.rut          | Spanish!!!   |          |
-| DM-Morpheus3.int           | DM-Morpheus3.rut           | Spanish!!!   |          |
-| DM-Oceanic.int             | DM-Oceanic.rut             | Spanish!!!   |          |
-| DM-Phobos2.int             | DM-Phobos2.rut             | Spanish!!!   |          |
-| DM-Plunge.int              | DM-Plunge.rut              | Spanish!!!   |          |
-| DM-Rankin.int              | DM-Rankin.rut              | Spanish!!!   |          |
-| DM-Rrajigar.int            | DM-Rrajigar.rut            | Spanish!!!   |          |
-| DM-Rustatorium.int         | DM-Rustatorium.rut         | Spanish!!!   |          |
-| DM-Sulphur.int             | DM-Sulphur.rut             | Spanish!!!   |          |
-| DM-TokaraForest.int        | DM-TokaraForest.rut        | Untranslated |          |
-| DM-TrainingDay.int         | DM-TrainingDay.rut         | Spanish!!!   |          |
-| DOM-Access.int             | DOM-Access.rut             | Spanish!!!   |          |
-| DOM-Aswan.int              | DOM-Aswan.rut              | Spanish!!!   |          |
-| DOM-Atlantis.int           | DOM-Atlantis.rut           | Spanish!!!   |          |
-| DOM-Conduit.int            | DOM-Conduit.rut            | Spanish!!!   |          |
-| DOM-Core.int               | DOM-Core.rut               | Spanish!!!   |          |
-| DOM-Junkyard.int           | DOM-Junkyard.rut           | Spanish!!!   |          |
-| DOM-OutRigger.int          | DOM-OutRigger.rut          | Spanish!!!   |          |
-| DOM-Renascent.int          | DOM-Renascent.rut          | Spanish!!!   |          |
-| DOM-Ruination.int          | DOM-Ruination.rut          | Untranslated |          |
-| DOM-ScorchedEarth.int      | DOM-ScorchedEarth.rut      | Spanish!!!   |          |
-| DOM-SepukkuGorge.int       | DOM-SepukkuGorge.rut       | Untranslated |          |
-| DOM-Suntemple.int          | DOM-Suntemple.rut          | Untranslated |          |
+| DM-Goliath.int             | DM-Goliath.rut             | In Progress  |          |
+| DM-HyperBlast2.int         | DM-HyperBlast2.rut         | In Progress  |          |
+| DM-Icetomb.int             | DM-Icetomb.rut             | In Progress  |          |
+| DM-Inferno.int             | DM-Inferno.rut             | In Progress  |          |
+| DM-Injector.int            | DM-Injector.rut            | In Progress  |          |
+| DM-Insidious.int           | DM-Insidious.rut           | In Progress  |          |
+| DM-IronDeity.int           | DM-IronDeity.rut           | In Progress  |          |
+| DM-JunkYard.int            | DM-JunkYard.rut            | In Progress  |          |
+| DM-Leviathan.int           | DM-Leviathan.rut           | In Progress  |          |
+| DM-Metallurgy.int          | DM-Metallurgy.rut          | In Progress  |          |
+| DM-Morpheus3.int           | DM-Morpheus3.rut           | In Progress  |          |
+| DM-Oceanic.int             | DM-Oceanic.rut             | In Progress  |          |
+| DM-Phobos2.int             | DM-Phobos2.rut             | In Progress  |          |
+| DM-Plunge.int              | DM-Plunge.rut              | In Progress  |          |
+| DM-Rankin.int              | DM-Rankin.rut              | In Progress  |          |
+| DM-Rrajigar.int            | DM-Rrajigar.rut            | In Progress  |          |
+| DM-Rustatorium.int         | DM-Rustatorium.rut         | In Progress  |          |
+| DM-Sulphur.int             | DM-Sulphur.rut             | In Progress  |          |
+| DM-TokaraForest.int        | DM-TokaraForest.rut        | In Progress  |          |
+| DM-TrainingDay.int         | DM-TrainingDay.rut         | In Progress  |          |
+| DOM-Access.int             | DOM-Access.rut             | In Progress  |          |
+| DOM-Aswan.int              | DOM-Aswan.rut              | In Progress  |          |
+| DOM-Atlantis.int           | DOM-Atlantis.rut           | In Progress  |          |
+| DOM-Conduit.int            | DOM-Conduit.rut            | In Progress  |          |
+| DOM-Core.int               | DOM-Core.rut               | In Progress  |          |
+| DOM-Junkyard.int           | DOM-Junkyard.rut           | In Progress  |          |
+| DOM-OutRigger.int          | DOM-OutRigger.rut          | In Progress  |          |
+| DOM-Renascent.int          | DOM-Renascent.rut          | In Progress  |          |
+| DOM-Ruination.int          | DOM-Ruination.rut          | In Progress  |          |
+| DOM-ScorchedEarth.int      | DOM-ScorchedEarth.rut      | In Progress  |          |
+| DOM-SepukkuGorge.int       | DOM-SepukkuGorge.rut       | In Progress  |          |
+| DOM-Suntemple.int          | DOM-Suntemple.rut          | In Progress  |          |
 | Editor.int                 | Editor.rut                 | Untranslated |          |
 | endgame.int                | endgame.rut                | Untranslated |          |
-| Engine.int                 | Engine.rut                 | Spanish!!!   |          |
+| Engine.int                 | Engine.rut                 | In Progress  |          |
 | Entry.int                  | Entry.rut                  | Done         |          |
-| GamePlay.int               | GamePlay.rut               | Spanish!!!   |          |
-| Gestalt.est                | Gestalt.rut                | Spanish!!!   |          |
+| GamePlay.int               | GamePlay.rut               | In Progress  |          |
+| Gestalt.est                | Gestalt.rut                | No .rut      |          |
 | GUI2K4.int                 | GUI2K4.rut                 | In Progress  |          |
 | IpDrv.int                  | IpDrv.rut                  | In Progress  |          |
-| License.est                | License.rut                | Untranslated |          |
-| Manifest.est               | Manifest.rut               | Spanish!!!   |          |
-| Mov-UT2-intro.int          | Mov-UT2-intro.rut          | Untranslated |          |
+| License.est                | License.rut                | No .rut      |          |
+| Manifest.est               | Manifest.rut               | No .rut      |          |
+| Mov-UT2-intro.int          | Mov-UT2-intro.rut          | In Progress  |          |
 | MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Spanish!!!   |          |
 | NoIntro.int                | NoIntro.rut                | Done         |          |
 | NvidiaLogo.int             | NvidiaLogo.rut             | Done         |          |
-| ONS-Adara.int              | ONS-Adara.rut              | Spanish!!!   |          |
-| ONS-ArcticStronghold.int   | ONS-ArcticStronghold.rut   | Spanish!!!   |          |
-| ONS-Aridoom.int            | ONS-Aridoom.rut            | Spanish!!!   |          |
-| ONS-Ascendancy.int         | ONS-Ascendancy.rut         | Untranslated |          |
-| ONS-Crossfire.int          | ONS-Crossfire.rut          | Spanish!!!   |          |
-| ONS-Dawn.int               | ONS-Dawn.rut               | Spanish!!!   |          |
-| ONS-Dria.int               | ONS-Dria.rut               | Spanish!!!   |          |
-| ONS-FrostBite.int          | ONS-FrostBite.rut          | Spanish!!!   |          |
-| ONS-IslandHop.int          | ONS-IslandHop.rut          | Spanish!!!   |          |
-| ONS-Primeval.int           | ONS-Primeval.rut           | Spanish!!!   |          |
-| ONS-RedPlanet.int          | ONS-RedPlanet.rut          | Spanish!!!   |          |
+| ONS-Adara.int              | ONS-Adara.rut              | In Progress  |          |
+| ONS-ArcticStronghold.int   | ONS-ArcticStronghold.rut   | In Progress  |          |
+| ONS-Aridoom.int            | ONS-Aridoom.rut            | In Progress  |          |
+| ONS-Ascendancy.int         | ONS-Ascendancy.rut         | In Progress  |          |
+| ONS-Crossfire.int          | ONS-Crossfire.rut          | In Progress  |          |
+| ONS-Dawn.int               | ONS-Dawn.rut               | In Progress  |          |
+| ONS-Dria.int               | ONS-Dria.rut               | In Progress  |          |
+| ONS-FrostBite.int          | ONS-FrostBite.rut          | In Progress  |          |
+| ONS-IslandHop.int          | ONS-IslandHop.rut          | In Progress  |          |
+| ONS-Primeval.int           | ONS-Primeval.rut           | In Progress  |          |
+| ONS-RedPlanet.int          | ONS-RedPlanet.rut          | In Progress  |          |
 | ONS-Severance.int          | ONS-Severance.rut          | Spanish!!!   |          |
-| ONS-Torlan.int             | ONS-Torlan.rut             | Spanish!!!   |          |
-| ONS-Tricky.int             | ONS-Tricky.rut             | Spanish!!!   |          |
-| ONS-Urban.int              | ONS-Urban.rut              | Spanish!!!   |          |
-| Onslaught.est              | Onslaught.rut              | Spanish!!!   |          |
+| ONS-Torlan.int             | ONS-Torlan.rut             | In Progress  |          |
+| ONS-Tricky.int             | ONS-Tricky.rut             | In Progress  |          |
+| ONS-Urban.int              | ONS-Urban.rut              | In Progress  |          |
+| Onslaught.est              | Onslaught.rut              | In Progress  |          |
 | OnslaughtBP.int            | OnslaughtBP.rut            | Spanish!!!   |          |
-| OnslaughtFull.int          | OnslaughtFull.rut          | Spanish!!!   |          |
+| OnslaughtFull.int          | OnslaughtFull.rut          | In Progress  |          |
 | ParticleExamples.int       | ParticleExamples.rut       | Spanish!!!   |          |
 | Setup.int                  | Setup.rut                  | Spanish!!!   |          |
 | SetupBonusPack.est         | SetupBonusPack.rut         | Untranslated |          |
@@ -166,35 +165,35 @@ This page lists all localization files and their translation status. Status mean
 | Startup.int                | Startup.rut                | Spanish!!!   |          |
 | TeamSymbols_UT2003.int     | TeamSymbols_UT2003.rut     | Untranslated |          |
 | TeamSymbols_UT2004.int     | TeamSymbols_UT2004.rut     | Untranslated |          |
-| TUT-BR.int                 | TUT-BR.rut                 | Spanish!!!   |          |
+| TUT-BR.int                 | TUT-BR.rut                 | In Progress  |          |
 | TUT-CTF.int                | TUT-CTF.rut                | Untranslated |          |
 | TUT-DM.int                 | TUT-DM.rut                 | Spanish!!!   |          |
-| TUT-DOM2.int               | TUT-DOM2.rut               | Spanish!!!   |          |
-| TUT-ONS.int                | TUT-ONS.rut                | Untranslated |          |
-| UC.est                     | UC.rut                     | Untranslated |          |
-| UnrealEd.int               | UnrealEd.rut               | Untranslated |          |
-| UnrealGame.int             | UnrealGame.rut             | Spanish!!!   |          |
-| ut2003.est                 | ut2003.rut                 | Spanish!!!   |          |
-| UT2004.int                 | UT2004.rut                 | Untranslated |          |
-| UT2k4Assault.int           | UT2k4Assault.rut           | Spanish!!!   |          |
-| UT2K4AssaultFull.int       | UT2K4AssaultFull.rut       | Spanish!!!   |          |
-| UTClassic.int              | UTClassic.rut              | Spanish!!!   |          |
-| UTV2004c.int               | UTV2004c.rut               | Spanish!!!   |          |
-| UTV2004s.int               | UTV2004s.rut               | Untranslated |          |
-| UWeb.int                   | UWeb.rut                   | Untranslated |          |
+| TUT-DOM2.int               | TUT-DOM2.rut               | In Progress  |          |
+| TUT-ONS.int                | TUT-ONS.rut                | In Progress  |          |
+| UC.est                     | UC.rut                     | No .rut      |          |
+| UnrealEd.int               | UnrealEd.rut               | In Progress  |          |
+| UnrealGame.int             | UnrealGame.rut             | In Progress  |          |
+| ut2003.est                 | ut2003.rut                 | In Progress  |          |
+| UT2004.int                 | UT2004.rut                 | In Progress  |          |
+| UT2k4Assault.int           | UT2k4Assault.rut           | In Progress  |          |
+| UT2K4AssaultFull.int       | UT2K4AssaultFull.rut       | In Progress  |          |
+| UTClassic.int              | UTClassic.rut              | In Progress  |          |
+| UTV2004c.int               | UTV2004c.rut               | In Progress  |          |
+| UTV2004s.int               | UTV2004s.rut               | In Progress  |          |
+| UWeb.int                   | UWeb.rut                   | In Progress  |          |
 | Vehicles.int               | Vehicles.rut               | Done         |          |
-| Window.int                 | Window.rut                 | Spanish!!!   |          |
-| WinDrv.int                 | WinDrv.rut                 | Spanish!!!   |          |
-| XAdmin.int                 | XAdmin.rut                 | Spanish!!!   |          |
-| XDemoMaps.est              | XDemoMaps.rut              | Spanish!!!   |          |
-| XGame.int                  | XGame.rut                  | Spanish!!!   |          |
-| XInterface.int             | XInterface.rut             | Spanish!!!   |          |
-| XMaps.int                  | XMaps.rut                  | Spanish!!!   |          |
-| XPickups.int               | XPickups.rut               | Spanish!!!   |          |
-| XPlayers.int               | XPlayers.rut               | Spanish!!!   |          |
-| xplayers2.est              | xplayers2.rut              | Spanish!!!   |          |
-| XVoting.int                | XVoting.rut                | Spanish!!!   |          |
-| XWeapons.est               | XWeapons.rut               | Spanish!!!   |          |
+| Window.int                 | Window.rut                 | In Progress  |          |
+| WinDrv.int                 | WinDrv.rut                 | In Progress  |          |
+| XAdmin.int                 | XAdmin.rut                 | In Progress  |          |
+| XDemoMaps.est              | XDemoMaps.rut              | No .rut      |          |
+| XGame.int                  | XGame.rut                  | In Progress  |          |
+| XInterface.int             | XInterface.rut             | In Progress  |          |
+| XMaps.int                  | XMaps.rut                  | In Progress  |          |
+| XPickups.int               | XPickups.rut               | In Progress  |          |
+| XPlayers.int               | XPlayers.rut               | In Progress  |          |
+| xplayers2.est              | xplayers2.rut              | No .rut      |          |
+| XVoting.int                | XVoting.rut                | In Progress  |          |
+| XWeapons.est               | XWeapons.rut               | In Progress  |          |
 | XWebAdmin.int              | XWebAdmin.rut              | Done         |          |
 
 ---
