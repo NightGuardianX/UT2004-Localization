@@ -265,12 +265,18 @@ ReceiveFile="Recibiendo %s (F10 cancela)"
 ReceiveOptionalFile="Recibiendo fichero opcional %s (Presione F10 para Omitir)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%%"
 ReceiveSize="Tamaño %iK, Completado %3.1f%%"
+; EN: ReceiveTotalPackages="%i of %i Packages Downloaded"
+ReceiveTotalPackages="%i de %i Pacquetes Descargados"
+; EN: ReceiveTotalSize="Total Uncompressed Size %iK, Complete %3.1f%% (%iK)"
+ReceiveTotalSize="Tamaño Total Sin Comprimir %iK, Completo %3.1f%% (%iK)"
 ; EN: ConnectingText="Connecting (F10 Cancels):"
 ConnectingText="Conectando (F10 para Cancelar):"
 ConnectingURL=%s://%s/%s
 ; EN: CorruptConnect="Incompatible Game Files!"
 CorruptConnect="¡Archivos de juegos incompatibles!"
 
+ReceiveTotalPackages="%i of %i Packages Downloaded"
+ReceiveTotalSize="Total Uncompressed Size %iK, Complete %3.1f%% (%iK)"
 [UpgradeDrivers]
 ; EN: OutdatedDrivers="You are running old graphics card drivers that might not work in conjunction with the game."
 OutdatedDrivers="Tienes una tarjeta gráfica antigua que puede que no funcione con este juego."
