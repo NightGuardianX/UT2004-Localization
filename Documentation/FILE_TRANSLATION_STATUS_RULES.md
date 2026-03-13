@@ -38,10 +38,10 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 1. **No .rut** — The .int file has no matching .rut file in /rut. Set this first.
 2. **No .int** — Only when the .rut has **no matching .int in /int and no matching .est in /est** (Base File = `-`), and the .rut has **Missing `; EN:`**. If a .est exists, use it as base and determine status as usual.
 3. **Untranslated** — .rut exists but has no Russian and no Spanish in user-facing strings (e.g. only English copied from .int or no `; EN:` blocks).
-4. **Spanish!!!** — .rut contains any Spanish strings (even if some lines are already Russian). One Spanish string = whole file gets this status. **When checking for Spanish:** consider only the **translation lines** (lines of the form `Key="value"` that are **not** comments). Ignore lines starting with `; EN:` — those are the English reference, not the translation; Latin script in `; EN: Key="English text"` must not be treated as Spanish.
+4. **Spanish!!!** — .rut contains any Spanish strings (even if some lines are already Russian). One Spanish string = whole file gets this status. **When checking for Spanish:** consider only the **translation lines** (lines of the form `Key="value"` that are **not** comments). Ignore lines starting with `; EN:` — those are the English reference, not the translation; Latin script in `; EN: Key="English text"` must not be treated as Spanish. **Proper nouns** (e.g. map names in `Title=` such as "Gestalt", "Severance", "Sub Rosa") that are kept identical to the English original are **not** considered Spanish — they are intentionally not translated.
 5. **No Caption** — .int has `Caption=` (or other translatable keys inside `Preferences=`, etc.) but in .rut that key is either missing or its value is still the English original (no `; EN:` + translation).
-6. **In Progress** — Some translatable strings are in Russian, but not all.
-7. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left).
+6. **In Progress** — Some translatable strings are in Russian, but not all. **Proper nouns** (e.g. map names in `Title=`) that are kept as in the English source do not count as untranslated.
+7. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left). **Proper nouns** (e.g. map names in `Title=`) may remain unchanged and do not prevent Done status.
 
 ### How translation is organized
 

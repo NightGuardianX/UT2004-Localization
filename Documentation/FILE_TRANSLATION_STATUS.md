@@ -2,7 +2,7 @@
 
 This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md)**.
 
-**Total:** 185 · **Done:** 8 · **Verified:** 0
+**Total:** 185 · **Done:** 15 · **Verified:** 0
 
 **Strings Total:** 9673 · **Translated:** 2963 · **Percent:** 30.6%
 
@@ -14,10 +14,10 @@ This page lists all localization files and their translation status. Status mean
 | AS-BP2-Acatana.int         | AS-BP2-Acatana.rut         | Done         |          |
 | AS-BP2-Jumpship.int        | AS-BP2-Jumpship.rut        | Done         |          |
 | AS-BP2-Outback.int         | AS-BP2-Outback.rut         | In Progress  |          |
-| AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | In Progress  |          |
-| AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | In Progress  |          |
+| AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | Done         |          |
+| AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | Done         |          |
 | AS-Convoy.int              | AS-Convoy.rut              | In Progress  |          |
-| AS-FallenCity.int          | AS-FallenCity.rut          | In Progress  |          |
+| AS-FallenCity.int          | AS-FallenCity.rut          | Done         |          |
 | AS-Glacier.int             | AS-Glacier.rut             | In Progress  |          |
 | AS-Junkyard.int            | AS-Junkyard.rut            | In Progress  |          |
 | AS-Mothership.int          | AS-Mothership.rut          | In Progress  |          |
@@ -88,7 +88,7 @@ This page lists all localization files and their translation status. Status mean
 | DM-DesertIsle.int          | DM-DesertIsle.rut          | In Progress  |          |
 | DM-Flux2.int               | DM-Flux2.rut               | In Progress  |          |
 | DM-Gael.int                | DM-Gael.rut                | In Progress  |          |
-| DM-Gestalt.int             | DM-Gestalt.rut             | Spanish!!!   |          |
+| DM-Gestalt.int             | DM-Gestalt.rut             | Done         |          |
 | DM-Goliath.int             | DM-Goliath.rut             | In Progress  |          |
 | DM-HyperBlast2.int         | DM-HyperBlast2.rut         | In Progress  |          |
 | DM-Icetomb.int             | DM-Icetomb.rut             | In Progress  |          |
@@ -132,7 +132,7 @@ This page lists all localization files and their translation status. Status mean
 | License.est                | License.rut                | No .rut      |          |
 | Manifest.est               | Manifest.rut               | No .rut      |          |
 | Mov-UT2-intro.int          | Mov-UT2-intro.rut          | In Progress  |          |
-| MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Spanish!!!   |          |
+| MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Done         |          |
 | NoIntro.int                | NoIntro.rut                | Done         |          |
 | NvidiaLogo.int             | NvidiaLogo.rut             | Done         |          |
 | ONS-Adara.int              | ONS-Adara.rut              | In Progress  |          |
@@ -146,14 +146,14 @@ This page lists all localization files and their translation status. Status mean
 | ONS-IslandHop.int          | ONS-IslandHop.rut          | In Progress  |          |
 | ONS-Primeval.int           | ONS-Primeval.rut           | In Progress  |          |
 | ONS-RedPlanet.int          | ONS-RedPlanet.rut          | In Progress  |          |
-| ONS-Severance.int          | ONS-Severance.rut          | Spanish!!!   |          |
+| ONS-Severance.int          | ONS-Severance.rut          | Done         |          |
 | ONS-Torlan.int             | ONS-Torlan.rut             | In Progress  |          |
 | ONS-Tricky.int             | ONS-Tricky.rut             | In Progress  |          |
 | ONS-Urban.int              | ONS-Urban.rut              | In Progress  |          |
 | Onslaught.est              | Onslaught.rut              | In Progress  |          |
 | OnslaughtBP.int            | OnslaughtBP.rut            | Spanish!!!   |          |
 | OnslaughtFull.int          | OnslaughtFull.rut          | In Progress  |          |
-| ParticleExamples.int       | ParticleExamples.rut       | Spanish!!!   |          |
+| ParticleExamples.int       | ParticleExamples.rut       | Done         |          |
 | Setup.int                  | Setup.rut                  | Spanish!!!   |          |
 | SetupBonusPack.est         | SetupBonusPack.rut         | Untranslated |          |
 | setupbrightskinsmod.est    | setupbrightskinsmod.rut    | Untranslated |          |
