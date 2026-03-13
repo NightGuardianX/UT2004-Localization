@@ -4,7 +4,7 @@ This page lists all localization files and their translation status. Status mean
 
 **Total:** 185 · **Done:** 15 · **Verified:** 0
 
-**Strings Total:** 9673 · **Translated:** 2963 · **Percent:** 30.6%
+**Strings Total:** 9558 · **Translated:** 8394 · **Percent:** 87.8%
 
 ## Status table
 
