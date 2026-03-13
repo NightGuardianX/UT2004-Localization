@@ -126,11 +126,8 @@ This page lists all localization files and their translation status. Status mean
 | Engine.int                 | Engine.rut                 | In Progress  |          |
 | Entry.int                  | Entry.rut                  | Done         |          |
 | GamePlay.int               | GamePlay.rut               | In Progress  |          |
-| Gestalt.est                | Gestalt.rut                | No .rut      |          |
 | GUI2K4.int                 | GUI2K4.rut                 | In Progress  |          |
 | IpDrv.int                  | IpDrv.rut                  | In Progress  |          |
-| License.est                | License.rut                | No .rut      |          |
-| Manifest.est               | Manifest.rut               | No .rut      |          |
 | Mov-UT2-intro.int          | Mov-UT2-intro.rut          | In Progress  |          |
 | MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Done         |          |
 | NoIntro.int                | NoIntro.rut                | Done         |          |
@@ -169,8 +166,6 @@ This page lists all localization files and their translation status. Status mean
 | TUT-CTF.int                | TUT-CTF.rut                | Untranslated |          |
 | TUT-DM.int                 | TUT-DM.rut                 | Spanish!!!   |          |
 | TUT-DOM2.int               | TUT-DOM2.rut               | In Progress  |          |
-| TUT-ONS.int                | TUT-ONS.rut                | In Progress  |          |
-| UC.est                     | UC.rut                     | No .rut      |          |
 | UnrealEd.int               | UnrealEd.rut               | In Progress  |          |
 | UnrealGame.int             | UnrealGame.rut             | In Progress  |          |
 | ut2003.est                 | ut2003.rut                 | In Progress  |          |
@@ -185,16 +180,27 @@ This page lists all localization files and their translation status. Status mean
 | Window.int                 | Window.rut                 | In Progress  |          |
 | WinDrv.int                 | WinDrv.rut                 | In Progress  |          |
 | XAdmin.int                 | XAdmin.rut                 | In Progress  |          |
-| XDemoMaps.est              | XDemoMaps.rut              | No .rut      |          |
 | XGame.int                  | XGame.rut                  | In Progress  |          |
 | XInterface.int             | XInterface.rut             | In Progress  |          |
 | XMaps.int                  | XMaps.rut                  | In Progress  |          |
 | XPickups.int               | XPickups.rut               | In Progress  |          |
 | XPlayers.int               | XPlayers.rut               | In Progress  |          |
-| xplayers2.est              | xplayers2.rut              | No .rut      |          |
 | XVoting.int                | XVoting.rut                | In Progress  |          |
 | XWeapons.est               | XWeapons.rut               | In Progress  |          |
 | XWebAdmin.int              | XWebAdmin.rut              | Done         |          |
+
+## Base files without .rut (No .rut)
+
+These base files have no matching .rut in /rut. Place any new **No .rut** entries here (alphabetically by Localization).
+
+| Base File                  | Localization               | Status  | Verified |
+|:---------------------------|:---------------------------|:--------|:---------|
+| Gestalt.est                | Gestalt.rut                | No .rut |          |
+| License.est                | License.rut                | No .rut |          |
+| Manifest.est               | Manifest.rut               | No .rut |          |
+| UC.est                     | UC.rut                     | No .rut |          |
+| XDemoMaps.est              | XDemoMaps.rut              | No .rut |          |
+| xplayers2.est              | xplayers2.rut              | No .rut |          |
 
 ---
 

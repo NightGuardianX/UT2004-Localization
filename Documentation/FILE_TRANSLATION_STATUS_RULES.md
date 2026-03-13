@@ -25,6 +25,7 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 - Use a **header row**, then a **separator row** with aligned column delimiters (`|:---|:---|:---|:---|`).
 - **Align columns** in source: pad cell content with spaces so that the first character of each column lines up vertically (Base File width ~26, Localization ~26, Status ~12, Verified ~8). This keeps the table readable when editing the .md file.
 - **Row order:** Sort **all** rows in one **alphabetical order by Localization** (the .rut filename). Rows with Base File = `-` (no .int and no .est) are interleaved where their .rut name falls.
+- **No .rut rows:** Do **not** put rows with status **No .rut** in the main status table. List them in a **separate table** below the main one, under the heading **"Base files without .rut (No .rut)"**. Sort that table alphabetically by Localization. When adding new base files that have no .rut, add them to this separate table.
 
 ### Table includes columns
 
