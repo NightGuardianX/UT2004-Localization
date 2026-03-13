@@ -17,13 +17,13 @@ Table format and filling: [GLOSSARY_RULES — Glossary row format](../Glossary_R
 | Technical name          | .rut file     | English name      | Current Russian | Old Russian           |
 | ----------------------- | ------------- | ----------------- | --------------- | --------------------- |
 | ShieldGun               | XWeapons.rut  | Shield Gun        | -               | Ударная винтовка      |
-| AssaultRifle            | XWeapons.rut  | Assault Rifle     | -               | Автомат               |
-| BioRifle                | XWeapons.rut  | Bio-Rifle         | -               | Био-Ружье             |
-| ShockRifle              | XWeapons.rut  | Shock Rifle       | -               | Фотонная винтовка     |
-| LinkGun                 | XWeapons.rut  | Link Gun          | -               | Плазменная винтовка   |
-| Minigun                 | XWeapons.rut  | Minigun           | -               | Пулемет               |
-| FlakCannon              | XWeapons.rut  | Flak Cannon       | -               | Зенитная пушка        |
-| RocketLauncher          | XWeapons.rut  | Rocket Launcher   | -               | Ракетница             |
+| AssaultRifle            | XWeapons.rut  | Assault Rifle     | Штурмовая винтовка | Автомат               |
+| BioRifle                | XWeapons.rut  | Bio-Rifle         | Биовинтовка        | Био-Ружье             |
+| ShockRifle              | XWeapons.rut  | Shock Rifle       | Громобой           | Фотонная винтовка     |
+| LinkGun                 | XWeapons.rut  | Link Gun          | Связующая пушка    | Плазменная винтовка   |
+| Minigun                 | XWeapons.rut  | Minigun           | Миниган            | Пулемет               |
+| FlakCannon              | XWeapons.rut  | Flak Cannon       | Осколочная пушка   | Зенитная пушка        |
+| RocketLauncher          | XWeapons.rut  | Rocket Launcher   | Ракетница          | Ракетница             |
 | SniperRifle (Lightning) | XWeapons.rut  | Lightning Gun     | -               | Световая пушка        |
 | SniperRifle (Classic)   | XWeapons.rut  | Sniper Rifle      | -               | -                     |
 
