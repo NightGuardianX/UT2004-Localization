@@ -1,0 +1,13 @@
+---
+description: Do not edit .rut localization files unless the user explicitly instructs to
+alwaysApply: true
+---
+
+# .rut Files — No Unauthorized Edits
+
+**You must not modify any file under `rut/` (`.rut` localization files) unless the user explicitly instructs you to do so.**
+
+- **Allowed:** Reading .rut files, scanning them for consistency, listing discrepancies, and updating **documentation** (e.g. `_VALIDATION_REPORT.md`, `FILE_TRANSLATION_STATUS.md`) with findings.
+- **Not allowed:** Changing translation strings, keys, or any content inside .rut files, or running scripts that write to .rut files, unless the user has given a clear directive to edit those files.
+
+When you find inconsistencies or issues in .rut files, report them in the appropriate docs; do not "fix" them in the .rut files on your own.
