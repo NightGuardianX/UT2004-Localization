@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Adara Canyon"
 
 [LevelSummary]
 Title="Canyon d'Adara"
-Description="Secousses sismiques et érosion ont façonné ce champ de bataille au cours des millénaires : le canyon d'Adara est une merveille de la nature. Mais ne vous laissez pas tromper par sa beauté. Les chutes sont mortelles et l'étroitesse du canyon rend difficile l'esquive des missiles AVRiL."
+Description="Secousses sismiques et Ã©rosion ont faÃ§onnÃ© ce champ de bataille au cours des millÃ©naires : le canyon d'Adara est une merveille de la nature. Mais ne vous laissez pas tromper par sa beautÃ©. Les chutes sont mortelles et l'Ã©troitesse du canyon rend difficile l'esquive des missiles AVRiL."
 
 [Volume0]
 LocationName="Chutes est"

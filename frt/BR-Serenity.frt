@@ -1,9 +1,9 @@
-[LevelInfo0]
-Title="Sérénité"
+ï»¿[LevelInfo0]
+Title="SÃ©rÃ©nitÃ©"
 
 [LevelSummary]
-Title="Sérénité"
-Description="Sentez la brise sur votre peau, écoutez les doux bruits de la forêt, observez les lucioles qui dansent dans la clairière et abandonnez-vous à la sérénité. Maintenant... saisissez votre Flak Cannon et déchaînez l'enfer !"
+Title="SÃ©rÃ©nitÃ©"
+Description="Sentez la brise sur votre peau, Ã©coutez les doux bruits de la forÃªt, observez les lucioles qui dansent dans la clairiÃ¨re et abandonnez-vous Ã  la sÃ©rÃ©nitÃ©. Maintenant... saisissez votre Flak Cannon et dÃ©chaÃ®nez l'enfer !"
 
 [Volume1]
 LocationName="camp bleu - partie centrale"

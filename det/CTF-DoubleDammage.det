@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Double Dammage"
 
 [LevelSummary]
 Title="Double Dammage"
-Description="Einige Leute behaupten, man müsse verrückt sein, um mitten im Winter auf einem Wasserdamm zu spielen. Hier nennen wir diese Leute "Opfer"."
+Description="Einige Leute behaupten, man mÃ¼sse verrÃ¼ckt sein, um mitten im Winter auf einem Wasserdamm zu spielen. Hier nennen wir diese Leute "Opfer"."
 
 [PhysicsVolume1]
 LocationName="Ice Field"
@@ -123,7 +123,7 @@ LocationName="ROTER Flur rechts"
 LocationName="ROTES Foyer"
 
 [ZoneInfo7]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"
 
 [ZoneInfo70]
 LocationName="BLAUES Foyer"

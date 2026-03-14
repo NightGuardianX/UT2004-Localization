@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Insidious"
 LevelEnterText="DM-Insidious"
 
@@ -22,16 +22,16 @@ LocationName="Flak-Halle"
 LocationName="Oberer Saal"
 
 [ZoneInfo13]
-LocationName="Klon-Beh‰lter"
+LocationName="Klon-Beh√§lter"
 
 [ZoneInfo15]
 LocationName="Oberer Saal"
 
 [ZoneInfo2]
-LocationName="Klon-Beh‰lter"
+LocationName="Klon-Beh√§lter"
 
 [ZoneInfo3]
-LocationName="Klon-Beh‰lter"
+LocationName="Klon-Beh√§lter"
 
 [ZoneInfo4]
 LocationName="Unterer Saal"

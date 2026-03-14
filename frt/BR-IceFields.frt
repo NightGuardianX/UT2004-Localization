@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Ice Fields"
 
 [LevelSummary]
@@ -11,25 +11,25 @@ LocationName="Base bleue"
 LocationName="Base Rouge"
 
 [Volume2]
-LocationName="Entrée base rouge"
+LocationName="EntrÃ©e base rouge"
 
 [Volume3]
-LocationName="non-spécifié"
+LocationName="non-spÃ©cifiÃ©"
 
 [Volume4]
-LocationName="non-spécifié"
+LocationName="non-spÃ©cifiÃ©"
 
 [Volume5]
-LocationName="Entrée base bleue"
+LocationName="EntrÃ©e base bleue"
 
 [Volume6]
 LocationName="Milieu"
 
 [Volume7]
-LocationName="non-spécifié"
+LocationName="non-spÃ©cifiÃ©"
 
 [Volume8]
-LocationName="non-spécifié"
+LocationName="non-spÃ©cifiÃ©"
 
 [Volume9]
 LocationName="Espace recharge Bouclier +100"

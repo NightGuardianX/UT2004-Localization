@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Facing Worlds 3"
 
 [LevelSummary]
@@ -17,10 +17,10 @@ LocationName="Schild ROT"
 LocationName="Schild BLAU"
 
 [Volume12]
-LocationName="Hintertür ROT"
+LocationName="HintertÃ¼r ROT"
 
 [Volume13]
-LocationName="Hintertür BLAU"
+LocationName="HintertÃ¼r BLAU"
 
 [Volume2]
 LocationName="Ebene 2 BLAU"
@@ -53,7 +53,7 @@ LocationName="BLAUE Basis"
 LocationName="Minigun ROT"
 
 [ZoneInfo11]
-LocationName="Säulen ROT"
+LocationName="SÃ¤ulen ROT"
 
 [ZoneInfo2]
 LocationName="Minigun BLAU"
@@ -62,13 +62,13 @@ LocationName="Minigun BLAU"
 LocationName="Minigun BLAU"
 
 [ZoneInfo4]
-LocationName="Säulen BLAU"
+LocationName="SÃ¤ulen BLAU"
 
 [ZoneInfo5]
 LocationName="Minigun BLAU"
 
 [ZoneInfo6]
-LocationName="Außen"
+LocationName="AuÃŸen"
 
 [ZoneInfo7]
 LocationName="ROTE Basis"

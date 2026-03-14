@@ -1,4 +1,4 @@
-[LevelInfo0]
+﻿[LevelInfo0]
 Title="Tricky"
 
 [LevelSummary]
@@ -9,5 +9,5 @@ Description="AUJOURD'HUI SAMEDI, POUR UN JOUR SEULEMENT, DANS LA MONSTER VALLEY,
 LocationName="Tour"
 
 [ZoneInfo1]
-LocationName="Ext�rieur"
+LocationName="Extérieur"
 

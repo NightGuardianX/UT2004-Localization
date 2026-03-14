@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Albatross"
 
 [LevelSummary]
 Title="Albatross"
-Description="Diese klassische 1gegen1-Arena aus den ehrwürdigen Tagen des Tournaments wurde für neue Blutschlachten renoviert und umgestaltet. Sie mag auf den ersten Blick schlicht erscheinen - doch wer ihr Design versteht, wird diese Arena dominieren."
+Description="Diese klassische 1gegen1-Arena aus den ehrwÃ¼rdigen Tagen des Tournaments wurde fÃ¼r neue Blutschlachten renoviert und umgestaltet. Sie mag auf den ersten Blick schlicht erscheinen - doch wer ihr Design versteht, wird diese Arena dominieren."
 
 [Volume1]
 LocationName="Unterer Strom"
@@ -15,7 +15,7 @@ LocationName="Kleiner Canyon"
 LocationName="Bio-Ruinen"
 
 [Volume4]
-LocationName="Brückengebiet"
+LocationName="BrÃ¼ckengebiet"
 
 [Volume5]
 LocationName="Untere Statue"
@@ -27,7 +27,7 @@ LocationName="Minigun-Lift"
 LocationName="Albatross-Statue"
 
 [ZoneInfo0]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"
 
 [ZoneInfo1]
 LocationName="Rocket Launcher-Halle"

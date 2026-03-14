@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Slaughterhouse"
 LevelEnterText="The Slaughterhouse"
 
@@ -10,13 +10,13 @@ LevelEnterText="The Slaughterhouse"
 LocationName="Stocks de viande bleue"
 
 [ZoneInfo1]
-LocationName="Point de réapparition bleu béta"
+LocationName="Point de rÃ©apparition bleu bÃ©ta"
 
 [ZoneInfo10]
-LocationName="Salle d'égoût bleue"
+LocationName="Salle d'Ã©goÃ»t bleue"
 
 [ZoneInfo11]
-LocationName="Entrée Stocks de viande bleue"
+LocationName="EntrÃ©e Stocks de viande bleue"
 
 [ZoneInfo12]
 LocationName="Chambre froide rouge"
@@ -25,22 +25,22 @@ LocationName="Chambre froide rouge"
 LocationName="Porte bombe rouge"
 
 [ZoneInfo14]
-LocationName="Point de réapparition rouge béta"
+LocationName="Point de rÃ©apparition rouge bÃ©ta"
 
 [ZoneInfo15]
-LocationName="Couloir de derrière rouge"
+LocationName="Couloir de derriÃ¨re rouge"
 
 [ZoneInfo16]
 LocationName="Fontaines rouges"
 
 [ZoneInfo17]
-LocationName="Point de réapparition bleu alpha"
+LocationName="Point de rÃ©apparition bleu alpha"
 
 [ZoneInfo18]
 LocationName="Chapelle rouge"
 
 [ZoneInfo19]
-LocationName="Egoût rouge"
+LocationName="EgoÃ»t rouge"
 
 [ZoneInfo2]
 LocationName="Porte bombe bleue"
@@ -49,7 +49,7 @@ LocationName="Porte bombe bleue"
 LocationName="Ce mec est Chuck.  Alignez Chuck dans la salle bleue"
 
 [ZoneInfo21]
-LocationName="Point de réapparition rouge alpha"
+LocationName="Point de rÃ©apparition rouge alpha"
 
 [ZoneInfo22]
 LocationName="Couloir scie rouge"
@@ -91,7 +91,7 @@ LocationName="Court rouge"
 LocationName="Tuyau bleu"
 
 [ZoneInfo38]
-LocationName="Entrée chambre froide rouge"
+LocationName="EntrÃ©e chambre froide rouge"
 
 [ZoneInfo4]
 LocationName="Chapelle bleue"
@@ -100,7 +100,7 @@ LocationName="Chapelle bleue"
 LocationName="Fontaines bleues"
 
 [ZoneInfo6]
-LocationName="Couloir de derrière bleu"
+LocationName="Couloir de derriÃ¨re bleu"
 
 [ZoneInfo7]
 LocationName="Court de la bombe"

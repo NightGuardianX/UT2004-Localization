@@ -1,9 +1,9 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Avaris"
 
 [LevelSummary]
 Title="Avaris"
-Description="Avaris, einst Hauptstadt eines m‰chtigen Reiches, liegt jetzt vergessen in einer trostlosen W¸ste. Denjenigen, die hier im Tournament sterben, droht das gleiche Schicksal."
+Description="Avaris, einst Hauptstadt eines m√§chtigen Reiches, liegt jetzt vergessen in einer trostlosen W√ºste. Denjenigen, die hier im Tournament sterben, droht das gleiche Schicksal."
 
 [ZoneInfo0]
 LocationName="BLAUES Vorzimmer links"
@@ -18,19 +18,19 @@ LocationName="BLAUE Haupthalle"
 LocationName="ROTES Vorzimmer rechts"
 
 [ZoneInfo12]
-LocationName="ROTES Vorzimmer links (zerstˆrt)"
+LocationName="ROTES Vorzimmer links (zerst√∂rt)"
 
 [ZoneInfo13]
 LocationName="Basis - ROTE Flagge"
 
 [ZoneInfo15]
-LocationName="Innenhof-Geb‰ude"
+LocationName="Innenhof-Geb√§ude"
 
 [ZoneInfo16]
 LocationName="ROTER Eingang rechts"
 
 [ZoneInfo17]
-LocationName="Innenhof-Geb‰ude"
+LocationName="Innenhof-Geb√§ude"
 
 [ZoneInfo18]
 LocationName="ROTER Eingang links"
@@ -45,7 +45,7 @@ LocationName="Basis - BLAUE Flagge"
 LocationName="BLAUER Eingang links"
 
 [ZoneInfo21]
-LocationName="ROTE G‰nge rechts"
+LocationName="ROTE G√§nge rechts"
 
 [ZoneInfo22]
 LocationName="ROTER Innenhof rechts"
@@ -60,7 +60,7 @@ LocationName="Basis - BLAUE Flagge"
 LocationName="Linke Seite BLAU"
 
 [ZoneInfo28]
-LocationName="Innenhof-Geb‰ude"
+LocationName="Innenhof-Geb√§ude"
 
 [ZoneInfo29]
 LocationName="Zentraler Innenhof"
@@ -102,7 +102,7 @@ LocationName="Basis - ROTE Flagge"
 LocationName="ROTES Vorzimmer"
 
 [ZoneInfo43]
-LocationName="Innenhof-Geb‰ude"
+LocationName="Innenhof-Geb√§ude"
 
 [ZoneInfo44]
 LocationName="Linke Seite BLAU"

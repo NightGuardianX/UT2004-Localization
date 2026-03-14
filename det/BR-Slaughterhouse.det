@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Slaughterhouse"
 LevelEnterText="The Slaughterhouse"
 
@@ -19,7 +19,7 @@ LocationName="Abflussrohr BLAU"
 LocationName="Eingang Lagerhalle BLAU Beta"
 
 [ZoneInfo12]
-LocationName="K¸hlraum ROT"
+LocationName="K√ºhlraum ROT"
 
 [ZoneInfo13]
 LocationName="Torraum ROT"
@@ -31,7 +31,7 @@ LocationName="Respawn-Raum ROT Beta"
 LocationName="ROTER Korridor Hinten"
 
 [ZoneInfo16]
-LocationName="Font‰ne ROT"
+LocationName="Font√§ne ROT"
 
 [ZoneInfo17]
 LocationName="Respawn-Raum BLAU Alpha"
@@ -52,7 +52,7 @@ LocationName="Zu Futter verarbeitet. Wurmfutter im BLAUEN Raum"
 LocationName="Respawn-Raum ROT Alpha"
 
 [ZoneInfo22]
-LocationName="S‰gen-Korridor ROT"
+LocationName="S√§gen-Korridor ROT"
 
 [ZoneInfo23]
 LocationName="BLAUER Hof"
@@ -64,22 +64,22 @@ LocationName="Oooh, leider gestorben"
 LocationName="BLAUER Hof"
 
 [ZoneInfo26]
-LocationName="Groﬂe Halle BLAU"
+LocationName="Gro√üe Halle BLAU"
 
 [ZoneInfo27]
-LocationName="S‰gen-Korridor BLAU"
+LocationName="S√§gen-Korridor BLAU"
 
 [ZoneInfo28]
 LocationName="Lagerhalle BLAU"
 
 [ZoneInfo29]
-LocationName="S‰gen-Korridor ROT"
+LocationName="S√§gen-Korridor ROT"
 
 [ZoneInfo3]
-LocationName="S‰gen-Korridor BLAU"
+LocationName="S√§gen-Korridor BLAU"
 
 [ZoneInfo30]
-LocationName="Groﬂe Halle ROT"
+LocationName="Gro√üe Halle ROT"
 
 [ZoneInfo35]
 LocationName="ROTES Rohr"
@@ -91,25 +91,25 @@ LocationName="ROTER Hof"
 LocationName="BLAUES Rohr"
 
 [ZoneInfo38]
-LocationName="Eingang K¸hlraum ROT"
+LocationName="Eingang K√ºhlraum ROT"
 
 [ZoneInfo4]
 LocationName="Kapelle BLAU"
 
 [ZoneInfo5]
-LocationName="Font‰ne BLAU"
+LocationName="Font√§ne BLAU"
 
 [ZoneInfo6]
 LocationName="BLAUER Korridor Hinten"
 
 [ZoneInfo7]
-LocationName="Groﬂer Ball-Hof"
+LocationName="Gro√üer Ball-Hof"
 
 [ZoneInfo8]
 LocationName="ROTER Hof"
 
 [ZoneInfo9]
-LocationName="ROTER K¸hlraum"
+LocationName="ROTER K√ºhlraum"
 
 [xBombDelivery0]
 ObjectiveName="Torbombe BLAU"

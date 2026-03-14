@@ -1,32 +1,32 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Disclosure"
 
 [LevelSummary]
 Title="Disclosure"
 
 [ZoneInfo0]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo1]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo2]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo3]
-LocationName="Derrière aération"
+LocationName="DerriÃ¨re aÃ©ration"
 
 [ZoneInfo33]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo34]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo35]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo36]
-LocationName="Derrière aération"
+LocationName="DerriÃ¨re aÃ©ration"
 
 [ZoneInfo37]
 LocationName="Hall sniper rouge"
@@ -38,7 +38,7 @@ LocationName="Hall sniper rouge"
 LocationName="Hall sniper rouge"
 
 [ZoneInfo4]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo40]
 LocationName="Nid de snipers rouge"
@@ -50,13 +50,13 @@ LocationName="Salle bombe"
 LocationName="Plate-forme dessus salle bombe"
 
 [ZoneInfo43]
-LocationName="Couloir de derrière"
+LocationName="Couloir de derriÃ¨re"
 
 [ZoneInfo44]
-LocationName="Couloir de derrière côté bleu"
+LocationName="Couloir de derriÃ¨re cÃ´tÃ© bleu"
 
 [ZoneInfo45]
-LocationName="Couloir de derrière côté rouge"
+LocationName="Couloir de derriÃ¨re cÃ´tÃ© rouge"
 
 [ZoneInfo46]
 LocationName="Salle Minigun rouge"
@@ -71,7 +71,7 @@ LocationName="Couloir de but rouge"
 LocationName="Salle de but rouge"
 
 [ZoneInfo5]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo50]
 LocationName="Couloir de but rouge"
@@ -104,25 +104,25 @@ LocationName="Salle de but bleu"
 LocationName="Salle Minigun bleue"
 
 [ZoneInfo6]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"
 
 [ZoneInfo60]
-LocationName="Hall de réapparition bleu"
+LocationName="Hall de rÃ©apparition bleu"
 
 [ZoneInfo61]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo62]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo63]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo64]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo65]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo66]
 LocationName="Couloir de sniper bleu"
@@ -134,7 +134,7 @@ LocationName="Couloir de sniper bleu"
 LocationName="Nid de snipers bleu"
 
 [ZoneInfo69]
-LocationName="Couloir de réapparition bleu"
+LocationName="Couloir de rÃ©apparition bleu"
 
 [ZoneInfo70]
 LocationName="Couloir du Lance-roquettes bleu"
@@ -155,4 +155,4 @@ LocationName="Couloir du Lance-roquettes rouge"
 LocationName="Couloir du Lance-roquettes rouge"
 
 [ZoneInfo76]
-LocationName="Hall de réapparition rouge"
+LocationName="Hall de rÃ©apparition rouge"

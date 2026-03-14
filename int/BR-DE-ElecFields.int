@@ -12,28 +12,28 @@ LocationName="Blue Front"
 LocationName="Blue Spawning Area"
 
 [Volume10]
-LocationName="Red Base Ramp"
+LocationName="Red North Base Ramp"
 
 [Volume11]
-LocationName="Red Base Ramp"
+LocationName="Red South Base Ramp"
 
 [Volume12]
-LocationName="Blue Front Lower Ramp"
+LocationName="Blue South Front Lower Ramp"
 
 [Volume13]
-LocationName="Red Front Lower Ramp"
+LocationName="Red North Front Lower Ramp"
 
 [Volume14]
-LocationName="Blue Front Lower Ramp"
+LocationName="Blue South Front Lower Ramp"
 
 [Volume15]
-LocationName="Blue Front Lower Ramp"
+LocationName="Blue North Front Lower Ramp"
 
 [Volume16]
-LocationName="Red Front Lower Ramp"
+LocationName="Red North Front Lower Ramp"
 
 [Volume17]
-LocationName="Red Front Lower Ramp"
+LocationName="Red South Front Lower Ramp"
 
 [Volume18]
 LocationName="Top Middle Area"
@@ -63,13 +63,16 @@ LocationName="Red Front Upper Ramp"
 LocationName="Red Front Upper Ramp"
 
 [Volume26]
-LocationName="Red Front Lower Ramp"
+LocationName="Red South Front Lower Ramp"
 
 [Volume27]
-LocationName="Blue Front Lower Ramp"
+LocationName="Blue North Front Lower Ramp"
 
 [Volume28]
 LocationName="Blue Base"
+
+[Volume29]
+LocationName="Shield Platform"
 
 [Volume3]
 LocationName="Red Spawning Area"
@@ -78,10 +81,10 @@ LocationName="Red Spawning Area"
 LocationName="Red Front"
 
 [Volume5]
-LocationName="Blue Base Ramp"
+LocationName="Blue South Base Ramp"
 
 [Volume6]
-LocationName="Blue Base Ramp"
+LocationName="Blue North Base Ramp"
 
 [Volume7]
 LocationName="Red Base"

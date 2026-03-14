@@ -1,4 +1,4 @@
-[ASCriticalObjectiveVolume2]
+ï»¿[ASCriticalObjectiveVolume2]
 LocationName="U-Bahn-Eingang"
 
 [ASCriticalObjectiveVolume3]
@@ -9,44 +9,44 @@ LocationName="Einstiegsstation"
 
 [DestroyableObjective_SM0]
 ObjectiveName="Torschloss"
-DestructionMessage="Torschloss zerstört!"
-ObjectiveDescription="Torschloss zerstören"
-Objective_Info_Attacker="Torschloss zerstören"
+DestructionMessage="Torschloss zerstÃ¶rt!"
+ObjectiveDescription="Torschloss zerstÃ¶ren"
+Objective_Info_Attacker="Torschloss zerstÃ¶ren"
 Objective_Info_Defender="Torschloss verteidigen"
 
 [DestroyableObjective_SM1]
 ObjectiveName="Barrikade"
-DestructionMessage="Barrikade zerstört!"
-ObjectiveDescription="Barrikade zerstören"
-Objective_Info_Attacker="Barrikade zerstören"
+DestructionMessage="Barrikade zerstÃ¶rt!"
+ObjectiveDescription="Barrikade zerstÃ¶ren"
+Objective_Info_Attacker="Barrikade zerstÃ¶ren"
 Objective_Info_Defender="Barrikade verteidigen"
 
 [DestroyableObjective_SM2]
 ObjectiveName="Torschloss"
-DestructionMessage="Torschloss zerstört!"
-ObjectiveDescription="Torschloss zerstören"
-Objective_Info_Attacker="Torschloss zerstören"
+DestructionMessage="Torschloss zerstÃ¶rt!"
+ObjectiveDescription="Torschloss zerstÃ¶ren"
+Objective_Info_Attacker="Torschloss zerstÃ¶ren"
 Objective_Info_Defender="Torschloss verteidigen"
 
 [HoldObjective0]
-ObjectiveName="Sprengkörper #2"
-DestructionMessage="Die Sprengkörper sind angebracht!"
-ObjectiveDescription="Bringen Sie einen Sprengkörper an."
-Objective_Info_Attacker="Kommandozentrale zerstören"
+ObjectiveName="SprengkÃ¶rper #2"
+DestructionMessage="Die SprengkÃ¶rper sind angebracht!"
+ObjectiveDescription="Bringen Sie einen SprengkÃ¶rper an."
+Objective_Info_Attacker="Kommandozentrale zerstÃ¶ren"
 Objective_Info_Defender="Kommandozentrale verteidigen"
 
 [HoldObjective1]
-ObjectiveName="Vorderer Außenposten"
-DestructionMessage="Vorderer Außenposten eingenommen!"
-ObjectiveDescription="Vorderen Außenposten einnehmen"
-Objective_Info_Attacker="Vorderen Außenposten sichern"
-Objective_Info_Defender="Vorderen Außenposten verteidigen"
+ObjectiveName="Vorderer AuÃŸenposten"
+DestructionMessage="Vorderer AuÃŸenposten eingenommen!"
+ObjectiveDescription="Vorderen AuÃŸenposten einnehmen"
+Objective_Info_Attacker="Vorderen AuÃŸenposten sichern"
+Objective_Info_Defender="Vorderen AuÃŸenposten verteidigen"
 
 [HoldObjective2]
-ObjectiveName="Sprengkörper #1"
-DestructionMessage="Die Sprengkörper sind angebracht!"
-ObjectiveDescription="Bringen Sie einen Sprengkörper an."
-Objective_Info_Attacker="Kommandozentrale zerstören"
+ObjectiveName="SprengkÃ¶rper #1"
+DestructionMessage="Die SprengkÃ¶rper sind angebracht!"
+ObjectiveDescription="Bringen Sie einen SprengkÃ¶rper an."
+Objective_Info_Attacker="Kommandozentrale zerstÃ¶ren"
 Objective_Info_Defender="Kommandozentrale verteidigen"
 
 [LevelInfo0]
@@ -54,22 +54,22 @@ Title="The Fallen City"
 
 [LevelSummary]
 Title="The Fallen City"
-Description="Nach dem Krieg zwischen den Menschen und den Skaarj lagen viele Städte der Erde in Schutt und Asche. Als die Neue Weltregierung versuchte, ihre Autorität in diesen Gegenden zu behaupten, wurden sie mit vielen Rebellengruppen konfrontiert. Diese hatten in den zerstörten Städten ihre Basen errichtet und wurden oft von Großunternehmen verdeckt finanziert. Dieses Szenario stellt die Zerstörung einer Rebellenkommandozentrale durch Truppen der Neuen Weltregierung nach. Um die Historizität der Schlacht zu wahren, befindet sich der Einstiegspunkt der Angreifer etwas von der Kommandozentrale entfernt, was auf die schweren Anti-Flugzeug-Schutzmaßnahmen um dem Bunkerbereich herum zurückzuführen ist."
+Description="Nach dem Krieg zwischen den Menschen und den Skaarj lagen viele StÃ¤dte der Erde in Schutt und Asche. Als die Neue Weltregierung versuchte, ihre AutoritÃ¤t in diesen Gegenden zu behaupten, wurden sie mit vielen Rebellengruppen konfrontiert. Diese hatten in den zerstÃ¶rten StÃ¤dten ihre Basen errichtet und wurden oft von GroÃŸunternehmen verdeckt finanziert. Dieses Szenario stellt die ZerstÃ¶rung einer Rebellenkommandozentrale durch Truppen der Neuen Weltregierung nach. Um die HistorizitÃ¤t der Schlacht zu wahren, befindet sich der Einstiegspunkt der Angreifer etwas von der Kommandozentrale entfernt, was auf die schweren Anti-Flugzeug-SchutzmaÃŸnahmen um dem Bunkerbereich herum zurÃ¼ckzufÃ¼hren ist."
 
 [SceneSubtitles1]
-SubTitles=("Nach dem Krieg zwischen den Menschen und den Skaarj lagen viele Städte der Erde in Schutt und Asche. Als die Neue Weltregierung versuchte, ihre Autorität in diesen Gegenden zu behaupten,","wurde sie mit vielen Rebellengruppen konfrontiert. Diese hatten in den zerstörten Städten ihre Basen errichtet und wurden oft von Großunternehmen verdeckt finanziert.","Dieses Szenario stellt die Zerstörung einer Rebellenkommandozentrale durch Truppen der Neuen Weltregierung nach. ","Um die Historizität der Schlacht zu wahren, befindet sich der Einstiegspunkt der Angreifer etwas von der Kommandozentrale entfernt, was auf die schweren Anti-Flugzeug-Schutzmaßnahmen um dem Bunkerbereich herum zurückzuführen ist. ","Die Angreifer müssen sich erst zu Fuß ihren Weg durch die Straßen suchen und dabei möglichen Widerstand beseitigen. Außerdem müssen sie die Barrikade zerstören, um zu ihrem nächsten Ziel zu gelangen.","Anschließend müssen sie den vorderen Außenposten einnehmen. Sobald dieser Bereich gesichert ist, wird eine Ladung schwerere Fracht abgeworfen, um Sie bei Ihrem Vorstoß zu unterstützen.","Die Verteidiger haben sich gut in diesem Bunker verschanzt. Sie werden die Verteidigungsanlagen überwinden und in den Bunker vordringen müssen, um zur Kommandozentrale zu gelangen.","Dringen Sie zur unterirdischen Kommandozentrale vor und setzen Sie Sprengstoff ein, um die gesamte Basis zu zerstören. Das sollte den Widerstand in die Knie zwingen.")
+SubTitles=("Nach dem Krieg zwischen den Menschen und den Skaarj lagen viele StÃ¤dte der Erde in Schutt und Asche. Als die Neue Weltregierung versuchte, ihre AutoritÃ¤t in diesen Gegenden zu behaupten,","wurde sie mit vielen Rebellengruppen konfrontiert. Diese hatten in den zerstÃ¶rten StÃ¤dten ihre Basen errichtet und wurden oft von GroÃŸunternehmen verdeckt finanziert.","Dieses Szenario stellt die ZerstÃ¶rung einer Rebellenkommandozentrale durch Truppen der Neuen Weltregierung nach. ","Um die HistorizitÃ¤t der Schlacht zu wahren, befindet sich der Einstiegspunkt der Angreifer etwas von der Kommandozentrale entfernt, was auf die schweren Anti-Flugzeug-SchutzmaÃŸnahmen um dem Bunkerbereich herum zurÃ¼ckzufÃ¼hren ist. ","Die Angreifer mÃ¼ssen sich erst zu FuÃŸ ihren Weg durch die StraÃŸen suchen und dabei mÃ¶glichen Widerstand beseitigen. AuÃŸerdem mÃ¼ssen sie die Barrikade zerstÃ¶ren, um zu ihrem nÃ¤chsten Ziel zu gelangen.","AnschlieÃŸend mÃ¼ssen sie den vorderen AuÃŸenposten einnehmen. Sobald dieser Bereich gesichert ist, wird eine Ladung schwerere Fracht abgeworfen, um Sie bei Ihrem VorstoÃŸ zu unterstÃ¼tzen.","Die Verteidiger haben sich gut in diesem Bunker verschanzt. Sie werden die Verteidigungsanlagen Ã¼berwinden und in den Bunker vordringen mÃ¼ssen, um zur Kommandozentrale zu gelangen.","Dringen Sie zur unterirdischen Kommandozentrale vor und setzen Sie Sprengstoff ein, um die gesamte Basis zu zerstÃ¶ren. Das sollte den Widerstand in die Knie zwingen.")
 
 [Trigger_ASMessageTrigger0]
 Message="Bunker infiltriert!"
 
 [Trigger_ASMessageTrigger2]
-Message="Kommandozentrum zerstört!"
+Message="Kommandozentrum zerstÃ¶rt!"
 
 [Trigger_ASMessageTrigger3]
-Message="Sprengkörper angebracht!!!"
+Message="SprengkÃ¶rper angebracht!!!"
 
 [Volume0]
-LocationName="Vorderer Außenposten"
+LocationName="Vorderer AuÃŸenposten"
 
 [Volume1]
 LocationName="Angreifer-Landeplatz"
@@ -84,7 +84,7 @@ LocationName="Lobby der U-Bahnstation"
 LocationName="Stationsdach"
 
 [Volume13]
-LocationName="Luftschächte"
+LocationName="LuftschÃ¤chte"
 
 [Volume14]
 LocationName="U-Bahn-Zug"
@@ -111,10 +111,10 @@ LocationName="Statuen-Pass"
 LocationName="Statuen-Pass"
 
 [Volume8]
-LocationName="Römischer Pfad"
+LocationName="RÃ¶mischer Pfad"
 
 [Volume9]
 LocationName="U-Bahn-Ticketstand"
 
 [ZoneInfo0]
-LocationName="Zerstörte Stadt"
+LocationName="ZerstÃ¶rte Stadt"

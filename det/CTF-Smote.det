@@ -1,4 +1,4 @@
-[LavaVolume10]
+ï»¿[LavaVolume10]
 LocationName="In Lava!"
 
 [LavaVolume12]
@@ -42,7 +42,7 @@ Title="Smote"
 
 [LevelSummary]
 Title="Smote"
-Description="Die Erde bebt unter Ihren Füßen, Feuer und Asche regnen auf Sie herab. Der Pfad zum Sieg ist ebenso tückisch und tödlich wie die Feinde, denen Sie auf dem Schlachtfeld gegenübertreten - hier dürfen Sie sich keine Fehler erlauben."
+Description="Die Erde bebt unter Ihren FÃ¼ÃŸen, Feuer und Asche regnen auf Sie herab. Der Pfad zum Sieg ist ebenso tÃ¼ckisch und tÃ¶dlich wie die Feinde, denen Sie auf dem Schlachtfeld gegenÃ¼bertreten - hier dÃ¼rfen Sie sich keine Fehler erlauben."
 
 [Volume10]
 LocationName="ROTE Basis, Hauptpfade"
@@ -60,7 +60,7 @@ LocationName="BLAUE Basis, obere Pfade"
 LocationName="BLAUE Basis, Hauptpfade"
 
 [Volume16]
-LocationName="BLAUE Basis, Verstärkungen"
+LocationName="BLAUE Basis, VerstÃ¤rkungen"
 
 [Volume17]
 LocationName="BLAUE Basis, Hauptpfade"
@@ -75,7 +75,7 @@ LocationName="BLAUE Basis, untere Pfade"
 LocationName="BLAUE Basis, untere Pfade"
 
 [Volume23]
-LocationName="Vulkanhöhlen"
+LocationName="VulkanhÃ¶hlen"
 
 [Volume5]
 LocationName="ROTE Basis, untere Pfade"
@@ -96,7 +96,7 @@ LocationName="ROTE Basis, Verteidigungsanlagen"
 LocationName="ROTE Basis, Kellereingang"
 
 [ZoneInfo1]
-LocationName="Vollkommen losgelöst!"
+LocationName="Vollkommen losgelÃ¶st!"
 
 [ZoneInfo11]
 LocationName="BLAUE Basis, Haupteingang"
@@ -108,10 +108,10 @@ LocationName="BLAUE Basis, Kellereingang"
 LocationName="BLAUER Flaggenraum"
 
 [ZoneInfo14]
-LocationName="Vulkanhöhlen"
+LocationName="VulkanhÃ¶hlen"
 
 [ZoneInfo15]
-LocationName="Vulkanhöhlen"
+LocationName="VulkanhÃ¶hlen"
 
 [ZoneInfo16]
 LocationName="BLAUE Basis, Haupteingang"

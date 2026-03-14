@@ -1,59 +1,59 @@
-[ASOBJ_EnergyCore_Delivery0]
+ï»¿[ASOBJ_EnergyCore_Delivery0]
 DestructionMessage="Fahrzeug wurde repariert!"
 ObjectiveDescription="Liefern Sie den Antriebskern ab, um das Fahrzeug zu reparieren."
-Objective_Info_Attacker="Bringen Sie den Kern zum Fahrzeug zurück."
-Objective_Info_Defender="Verhindern Sie, dass die Angreifer den Kern zurückbringen."
+Objective_Info_Attacker="Bringen Sie den Kern zum Fahrzeug zurÃ¼ck."
+Objective_Info_Defender="Verhindern Sie, dass die Angreifer den Kern zurÃ¼ckbringen."
 
 [ASOBJ_EnergyCore_Spawn0]
-ObjectiveDescription="Sie müssen den Energiekern mitnehmen und zu Ihrem Fahrzeug bringen, um es zu reparieren."
+ObjectiveDescription="Sie mÃ¼ssen den Energiekern mitnehmen und zu Ihrem Fahrzeug bringen, um es zu reparieren."
 Objective_Info_Attacker="Energiekern suchen"
-Objective_Info_Defender="Energiekern schützen"
+Objective_Info_Defender="Energiekern schÃ¼tzen"
 
 [HoldObjective0]
-DestructionMessage="Kontrollpunkt-Tor geöffnet!"
-ObjectiveDescription="Stellen Sie sich vor den Schalter, um das Tor zu öffnen."
-Objective_Info_Attacker="Kontrollpunkt-Tor öffnen"
-Objective_Info_Defender="Kontrollpunkt-Schalter schützen."
+DestructionMessage="Kontrollpunkt-Tor geÃ¶ffnet!"
+ObjectiveDescription="Stellen Sie sich vor den Schalter, um das Tor zu Ã¶ffnen."
+Objective_Info_Attacker="Kontrollpunkt-Tor Ã¶ffnen"
+Objective_Info_Defender="Kontrollpunkt-Schalter schÃ¼tzen."
 
 [HoldObjective1]
-DestructionMessage="Zugbrücke ist unten!"
-ObjectiveDescription="Gehen Sie zum Schalter, um die Brücke herunterzulassen."
-Objective_Info_Attacker="Brücke herunterlassen"
-Objective_Info_Defender="Brückenschalter verteidigen"
+DestructionMessage="ZugbrÃ¼cke ist unten!"
+ObjectiveDescription="Gehen Sie zum Schalter, um die BrÃ¼cke herunterzulassen."
+Objective_Info_Attacker="BrÃ¼cke herunterlassen"
+Objective_Info_Defender="BrÃ¼ckenschalter verteidigen"
 
 [LevelInfo0]
 Title="Junkyard Escape"
 
 [LevelSummary]
 Title="Junkyard Escape"
-Description="Dieses Szenario basiert auf einer berüchtigten Episode eines bekannten Holo-Programms. Darin waren zwei Mechanikerteams gegeneinander angetreten, um herauszufinden, wer seine Fahrzeuge schneller einsatzbereit machen und vom Schrottplatz entkommen kann. Es kam zu einer unerwarteten Wendung, als das Team, das am Verlieren war, behelfsmäßige Waffen hervorholte und das gegnerische Team ins Nirwana schoss, bevor ihnen die Flucht gelingen konnte. Da bei diesem Wettbewerb keine Regel existierte, die ausdrücklich den Gebrauch von Waffen verbietet, wurde das Team zum Gewinner erklärt. Ein neuer Tournament-Klassiker war geboren."
+Description="Dieses Szenario basiert auf einer berÃ¼chtigten Episode eines bekannten Holo-Programms. Darin waren zwei Mechanikerteams gegeneinander angetreten, um herauszufinden, wer seine Fahrzeuge schneller einsatzbereit machen und vom Schrottplatz entkommen kann. Es kam zu einer unerwarteten Wendung, als das Team, das am Verlieren war, behelfsmÃ¤ÃŸige Waffen hervorholte und das gegnerische Team ins Nirwana schoss, bevor ihnen die Flucht gelingen konnte. Da bei diesem Wettbewerb keine Regel existierte, die ausdrÃ¼cklich den Gebrauch von Waffen verbietet, wurde das Team zum Gewinner erklÃ¤rt. Ein neuer Tournament-Klassiker war geboren."
 
 [ProximityObjective0]
 DestructionMessage="Angreifer sind vom Schrottplatz entkommen!"
-ObjectiveDescription="Vom Schrottplatz flüchten"
+ObjectiveDescription="Vom Schrottplatz flÃ¼chten"
 Objective_Info_Attacker="Zu den Haupttoren weitergehen"
 Objective_Info_Defender="Haupttore verteidigen"
 
 [ProximityObjective2]
-DestructionMessage="Brücke wurde überquert!"
-ObjectiveDescription="Überqueren Sie die Brücke, um weiterzukommen."
-Objective_Info_Attacker="Brücke überqueren"
-Objective_Info_Defender="Brücke verteidigen"
+DestructionMessage="BrÃ¼cke wurde Ã¼berquert!"
+ObjectiveDescription="Ãœberqueren Sie die BrÃ¼cke, um weiterzukommen."
+Objective_Info_Attacker="BrÃ¼cke Ã¼berqueren"
+Objective_Info_Defender="BrÃ¼cke verteidigen"
 
 [ProximityObjective3]
 DestructionMessage="Kontrollpunkt gesichert!"
-ObjectiveDescription="Sichern Sie den Kontrollpunkt, um vorzurücken."
+ObjectiveDescription="Sichern Sie den Kontrollpunkt, um vorzurÃ¼cken."
 Objective_Info_Attacker="Kontrollpunkt sichern"
-Objective_Info_Defender="Kontrollpunkt schützen"
+Objective_Info_Defender="Kontrollpunkt schÃ¼tzen"
 
 [SceneSubtitles0]
-SubTitles=("Dieses Szenario basiert auf einer berüchtigten Episode eines bekannten Holo-Programms.","Darin waren zwei Mechanikerteams gegeneinander angetreten, um herauszufinden, wer seine Fahrzeuge schneller einsatzbereit machen und vom Schrottplatz entkommen kann.","Es kam zu einer unerwarteten Wendung, als das Team, das am Verlieren war, behelfsmäßige Waffen hervorholte und das gegnerische Team ins Nirwana schoss, bevor ihm die Flucht gelingen konnte.","Da bei diesem Wettbewerb keine Regel existierte, die ausdrücklich den Gebrauch von Waffen verbietet, wurde das Team zum Gewinner erklärt. Ein neuer Tournament-Klassiker war geboren.","Sie müssen den Energiekern, der irgendwo auf dem Schrottplatz liegt, finden und zu Ihrem Fahrzeug bringen.","Sobald Ihr Fahrzeug einsatzbereit ist, müssen Sie es über den Schrottplatz und durch das Haupttor fahren.","Bevor Sie die Zugbrücke überqueren können, müssen Sie sie mit diesem Schalter herunterlassen.","Nach Überquerung der Brücke müssen Sie diesen Kontrollpunkt erreichen.","Dazu können Sie diesem Weg folgen und das Tor des Kontrollpunkts öffnen.","Alternativ können Sie diesen Magnet benutzen. Dieser Weg ist wesentlich kürzer, aber auch ungeschützter und riskanter.","Wenn Sie am Kontrollpunkt sind, begeben Sie sich durch das Haupttor, um zu entkommen.")
+SubTitles=("Dieses Szenario basiert auf einer berÃ¼chtigten Episode eines bekannten Holo-Programms.","Darin waren zwei Mechanikerteams gegeneinander angetreten, um herauszufinden, wer seine Fahrzeuge schneller einsatzbereit machen und vom Schrottplatz entkommen kann.","Es kam zu einer unerwarteten Wendung, als das Team, das am Verlieren war, behelfsmÃ¤ÃŸige Waffen hervorholte und das gegnerische Team ins Nirwana schoss, bevor ihm die Flucht gelingen konnte.","Da bei diesem Wettbewerb keine Regel existierte, die ausdrÃ¼cklich den Gebrauch von Waffen verbietet, wurde das Team zum Gewinner erklÃ¤rt. Ein neuer Tournament-Klassiker war geboren.","Sie mÃ¼ssen den Energiekern, der irgendwo auf dem Schrottplatz liegt, finden und zu Ihrem Fahrzeug bringen.","Sobald Ihr Fahrzeug einsatzbereit ist, mÃ¼ssen Sie es Ã¼ber den Schrottplatz und durch das Haupttor fahren.","Bevor Sie die ZugbrÃ¼cke Ã¼berqueren kÃ¶nnen, mÃ¼ssen Sie sie mit diesem Schalter herunterlassen.","Nach Ãœberquerung der BrÃ¼cke mÃ¼ssen Sie diesen Kontrollpunkt erreichen.","Dazu kÃ¶nnen Sie diesem Weg folgen und das Tor des Kontrollpunkts Ã¶ffnen.","Alternativ kÃ¶nnen Sie diesen Magnet benutzen. Dieser Weg ist wesentlich kÃ¼rzer, aber auch ungeschÃ¼tzter und riskanter.","Wenn Sie am Kontrollpunkt sind, begeben Sie sich durch das Haupttor, um zu entkommen.")
 
 [Volume10]
-LocationName="Magnethügel"
+LocationName="MagnethÃ¼gel"
 
 [Volume11]
-LocationName="Magnetabkürzung"
+LocationName="MagnetabkÃ¼rzung"
 
 [Volume12]
 LocationName="Rohrstapel"
@@ -83,10 +83,10 @@ LocationName="Haupttor"
 LocationName="Kernturm"
 
 [Volume5]
-LocationName="Verteidigungshügel"
+LocationName="VerteidigungshÃ¼gel"
 
 [Volume7]
-LocationName="Brücke"
+LocationName="BrÃ¼cke"
 
 [Volume8]
 LocationName="Garage"

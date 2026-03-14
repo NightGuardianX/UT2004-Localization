@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="ElecFields"
 
 [LevelSummary]
 Title="ElecFields"
-Description="Die statisch aufgeladenen Türme am Marakan-Fluss haben sich seit ihrer Einführung letztes Jahr als einer der beliebtesten Schauplätze des Tournaments erwiesen. Auf diesem blutigen Schlachtfeld zeigt sich, wer ein wahrhaft moderner Gladiator ist. Ob bei CTF oder im Bombing Run, die Spieler müssen sich bei ihrem Kampf in der giftverseuchten Luft dieser Hölle immer über eines klar sein: nach unten ist es ein langer Weg."
+Description="Die statisch aufgeladenen TÃ¼rme am Marakan-Fluss haben sich seit ihrer EinfÃ¼hrung letztes Jahr als einer der beliebtesten SchauplÃ¤tze des Tournaments erwiesen. Auf diesem blutigen Schlachtfeld zeigt sich, wer ein wahrhaft moderner Gladiator ist. Ob bei CTF oder im Bombing Run, die Spieler mÃ¼ssen sich bei ihrem Kampf in der giftverseuchten Luft dieser HÃ¶lle immer Ã¼ber eines klar sein: nach unten ist es ein langer Weg."
 
 [Volume0]
 LocationName="BLAUE Front"
@@ -93,4 +93,4 @@ LocationName="ROTE Front"
 LocationName="BLAUE Front"
 
 [ZoneInfo0]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"

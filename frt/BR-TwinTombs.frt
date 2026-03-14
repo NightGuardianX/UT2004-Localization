@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Twin Tombs"
 
 [LevelSummary]
@@ -26,7 +26,7 @@ LocationName="Tremplins bleus"
 LocationName="Couloir du haut rouge"
 
 [ZoneInfo17]
-LocationName="Toît rouge"
+LocationName="ToÃ®t rouge"
 
 [ZoneInfo18]
 LocationName="Couloir du bas bleu"
@@ -35,7 +35,7 @@ LocationName="Couloir du bas bleu"
 LocationName="Couloir du haut bleu"
 
 [ZoneInfo2]
-LocationName="Espace extérieur"
+LocationName="Espace extÃ©rieur"
 
 [ZoneInfo21]
 LocationName="Couloir du bas rouge"
@@ -44,7 +44,7 @@ LocationName="Couloir du bas rouge"
 LocationName="Couloir du bas rouge"
 
 [ZoneInfo24]
-LocationName="Toît bleu"
+LocationName="ToÃ®t bleu"
 
 [ZoneInfo26]
 LocationName="Base rouge"
@@ -95,13 +95,13 @@ LocationName="Couloir du haut rouge"
 LocationName="Foyer rouge"
 
 [ZoneInfo40]
-LocationName="Toît bleu"
+LocationName="ToÃ®t bleu"
 
 [ZoneInfo42]
 LocationName="Couloir du bas rouge"
 
 [ZoneInfo43]
-LocationName="Toît rouge"
+LocationName="ToÃ®t rouge"
 
 [ZoneInfo5]
 LocationName="Couloir du haut rouge"

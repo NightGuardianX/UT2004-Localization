@@ -1,4 +1,4 @@
-[LevelInfo0]
+﻿[LevelInfo0]
 Title="Scorched Earth"
 
 [LevelSummary]
@@ -17,7 +17,7 @@ LocationName="Innen"
 LocationName="Hinterer Korridor B"
 
 [ZoneInfo14]
-LocationName="Au�en"
+LocationName="Außen"
 
 [ZoneInfo15]
 LocationName="Innen"

@@ -1,4 +1,4 @@
-[LevelInfo0]
+﻿[LevelInfo0]
 Title="Temple Of Anubis"
 
 [LevelInfo6]
@@ -11,7 +11,7 @@ Title="Temple Of Anubis"
 LocationName="Redeemer"
 
 [ZoneInfo1]
-LocationName="Superschild-D�ne"
+LocationName="Superschild-Düne"
 
 [ZoneInfo10]
 LocationName="Respawning-Punkt BLAU"

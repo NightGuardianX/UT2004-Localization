@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Metallurgy"
 
 [LevelSummary]
@@ -6,19 +6,19 @@ Title="Metallurgy"
 Description="Bei Metallurgy wird die Spreu vom Weizen getrennt - die Langsamen von den Schnellen, die Schwachen von den Starken, die Inkompetenten von den Geschickten."
 
 [Volume0]
-LocationName="In der N‰he des Treibstofftankers"
+LocationName="In der N√§he des Treibstofftankers"
 
 [Volume1]
-LocationName="Auﬂerhalb der Kaskade geschmolzenen Metalls"
+LocationName="Au√üerhalb der Kaskade geschmolzenen Metalls"
 
 [Volume10]
 LocationName="Unter den Rohrleitungen geschmolzenen Metalls"
 
 [Volume11]
-LocationName="Zwischen den S‰ulen"
+LocationName="Zwischen den S√§ulen"
 
 [Volume12]
-LocationName="Zwischen den S‰ulen"
+LocationName="Zwischen den S√§ulen"
 
 [Volume13]
 LocationName="Deck auf dem 2. Stockwerk"
@@ -42,28 +42,28 @@ LocationName="Deck auf dem 1. Stockwerk"
 LocationName="Auf dem Dach"
 
 [Volume2]
-LocationName="S¸den auﬂen"
+LocationName="S√ºden au√üen"
 
 [Volume3]
-LocationName="Westen auﬂen"
+LocationName="Westen au√üen"
 
 [Volume4]
-LocationName="Norden auﬂen"
+LocationName="Norden au√üen"
 
 [Volume5]
-LocationName="Norden auﬂen"
+LocationName="Norden au√üen"
 
 [Volume6]
-LocationName="Norden auﬂen"
+LocationName="Norden au√üen"
 
 [Volume7]
-LocationName="Norden auﬂen"
+LocationName="Norden au√üen"
 
 [Volume8]
 LocationName="Kommunikationsturm"
 
 [Volume9]
-LocationName="‹ber den Rohrleitungen geschmolzenen Metalls"
+LocationName="√úber den Rohrleitungen geschmolzenen Metalls"
 
 [ZoneInfo2]
 LocationName="Kaskade geschmolzenen Metalls"

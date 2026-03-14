@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="HyperBlast2"
 
 [LevelSummary]
@@ -18,7 +18,7 @@ LocationName="Oberes Atrium"
 LocationName="Backbord-Innenbereich"
 
 [ZoneInfo12]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"
 
 [ZoneInfo13]
 LocationName="Steuerbord-Mondgang"
@@ -42,9 +42,9 @@ LocationName="Steuerbord-Innenbereich"
 LocationName="Backbord-Mondgang"
 
 [ZoneInfo8]
-LocationName="Steuerbord-Flügel"
+LocationName="Steuerbord-FlÃ¼gel"
 
 [ZoneInfo9]
-LocationName="Backbord-Flügel"
+LocationName="Backbord-FlÃ¼gel"
 
 

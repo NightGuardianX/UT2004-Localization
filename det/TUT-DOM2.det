@@ -1,4 +1,4 @@
-[LevelInfo0]
+﻿[LevelInfo0]
 Title="Domination Tutorial"
 
 [LevelSummary]
@@ -11,7 +11,7 @@ LocationName="Innenmitte"
 LocationName="Hinterer Gang B"
 
 [ZoneInfo14]
-LocationName="Au�en"
+LocationName="Außen"
 
 [ZoneInfo15]
 LocationName="Innenmitte"

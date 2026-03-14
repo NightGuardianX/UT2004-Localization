@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Grendelkeep"
 
 [LevelInfo6]
@@ -6,19 +6,19 @@ Title="Grendelkeep"
 
 [LevelSummary]
 Title="Grendelkeep"
-Description="Prieth Callas war ein unbarmherziger Mann, der es liebte, seine Feinde zu foltern, bevor er sie tˆten lieﬂ. Er z¸chtete groﬂe, wilde Kreaturen, gegen die seine Gefangenen in eigens errichteten Arenen k‰mpfen mussten. Die verfallene Ruine von Grendelkeep war sein letztes diabolisches Gem‰uer. Hier warfen ihn seine eigenen M‰nner den Kreaturen vor, die er in den unteren Gewˆlben erschaffen hatte. Die Blutspuren sind l‰ngst verschwunden, aber das hier erschaffene Bˆse ist nie ganz fortgegangen. "
+Description="Prieth Callas war ein unbarmherziger Mann, der es liebte, seine Feinde zu foltern, bevor er sie t√∂ten lie√ü. Er z√ºchtete gro√üe, wilde Kreaturen, gegen die seine Gefangenen in eigens errichteten Arenen k√§mpfen mussten. Die verfallene Ruine von Grendelkeep war sein letztes diabolisches Gem√§uer. Hier warfen ihn seine eigenen M√§nner den Kreaturen vor, die er in den unteren Gew√∂lben erschaffen hatte. Die Blutspuren sind l√§ngst verschwunden, aber das hier erschaffene B√∂se ist nie ganz fortgegangen. "
 
 [ZoneInfo0]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo1]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo10]
-LocationName="Scharfsch¸tzenschlupfwinkel"
+LocationName="Scharfsch√ºtzenschlupfwinkel"
 
 [ZoneInfo11]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo12]
 LocationName="Untere Flak-Halle"
@@ -27,10 +27,10 @@ LocationName="Untere Flak-Halle"
 LocationName="Untere Flak-Halle"
 
 [ZoneInfo14]
-LocationName="Groﬂer Raum - Halle"
+LocationName="Gro√üer Raum - Halle"
 
 [ZoneInfo2]
-LocationName="Groﬂe Amp-Halle"
+LocationName="Gro√üe Amp-Halle"
 
 [ZoneInfo28]
 LocationName="Obere Raketen-Halle"
@@ -39,13 +39,13 @@ LocationName="Obere Raketen-Halle"
 LocationName="Obere Raketen-Halle"
 
 [ZoneInfo30]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo31]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo4]
-LocationName="Groﬂer Raum"
+LocationName="Gro√üer Raum"
 
 [ZoneInfo5]
 LocationName="Obere Raketen-Halle"
@@ -57,10 +57,10 @@ LocationName="Minigang"
 LocationName="Minigang"
 
 [ZoneInfo8]
-LocationName="Groﬂer Turm"
+LocationName="Gro√üer Turm"
 
 [ZoneInfo9]
-LocationName="Scharfsch¸tzenschlupfwinkel"
+LocationName="Scharfsch√ºtzenschlupfwinkel"
 
 
 

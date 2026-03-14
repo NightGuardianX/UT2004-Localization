@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Corrugation"
 
 [LevelSummary]
 Title="Corrugation"
-Description="Nach vielen Jahren der Tournament-Kämpfe zerbröselt diese Arena immer mehr infolge der unablässigen Raketen- und Shock Rifle-Explosionen. Tragen Sie etwas zu ihrer Zerstörung bei."
+Description="Nach vielen Jahren der Tournament-KÃ¤mpfe zerbrÃ¶selt diese Arena immer mehr infolge der unablÃ¤ssigen Raketen- und Shock Rifle-Explosionen. Tragen Sie etwas zu ihrer ZerstÃ¶rung bei."
 
 [ZoneInfo1]
 LocationName="Ofenbereich"
@@ -15,13 +15,13 @@ LocationName="Westbereich"
 LocationName="Abwassereingang"
 
 [ZoneInfo12]
-LocationName="Östlicher Abwasserbereich"
+LocationName="Ã–stlicher Abwasserbereich"
 
 [ZoneInfo13]
-LocationName="Südbereich"
+LocationName="SÃ¼dbereich"
 
 [ZoneInfo14]
-LocationName="Östlicher Abwasserbereich"
+LocationName="Ã–stlicher Abwasserbereich"
 
 [ZoneInfo15]
 LocationName="Atrium"
@@ -30,7 +30,7 @@ LocationName="Atrium"
 LocationName="Ofenbereich"
 
 [ZoneInfo17]
-LocationName="Nördliche Treppe"
+LocationName="NÃ¶rdliche Treppe"
 
 [ZoneInfo18]
 LocationName="Ostkorridor"
@@ -42,13 +42,13 @@ LocationName="Ostbereich"
 LocationName="Mittlerer Abwasserkanal"
 
 [ZoneInfo20]
-LocationName="Südlicher Abwasserbereich"
+LocationName="SÃ¼dlicher Abwasserbereich"
 
 [ZoneInfo3]
 LocationName="Westlicher Aufzugsschacht"
 
 [ZoneInfo4]
-LocationName="Südöstlicher Abwasserkanal"
+LocationName="SÃ¼dÃ¶stlicher Abwasserkanal"
 
 [ZoneInfo5]
 LocationName="Nach Osten gebogener Korridor"

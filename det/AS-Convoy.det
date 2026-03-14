@@ -1,11 +1,11 @@
-[Action_DISPLAYMESSAGE10]
+ï»¿[Action_DISPLAYMESSAGE10]
 Message="2..."
 
 [Action_DISPLAYMESSAGE11]
 Message="1..."
 
 [Action_DISPLAYMESSAGE12]
-Message="Die Türen sind nun geöffnet!"
+Message="Die TÃ¼ren sind nun geÃ¶ffnet!"
 
 [Action_DISPLAYMESSAGE4]
 Message="Die Angreifer haben das Reparaturschiff infiltriert!"
@@ -24,42 +24,42 @@ Message="3..."
 
 [HoldObjective1]
 DestructionMessage="Das vordere Waffenlager wurde ausgeraubt!"
-ObjectiveDescription="Öffnen Sie das Schaltpult, um näher zu rücken."
-Objective_Info_Attacker="Schaltpult öffnen"
+ObjectiveDescription="Ã–ffnen Sie das Schaltpult, um nÃ¤her zu rÃ¼cken."
+Objective_Info_Attacker="Schaltpult Ã¶ffnen"
 Objective_Info_Defender="Schaltpult verteidigen"
 
 [HoldObjective2]
 DestructionMessage="Die Einstiegsplattform wurde ausgefahren!"
-ObjectiveDescription="Fahren Sie die Einstiegsplattform aus, um vorzurücken."
+ObjectiveDescription="Fahren Sie die Einstiegsplattform aus, um vorzurÃ¼cken."
 Objective_Info_Attacker="Einstiegsplattform ausfahren"
 Objective_Info_Defender="Einstiegsplattform verteidigen"
 
 [HoldObjective3]
 DestructionMessage="Die N.E.X.U.S.-Raketen wurden gesichert!"
-ObjectiveDescription="Holen Sie die N.E.X.U.S.-Raketen, und Ihre Mission ist erfüllt!"
+ObjectiveDescription="Holen Sie die N.E.X.U.S.-Raketen, und Ihre Mission ist erfÃ¼llt!"
 Objective_Info_Attacker="N.E.X.U.S.-Raketen holen"
 Objective_Info_Defender="N.E.X.U.S.-Raketen verteidigen"
 
 [HoldObjective4]
-DestructionMessage="Die Seitentüren wurden geöffnet!"
-ObjectiveDescription="Verwenden Sie den Seitentürschalter, um weiterzugehen."
-Objective_Info_Attacker="Seitentüren öffnen"
-Objective_Info_Defender="Seitentürschalter verteidigen"
+DestructionMessage="Die SeitentÃ¼ren wurden geÃ¶ffnet!"
+ObjectiveDescription="Verwenden Sie den SeitentÃ¼rschalter, um weiterzugehen."
+Objective_Info_Attacker="SeitentÃ¼ren Ã¶ffnen"
+Objective_Info_Defender="SeitentÃ¼rschalter verteidigen"
 
 [HoldObjective5]
-DestructionMessage="Die Sprengkörper sind angebracht!"
-ObjectiveDescription="Bringen Sie Sprengkörper an der Hintertür an, um Zugang zum Reparaturschiff zu erlangen."
-Objective_Info_Attacker="Sprengkörper an der Tür anbringen"
-Objective_Info_Defender="Tür verteidigen"
+DestructionMessage="Die SprengkÃ¶rper sind angebracht!"
+ObjectiveDescription="Bringen Sie SprengkÃ¶rper an der HintertÃ¼r an, um Zugang zum Reparaturschiff zu erlangen."
+Objective_Info_Attacker="SprengkÃ¶rper an der TÃ¼r anbringen"
+Objective_Info_Defender="TÃ¼r verteidigen"
 
 [HoldObjective6]
-DestructionMessage="Es ist Verstärkung unterwegs!"
-ObjectiveDescription="Öffnen Sie die Hintertür des Reparaturschiffs, um weiterzukommen."
-Objective_Info_Attacker="Hintertür öffnen"
-Objective_Info_Defender="Hintertür verteidigen"
+DestructionMessage="Es ist VerstÃ¤rkung unterwegs!"
+ObjectiveDescription="Ã–ffnen Sie die HintertÃ¼r des Reparaturschiffs, um weiterzukommen."
+Objective_Info_Attacker="HintertÃ¼r Ã¶ffnen"
+Objective_Info_Defender="HintertÃ¼r verteidigen"
 
 [InfoPod0]
-POD_Message="! ! ! Z U R Ü C K T R E T E N ! ! !"
+POD_Message="! ! ! Z U R Ãœ C K T R E T E N ! ! !"
 
 [InfoPod19]
 POD_Message="HIER ABSPRINGEN"
@@ -71,7 +71,7 @@ POD_Message="HIER ABSPRINGEN"
 POD_Message="HIER ABSPRINGEN"
 
 [InfoPod30]
-POD_Message="! ! ! Z U R Ü C K T R E T E N ! ! !"
+POD_Message="! ! ! Z U R Ãœ C K T R E T E N ! ! !"
 
 [LevelInfo0]
 Title="Convoy"
@@ -81,17 +81,17 @@ Title="Convoy"
 
 [LevelSummary]
 Title="Convoy"
-Description="Dieses Szenario stellt die Bergung der Nexus-Prototypraketen durch das Militär der Neuen Weltregierung (NWR) nach, nachdem sie von den Hellions gestohlen wurden. Die NWR-Streitkräfte fanden das Waffenlager mithilfe eines Peilsenders, der auf den Massenvernichtungswaffen angebracht war. Der genaue Standort der Raketen konnte nur während des kurzen Zeitraums geortet werden, als die Waffen an die Oberfläche von Taron gebracht wurden, um sie an einen anderen Ort zu transportieren. Das Militär nutzte diese Gelegenheit, um zuzuschlagen."
+Description="Dieses Szenario stellt die Bergung der Nexus-Prototypraketen durch das MilitÃ¤r der Neuen Weltregierung (NWR) nach, nachdem sie von den Hellions gestohlen wurden. Die NWR-StreitkrÃ¤fte fanden das Waffenlager mithilfe eines Peilsenders, der auf den Massenvernichtungswaffen angebracht war. Der genaue Standort der Raketen konnte nur wÃ¤hrend des kurzen Zeitraums geortet werden, als die Waffen an die OberflÃ¤che von Taron gebracht wurden, um sie an einen anderen Ort zu transportieren. Das MilitÃ¤r nutzte diese Gelegenheit, um zuzuschlagen."
 
 [SceneSubtitles0]
-SubTitles=("Dieses Szenario stellt die Bergung der N.E.X.U.S.-Prototypraketen durch das Militär der Neuen Weltregierung (NWR) nach, nachdem sie von den Hellions gestohlen wurden.","Die NWR-Streitkräfte fanden das Waffenlager mithilfe eines Peilsenders, der auf den Massenvernichtungswaffen angebracht war.","Der genaue Standort der Raketen konnte nur während des kurzen Zeitraums geortet werden, als die Waffen auf der Oberfläche von Taron von einem Ort an einen anderen gebracht wurden. Das Militär hatte keine andere Wahl, als zu diesem Zeitpunkt zuzuschlagen.","Die Angreifer müssen zunächst zur Einstiegsplattform der Hellions vordringen und sie mithilfe des Schaltpults ausfahren, damit der Vorstoß weitergehen kann.",,"Hier könnte es für die Angreifer von Vorteil sein, das Schaltpult zu öffnen und die Elektronik des Containers so zu manipulieren, dass sie und nicht die Hellions sie benutzen können. Das würde einen rascheren Vorstoß und Waffen-Upgrades möglich machen.",,"Die Angreifer müssen die Einstiegsplattform überqueren, zur Hintertür gelangen und dort Sprengstoff einsetzen, um in das Reparaturschiff der Hellions vorzudringen.",,"Öffnen Sie die Hintertür des Reparaturschiffs, um schneller vorzustoßen. Auf diese Weise gelangen die Angreifer wesentlich näher an das nächste Ziel.",,"Ein Warnhinweis jedoch: Im Reparaturschiff befindet sich ein Treibstofftanker, achten Sie also darauf, wohin Sie schießen, sonst könnte er explodieren und Ihr weiteres Vordringen deutlich erschweren.",,"Die Angreifer müssen diesen Schalter betätigen, um weiter vordringen zu können. Damit können sie die Seitentüren öffnen und ihr letztes Ziel erreichen.",,"Die Angreifer müssen zum Waffencontainer gelangen, in ihn vordringen und die N.E.X.U.S.-Raketen mithilfe dieses Schalters zurückholen.")
+SubTitles=("Dieses Szenario stellt die Bergung der N.E.X.U.S.-Prototypraketen durch das MilitÃ¤r der Neuen Weltregierung (NWR) nach, nachdem sie von den Hellions gestohlen wurden.","Die NWR-StreitkrÃ¤fte fanden das Waffenlager mithilfe eines Peilsenders, der auf den Massenvernichtungswaffen angebracht war.","Der genaue Standort der Raketen konnte nur wÃ¤hrend des kurzen Zeitraums geortet werden, als die Waffen auf der OberflÃ¤che von Taron von einem Ort an einen anderen gebracht wurden. Das MilitÃ¤r hatte keine andere Wahl, als zu diesem Zeitpunkt zuzuschlagen.","Die Angreifer mÃ¼ssen zunÃ¤chst zur Einstiegsplattform der Hellions vordringen und sie mithilfe des Schaltpults ausfahren, damit der VorstoÃŸ weitergehen kann.",,"Hier kÃ¶nnte es fÃ¼r die Angreifer von Vorteil sein, das Schaltpult zu Ã¶ffnen und die Elektronik des Containers so zu manipulieren, dass sie und nicht die Hellions sie benutzen kÃ¶nnen. Das wÃ¼rde einen rascheren VorstoÃŸ und Waffen-Upgrades mÃ¶glich machen.",,"Die Angreifer mÃ¼ssen die Einstiegsplattform Ã¼berqueren, zur HintertÃ¼r gelangen und dort Sprengstoff einsetzen, um in das Reparaturschiff der Hellions vorzudringen.",,"Ã–ffnen Sie die HintertÃ¼r des Reparaturschiffs, um schneller vorzustoÃŸen. Auf diese Weise gelangen die Angreifer wesentlich nÃ¤her an das nÃ¤chste Ziel.",,"Ein Warnhinweis jedoch: Im Reparaturschiff befindet sich ein Treibstofftanker, achten Sie also darauf, wohin Sie schieÃŸen, sonst kÃ¶nnte er explodieren und Ihr weiteres Vordringen deutlich erschweren.",,"Die Angreifer mÃ¼ssen diesen Schalter betÃ¤tigen, um weiter vordringen zu kÃ¶nnen. Damit kÃ¶nnen sie die SeitentÃ¼ren Ã¶ffnen und ihr letztes Ziel erreichen.",,"Die Angreifer mÃ¼ssen zum Waffencontainer gelangen, in ihn vordringen und die N.E.X.U.S.-Raketen mithilfe dieses Schalters zurÃ¼ckholen.")
 
 [Trigger_ASMessageTrigger0]
 Message="Luftangriff! Sofort nach Deckung suchen!"
 
 [TriggeredObjective0]
-DestructionMessage="Der N.E.X.U.S.-Container wurde geöffnet!"
-ObjectiveDescription="Erreichen Sie den N.E.X.U.S.-Raketencontainer, und öffnen Sie ihn."
+DestructionMessage="Der N.E.X.U.S.-Container wurde geÃ¶ffnet!"
+ObjectiveDescription="Erreichen Sie den N.E.X.U.S.-Raketencontainer, und Ã¶ffnen Sie ihn."
 Objective_Info_Attacker="Den N.E.X.U.S.-Raketencontainer erreichen"
 Objective_Info_Defender="Den N.E.X.U.S.-Raketencontainer verteidigen"
 
@@ -99,10 +99,10 @@ Objective_Info_Defender="Den N.E.X.U.S.-Raketencontainer verteidigen"
 LocationName="Angreiferfahrzeug"
 
 [Volume12]
-LocationName="Hinterer Scharfschützenturm"
+LocationName="Hinterer ScharfschÃ¼tzenturm"
 
 [Volume13]
-LocationName="Hinterer Scharfschützenturm"
+LocationName="Hinterer ScharfschÃ¼tzenturm"
 
 [Volume14]
 LocationName="Minigun-Plattform"
@@ -111,10 +111,10 @@ LocationName="Minigun-Plattform"
 LocationName="Minigun-Plattform"
 
 [Volume16]
-LocationName="Vorderer Scharfschützenturm"
+LocationName="Vorderer ScharfschÃ¼tzenturm"
 
 [Volume17]
-LocationName="Vorderer Scharfschützenturm"
+LocationName="Vorderer ScharfschÃ¼tzenturm"
 
 [Volume2]
 LocationName="Frachtcontainer"
@@ -141,10 +141,10 @@ LocationName="Einstiegsplattform"
 LocationName="Einstiegsplattform"
 
 [ZoneInfo1]
-LocationName="Außen"
+LocationName="AuÃŸen"
 
 [ZoneInfo2]
-LocationName="Reparaturschiffsbrücke"
+LocationName="ReparaturschiffsbrÃ¼cke"
 
 [ZoneInfo3]
 LocationName="Oberdeck des Reparaturschiffs"
@@ -153,7 +153,7 @@ LocationName="Oberdeck des Reparaturschiffs"
 LocationName="Oberdeck des Reparaturschiffs"
 
 [ZoneInfo6]
-LocationName="Tür"
+LocationName="TÃ¼r"
 
 [ZoneInfo7]
 LocationName="Reparaturschiff"
@@ -162,5 +162,5 @@ LocationName="Reparaturschiff"
 LocationName="Innen im Waffencontainer"
 
 [ZoneInfo9]
-LocationName="Außen"
+LocationName="AuÃŸen"
 
