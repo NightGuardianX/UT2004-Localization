@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Canyon"
 
 [LevelSummary]
 Title="Canyon"
-Description="Du combat saignant au grand air : que demander de plus ? Cette petite arène est séparée par un torrent aussi rapide que meurtrier. La baignade est à vos risques et périls."
+Description="Du combat saignant au grand air : que demander de plus ? Cette petite arÃ¨ne est sÃ©parÃ©e par un torrent aussi rapide que meurtrier. La baignade est Ã  vos risques et pÃ©rils."
 
 [Volume1]
 LocationName="Perchoir sniper Bleu"
@@ -12,19 +12,19 @@ LocationName="Perchoir sniper Bleu"
 LocationName="Objectif bombe Bleu"
 
 [Volume3]
-LocationName="Bassin réapparition sud Bleu"
+LocationName="Bassin rÃ©apparition sud Bleu"
 
 [Volume4]
-LocationName="Bassin réapparition nord Bleu"
+LocationName="Bassin rÃ©apparition nord Bleu"
 
 [Volume6]
 LocationName="Perchoir sniper Rouge"
 
 [Volume7]
-LocationName="Bassin réapparition nord Rouge"
+LocationName="Bassin rÃ©apparition nord Rouge"
 
 [Volume8]
-LocationName="Bassin réapparition sud Rouge"
+LocationName="Bassin rÃ©apparition sud Rouge"
 
 [Volume9]
 LocationName="Objectif bombe Rouge"
@@ -33,5 +33,5 @@ LocationName="Objectif bombe Rouge"
 LocationName="Avec les poissons"
 
 [ZoneInfo1]
-LocationName="Extérieur"
+LocationName="ExtÃ©rieur"
 

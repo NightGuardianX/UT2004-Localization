@@ -41,7 +41,7 @@ LocationName="Blue Respawn"
 LocationName="Red Respawn"
 
 [ZoneInfo2]
-LocationName="Flak Cannon"
+LocationName="Rocket Launcher"
 
 [ZoneInfo20]
 LocationName="Red Respawn"
@@ -62,13 +62,13 @@ LocationName="Blue Respawn"
 LocationName="Center"
 
 [ZoneInfo26]
-LocationName="Rocket launcher room"
+LocationName="Flak Cannon Room"
 
 [ZoneInfo27]
-LocationName="Rocket Launcher"
+LocationName="Flak Cannon"
 
 [ZoneInfo28]
-LocationName="Flak Cannon"
+LocationName="Rocket Launcher Room"
 
 [ZoneInfo29]
 LocationName="Center"

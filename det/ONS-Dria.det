@@ -1,4 +1,4 @@
-[ClassicSniperAmmoPickup2]
+ï»¿[ClassicSniperAmmoPickup2]
 PickupMessage="Lightning-Munition aufgesammelt."
 
 [LevelInfo0]
@@ -6,16 +6,16 @@ Title="Dria"
 
 [LevelSummary]
 Title="Dria"
-Description="In diesen Eisfeldern in den Ruinen der letzten Nali-Festung fand der Endkampf der Nali gegen die Skaarj statt. Die Skaarj trieben ihre Steinriesen vor sich her und belagerten die Stadt drei Wochen lang, bevor sie schließlich den äußeren Wall durchbrachen und wegen dieses Affronts alle Bewohner umbrachten. Jetzt sind die Weiten dieser Gegend eine Onslaught-Arena, die das Teamwork und die Zielstrebigkeit selbst der Besten auf die Probe stellt."
+Description="In diesen Eisfeldern in den Ruinen der letzten Nali-Festung fand der Endkampf der Nali gegen die Skaarj statt. Die Skaarj trieben ihre Steinriesen vor sich her und belagerten die Stadt drei Wochen lang, bevor sie schlieÃŸlich den Ã¤uÃŸeren Wall durchbrachen und wegen dieses Affronts alle Bewohner umbrachten. Jetzt sind die Weiten dieser Gegend eine Onslaught-Arena, die das Teamwork und die Zielstrebigkeit selbst der Besten auf die Probe stellt."
 
 [Volume1]
 LocationName="BLAUE Basis"
 
 [Volume10]
-LocationName="Nördlicher Brückenturm"
+LocationName="NÃ¶rdlicher BrÃ¼ckenturm"
 
 [Volume11]
-LocationName="Südlicher Brückenturm"
+LocationName="SÃ¼dlicher BrÃ¼ckenturm"
 
 [Volume14]
 LocationName="Nord Knoten"
@@ -27,25 +27,25 @@ LocationName="Nordwest Knoten"
 LocationName="Mittlerer West Knoten"
 
 [Volume3]
-LocationName="Südost Knoten"
+LocationName="SÃ¼dost Knoten"
 
 [Volume4]
 LocationName="Nordost Knoten"
 
 [Volume5]
-LocationName="Süd Knoten"
+LocationName="SÃ¼d Knoten"
 
 [Volume6]
-LocationName="Südwest Knoten"
+LocationName="SÃ¼dwest Knoten"
 
 [Volume7]
 LocationName="Mittlerer Ost knoten"
 
 [Volume8]
-LocationName="Nord Brücke"
+LocationName="Nord BrÃ¼cke"
 
 [Volume9]
-LocationName="Süd Brücke"
+LocationName="SÃ¼d BrÃ¼cke"
 
 [ZoneInfo0]
-LocationName="Außen"
+LocationName="AuÃŸen"

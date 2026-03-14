@@ -1,4 +1,4 @@
-[Setup]
+﻿[Setup]
 LocalProduct="Unreal Tournament 2003"
 DefaultFolder="C:\UT2003"
 ReadMe=Help\ReadMe.est.txt

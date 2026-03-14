@@ -1,7 +1,7 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Aridoom"
 
 [LevelSummary]
 Title="Aridoom"
-Description="Terminus. Seuls d'antiques piliers de mesas vous protègent des éléments... et les éléments en question sont des obus."
+Description="Terminus. Seuls d'antiques piliers de mesas vous protÃ¨gent des Ã©lÃ©ments... et les Ã©lÃ©ments en question sont des obus."
 

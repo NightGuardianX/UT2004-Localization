@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Crash"
 
 [LevelSummary]
 Title="Crash"
-Description="Vor einer langen Zeit, in einer weit entfernten Galaxis, baute ein schmerzerfüllter Mann diesen Komplex, um sein eigenes Turnier auszutragen und über die Kämpfe in seiner Vergangenheit zu meditieren. Die Legende erzählt uns nicht, ob er jemals Frieden gefunden hat, aber die Wände scheinen von endlosen Todesschreien wiederzuhallen."
+Description="Vor einer langen Zeit, in einer weit entfernten Galaxis, baute ein schmerzerfÃ¼llter Mann diesen Komplex, um sein eigenes Turnier auszutragen und Ã¼ber die KÃ¤mpfe in seiner Vergangenheit zu meditieren. Die Legende erzÃ¤hlt uns nicht, ob er jemals Frieden gefunden hat, aber die WÃ¤nde scheinen von endlosen Todesschreien wiederzuhallen."
 
 [ZoneInfo0]
 LocationName="Mover-Korridor"
@@ -15,13 +15,13 @@ LocationName="Bio Rifle-Raum"
 LocationName="Shock Rifle-Korridor"
 
 [ZoneInfo3]
-LocationName="Kleiner Rüstungs-Raum"
+LocationName="Kleiner RÃ¼stungs-Raum"
 
 [ZoneInfo4]
 LocationName="MiniGun-Raum"
 
 [ZoneInfo5]
-LocationName="Großer Rüstungs-Raum"
+LocationName="GroÃŸer RÃ¼stungs-Raum"
 
 [ZoneInfo6]
 LocationName="Unterer Korridor"

@@ -1,12 +1,12 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Morpheus3"
 
 [LevelSummary]
 Title="Morpheus3"
-Description="LMC wussten, dass sie eine ausgezeichnete Arena ganz oben auf der Spitze einer neu gebauten Galaxyscraper Superstructure gefunden hatten. Dank des technischen Wunders superdehnbarer Materialien erreichen diese drei Gebäude die unglaubliche Höhe von 19 Kilometer. Die dünne Atmosphäre und die geringere Wirkung der Schwerkraft der Erde stellen eine interessante Probe für Tournament-Athleten dar, um sich in extremen Umgebungen anzupassen und durchzusetzen."
+Description="LMC wussten, dass sie eine ausgezeichnete Arena ganz oben auf der Spitze einer neu gebauten Galaxyscraper Superstructure gefunden hatten. Dank des technischen Wunders superdehnbarer Materialien erreichen diese drei GebÃ¤ude die unglaubliche HÃ¶he von 19 Kilometer. Die dÃ¼nne AtmosphÃ¤re und die geringere Wirkung der Schwerkraft der Erde stellen eine interessante Probe fÃ¼r Tournament-Athleten dar, um sich in extremen Umgebungen anzupassen und durchzusetzen."
 
 [MessageTextureClient4]
-ScrollingMessage="%lp führt im Match mit %lf Frags"
+ScrollingMessage="%lp fÃ¼hrt im Match mit %lf Frags"
 
 [PhysicsVolume1]
 LocationName="19 Kilometer hoch"

@@ -1,12 +1,12 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Bridge of Fate"
 
 [LevelSummary]
 Title="Bridge of Fate"
-Description="Eine Höhle mit zwei Steilwänden, verbunden durch eine Brücke. Hier treffen 2 Teams aufeinander, hier begegnen sich Hoffnung und Verzweiflung."
+Description="Eine HÃ¶hle mit zwei SteilwÃ¤nden, verbunden durch eine BrÃ¼cke. Hier treffen 2 Teams aufeinander, hier begegnen sich Hoffnung und Verzweiflung."
 
 [ZoneInfo0]
-LocationName="Höhle"
+LocationName="HÃ¶hle"
 
 [ZoneInfo1]
 LocationName="BLAU Panzerungs-Eingang"
@@ -57,7 +57,7 @@ LocationName="ROT Panzerungs-Eingang"
 LocationName="BLAU Bomben-Raum"
 
 [ZoneInfo4]
-LocationName="BLAU Säulen-Raum"
+LocationName="BLAU SÃ¤ulen-Raum"
 
 [ZoneInfo5]
 LocationName="BLAU BioRifle-Eingang"
@@ -66,7 +66,7 @@ LocationName="BLAU BioRifle-Eingang"
 LocationName="BLAU Panzerungs-Eingang"
 
 [ZoneInfo7]
-LocationName="ROT Säulen-Raum"
+LocationName="ROT SÃ¤ulen-Raum"
 
 [ZoneInfo8]
 LocationName="BLAU Panzerungs-Eingang"

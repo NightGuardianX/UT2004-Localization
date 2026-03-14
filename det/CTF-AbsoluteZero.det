@@ -1,9 +1,9 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Absolute Zero"
 
 [LevelSummary]
 Title="Absolute Zero"
-Description="'Absolute Zero' ist eine ehemalige Gletscher-Forschungs- station, die durch massive Erdrutsche in Folge der globalen Erw‰rmung schwer in Mitleidenschaft gezogen wurde. Nachdem die Forscher und Wissenschaftler in aller Eile evakuiert worden waren, hatte Liandri diese Basis f¸r das Tournament erworben. Eine warme Begr¸ﬂung durch die Teammitglieder mag von den Tiefsttemperaturen ablenken. Das sollte aber niemanden dar¸ber hinweg t‰uschen, dass die Feinde hier eiskalt sein kˆnnen ..."
+Description="'Absolute Zero' ist eine ehemalige Gletscher-Forschungs- station, die durch massive Erdrutsche in Folge der globalen Erw√§rmung schwer in Mitleidenschaft gezogen wurde. Nachdem die Forscher und Wissenschaftler in aller Eile evakuiert worden waren, hatte Liandri diese Basis f√ºr das Tournament erworben. Eine warme Begr√º√üung durch die Teammitglieder mag von den Tiefsttemperaturen ablenken. Das sollte aber niemanden dar√ºber hinweg t√§uschen, dass die Feinde hier eiskalt sein k√∂nnen ..."
 
 [Volume0]
 LocationName="ROTER Generator-Raum unten"
@@ -51,10 +51,10 @@ LocationName="ROTE obere Halle"
 LocationName="BLAUE obere Halle"
 
 [Volume23]
-LocationName="Ion-Painter-Br¸cke"
+LocationName="Ion-Painter-Br√ºcke"
 
 [Volume24]
-LocationName="Redeemer-Br¸cke"
+LocationName="Redeemer-Br√ºcke"
 
 [Volume25]
 LocationName="BLAUER Sniper-Turm: Redeemer-Seite"
@@ -69,13 +69,13 @@ LocationName="ROTER Sniper-Turm: Redeemer-Seite"
 LocationName="ROTER Sniper-Turm: Painter-Seite"
 
 [Volume29]
-LocationName="BLAU drauﬂen"
+LocationName="BLAU drau√üen"
 
 [Volume3]
 LocationName="ROTER Generator-Raum oben"
 
 [Volume30]
-LocationName="ROT drauﬂen"
+LocationName="ROT drau√üen"
 
 [Volume6]
 LocationName="ROTE untere Halle B-Seite"

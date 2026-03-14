@@ -9,13 +9,13 @@ Description="On this derelict outpost set deep in the Elorean Seas, there is no 
 LocationName="Red Spike Pit"
 
 [PhysicsVolume1]
-LocationName="Red Spike Pit"
+LocationName="Blue Spike Pit"
 
 [PhysicsVolume2]
 LocationName="Blue Spike Pit"
 
 [PhysicsVolume3]
-LocationName="Red Spike Pit"
+LocationName="Blue Spike Pit"
 
 [PhysicsVolume4]
 LocationName="Red Spike Pit"
@@ -45,13 +45,13 @@ LocationName="Blue Upper Area"
 LocationName="Blue Upper Area"
 
 [Volume6]
-LocationName="Red Flag Room"
+LocationName="Blue Flag Room"
 
 [Volume7]
 LocationName="Red Flag Pit"
 
 [Volume8]
-LocationName="Red Spawn Area"
+LocationName="Blue Spawn Area"
 
 [Volume9]
 LocationName="Red Upper Area"

@@ -1,15 +1,15 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Osiris 2"
 
 [LevelSummary]
 Title="Osiris 2"
-Description="Der Sand vermischt sich mit Ihrem Schweiﬂ und bildet eine klebrige Schicht auf Ihrer Haut, die unter Ihrer Panzerung juckt. Die Luft stinkt nach elektrostatischen Entladungen und getrocknetem Blut. Aus der Dunkelheit der Gr‰ber unten ist ein unmenschlicher Todesschrei zu hˆren, der von einem Ihrer zahllosen Feinden stammt. Das Einzige, was Ihnen Leid tut, ist, dass nicht Sie ihn erledigen konnten. Zeit zu k‰mpfen."
+Description="Der Sand vermischt sich mit Ihrem Schwei√ü und bildet eine klebrige Schicht auf Ihrer Haut, die unter Ihrer Panzerung juckt. Die Luft stinkt nach elektrostatischen Entladungen und getrocknetem Blut. Aus der Dunkelheit der Gr√§ber unten ist ein unmenschlicher Todesschrei zu h√∂ren, der von einem Ihrer zahllosen Feinden stammt. Das Einzige, was Ihnen Leid tut, ist, dass nicht Sie ihn erledigen konnten. Zeit zu k√§mpfen."
 
 [ZoneInfo0]
 LocationName="Untergrundtempel"
 
 [ZoneInfo1]
-LocationName="Obere G‰nge"
+LocationName="Obere G√§nge"
 
 [ZoneInfo10]
 LocationName="Flak Cannon-Raum"
@@ -18,7 +18,7 @@ LocationName="Flak Cannon-Raum"
 LocationName="Unterer Gang"
 
 [ZoneInfo2]
-LocationName="Obere G‰nge"
+LocationName="Obere G√§nge"
 
 [ZoneInfo3]
 LocationName="Haupthof"
@@ -27,10 +27,10 @@ LocationName="Haupthof"
 LocationName="Superschild-Raum"
 
 [ZoneInfo5]
-LocationName="Obere G‰nge"
+LocationName="Obere G√§nge"
 
 [ZoneInfo6]
-LocationName="Obere G‰nge"
+LocationName="Obere G√§nge"
 
 [ZoneInfo7]
 LocationName="Unterer Gang"

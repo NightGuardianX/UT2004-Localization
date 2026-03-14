@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Island Hop"
 
 [LevelSummary]
-Title="D'île en île"
-Description="Cet archipel volcanique servit autrefois de portail dans les guerres humaines du 21ème siècle. Une série de ponts modifiés pour le Tournoi relie désormais les îles. S'ils sont très pratiques pour les véhicules terrestres, ils ne permettent pas un itinéraire direct jusqu'aux combats. Les mantas seront les véhicules de choix."
+Title="D'Ã®le en Ã®le"
+Description="Cet archipel volcanique servit autrefois de portail dans les guerres humaines du 21Ã¨me siÃ¨cle. Une sÃ©rie de ponts modifiÃ©s pour le Tournoi relie dÃ©sormais les Ã®les. S'ils sont trÃ¨s pratiques pour les vÃ©hicules terrestres, ils ne permettent pas un itinÃ©raire direct jusqu'aux combats. Les mantas seront les vÃ©hicules de choix."
 
 [Volume0]
 LocationName="Ile sud-ouest"
@@ -36,7 +36,7 @@ LocationName="Ile est"
 LocationName="Ile sud-ouest"
 
 [Volume20]
-LocationName="Petite île nord-est"
+LocationName="Petite Ã®le nord-est"
 
 [Volume22]
 LocationName="Ile est"
@@ -54,7 +54,7 @@ LocationName="Volcan"
 LocationName="Ile ouest"
 
 [Volume9]
-LocationName="Petite île sud-ouest"
+LocationName="Petite Ã®le sud-ouest"
 
 [WaterVolume1]
 LocationName="Sous l'eau"
@@ -93,5 +93,5 @@ LocationName="Sous l'eau"
 LocationName="Sous l'eau"
 
 [ZoneInfo1]
-LocationName="Extérieur"
+LocationName="ExtÃ©rieur"
 

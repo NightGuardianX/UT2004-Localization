@@ -1,4 +1,4 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Inferno"
 
 [LevelSummary]
@@ -8,7 +8,7 @@ Title="Inferno"
 LocationName="Minigun Turm"
 
 [ZoneInfo1]
-LocationName="Schmort im Höllenfeuer"
+LocationName="Schmort im HÃ¶llenfeuer"
 
 [ZoneInfo10]
 LocationName="Shock Gun Turm"
@@ -23,13 +23,13 @@ LocationName="Shock Gun Turm"
 LocationName="Shock Gun Turm"
 
 [ZoneInfo14]
-LocationName="Schmort im Höllenfeuer"
+LocationName="Schmort im HÃ¶llenfeuer"
 
 [ZoneInfo15]
-LocationName="Schmort im Höllenfeuer"
+LocationName="Schmort im HÃ¶llenfeuer"
 
 [ZoneInfo16]
-LocationName="Schmort im Höllenfeuer"
+LocationName="Schmort im HÃ¶llenfeuer"
 
 [ZoneInfo2]
 LocationName="Flak Cannon Turm"

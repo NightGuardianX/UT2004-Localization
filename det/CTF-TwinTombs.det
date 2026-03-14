@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Twin Tombs"
 
 [LevelSummary]
 Title="Twin Tombs"
-Description="Der Winter ist über die Gräber hereingebrochen, und die Toten sind rastlos. Diese elegante Nachstellung der Twin Tombs der Brüder Ramses III und Rudamon ist bekannt für ihre Schnelligkeit, Brutalität und Heimtücke - genauso wie die dort begrabenen Pharaonen."
+Description="Der Winter ist Ã¼ber die GrÃ¤ber hereingebrochen, und die Toten sind rastlos. Diese elegante Nachstellung der Twin Tombs der BrÃ¼der Ramses III und Rudamon ist bekannt fÃ¼r ihre Schnelligkeit, BrutalitÃ¤t und HeimtÃ¼cke - genauso wie die dort begrabenen Pharaonen."
 
 [ZoneInfo0]
 LocationName="BLAUER oberer Gang"
@@ -36,7 +36,7 @@ LocationName="BLAUER unterer Gang"
 LocationName="BLAUER oberer Gang"
 
 [ZoneInfo2]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"
 
 [ZoneInfo21]
 LocationName="ROTER unterer Gang"

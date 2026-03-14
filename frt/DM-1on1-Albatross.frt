@@ -1,12 +1,12 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Albatros"
 
 [LevelSummary]
 Title="Albatros"
-Description="Sortie tout droit des anciens tournois, voici une arène de combat singulier classique, rénovée et repensée, où va de nouveau couler le sang. Ne vous laissez pas abuser par son apparente simplicité : seuls ceux qui en maîtrisent la configuration pourront y dominer."
+Description="Sortie tout droit des anciens tournois, voici une arÃ¨ne de combat singulier classique, rÃ©novÃ©e et repensÃ©e, oÃ¹ va de nouveau couler le sang. Ne vous laissez pas abuser par son apparente simplicitÃ© : seuls ceux qui en maÃ®trisent la configuration pourront y dominer."
 
 [Volume1]
-LocationName="Cours d'eau inférieur"
+LocationName="Cours d'eau infÃ©rieur"
 
 [Volume2]
 LocationName="Petit canyon"
@@ -18,7 +18,7 @@ LocationName="Ruines bio"
 LocationName="Zone pont"
 
 [Volume5]
-LocationName="Statue inférieure"
+LocationName="Statue infÃ©rieure"
 
 [Volume6]
 LocationName="Ascenseur minigun"
@@ -30,17 +30,17 @@ LocationName="Statue albatros"
 LocationName="sous l'eau"
 
 [ZoneInfo0]
-LocationName="Extérieur"
+LocationName="ExtÃ©rieur"
 
 [ZoneInfo1]
 LocationName="Salle lance-roquettes"
 
 [ZoneInfo2]
-LocationName="intérieur"
+LocationName="intÃ©rieur"
 
 [ZoneInfo3]
-LocationName="intérieur"
+LocationName="intÃ©rieur"
 
 [ZoneInfo4]
-LocationName="intérieur"
+LocationName="intÃ©rieur"
 

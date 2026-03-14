@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Ironic"
 
 [LevelSummary]
 Title="Ironic"
-Description="In der Einsamkeit der verlassenen Küstenplattformen von Neu-Argentinien wird das leise Zwitschern der Vögel vom Dröhnen der Raketen und vom Donnern der Shock Rifles übertönt. Sieht so aus, als wären die Ferien vorbei. Schnappen Sie sich also etwas Munition, und legen Sie los. Es ist Zeit für ein altmodisches Deathmatch."
+Description="In der Einsamkeit der verlassenen KÃ¼stenplattformen von Neu-Argentinien wird das leise Zwitschern der VÃ¶gel vom DrÃ¶hnen der Raketen und vom Donnern der Shock Rifles Ã¼bertÃ¶nt. Sieht so aus, als wÃ¤ren die Ferien vorbei. Schnappen Sie sich also etwas Munition, und legen Sie los. Es ist Zeit fÃ¼r ein altmodisches Deathmatch."
 
 [ZoneInfo0]
 LocationName="Shock Rifle"
@@ -27,7 +27,7 @@ LocationName="Flak Cannon"
 LocationName="Pulsgewehr"
 
 [ZoneInfo15]
-LocationName="Verstärker"
+LocationName="VerstÃ¤rker"
 
 [ZoneInfo16]
 LocationName="Rocket Launcher"

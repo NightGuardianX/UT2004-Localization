@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Twin Tombs"
 
 [LevelSummary]
@@ -17,10 +17,10 @@ LocationName="ROTE Basis"
 LocationName="ROTER Korridor Unten"
 
 [ZoneInfo13]
-LocationName="Sprungverst‰rker ROT"
+LocationName="Sprungverst√§rker ROT"
 
 [ZoneInfo15]
-LocationName="Sprungverst‰rker BLAU"
+LocationName="Sprungverst√§rker BLAU"
 
 [ZoneInfo16]
 LocationName="ROTER Korridor Oben"
@@ -35,7 +35,7 @@ LocationName="BLAUER Korridor Unten"
 LocationName="BLAUER Korridor Oben"
 
 [ZoneInfo2]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo21]
 LocationName="ROTER Korridor Unten"

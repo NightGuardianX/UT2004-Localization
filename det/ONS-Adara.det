@@ -1,30 +1,30 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Adara Canyon"
 
 [LevelSummary]
 Title="Adara Canyon"
-Description="Dieses Schlachtfeld wurde von Erdbeben und Äonen der Erosion geformt. Der Ehrfurcht gebietende Adara Canyon ist ein Wunder der Natur. Aber lassen Sie sich nicht von seiner Schönheit täuschen. Hier kann man verdammt tief stürzen, und der korridorartige Aufbau des Canyons macht es einem nicht gerade einfach, AVRiL-Geschossen auszuweichen."
+Description="Dieses Schlachtfeld wurde von Erdbeben und Ã„onen der Erosion geformt. Der Ehrfurcht gebietende Adara Canyon ist ein Wunder der Natur. Aber lassen Sie sich nicht von seiner SchÃ¶nheit tÃ¤uschen. Hier kann man verdammt tief stÃ¼rzen, und der korridorartige Aufbau des Canyons macht es einem nicht gerade einfach, AVRiL-Geschossen auszuweichen."
 
 [Volume0]
-LocationName="Östliche Fälle"
+LocationName="Ã–stliche FÃ¤lle"
 
 [Volume1]
-LocationName="Westliche Fälle"
+LocationName="Westliche FÃ¤lle"
 
 [Volume2]
-LocationName="Östliche Basis"
+LocationName="Ã–stliche Basis"
 
 [Volume3]
 LocationName="Westliche Basis"
 
 [Volume4]
-LocationName="Nördliche Brückenpassage"
+LocationName="NÃ¶rdliche BrÃ¼ckenpassage"
 
 [Volume5]
-LocationName="Südliche Brückenpassage"
+LocationName="SÃ¼dliche BrÃ¼ckenpassage"
 
 [Volume6]
-LocationName="Brücke"
+LocationName="BrÃ¼cke"
 
 [Volume7]
 LocationName="Zentralinsel"

@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="DesertIsle"
 
 [LevelSummary]
 Title="DesertIsle"
-Description="Unter der brennenden Sonne bedeutet ein kleiner Fluss das Leben für diese grüne Insel mitten im Sandmeer. Was bleibt davon übrig, wenn sich das Wasser rot färbt?"
+Description="Unter der brennenden Sonne bedeutet ein kleiner Fluss das Leben fÃ¼r diese grÃ¼ne Insel mitten im Sandmeer. Was bleibt davon Ã¼brig, wenn sich das Wasser rot fÃ¤rbt?"
 
 [Volume0]
 LocationName="Flussende"
@@ -18,5 +18,5 @@ LocationName="Flussanfang"
 LocationName="Flussmitte"
 
 [ZoneInfo0]
-LocationName="=Wüste="
+LocationName="=WÃ¼ste="
 

@@ -1,4 +1,4 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
 Title="Disclosure"
 
 [LevelSummary]
@@ -41,13 +41,13 @@ LocationName="Lightning Korridor ROT"
 LocationName="Respawn-Halle ROT"
 
 [ZoneInfo40]
-LocationName="Lightning Schieﬂstand ROT"
+LocationName="Lightning Schie√üstand ROT"
 
 [ZoneInfo41]
 LocationName="Torraum"
 
 [ZoneInfo42]
-LocationName="Mitte ¸ber Torraum"
+LocationName="Mitte √ºber Torraum"
 
 [ZoneInfo43]
 LocationName="Hinterer Korridor"
@@ -131,7 +131,7 @@ LocationName="Lightning-Korridor BLAU"
 LocationName="Lightning-Korridor BLAU"
 
 [ZoneInfo68]
-LocationName="Lightning-Schieﬂstand BLAU"
+LocationName="Lightning-Schie√üstand BLAU"
 
 [ZoneInfo69]
 LocationName="Korridor Respawn-Halle BLAU"

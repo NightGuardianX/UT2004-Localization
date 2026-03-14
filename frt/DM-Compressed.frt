@@ -1,11 +1,11 @@
-[LevelInfo0]
-Title="Compressé"
+ï»¿[LevelInfo0]
+Title="CompressÃ©"
 
 [LevelSummary]
-Title="Compressé"
+Title="CompressÃ©"
 
 [ZoneInfo0]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo11]
 LocationName="Hall Canon Flak"
@@ -20,13 +20,13 @@ LocationName="Hall Link Gun"
 LocationName="Hall Link Gun"
 
 [ZoneInfo16]
-LocationName="Hall inférieur recharge Bouclier"
+LocationName="Hall infÃ©rieur recharge Bouclier"
 
 [ZoneInfo17]
-LocationName="Hall inférieur recharge Bouclier"
+LocationName="Hall infÃ©rieur recharge Bouclier"
 
 [ZoneInfo19]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo2]
 LocationName="Annexe gauche"
@@ -35,19 +35,19 @@ LocationName="Annexe gauche"
 LocationName="Ascenseur Canon Flak"
 
 [ZoneInfo3]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo4]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo5]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo6]
-LocationName="Hall inférieur recharge Bouclier"
+LocationName="Hall infÃ©rieur recharge Bouclier"
 
 [ZoneInfo7]
-LocationName="Hall supérieur"
+LocationName="Hall supÃ©rieur"
 
 [ZoneInfo9]
 LocationName="Annexe droite"

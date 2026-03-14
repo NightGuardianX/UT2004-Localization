@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Canyon"
 
 [LevelSummary]
 Title="Canyon"
-Description="Eine blutrünstige Schlacht im Freien - was kann es Schöneres geben? Diese kleine Arena wird durch einen reißenden Fluss geteilt. Das Schwimmen ist hier NICHT empfehlenswert."
+Description="Eine blutrÃ¼nstige Schlacht im Freien - was kann es SchÃ¶neres geben? Diese kleine Arena wird durch einen reiÃŸenden Fluss geteilt. Das Schwimmen ist hier NICHT empfehlenswert."
 
 [Volume1]
 LocationName="BLAUER Sniper-Rastplatz"
@@ -12,7 +12,7 @@ LocationName="BLAUER Sniper-Rastplatz"
 LocationName="BLAUES Bomb-Goal"
 
 [Volume3]
-LocationName="BLAUES Einstiegs-Pool Süden"
+LocationName="BLAUES Einstiegs-Pool SÃ¼den"
 
 [Volume4]
 LocationName="BLAUER Einstiegs-Pool Norden"
@@ -24,7 +24,7 @@ LocationName="ROTER Sniper-Rastplatz"
 LocationName="ROTER Einstiegs-Pool Norden"
 
 [Volume8]
-LocationName="ROTER Einstiegs-Pool Süden"
+LocationName="ROTER Einstiegs-Pool SÃ¼den"
 
 [Volume9]
 LocationName="ROTES Bomb-Goal"
@@ -33,4 +33,4 @@ LocationName="ROTES Bomb-Goal"
 LocationName="Bei den Fischen"
 
 [ZoneInfo1]
-LocationName="Außenbereich"
+LocationName="AuÃŸenbereich"

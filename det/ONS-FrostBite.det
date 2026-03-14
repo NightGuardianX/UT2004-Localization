@@ -1,4 +1,4 @@
-[Counter0]
+Ôªø[Counter0]
 CompleteMessage="Geheimnis aktiviert!"
 
 [LevelInfo0]
@@ -6,7 +6,7 @@ Title="Frostbite"
 
 [LevelSummary]
 Title="Frostbite"
-Description="Lassen Sie sich nicht von der scheinbaren Einfachheit dieser Eisw¸ste t‰uschen. Auch wenn sie eine der kleinsten Arenen f¸r Onslaught ist, sind auf Frostbite hitzige Gefechte und erbitterte Schlachten an der Tagesordnung."
+Description="Lassen Sie sich nicht von der scheinbaren Einfachheit dieser Eisw√ºste t√§uschen. Auch wenn sie eine der kleinsten Arenen f√ºr Onslaught ist, sind auf Frostbite hitzige Gefechte und erbitterte Schlachten an der Tagesordnung."
 
 [MessageTrigger0]
 Message="Peter Respondek"
@@ -51,7 +51,7 @@ LocationName="Geheimes Untergrundversteck"
 LocationName="ROTE Basis"
 
 [Volume18]
-LocationName="S¸dosttal"
+LocationName="S√ºdosttal"
 
 [Volume19]
 LocationName="ROTER See"
@@ -72,7 +72,7 @@ LocationName="BLAUE Schlucht"
 LocationName="ROTE Schlucht"
 
 [Volume25]
-LocationName="S¸dost Knoten"
+LocationName="S√ºdost Knoten"
 
 [Volume26]
 LocationName="Nordost Knoten"
@@ -90,22 +90,22 @@ LocationName="Eingang BLAU"
 LocationName="BLAUER Turm"
 
 [ZoneInfo10]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo11]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo12]
 LocationName="ROTER Turm"
 
 [ZoneInfo13]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo2]
 LocationName="ROTER Turm"
 
 [ZoneInfo3]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo4]
 LocationName="ROTER Turm"
@@ -114,14 +114,14 @@ LocationName="ROTER Turm"
 LocationName="BLAUER Turm"
 
 [ZoneInfo6]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo7]
 LocationName="ROTER Turm"
 
 [ZoneInfo8]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 
 [ZoneInfo9]
-LocationName="Auﬂen"
+LocationName="Au√üen"
 

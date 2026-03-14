@@ -1,4 +1,4 @@
-[Public]
+ï»¿[Public]
 Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
@@ -76,7 +76,7 @@ HelpDesc[0]="Stammverz., v. d. Quelldat. kopiert wer."
 HelpParm[1]="SrcPath"
 HelpDesc[1]="Stammverz., i. d. Quell- (Freig.-)Dat. kop. wer."
 HelpParm[2]="RefPath"
-HelpDesc[2]="Pfade für delta-komprimierte Pfadangabe"
+HelpDesc[2]="Pfade fÃ¼r delta-komprimierte Pfadangabe"
 
 [MapConvertCommandlet]
 HelpCmd="mapconvert"
@@ -94,7 +94,7 @@ HelpUsage="make [-option...] [parm=value] ..."
 HelpParm[0]="Silent"
 HelpDesc[0]="Keine Eingabeaufforderungen; bei allen Fragen von "Ja" ausgehen."
 HelpParm[1]="NoBind"
-HelpDesc[1]="Fixe Verknü. ursprüngl. Funkt. mit DLLs aufheben"
+HelpDesc[1]="Fixe VerknÃ¼. ursprÃ¼ngl. Funkt. mit DLLs aufheben"
 HelpParm[2]="All"
 HelpDesc[2]="Neu Erstellte bereinigen (sonst inkrem. Status)"
 
@@ -105,7 +105,7 @@ HelpUsage="dxtconvert srcpath destpath"
 HelpParm[0]="srcpath"
 HelpDesc[0]="Pfad mit Quelldateien"
 HelpParm[1]="destpath"
-HelpDesc[1]="Pfad für Zieldateien"
+HelpDesc[1]="Pfad fÃ¼r Zieldateien"
 
 [DataRipCommandlet]
 HelpCmd="datarip"
@@ -139,25 +139,25 @@ HelpDesc[7]="  Unsecure"
 
 [ConformCommandlet]
 HelpCmd="conform"
-HelpOneLiner="Erstellung entspr. Binärdateien"
+HelpOneLiner="Erstellung entspr. BinÃ¤rdateien"
 HelpUsage="conform existing_file.ext old_file.ext"
 HelpParm[0]="existingfile.ext"
-HelpDesc[0]="Vorhand. Binärdatei, zu laden, bestät. u. speich."
+HelpDesc[0]="Vorhand. BinÃ¤rdatei, zu laden, bestÃ¤t. u. speich."
 HelpParm[1]="oldfile.ext"
-HelpDesc[1]="Alte Datei um Quelldatei Binär-kompatibel zu machen"
+HelpDesc[1]="Alte Datei um Quelldatei BinÃ¤r-kompatibel zu machen"
 
 [BatchExportCommandlet]
 HelpCmd="batchexport"
 HelpOneLiner="Obj. in Stapel export."
 HelpUsage="batchexport package.ext classname export_ext"
 HelpParm[0]="package.ext"
-HelpDesc[0]="Paket, dessen Obj. Sie export. möchten"
+HelpDesc[0]="Paket, dessen Obj. Sie export. mÃ¶chten"
 HelpParm[1]="classname"
 HelpDesc[1]="Zu export. Objektklasse"
 HelpParm[2]="export_ext"
-HelpDesc[2]="Dateierweit. für Exp."
+HelpDesc[2]="Dateierweit. fÃ¼r Exp."
 HelpParm[3]="path"
-HelpDesc[3]="Pfad für Dateiexport., wie C:\MeinPfad"
+HelpDesc[3]="Pfad fÃ¼r Dateiexport., wie C:\MeinPfad"
 
 [AnalyzeContentCommandlet]
 HelpCmd="analyzecontent"

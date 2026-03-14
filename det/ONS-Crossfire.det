@@ -1,9 +1,9 @@
-[LevelInfo0]
+ï»¿[LevelInfo0]
 Title="Crossfire"
 
 [LevelSummary]
 Title="Crossfire"
-Description="Im Jahre 2352 hat eine ungewöhnliche vulkanische Eruption in den Randgebieten von Jerusalem eine Stadt weit unter der verlorenen Stadt Ekron teilweise freigelegt. Vier Jahre intensiver Ausgrabungsarbeiten brachten eine Zivilisation zu Tage, die älter als alles Bekannte in der Menschheitsgeschichte war. Die Liandri Corporation finanzierte die Ausgrabungen, und so vereinigen sich nun die Seelen der Arenakämpfer mit denen der Toten der unbekannten Vergangenheit."
+Description="Im Jahre 2352 hat eine ungewÃ¶hnliche vulkanische Eruption in den Randgebieten von Jerusalem eine Stadt weit unter der verlorenen Stadt Ekron teilweise freigelegt. Vier Jahre intensiver Ausgrabungsarbeiten brachten eine Zivilisation zu Tage, die Ã¤lter als alles Bekannte in der Menschheitsgeschichte war. Die Liandri Corporation finanzierte die Ausgrabungen, und so vereinigen sich nun die Seelen der ArenakÃ¤mpfer mit denen der Toten der unbekannten Vergangenheit."
 
 [Volume0]
 LocationName="BLAUE Basis"
@@ -33,10 +33,10 @@ LocationName="Nord Knoten"
 LocationName="Ost Knoten"
 
 [Volume8]
-LocationName="Süd Knoten"
+LocationName="SÃ¼d Knoten"
 
 [Volume9]
-LocationName="Süd Knoten"
+LocationName="SÃ¼d Knoten"
 
 [ZoneInfo0]
-LocationName="Außen"
+LocationName="AuÃŸen"
