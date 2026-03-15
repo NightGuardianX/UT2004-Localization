@@ -273,7 +273,7 @@ CorruptConnect="Несовместимость игровых файлов!"
 
 [UpgradeDrivers]
 ; EN: OutdatedDrivers="You are running old graphics card drivers that might not work in conjunction with the game."
-OutdatedDrivers="Вы используете устаревшие драйвера для видеокарты, которые могут работать некорректно.
+OutdatedDrivers="Вы используете устаревшие драйвера для видеокарты, которые могут работать некорректно."
 ; EN: OursOrWeb="Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage"
 OursOrWeb="Выберите 'ДА' для установки последних драйверов с CD-диска или 'НЕТ' для посещения сайта производителя"
 ; EN: InsertCD="Please insert your Unreal Tournament 2004 CD 3"

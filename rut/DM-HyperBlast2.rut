@@ -25,7 +25,7 @@ LocationName="Верхний атриум"
 LocationName="Внутреннее помещение (левый борт)"
 
 [ZoneInfo12]
-; EN: LocationName="Снаружи"
+; EN: LocationName="exterior"
 LocationName="Снаружи"
 
 [ZoneInfo13]
