@@ -31,7 +31,24 @@ DONE_IGNORE_KEY_PATTERNS = (
     'NewStatusTitle', 'Panels', 'ConnectText',
     'LabelTC.', 'myPB5.', 'MPServerMOTD', 'ServerAdminEmail', 'BotTacticsSlider', 'NOTEXT', 'NoVoiceChat',
     'LocalChannel',
+    # Keyboard key names (e.g. Engine.rut: PAGE UP, PRINT SCREEN)
+    'PageUp', 'PageDown', 'End', 'Home', 'Select', 'Print', 'PrintScrn', 'Insert', 'Delete',
+    'Pause', 'CapsLock', 'Tab', 'Enter', 'Shift', 'NumPad', 'Grey', 'Separator',
+    'NumLock', 'Escape',
+    'TeamName',  # all TeamNames
+    # Game/point/announcer identifiers, template strings
+    'ItemName', 'AnnouncerName', 'TauntAnimNames', 'PointName', 'KilledByTrailer',
+    'MutantType', 'InvasionType', 'LMSType', 'msgBonusOverviewItem',
+    # Engine: command-line help, default names, GRI props
+    'HelpUsage', 'HelpParm', 'DefaultPlayerName', 'GRIPropsDisplayText',
 )
+
+# Values that do not block Done: only punctuation, whitespace, or symbols (e.g. ", ", "°")
+TRIVIAL_VALUE = re.compile(r'^[\s°,.\-;:\'\"\[\]()]*$')
+
+def _value_is_trivial(value):
+    """True if value is empty or only punctuation/whitespace/symbols (e.g. ", ", "°")."""
+    return not value.strip() or bool(TRIVIAL_VALUE.match(value.strip()))
 
 def _ignore_for_done(key):
     """True if this key is excluded from 'must have Cyrillic' when deciding Done."""
@@ -72,8 +89,8 @@ def classify_file(path):
     has_spanish = sum(1 for _, v in pairs if SPANISH_CHARS.search(v))
     if has_spanish > 0:
         return 'Spanish!!!', len(pairs), has_spanish, sum(1 for _, v in pairs if CYRILLIC.search(v))
-    # For Done: only require Cyrillic in pairs that are NOT in the ignore list
-    relevant = [(k, v) for k, v in pairs if not _ignore_for_done(k)]
+    # For Done: only require Cyrillic in pairs that are NOT in the ignore list and not trivial values
+    relevant = [(k, v) for k, v in pairs if not _ignore_for_done(k) and not _value_is_trivial(v)]
     if not relevant:
         return 'Done', len(pairs), 0, len(pairs)
     cyrillic_relevant = sum(1 for _, v in relevant if CYRILLIC.search(v))

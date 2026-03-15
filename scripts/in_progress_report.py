@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""List translation lines without Cyrillic (blocking Done) for each In Progress .rut file."""
+"""List translation lines without Cyrillic (blocking Done) for each In Progress .rut file.
+   Uses same DONE_IGNORE_KEY_PATTERNS as check_rut_status.py so "missing" = only keys that block Done.
+"""
 import re
 from pathlib import Path
 
@@ -7,6 +9,51 @@ ROOT = Path(__file__).resolve().parent.parent
 RUT_DIR = ROOT / "rut"
 SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]')
 CYRILLIC = re.compile(r'[\u0400-\u04FF]')
+
+# Same as check_rut_status.py: keys that do NOT block Done when value has no Cyrillic
+DONE_IGNORE_KEY_PATTERNS = (
+    'Title', 'LevelEnterText', 'Message',
+    'FontArrayNames', 'Font', 'MutantRangeFontName',
+    'Preferences', 'Caption', 'ClassCaption',
+    'Object', 'Product', 'Engine', 'Copyright',
+    'HelpWebLink', 'StatsURL', 'WebPage', 'BugReportURL', 'ManualDownloadPage', 'TOSURL',
+    'DefaultFolder', 'AutoplayWindowTitle', 'Developer', 'LocalProduct', 'SafeDiscTitlebar',
+    'DesignModeHints', 'Spacer', 'PercentText', 'Header', 'ColumnHeadings',
+    'ContextItems', 'DefaultItems', 'PanelCaption', 'ModName', 'messageslength',
+    'AudioModes', 'RenderModeText', 'NetSpeedText', 'CharSet',
+    'IP_Bracket_Open', 'IP_Bracket_Close', 'OptionalObjectivePrefix', 'ObjTimesString',
+    'TextCutSuffix', 'SpaceSeparator', 'PrimaryObjectivePrefix', 'RoundSeparator',
+    'SomeoneIsCamperMessage', 'SomeoneIsMutantMessage',
+    'Abbreviation', 'FriendlyName', 'MainPrivs', 'SubPrivs',
+    'VehicleNameString',
+    'BrowseButton', 'lbMod.', 'RCMenu.', 'cTestMenu.', 'PlaylistRCMenu.', 'SongRCMenu.',
+    'NewStatusTitle', 'Panels', 'ConnectText',
+    'LabelTC.', 'myPB5.', 'MPServerMOTD', 'ServerAdminEmail', 'BotTacticsSlider', 'NOTEXT', 'NoVoiceChat',
+    'LocalChannel',
+    # Keyboard key names (e.g. Engine.rut: PAGE UP, PRINT SCREEN)
+    'PageUp', 'PageDown', 'End', 'Home', 'Select', 'Print', 'PrintScrn', 'Insert', 'Delete',
+    'Pause', 'CapsLock', 'Tab', 'Enter', 'Shift', 'NumPad', 'Grey', 'Separator',
+    'NumLock', 'Escape',
+    'TeamName',  # all TeamNames
+    # Game/point/announcer identifiers, template strings
+    'ItemName', 'AnnouncerName', 'TauntAnimNames', 'PointName', 'KilledByTrailer',
+    'MutantType', 'InvasionType', 'LMSType', 'msgBonusOverviewItem',
+    # Engine: command-line help, default names, GRI props
+    'HelpUsage', 'HelpParm', 'DefaultPlayerName', 'GRIPropsDisplayText',
+)
+
+# Values that do not block Done: only punctuation, whitespace, or symbols (e.g. ", ", "°")
+TRIVIAL_VALUE = re.compile(r'^[\s°,.\-;:\'\"\[\]()]*$')
+
+def _value_is_trivial(value):
+    """True if value is empty or only punctuation/whitespace/symbols (e.g. ", ", "°")."""
+    return not value.strip() or bool(TRIVIAL_VALUE.match(value.strip()))
+
+def _ignore_for_done(key):
+    for pat in DONE_IGNORE_KEY_PATTERNS:
+        if pat in key or key == pat:
+            return True
+    return False
 
 def get_translation_pairs(content):
     """Yield (key, value) for each translation line value (lines not starting with ; EN:)."""
@@ -42,23 +89,26 @@ def classify_and_get_missing(path):
     total = len(pairs)
     if has_spanish > 0:
         return 'Spanish!!!', total, 0, []
-    if has_cyrillic == total:
+    # Relevant = not in ignore list and not trivial value (same as check_rut_status)
+    relevant = [(k, v) for k, v in pairs if not _ignore_for_done(k) and not _value_is_trivial(v)]
+    if not relevant:
+        return 'Done', total, 0, []
+    if all(CYRILLIC.search(v) for _, v in relevant):
         return 'Done', total, 0, []
     if has_cyrillic > 0:
-        missing = [(k, v) for k, v in pairs if not CYRILLIC.search(v)]
+        missing = [(k, v) for k, v in pairs if not CYRILLIC.search(v) and not _ignore_for_done(k) and not _value_is_trivial(v)]
         return 'In Progress', total, len(missing), missing
     return 'Untranslated', total, 0, []
 
 def main():
-    import sys
     out_path = ROOT / "Documentation" / "temp" / "In_Progress_report_all.md"
+    raw_path = ROOT / "Documentation" / "temp" / "in_progress_raw.txt"
+    raw_lines = []
     blocks = []
     blocks.append("""# In Progress status — report (all cases)
 
-**Why "In Progress"?** The script treats a file as **Done** only when every translation value contains Cyrillic.  
-**Blocking:** Any line that is a translation (not `; EN:`) and whose value has **no Cyrillic** is counted as "missing" and keeps the file In Progress.
-
-Typical cases: **Title** left as English (map name), technical strings (font names, URLs, captions), or Spanish/other left in place.
+**Why "In Progress"?** The script treats a file as **Done** when every *relevant* translation value contains Cyrillic (see FILE_TRANSLATION_STATUS_RULES).  
+**Blocking:** "Missing" below = lines with **no Cyrillic** whose key is *not* in the ignore list (Title, Message, Caption, URLs, etc. are excluded and do not block Done).
 
 ---
 
@@ -93,8 +143,13 @@ Typical cases: **Title** left as English (map name), technical strings (font nam
         if len(missing_pairs) > 30:
             blocks.append(f"| ... | *+{len(missing_pairs) - 30} more (see in_progress_raw.txt)* |\n")
         blocks.append("\n")
+        raw_lines.append(f"=== {f.name} ({len(missing_pairs)} missing) ===\n")
+        for k, v in missing_pairs:
+            raw_lines.append(f"  {k}\n    {v.replace(chr(10), ' ')}\n")
+        raw_lines.append("\n")
     out_path.write_text("".join(blocks), encoding="utf-8")
-    print("Written:", out_path)
+    raw_path.write_text("".join(raw_lines), encoding="utf-8")
+    print("Written:", out_path, "and", raw_path)
 
 if __name__ == '__main__':
     main()

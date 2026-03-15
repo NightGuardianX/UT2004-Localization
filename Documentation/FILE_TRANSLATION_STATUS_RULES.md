@@ -64,6 +64,11 @@ When judging whether a file is **Done**, the following are **not** required to b
   - **UI technical:** `DesignModeHints`, `Spacer`, `PercentText`, `Header`, `ColumnHeadings`, `ContextItems`, `DefaultItems`, `PanelCaption`, `ModName`, `messageslength`, `AudioModes`, `RenderModeText`, `NetSpeedText`, `CharSet`, punctuation/symbol keys (e.g. `IP_Bracket_Open`, `SpaceSeparator`, `RoundSeparator`), and similar.
   - **Abbreviations / technical names:** e.g. `VehicleNameString` (SPMA, TC-1200), and similar keys that are identifiers or abbreviations.
   - **Empty or placeholder:** e.g. `SomeoneIsCamperMessage`, `SomeoneIsMutantMessage` when value is space or empty; `BrowseButton` when value is `...`.
+  - **Keyboard key names:** Keys whose values are key labels (e.g. in Engine.rut: PAGE UP, PRINT SCREEN, CAPS LOCK, NUM LOCK, ESCAPE, NUM 0–9, TAB, ENTER, etc.). Key names like `PageUp`, `PageDown`, `NumPad`, `Grey`, `CapsLock`, `Separator`, `NumLock`, `Escape`, etc. do not block Done.
+  - **TeamNames:** Any key whose name contains `TeamName` (team name strings).
+  - **Trivial values:** Values that are only punctuation, whitespace, or symbols (e.g. `", "`, `"°"`, comma+space, degree sign). Such values do not block Done.
+  - **Game/point/announcer identifiers and template strings:** `ItemName` (e.g. AVRiL), `AnnouncerName` (e.g. UT2003), `TauntAnimNames`, `PointName` (e.g. A, B), `KilledByTrailer` (e.g. !), `MutantType`, `InvasionType`, `LMSType` (game type IDs), `msgBonusOverviewItem` (template with %bonuscount% etc.). These do not block Done.
+  - **Engine technical:** `HelpUsage` (command-line help text), `HelpParm`, `DefaultPlayerName` (e.g. "Player"), `GRIPropsDisplayText` (e.g. MOTD, FQDN). These do not block Done.
 
 The script `check_rut_status.py` applies these exclusions when suggesting Done; manual review may still treat a file as Done if only such keys remain in English.
 
