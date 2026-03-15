@@ -414,7 +414,7 @@ TeamName="Necris Black Legion"
 
 [PhantomRawSteel]
 ; EN: TeamDescription="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
-TeamDescription="Raw Steel es una unidad de combate formada únicamente por hombres. Esta fuerza, formada por una mezcla de músculo humano y metales de poliestireno, destaca, entre muchas otras cualidades, por su fuerza y poder."
+TeamDescription="Только мужчины допускаются в команду «Ржавая Сталь». Это сочетание человеческих мускулов и литого металла, ставящее силу и власть выше других достоинств."
 ; N_K: Proper name, don't translate.
 TeamName="Raw Steel"
 

@@ -119,7 +119,7 @@ IDC_Restart="&Restart Windows"
 IDC_Exit="E&xit Setup"
 
 [IDDIALOG_WizardDialog]
-IDC_WizardDialog="Unreal Setup"
+IDC_WizardDialog="Unreal Tournament 2004 Setup"
 
 [IDDIALOG_FailedRequirement]
 IDC_FailedRequirement="This product can't be installed here"
