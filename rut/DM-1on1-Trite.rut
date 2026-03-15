@@ -10,11 +10,11 @@ Description="Не теряй бдительности в этом заброше
 
 [ZoneInfo0]
 ; EN: LocationName="Flak Area"
-LocationName="Осколочная зона"
+LocationName="Зона с Осколочной пушкой"
 
 [ZoneInfo1]
 ; EN: LocationName="UDamage Area"
-LocationName="Зона Двойного урона"
+LocationName="Зона с Двойным уроном"
 
 [ZoneInfo2]
 ; EN: LocationName="Shield Room"

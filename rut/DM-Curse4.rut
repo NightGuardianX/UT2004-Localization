@@ -10,7 +10,7 @@ Description="Чувствуешь, как стены смыкаются вокр
 
 [ZoneInfo0]
 ; EN: LocationName="U-Damage Room"
-LocationName="Комната Двойного урона"
+LocationName="Точка появления Двойного урона"
 
 [ZoneInfo1]
 ; EN: LocationName="Basement Hallway"
@@ -22,7 +22,7 @@ LocationName="Верхний атриум"
 
 [ZoneInfo11]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo13]
 ; EN: LocationName="Upper Atrium"
@@ -50,7 +50,7 @@ LocationName="Верхний атриум"
 
 [ZoneInfo19]
 ; EN: LocationName="Rocket Launcher Loft"
-LocationName="Лофт с Ракетницей"
+LocationName="Лофт с Ракетной установкой"
 
 [ZoneInfo2]
 ; EN: LocationName="Basement Hallway"
@@ -62,19 +62,19 @@ LocationName="Верхний атриум"
 
 [ZoneInfo21]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo22]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo23]
 ; EN: LocationName="U-Damage Room"
-LocationName="Комната Двойного урона"
+LocationName="Точка появления Двойного урона"
 
 [ZoneInfo24]
 ; EN: LocationName="U-Damage Room"
-LocationName="Комната Двойного урона"
+LocationName="Точка появления Двойного урона"
 
 [ZoneInfo25]
 ; EN: LocationName="Sniper Rifle Hallway"
@@ -93,7 +93,7 @@ LocationName="Снайперский коридор"
 LocationName="Снайперский коридор"
 
 [ZoneInfo29]
-LocationName="Комната Двойного урона"
+LocationName="Точка появления Двойного урона"
 
 [ZoneInfo3]
 ; EN: LocationName="Dragon Heads Area"
@@ -113,7 +113,7 @@ LocationName="Снайперский коридор"
 
 [ZoneInfo7]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo8]
 ; EN: LocationName="Sniper Rifle Hallway"

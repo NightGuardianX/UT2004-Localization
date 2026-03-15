@@ -26,7 +26,7 @@ LocationName="Осколочная пушка A"
 
 [ZoneInfo4]
 ; EN: LocationName="A Rocket Launcher"
-LocationName="Ракетница A"
+LocationName="Ракетная установка A"
 
 [ZoneInfo5]
 ; EN: LocationName="B Flak Cannon"
@@ -34,7 +34,7 @@ LocationName="Осколочная пушка B"
 
 [ZoneInfo6]
 ; EN: LocationName="B Rocket Launcher"
-LocationName="Ракетница B"
+LocationName="Ракетная установка B"
 
 [ZoneInfo7]
 ; EN: LocationName="Blue Spawn"

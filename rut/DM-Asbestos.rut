@@ -8,11 +8,11 @@ Title="Asbestos"
 
 [Trigger0]
 ; EN: Message="0wnage"
-Message="0wnage"
+Message="Доминирование"
 
 [Trigger1]
 ; EN: Message="0wnage"
-Message="0wnage"
+Message="Доминирование"
 
 [ZoneInfo0]
 ; EN: LocationName="Lightning Gun"
@@ -36,15 +36,15 @@ LocationName="Шоковая винтовка"
 
 [ZoneInfo16]
 ; EN: LocationName="Flak Lift"
-LocationName="Осколочный лифт"
+LocationName="Лифт с Осколочной пушкой"
 
 [ZoneInfo17]
 ; EN: LocationName="Lightning Gun"
 LocationName="Громобой"
 
 [ZoneInfo18]
-; EN: LocationName="Bio Rifle"
-LocationName="Bio Rifle"
+; EN: LocationName="Bio rifle"
+LocationName="Биовинтовка"
 
 [ZoneInfo19]
 ; EN: LocationName="Double Damage"

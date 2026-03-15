@@ -18,7 +18,7 @@ LocationName="Верхние коридоры"
 
 [ZoneInfo10]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo11]
 ; EN: LocationName="Lower Hallway"
@@ -34,7 +34,7 @@ LocationName="Внутренний двор"
 
 [ZoneInfo4]
 ; EN: LocationName="Super Shield Room"
-LocationName="Комната Суперщита"
+LocationName="Точка появления Суперщита"
 
 [ZoneInfo5]
 ; EN: LocationName="Upper Hallways"
@@ -54,5 +54,5 @@ LocationName="Комната Шоковой винтовки"
 
 [ZoneInfo9]
 ; EN: LocationName="Rocket Launcher Tomb"
-LocationName="Гробница с Ракетницей"
+LocationName="Гробница с Ракетной установкой"
 

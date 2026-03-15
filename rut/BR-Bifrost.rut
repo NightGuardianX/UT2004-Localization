@@ -20,7 +20,7 @@ LocationName="Снаружи"
 
 [ZoneInfo14]
 ; EN: LocationName="RED Hallway"
-LocationName="Коридор ROJO"
+LocationName="Коридор КРАСНЫХ"
 
 [ZoneInfo15]
 ; EN: LocationName="RED Bomb Room"
@@ -44,7 +44,7 @@ LocationName="Коридор СИНИХ"
 
 [ZoneInfo5]
 ; EN: LocationName="RED Hallway"
-LocationName="Коридор ROJO"
+LocationName="Коридор КРАСНЫХ"
 
 [ZoneInfo6]
 ; EN: LocationName="BLUE Bomb Room"

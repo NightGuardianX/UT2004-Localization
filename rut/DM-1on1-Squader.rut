@@ -14,11 +14,11 @@ LocationName="Зона Суперщита"
 
 [ZoneInfo10]
 ; EN: LocationName="UDamage Halls"
-LocationName="Зал Двойного урона"
+LocationName="Залы с Двойным уроном"
 
 [ZoneInfo11]
 ; EN: LocationName="UDamage Halls"
-LocationName="Зал Двойного урона"
+LocationName="Залы с Двойным уроном"
 
 [ZoneInfo12]
 ; EN: LocationName="Super Shield Area"
@@ -30,11 +30,11 @@ LocationName="Ascensor de Ametralladora"
 
 [ZoneInfo3]
 ; EN: LocationName="Flak Hall"
-LocationName="Осколочный зал"
+LocationName="Зал с Осколочной пушкой"
 
 [ZoneInfo4]
 ; EN: LocationName="Flak Hall"
-LocationName="Осколочный зал"
+LocationName="Зал с Осколочной пушкой"
 
 [ZoneInfo5]
 ; EN: LocationName="Double Health"
@@ -54,5 +54,5 @@ LocationName="Зона с открытым горизонтом"
 
 [ZoneInfo9]
 ; EN: LocationName="UDamage Halls"
-LocationName="Зал Двойного урона"
+LocationName="Залы с Двойным уроном"
 

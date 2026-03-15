@@ -6,7 +6,7 @@ Title="Double Dammage"
 ; EN: Title="Double Dammage"
 Title="Double Dammage"
 ; EN: Description="Some people would say you'd have to be insane to play atop a water dam in the middle of winter.  Around here, we call those people "victims"."
-Description="Арена расположена на плотине в зимний период. Условия экстремальные. Противники, считающие это безумием, классифицируются как 'жертвы'."
+Description="Некоторые скажут, что нужно быть безумцем, чтобы рубиться на плотине в самый разгар зимы. Мы же здесь называем таких 'жертвами'."
 
 [PhysicsVolume1]
 ; EN: LocationName="Ice Field"
@@ -18,11 +18,11 @@ LocationName="Комната с Синим флагом"
 
 [ZoneInfo11]
 ; EN: LocationName="Blue Back Room"
-LocationName="Задняя комната Синих"
+LocationName="Подсобка Синих"
 
 [ZoneInfo20]
 ; EN: LocationName="Blue Back Room"
-LocationName="Задняя комната Синих"
+LocationName="Подсобка Синих"
 
 [ZoneInfo24]
 ; EN: LocationName="Red Flag Room"
@@ -30,7 +30,7 @@ LocationName="Комната с Красным флагом"
 
 [ZoneInfo29]
 ; EN: LocationName="Red Back Room"
-LocationName="Задняя комната Красных"
+LocationName="Подсобка Красных"
 
 [ZoneInfo30]
 ; EN: LocationName="Blue Entrance Hall"
@@ -62,11 +62,11 @@ LocationName="Снайперский лифт Красных"
 
 [ZoneInfo45]
 ; EN: LocationName="Red Back Room"
-LocationName="Задняя комната Красных"
+LocationName="Подсобка Красных"
 
 [ZoneInfo46]
 ; EN: LocationName="Red Back Room"
-LocationName="Задняя комната Красных"
+LocationName="Подсобка Красных"
 
 [ZoneInfo47]
 ; EN: LocationName="Red Entrance Hall"
@@ -106,11 +106,11 @@ LocationName="Фойе Красных"
 
 [ZoneInfo56]
 ; EN: LocationName="Red Upper Foyer"
-LocationName="Фойе Superior Красных"
+LocationName="Верхнее фойе Красных"
 
 [ZoneInfo57]
 ; EN: LocationName="Red Upper Foyer"
-LocationName="Фойе Superior Красных"
+LocationName="Верхнее фойе Красных"
 
 [ZoneInfo58]
 ; EN: LocationName="Red Left Upper Hall"
@@ -190,11 +190,11 @@ LocationName="Правый коридор Красных"
 
 [ZoneInfo75]
 ; EN: LocationName="Blue Upper Foyer"
-LocationName="Фойе Superior Синих"
+LocationName="Верхнее фойе Синих"
 
 [ZoneInfo76]
 ; EN: LocationName="Blue Upper Foyer"
-LocationName="Фойе Superior Синих"
+LocationName="Верхнее фойе Синих"
 
 [ZoneInfo77]
 ; EN: LocationName="Blue Left Upper Hall"

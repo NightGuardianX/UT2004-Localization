@@ -1,77 +1,77 @@
 ﻿[DamTypeArtilleryShell]
 ; EN: DeathString="%k rained on %o's parade."
-DeathString="%k ha arruinado el desfile de %o."
+DeathString="%k испортил праздник %o."
 ; EN: FemaleSuicide="%o was killed by an artillery strike."
-FemaleSuicide="Un ataque de artillería se ha cargado a %o."
+FemaleSuicide="%o была накрыта артиллерийским огнём."
 ; EN: MaleSuicide="%o was killed by an artillery strike."
-MaleSuicide="Un ataque de artillería se ha cargado a %o."
+MaleSuicide="%o был накрыт артиллерийским огнём."
 
 [DamTypeONSCicadaLaser]
 ; EN: DeathString="%k's blaster stung %o."
-DeathString="El rayo de %k desintegró a %o."
+DeathString="%o получил ожог от бластера %k."
 ; EN: FemaleSuicide="%o used her blaster on herself."
-FemaleSuicide="%o utilizó su rayó en sí misma."
+FemaleSuicide="%o покончила с собой выстрелом из бластера."
 ; EN: MaleSuicide="%o used his blaster on himself."
-MaleSuicide="%o utilizó su rayó en sí mismo."
+MaleSuicide="%o покончил с собой выстрелом из бластера."
 
 [DamTypeONSCicadaRocket]
 ; EN: DeathString="%k's blew %o to bits."
-DeathString="%k hizo volar en pedazos a %o."
+DeathString="%k разнёс %o в клочья."
 ; EN: FemaleSuicide="%o blew herself up good."
-FemaleSuicide="%o se ha autoinmolado."
+FemaleSuicide="%o знатно подорвала себя."
 ; EN: MaleSuicide="%o blew himself up good."
-MaleSuicide="%o se ha autoinmolado."
+MaleSuicide="%o знатно подорвал себя."
 
 [DamTypeShockTankProximityExplosion]
 ; EN: DeathString="%o got too close to %k's Paladin."
-DeathString="%o se ha acercado demasiado al Paladin de %k."
+DeathString="%o слишком близко подобрался к 'Паладину' %k."
 
 [DamTypeShockTankShockBall]
 ; EN: DeathString="%o couldn't avoid the blast from %k's Paladin."
-DeathString="%o no ha podido evitar la explosión del Paladin de %k."
+DeathString="%o не увернулся от выстрела 'Паладина' %k."
 
 [MutVehiclePickups]
 ; EN: FriendlyName="Vehicle Pickups"
-FriendlyName="Vehículos Recolectores"
+FriendlyName="Транспорт-сборщик"
 ; EN: Description="Vehicles will pickup items and give them to the driver"
-Description="Los vehículos recogerán los items y se los darán al conductor."
+Description="Транспорт подбирает предметы и передаёт их водителю."
 
 [MutBonusVehicles]
 ; EN: FriendlyName="Bonus Vehicles"
-FriendlyName="Vehículos Adicionales"
+FriendlyName="Бонусный транспорт"
 ; EN: Description="On certain official maps, it replaces certain vehicles with the Cicada, SPMA or Paladin"
-Description="En ciertos mapas oficiales, ciertos vehículos son reemplazados por el Cicada, el SPMA o el Paladin."
+Description="На некоторых официальных картах заменяет определённые единицы техники на 'Цикаду', 'SPMA' или 'Паладин'."
 
 [ONSArtillery]
 ; EN: VehiclePositionString="in a SPMA"
-VehiclePositionString="en un SPMA"
+VehiclePositionString="в SPMA"
 VehicleNameString="SPMA"
 
 [ONSArtillerySideGunPawn]
 ; EN: VehiclePositionString="in a SPMA side turret"
-VehiclePositionString="en la Torreta Lateral de un SPMA"
+VehiclePositionString="за Боковой турелью SPMA"
 ; EN: VehicleNameString="SPMA Side Turret"
-VehicleNameString="Torreta Lateral de SPMA"
+VehicleNameString="Боковая турель SPMA"
 
 [ONSDualACGatlingGunPawn]
 ; EN: LockedMsg=" INCOMING "
-LockedMsg=" APROXIMÁNDOSE "
+LockedMsg=" ОБСТРЕЛ "
 ; EN: VehiclePositionString="in a Cicada's Laser Turret"
-VehiclePositionString="en una Torreta Láser de Cicada"
+VehiclePositionString="за Лазерной турелью Цикады"
 ; EN: VehicleNameString="Cicada's Laser Turret"
-VehicleNameString="Torreta Láser de Cicada"
+VehicleNameString="Лазерная турель Цикады"
 
 [ONSDualAttackCraft]
 ; EN: LockedMsg=" Locked "
-LockedMsg=" Bloqueado "
+LockedMsg=" Заблокировано "
 ; EN: CoPilotLabel="Gunner"
-CoPilotLabel="En los Cañones"
+CoPilotLabel="Стрелок"
 ; EN: VehiclePositionString="in a Cicada"
-VehiclePositionString="en un Cicada"
-VehicleNameString="Cicada"
+VehiclePositionString="в Цикаде"
+VehicleNameString="Цикада"
 
 [ONSShockTank]
 ; EN: VehiclePositionString="in a Paladin"
-VehiclePositionString="en un Paladin"
-VehicleNameString="Paladin"
+VehiclePositionString="в Паладине"
+VehicleNameString="Паладин"
 

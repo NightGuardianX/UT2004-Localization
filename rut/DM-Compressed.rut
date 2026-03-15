@@ -44,7 +44,7 @@ LocationName="Левая пристройка"
 
 [ZoneInfo20]
 ; EN: LocationName="Flak elevator"
-LocationName="Осколочный лифт"
+LocationName="Лифт с Осколочной пушкой"
 
 [ZoneInfo21]
 ; EN: LocationName="Double Damage Corridor"
