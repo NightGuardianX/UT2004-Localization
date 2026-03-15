@@ -46,7 +46,7 @@ MaleSuicide="%o эффектно разнёс себя на куски в неб
 
 [DamTypeAttackCraftPlasma]
 ; EN: DeathString="%k's Raptor filled %o with plasma."
-DeathString=%k напичкал %o плазмой из Раптора."
+DeathString="%k напичкал %o плазмой из Раптора."
 ; EN: FemaleSuicide="%o fried herself with her own plasma blast."
 FemaleSuicide="%o поджарила себя собственным залпом плазмы."
 ; EN: MaleSuicide="%o fried himself with his own plasma blast."

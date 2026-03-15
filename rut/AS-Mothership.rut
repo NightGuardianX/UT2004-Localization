@@ -298,20 +298,20 @@ LocationName="Правая шахта"
 LocationName="Основная средняя шахта"
 
 [ZoneInfo16]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo17]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo18]
 ; EN: LocationName="Inner top shaft"
 LocationName="Внутренняя верхняя шахта"
 
 [ZoneInfo19]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo2]
 ; EN: LocationName="In space"
@@ -410,8 +410,8 @@ LocationName="Посадочная палуба защитников"
 LocationName="Проход к ядру"
 
 [ZoneInfo41]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo42]
 ; EN: LocationName="Core bridge passage left"
