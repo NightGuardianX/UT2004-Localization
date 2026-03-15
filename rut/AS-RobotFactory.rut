@@ -20,7 +20,7 @@ Message="...1 секунду..."
 
 [Action_DISPLAYMESSAGE5]
 ; EN: Message="... signal received"
-Message="...señal recibida"
+Message="...сигнал получен"
 
 [Action_DISPLAYMESSAGE6]
 ; EN: Message="...3 seconds..."
