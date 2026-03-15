@@ -25,11 +25,11 @@ LocationName="Верхний коридор"
 LocationName="Верхний коридор"
 
 [ZoneInfo12]
-; EN: LocationName="Биовинтовка"
+; EN: LocationName="Bio Rifle"
 LocationName="Биовинтовка"
 
 [ZoneInfo13]
-; EN: LocationName="Биовинтовка"
+; EN: LocationName="Bio Rifle"
 LocationName="Биовинтовка"
 
 [ZoneInfo14]
@@ -42,7 +42,7 @@ LocationName="Связующая пушка"
 
 [ZoneInfo16]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo17]
 ; EN: LocationName="Shock Rifle"
@@ -50,7 +50,7 @@ LocationName="Шоковая винтовка"
 
 [ZoneInfo18]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo19]
 ; EN: LocationName="Outside"
@@ -58,7 +58,7 @@ LocationName="Снаружи"
 
 [ZoneInfo2]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo3]
 ; EN: LocationName="Elevator"
@@ -70,11 +70,11 @@ LocationName="Лифт"
 
 [ZoneInfo5]
 ; EN: LocationName="Super Shield Room"
-LocationName="Комната Суперщита"
+LocationName="Точка появления Суперщита"
 
 [ZoneInfo6]
 ; EN: LocationName="Super Shield Room"
-LocationName="Комната Суперщита"
+LocationName="Точка появления Суперщита"
 
 [ZoneInfo7]
 ; EN: LocationName="Top Hallway"

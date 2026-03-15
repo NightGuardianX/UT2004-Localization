@@ -6,7 +6,7 @@ Title="Grassyknoll"
 ; EN: Title="Grassyknoll"
 Title="Grassyknoll"
 ; EN: Description="A warm breeze through the trees brings the stink of hot metal and sulphur, and the coppery scent of blood. Somewhere ahead crazed laughter echoes the report of a plasma rifle, taunting an unseen enemy. The sizzle of scorched flesh is the only answer. There's no magic bullets here, no conspiracy, just a gauntlet of enemies to overcome and finally bring the flag home. "
-Description="Тёплый ветерок, пронёсшийся сквозь деревья, приносит с собой смрад раскалённого металла и серы, смешанный с медным привкусом крови. Где-то впереди безумный хохот вторит выстрелам плазменной винтовки, насмехаясь над невидимым врагом. В ответ - лишь шипение поджаренной плоти. Здесь нет «волшебных пуль» и нет заговоров. Только полоса препятствий из врагов, которых нужно одолеть, чтобы наконец донести флаг до базы."
+Description="Тёплый ветерок, пронёсшийся сквозь деревья, приносит с собой смрад раскалённого металла и серы, смешанный с медным привкусом крови. Где-то впереди безумный хохот вторит выстрелам плазменной винтовки, насмехаясь над невидимым врагом. В ответ - лишь шипение поджаренной плоти. Здесь нет 'волшебных пуль' и нет заговоров. Только полоса препятствий из врагов, которых нужно одолеть, чтобы наконец донести флаг до базы."
 
 [LimitationVolume1]
 ; EN: LocationName="Mine Field"

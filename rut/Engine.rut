@@ -273,7 +273,7 @@ CorruptConnect="Несовместимость игровых файлов!"
 
 [UpgradeDrivers]
 ; EN: OutdatedDrivers="You are running old graphics card drivers that might not work in conjunction with the game."
-OutdatedDrivers="Вы используете устаревшие драйвера для видеокарты, которые могут работать некорректно.
+OutdatedDrivers="Вы используете устаревшие драйвера для видеокарты, которые могут работать некорректно."
 ; EN: OursOrWeb="Choose YES to install updated drivers from our CD and NO to visit the manufacturers homepage"
 OursOrWeb="Выберите 'ДА' для установки последних драйверов с CD-диска или 'НЕТ' для посещения сайта производителя"
 ; EN: InsertCD="Please insert your Unreal Tournament 2004 CD 3"
@@ -346,8 +346,8 @@ HelpParm[0]=-a
 ; EN: HelpDesc[0]="Update matching entries in destfilename.ucl.  Append any new entries."
 HelpDesc[0]="Обновить совпадающие записи в destfilename.ucl. Добавить новые записи."
 HelpParm[1]=-y
-; EN: HelpDesc[1]="Автоматически отвечать 'Да' на все запросы во время работы."
-HelpDesc[1]="Responde automáticamente 'Sí' a cualquier mensaje durante la operación."
+; EN: HelpDesc[1]="Automatically answer 'Yes' to any prompts during the operation."
+HelpDesc[1]="Автоматически отвечать 'Да' на все запросы во время работы."
 HelpParm[2]=-v
 ; EN: HelpDesc[2]="Verbose output (to ucc.log)"
 HelpDesc[2]="Подробный вывод (в ucc.log)"
@@ -457,9 +457,9 @@ BHDescText[0]="Активируйте опцию, чтобы запретить 
 BHDescText[1]="Активируйте опцию, чтобы вынести зрителей в отдельный чат."
 
 [Canvas]
-TinyFontName="UT2003Fonts_rut.FontMono"
-SmallFontName="UT2003Fonts_rut.FontMono"
-MedFontName="UT2003Fonts_rut.FontMono800x600"
+TinyFontName="UT2003Fonts.FontMono"
+SmallFontName="UT2003Fonts.FontMono"
+MedFontName="UT2003Fonts.FontMono800x600"
 
 [ChatRoomMessage]
 ; EN: AnonText="Someone"
@@ -713,7 +713,7 @@ FemaleSuicide="%o превратилась в фарш."
 MaleSuicide="%o превратился в фарш."
 
 [HUD]
-ProgressFontName="UT2003Fonts_rut.FontEurostile12"
+ProgressFontName="UT2003Fonts.FontEurostile12"
 FontArrayNames[0]="Engine.DefaultFont"
 FontArrayNames[1]="Engine.DefaultFont"
 FontArrayNames[2]="Engine.DefaultFont"

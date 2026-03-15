@@ -24,7 +24,7 @@ LocationName="Восточные нижние залы"
 
 [ZoneInfo11]
 ; EN: LocationName="Flak Hall"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo12]
 ; EN: LocationName="Bio Hall"
@@ -40,7 +40,7 @@ LocationName="Северные верхние залы"
 
 [ZoneInfo15]
 ; EN: LocationName="Flak Hall"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo2]
 ; EN: LocationName="Cloning Tanks"

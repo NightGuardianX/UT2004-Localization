@@ -78,7 +78,7 @@ LocationName="Ворота СИНИХ"
 
 [ZoneInfo4]
 ; EN: LocationName="BLUE Pillar Room"
-LocationName="Sala de Pilares СИНИХ"
+LocationName="Зал с колоннами СИНИХ"
 
 [ZoneInfo5]
 ; EN: LocationName="BLUE BioRifle Entrance"
@@ -90,7 +90,7 @@ LocationName="Проход (со Щитом) СИНИХ"
 
 [ZoneInfo7]
 ; EN: LocationName="RED Pillar Room"
-LocationName="Sala de Pilares КРАСНЫХ"
+LocationName="Зал с колоннами КРАСНЫХ"
 
 [ZoneInfo8]
 ; EN: LocationName="BLUE Armor Entrance"

@@ -167,7 +167,7 @@ LocationName="Передовая снайперская позиция"
 
 [Volume2]
 ; EN: LocationName="Cargo trailer"
-LocationName="Remolque de carga"
+LocationName="Грузовой трейлер"
 
 [Volume3]
 ; EN: LocationName="Boarding platform vehicle"
@@ -182,8 +182,8 @@ LocationName="Передовой склад вооружения"
 LocationName="Прицеп с трубами"
 
 [Volume6]
-; EN: LocationName="Трейлер с вооружением"
-LocationName="Vehículo de tráiler de armas"
+; EN: LocationName="Weapon trailer vehicle"
+LocationName="Трейлер с вооружением"
 
 [Volume7]
 ; EN: LocationName="Weapon trailer roof"

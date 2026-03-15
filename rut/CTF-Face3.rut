@@ -40,27 +40,27 @@ LocationName="Уровень 2 базы Красных"
 
 [Volume4]
 ; EN: LocationName="Blue Flak"
-LocationName="Осколочная пушка базы Синих"
+LocationName="Осколочная пушка у Синих"
 
 [Volume5]
 ; EN: LocationName="Red Flak"
-LocationName="Осколочная пушка базы Красных"
+LocationName="Осколочная пушка у Красных"
 
 [Volume6]
 ; EN: LocationName="Blue Flak"
-LocationName="Осколочная пушка базы Синих"
+LocationName="Осколочная пушка у Синих"
 
 [Volume7]
 ; EN: LocationName="Blue Flak"
-LocationName="Осколочная пушка базы Синих"
+LocationName="Осколочная пушка у Синих"
 
 [Volume8]
 ; EN: LocationName="Red Flak"
-LocationName="Осколочная пушка базы Красных"
+LocationName="Осколочная пушка у Красных"
 
 [Volume9]
 ; EN: LocationName="Red Flak"
-LocationName="Осколочная пушка базы Красных"
+LocationName="Осколочная пушка у Красных"
 
 [ZoneInfo1]
 ; EN: LocationName="Blue Base"

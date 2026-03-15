@@ -77,15 +77,15 @@ Objective_Info_Defender="Защищайте стража"
 
 [DestroyableObjective_SM0]
 ; EN: ObjectiveName="Energy bypass"
-ObjectiveName="Энергетический обходной контур"
+ObjectiveName="Обход энергосистемы"
 ; EN: DestructionMessage="Destroyed energy bypass..."
-DestructionMessage="Энергетический обходной контур уничтожен..."
+DestructionMessage="Обход энергосистемы уничтожен..."
 ; EN: ObjectiveDescription="Destroy laser field bypass"
-ObjectiveDescription="Уничтожить обходной контур лазерного поля"
+ObjectiveDescription="Уничтожить обход лазерного поля"
 ; EN: Objective_Info_Attacker="Destroy energy bypass"
-Objective_Info_Attacker="Уничтожьте энергетический обходной контур"
+Objective_Info_Attacker="Уничтожьте обход энергосистемы"
 ; EN: Objective_Info_Defender="Defend energy bypass"
-Objective_Info_Defender="Защищайте энергетический обходной контур"
+Objective_Info_Defender="Защищайте обход энергосистемы"
 
 [DestroyableObjective_SM1]
 ; EN: ObjectiveName="Upper shield generator"
@@ -131,21 +131,21 @@ DestructionMessage="Кондуктор уничтожен!!!"
 ; EN: ObjectiveDescription="Destroy core conductor"
 ObjectiveDescription="Уничтожьте кондуктор ядра"
 ; EN: Objective_Info_Attacker="Destroy the conductor"
-Objective_Info_Attacker="Уничтожьте conductor"
+Objective_Info_Attacker="Уничтожьте кондуктор"
 ; EN: Objective_Info_Defender="Defend the conductor"
-Objective_Info_Defender="Защищайте conductor"
+Objective_Info_Defender="Защищайте кондуктор"
 
 [DestroyableObjective_SM5]
 ; EN: ObjectiveName="Energy bypass"
-ObjectiveName="Энергетический обходной контур"
+ObjectiveName="Обход энергосистемы"
 ; EN: DestructionMessage="Destroyed energy bypass..."
-DestructionMessage="Энергетический обходной контур уничтожен..."
+DestructionMessage="Обход энергосистемы уничтожен..."
 ; EN: ObjectiveDescription="Destroy laser field bypass"
-ObjectiveDescription="Уничтожьте desvío del campo láser"
+ObjectiveDescription="Уничтожить Обход энергосистемы"
 ; EN: Objective_Info_Attacker="Destroy energy bypass"
-Objective_Info_Attacker="Уничтожьте энергетический обходной контур"
+Objective_Info_Attacker="Уничтожьте обход энергосистемы"
 ; EN: Objective_Info_Defender="Defend energy bypass"
-Objective_Info_Defender="Защищайте энергетический обходной контур"
+Objective_Info_Defender="Защищайте обход энергосистемы"
 
 [DestroyableObjective_SM6]
 ; EN: ObjectiveName="Core conductors..."
@@ -298,20 +298,20 @@ LocationName="Правая шахта"
 LocationName="Основная средняя шахта"
 
 [ZoneInfo16]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo17]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo18]
 ; EN: LocationName="Inner top shaft"
 LocationName="Внутренняя верхняя шахта"
 
 [ZoneInfo19]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo2]
 ; EN: LocationName="In space"
@@ -383,7 +383,7 @@ LocationName="Лифтовой шлюз"
 
 [ZoneInfo35]
 ; EN: LocationName="Energy bypass room"
-LocationName="Sala de Энергетический обходной контур"
+LocationName="Зал обхода энергосистемы"
 
 [ZoneInfo36]
 ; EN: LocationName="Left hallway"
@@ -391,7 +391,7 @@ LocationName="Левый коридор"
 
 [ZoneInfo37]
 ; EN: LocationName="Attackers landing bay"
-LocationName="Посадочная палуба de atacantes"
+LocationName="Посадочная палуба атакующих"
 
 [ZoneInfo38]
 ; EN: LocationName="Right hallway"
@@ -399,7 +399,7 @@ LocationName="Правый коридор"
 
 [ZoneInfo39]
 ; EN: LocationName="Top energy bypass entrance"
-LocationName="Entrada superior a Энергетический обходной контур"
+LocationName="Верхний шлюз обхода энергосистемы"
 
 [ZoneInfo4]
 ; EN: LocationName="Defender's Landing bay"
@@ -410,12 +410,12 @@ LocationName="Посадочная палуба защитников"
 LocationName="Проход к ядру"
 
 [ZoneInfo41]
-; EN: LocationName="Core Снаружи"
-LocationName="Ядро (снаружи)
+; EN: LocationName="Core exterior"
+LocationName="Ядро (снаружи)"
 
 [ZoneInfo42]
-; EN: LocationName="Левый проход к мостику ядра"
-LocationName="Pasaje izquierdo del puente al núcleo"
+; EN: LocationName="Core bridge passage left"
+LocationName="Левый проход к мостику ядра"
 
 [ZoneInfo43]
 ; EN: LocationName="Gravity engine room #1"
@@ -458,8 +458,8 @@ LocationName="Коридор грузового отсека"
 LocationName="Правый коридор гравитационного двигателя"
 
 [ZoneInfo52]
-; EN: LocationName="Левый проход к мостику ядра"
-LocationName="Pasaje izquierdo del puente al núcleo"
+; EN: LocationName="Core bridge passage left"
+LocationName="Левый проход к мостику ядра"
 
 [ZoneInfo53]
 ; EN: LocationName="Gravity engine hallway right"

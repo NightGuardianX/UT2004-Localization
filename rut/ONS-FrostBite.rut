@@ -93,7 +93,7 @@ LocationName="Красная башня"
 LocationName="Центральный узел (3)"
 
 [Volume18]
-; EN: LocationName="Southeast долинаy"
+; EN: LocationName="Southeast Valley"
 LocationName="Юго-Восточная долина"
 
 [Volume19]
@@ -109,7 +109,7 @@ LocationName="Синяя башня"
 LocationName="Северо-Западное озеро"
 
 [Volume21]
-; EN: LocationName="Northeast долинаy"
+; EN: LocationName="Northeast Valley"
 LocationName="Северо-Восточная долина"
 
 [Volume22]

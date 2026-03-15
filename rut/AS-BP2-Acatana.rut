@@ -118,7 +118,7 @@ ObjectiveDescription="Нейтрализуйте боевые крейсеры, 
 ; EN: Objective_Info_Attacker="Destroy the Ship Engines."
 Objective_Info_Attacker="Уничтожьте корабельные двигатели."
 ; EN: Objective_Info_Defender="Defend the Ship Engines."
-Objective_Info_Defender="Защищайте корабельные двигатели.
+Objective_Info_Defender="Защищайте корабельные двигатели."
 
 [HoldObjective1]
 ; EN: ObjectiveName="Bunker Doors"
@@ -126,7 +126,7 @@ ObjectiveName="Двери бункера"
 ; EN: DestructionMessage="Bunker Doors Blown!"
 DestructionMessage="Двери бункера уничтожены!"
 ; EN: ObjectiveDescription="Place Explosives to blow open the main doors."
-ObjectiveDescription="Установите взрывчатку, чтобы уничтожить двери.
+ObjectiveDescription="Установите взрывчатку, чтобы уничтожить двери."
 ; EN: Objective_Info_Attacker="Blow up the Main Doors."
 Objective_Info_Attacker="Уничтожьте главные двери."
 ; EN: Objective_Info_Defender="Defend the Main Doors."

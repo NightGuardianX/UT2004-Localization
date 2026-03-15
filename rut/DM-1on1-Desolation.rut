@@ -26,7 +26,7 @@ LocationName="Зона с открытым горизонтом"
 
 [ZoneInfo4]
 ; EN: LocationName="Flak Hall"
-LocationName="Осколочный зал"
+LocationName="Зал с Осколочной пушкой"
 
 [ZoneInfo5]
 ; EN: LocationName="Upper Painting"

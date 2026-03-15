@@ -57,27 +57,27 @@ LocationName="Палуба первого этажа"
 LocationName="На крыше"
 
 [Volume2]
-; EN: LocationName="Southern Снаружи"
+; EN: LocationName="Southern exterior"
 LocationName="Снаружи (Юг)"
 
 [Volume3]
-; EN: LocationName="Western Снаружи"
+; EN: LocationName="Western exterior"
 LocationName="Снаружи (Запад)"
 
 [Volume4]
-; EN: LocationName="Northern Снаружи"
+; EN: LocationName="Northern exterior"
 LocationName="Снаружи (Север)"
 
 [Volume5]
-; EN: LocationName="Northern Снаружи"
+; EN: LocationName="Northern exterior"
 LocationName="Снаружи (Север)"
 
 [Volume6]
-; EN: LocationName="Northern Снаружи"
+; EN: LocationName="Northern exterior"
 LocationName="Снаружи (Север)"
 
 [Volume7]
-; EN: LocationName="Northern Снаружи"
+; EN: LocationName="Northern exterior"
 LocationName="Снаружи (Север)"
 
 [Volume8]
