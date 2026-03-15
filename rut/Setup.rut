@@ -138,7 +138,7 @@ IDC_UninstallQuestion="Вы действительно хотите удалит
 
 [IDDIALOG_AutopatchPageGo]
 IDC_AutoUpdateText="Авто-обновление файлов..."
-IDC_UpdatingText="Attempting to download..."
+IDC_UpdatingText="Попытка загрузки..."
 IDC_ProgressText="Прогресс загрузки"
 IDC_Manual="Нажмите здесь, чтобы перейти на страницу ручной загрузки через Интернет"
 ManualDownloadPage="https://github.com/OldUnreal/UT2004Patches/releases"

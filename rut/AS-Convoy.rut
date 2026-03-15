@@ -167,7 +167,7 @@ LocationName="Передовая снайперская позиция"
 
 [Volume2]
 ; EN: LocationName="Cargo trailer"
-LocationName="Remolque de carga"
+LocationName="Грузовой трейлер"
 
 [Volume3]
 ; EN: LocationName="Boarding platform vehicle"
