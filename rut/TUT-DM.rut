@@ -1,16 +1,16 @@
 ﻿[LevelInfo0]
 ; EN: Title="Deathmatch Tutorial"
-Title="Deathmatch Tutorial"
+Title="Обучение режима 'Бой насмерть'"
 
 [LevelSummary]
 ; EN: Title="Deathmatch Tutorial"
-Title="Deathmatch Tutorial"
+Title="Обучение режима 'Бой насмерть'"
 
 [Trigger0]
 ; EN: Message="0wnage"
-Message="0wnage"
+Message="Доминирование"
 
 [Trigger1]
 ; EN: Message="0wnage"
-Message="0wnage"
+Message="Доминирование"
 

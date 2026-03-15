@@ -26,7 +26,7 @@ LocationName="Комната с Синим флагом"
 
 [ZoneInfo12]
 ; EN: LocationName="Blue Rear Rocket Side"
-LocationName="Тыловой чертог (Ракетница) Синих"
+LocationName="Тыловой чертог (Ракетная установка) Синих"
 
 [ZoneInfo13]
 ; EN: LocationName="Blue BioRifle Entrance"
@@ -110,7 +110,7 @@ LocationName="Тыловой чертог (Осколочная пушка) Кр
 
 [ZoneInfo31]
 ; EN: LocationName="Red Rear Rocket Side"
-LocationName="Тыловой чертог (Ракетница) Красных"
+LocationName="Тыловой чертог (Ракетная установка) Красных"
 
 [ZoneInfo32]
 ; EN: LocationName="Red Forward Flak Side"
@@ -118,7 +118,7 @@ LocationName="Чертог Красных (Осколочная пушка)"
 
 [ZoneInfo33]
 ; EN: LocationName="Red Forward Rocket Side"
-LocationName="Чертог (Ракетница) Красных"
+LocationName="Чертог (Ракетная установка) Красных"
 
 [ZoneInfo34]
 ; EN: LocationName="Red Forward Flak Side"
@@ -126,7 +126,7 @@ LocationName="Чертог Красных (Осколочная пушка)"
 
 [ZoneInfo35]
 ; EN: LocationName="Blue Forward Rocket Side"
-LocationName="Чертог (Ракетница) Синих"
+LocationName="Чертог (Ракетная установка) Синих"
 
 [ZoneInfo36]
 ; EN: LocationName="Blue Forward Flak Side"
@@ -150,7 +150,7 @@ LocationName="Чертог (Осколочная пушка) Синих"
 
 [ZoneInfo6]
 ; EN: LocationName="Blue Forward Rocket Side"
-LocationName="Чертог (Ракетница) Синих"
+LocationName="Чертог (Ракетная установка) Синих"
 
 [ZoneInfo7]
 ; EN: LocationName="Red Pillar Room"

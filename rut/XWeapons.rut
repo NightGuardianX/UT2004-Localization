@@ -19,11 +19,11 @@ Object=(Class=Class,MetaClass=Engine.Mutator,Name=XWeapons.MutNoSuperWeapon,Desc
 
 [AssaultAmmo]
 ; EN: ItemName="Bullets"
-ItemName="Пули"
+ItemName="Патроны"
 
 [AssaultAmmoPickup]
 ; EN: PickupMessage="You got a box of grenades and bullets."
-PickupMessage="У тебя есть коробка с гранатами и патронами."
+PickupMessage="Вы подобрали ящик гранат и патронов."
 
 [AssaultRifle]
 ; EN: Description="Inexpensive and easily produced, the AR770 provides a lightweight 5.56mm combat solution that is most effective against unarmored foes. With low-to-moderate armor penetration capabilities, this rifle is best suited to a role as a light support weapon.|The optional M355 Grenade Launcher provides the punch that makes this weapon effective against heavily armored enemies.  Pick up a second assault rifle to double your fire power."
@@ -37,11 +37,11 @@ PickupMessage="Вы подобрали Штурмовую винтовку."
 
 [BallAmmo]
 ; EN: ItemName="Ball Ammo"
-ItemName="Боеприпасы для Мячемёта"
+ItemName="Сферический снаряд"
 
 [BallLauncher]
 ; EN: ItemName="Ball Launcher"
-ItemName="Мячемёт (Ball Launcher)"
+ItemName="Сферомёт (Ball Launcher)"
 
 [BioAmmo]
 ; EN: ItemName="Bio-Rifle Goop"
@@ -328,7 +328,7 @@ ItemName="Заряд щита"
 ; EN: Description="The Kemphler DD280 Riot Control Device has the ability to resist and reflect incoming projectiles and energy beams. The plasma wave inflicts massive damage, rupturing tissue, pulverizing organs, and flooding the bloodstream with dangerous gas bubbles.||This weapon may be intended for combat at close range, but when wielded properly should be considered as dangerous as any other armament in your arsenal."
 Description="Устройство для подавления беспорядков Kemphler DD280 обладает способностью противостоять летящим снарядам и энергетическим лучам не только сдерживая, но отражая их. Его плазменная волна наносит сокрушительный урон, буквально разрывая мягкие ткани, уничтожая внутренние органы и насыщая кровь смертельно опасными пузырьками газа.||Несмотря на то что это оружие предназначено для ближнего боя, в умелых руках оно столь же опасно, как и любое другое вооружение в вашем арсенале."
 ; EN: ItemName="Shield Gun"
-ItemName="Щитовая пушка"
+ItemName="Щитовая пушка (Shield Gun)"
 
 [ShieldGunPickup]
 ; EN: PickupMessage="You got the Shield Gun."

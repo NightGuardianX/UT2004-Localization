@@ -1,0 +1,65 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament 2004"
+DefaultFolder="C:\UT2004"
+ReadMe=Help\ReadMe.int.txt
+SetupWindowTitle=Установка Unreal Tournament 2004
+AutoplayWindowTitle="Параметры Unreal Tournament 2004"
+ProductURL=http://www.unrealtournament2004.com/
+VersionURL=http://unreal.epicgames.com/versions.htm
+Developer="Epic Games"
+DeveloperURL=http://www.epicgames.com/
+Logo=Help\InstallerLogo.bmp
+License=License.int
+
+[General]
+PlayLevelCommand="&Запуск уровня UT2004"
+OpenLinkCommand="&Открыть ссылку UT2004"
+InstallModuleCommand="&Установить модуль UT2004"
+EditLevelCommand="&Редактировать уровень UT2004"
+SafeDiscAdminRights="Запустите программу от имени администратора, а не как гость или пользователь с ограниченными правами."
+SafeDiscNoDisk="Диск не найден. Для продолжения вставьте 'Unreal Tournament 2004 Play Disc'."
+SafeDiscNoDrive="CD/DVD-привод не обнаружен."
+SafeDiscTitlebar="Unreal Tournament 2004"
+SafeDiscWrongDisc="Обнаружен некорректный диск. Для запуска игры требуется 'Unreal Tournament 2004 Play Disc'."
+
+[UnrealGameContentGroup]
+Caption="Игровой контент"
+Description="Рекомендуется полная установка для наилучшей производительности. В противном случае игра будет запускаться с компакт-диска, что снизит производительность, но сэкономит место на диске."
+
+[GameGroup]
+Caption="Juego UT2004"
+Description="Требуется установка."
+
+[DirectXGroup]
+Caption="DirectX 9.0b"
+Description="Controladores opcionales de Microsoft Direct 9.0b para conseguir compatibilidad con gráficos, sonido y joystick mejorados."
+
+[OpenALGroup]
+Caption="OpenAL"
+Description="Требуется для аппаратного ускорения 3D-звука."
+
+[Win2000XPGroup]
+Caption="Windows 2000/XP Direct3D"
+Description="Necesario para Windows 2000/XP [temporal- no para la edición]"
+
+[EditorGroup]
+Caption="Editor Unreal"
+Description="Editor de mundos de Unreal, para crear tus propios entornos 3D de Unreal. Para usuarios avanzados, la instalación es opcional."
+
+[PlayShortcut]
+Caption="Jugar UT2004"
+
+[SafeModeShortcut]
+Caption="Modo a prueba de fallos de UT2004"
+
+[EditorShortcut]
+Caption="Editor de UT2004"
+
+[DocumentationShortcut]
+Caption="Notas de edición"
+
+[WebShortcut]
+Caption="Página web de UT2004"
+
+[UninstallShortcut]
+Caption="Desinstalar Unreal Tournament 2004"

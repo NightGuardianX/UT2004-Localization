@@ -12,7 +12,7 @@ Title="Deck 17"
 
 [LevelSummary]
 ; EN: Title="Deck 17"
-Title="Deck 17"
+Title="Cubierta 17"
 ; EN: Description="Enter Deck 17 - Magma Refinery... Deck 16's HOT neighbor."
 Description="Добро пожаловать на Палубу 17 - Магнитный нефтезавод... 'Горячий' сосед Палубы 16."
 
@@ -42,7 +42,7 @@ LocationName="Главный зал П17 - Центр (Миниган)"
 
 [Volume8]
 ; EN: LocationName="Giant Lava Pool (Rocket Launcher)"
-LocationName="Огромный бассейн лавы (Ракетница)"
+LocationName="Огромный бассейн лавы (Ракетная установка)"
 
 [ZoneInfo25]
 ; EN: LocationName="Deck 16 (Restricted Area)"
@@ -54,7 +54,7 @@ LocationName="Оранжевая изогнутая секция"
 
 [ZoneInfo32]
 ; EN: LocationName="Blue Room (Rocket Launcher)"
-LocationName="Синяя комната (Ракетница)"
+LocationName="Синяя комната (Ракетная установка)"
 
 [ZoneInfo37]
 ; EN: LocationName="Upper Hallway"

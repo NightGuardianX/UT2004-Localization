@@ -1,0 +1,65 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament 2003"
+DefaultFolder="C:\UT2003"
+ReadMe=Help\ReadMe.int.txt
+SetupWindowTitle=Установка Unreal Tournament 2003
+AutoplayWindowTitle="Параметры Unreal Tournament 2003 "
+ProductURL=http://www.unrealtournament2003.com/
+VersionURL=http://unreal.epicgames.com/versions.htm
+Developer="Epic Games"
+DeveloperURL=http://www.epicgames.com/
+Logo=Help\InstallerLogo.bmp
+License=License.int
+
+[General]
+PlayLevelCommand="&Запуск уровня UT2003"
+OpenLinkCommand="&Открыть ссылку UT2003"
+InstallModuleCommand="&Установить модуль UT2003"
+EditLevelCommand="&Редактировать уровень UT2003"
+SafeDiscAdminRights="Запустите программу от имени администратора, а не как гость или пользователь с ограниченными правами."
+SafeDiscNoDisk="Диск не найден. Для продолжения вставьте 'Unreal Tournament 2003 Play Disc'."
+SafeDiscNoDrive="CD/DVD-привод не обнаружен."
+SafeDiscTitlebar="Unreal Tournament 2003"
+SafeDiscWrongDisc="Обнаружен некорректный диск. Для запуска игры требуется 'Unreal Tournament 2003 Play Disc'."
+
+[UnrealGameContentGroup]
+Caption="Игровой контент"
+Description="Рекомендуется полная установка для наилучшей производительности. В противном случае игра будет запускаться с компакт-диска, что снизит производительность, но сэкономит место на диске."
+
+[GameGroup]
+Caption="Играть в UT2003"
+Description="Требуется установка."
+
+[DirectXGroup]
+Caption="DirectX 8.1"
+Description="Дополнительные драйверы Microsoft DirectX 8.1 для улучшения графики, звука и поддержки джойстика."
+
+[OpenALGroup]
+Caption="OpenAL"
+Description="Требуется для аппаратного ускорения 3D-звука."
+
+[Win2000XPGroup]
+Caption="Windows 2000/XP Direct3D"
+Description="Требуется для Windows 2000/XP [временная мера, не для финальной версии]."
+
+[EditorGroup]
+Caption="Unreal Editor"
+Description="Редактор миров Unreal для создания собственных трёхмерных окружений. Только для опытных пользователей; установка по выбору."
+
+[PlayShortcut]
+Caption="Запустить UT2003"
+
+[SafeModeShortcut]
+Caption="Запуск UT2003 в безопасном режиме"
+
+[EditorShortcut]
+Caption="Редактор UT2003"
+
+[DocumentationShortcut]
+Caption="Документация"
+
+[WebShortcut]
+Caption="Веб-страница UT2003"
+
+[UninstallShortcut]
+Caption="Удаление Unreal Tournament 2003"

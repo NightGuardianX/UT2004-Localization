@@ -22,23 +22,23 @@ LocationName="Осколочная пушка"
 
 [ZoneInfo1]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo10]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo11]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo12]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo2]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo3]
 ; EN: LocationName="Flak Cannon"
@@ -58,7 +58,7 @@ LocationName="Осколочная пушка"
 
 [ZoneInfo7]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
 [ZoneInfo8]
 ; EN: LocationName="Flak Cannon"
@@ -66,5 +66,5 @@ LocationName="Осколочная пушка"
 
 [ZoneInfo9]
 ; EN: LocationName="Rocket Launcher"
-LocationName="Ракетница"
+LocationName="Ракетная установка"
 
