@@ -2,18 +2,15 @@
 
 This page lists all localization files and their translation status. Status meanings and how to fill the table are defined in **[FILE_TRANSLATION_STATUS_RULES](FILE_TRANSLATION_STATUS_RULES.md)**.
 
-**Total:** 166 · **Done:** 155 · **Verified:** 0
+**Total:** 162 · **Done:** 162 · **Verified:** 0
 
-**Strings Total:** 9541 · **Translated:** 8668 · **Percent:** 90.9%
+**Strings Total:** 9541 · **Translated:** 8675 · **Percent:** 90.9%
 
 ## Untranslated
 
 | Base File                  | Localization               | Status       | Verified |
 |:---------------------------|:---------------------------|:-------------|:---------|
-| DemoLicense.est            | DemoLicense.rut            | Untranslated |          |
-| Editor.int                 | Editor.rut                 | Untranslated |          |
-| SetupBonusPack.est         | SetupBonusPack.rut         | Untranslated |          |
-| setupbrightskinsmod.est    | setupbrightskinsmod.rut    | Untranslated |          |
+| *(none)*                   |                            |              |          |
 
 ## Spanish!!!
 
@@ -25,13 +22,7 @@ This page lists all localization files and their translation status. Status mean
 
 | Base File                  | Localization               | Status       | Verified |
 |:---------------------------|:---------------------------|:-------------|:---------|
-| AS-Convoy.int              | AS-Convoy.rut              | In Progress  |          |
-| DM-1on1-Squader.int        | DM-1on1-Squader.rut        | In Progress  |          |
-| GUI2K4.int                 | GUI2K4.rut                 | In Progress  |          |
-| Onslaught.est              | Onslaught.rut              | In Progress  |          |
-| Setup.int                  | Setup.rut                  | In Progress  |          |
-| XGame.int                  | XGame.rut                  | In Progress  |          |
-| XInterface.int             | XInterface.rut             | In Progress  |          |
+| *(none)*                   |                            |              |          |
 
 ## Done
 
@@ -43,6 +34,7 @@ This page lists all localization files and their translation status. Status mean
 | AS-BP2-Outback.int         | AS-BP2-Outback.rut         | Done         |          |
 | AS-BP2-SubRosa.int         | AS-BP2-SubRosa.rut         | Done         |          |
 | AS-BP2-Thrust.int          | AS-BP2-Thrust.rut          | Done         |          |
+| AS-Convoy.int              | AS-Convoy.rut              | Done         |          |
 | AS-FallenCity.int          | AS-FallenCity.rut          | Done         |          |
 | AS-Glacier.int             | AS-Glacier.rut             | Done         |          |
 | AS-Junkyard.int            | AS-Junkyard.rut            | Done         |          |
@@ -97,6 +89,7 @@ This page lists all localization files and their translation status. Status mean
 | DM-1on1-Roughinery.int     | DM-1on1-Roughinery.rut     | Done         |          |
 | DM-1on1-Serpentine.int     | DM-1on1-Serpentine.rut     | Done         |          |
 | DM-1on1-Spirit.int         | DM-1on1-Spirit.rut         | Done         |          |
+| DM-1on1-Squader.int        | DM-1on1-Squader.rut        | Done         |          |
 | DM-1on1-Trite.int          | DM-1on1-Trite.rut          | Done         |          |
 | DM-Antalus.int             | DM-Antalus.rut             | Done         |          |
 | DM-Asbestos.int            | DM-Asbestos.rut            | Done         |          |
@@ -149,6 +142,7 @@ This page lists all localization files and their translation status. Status mean
 | Engine.int                 | Engine.rut                 | Done         |          |
 | Entry.int                  | Entry.rut                  | Done         |          |
 | GamePlay.int               | GamePlay.rut               | Done         |          |
+| GUI2K4.int                 | GUI2K4.rut                 | Done         |          |
 | IpDrv.int                  | IpDrv.rut                  | Done         |          |
 | Mov-UT2-intro.int          | Mov-UT2-intro.rut          | Done         |          |
 | MOV-UT2004-Intro.int       | MOV-UT2004-Intro.rut       | Done         |          |
@@ -169,6 +163,7 @@ This page lists all localization files and their translation status. Status mean
 | ONS-Torlan.int             | ONS-Torlan.rut             | Done         |          |
 | ONS-Tricky.int             | ONS-Tricky.rut             | Done         |          |
 | ONS-Urban.int              | ONS-Urban.rut              | Done         |          |
+| Onslaught.est              | Onslaught.rut              | Done         |          |
 | OnslaughtBP.int            | OnslaughtBP.rut            | Done         |          |
 | OnslaughtFull.int          | OnslaughtFull.rut          | Done         |          |
 | ParticleExamples.int       | ParticleExamples.rut       | Done         |          |
@@ -176,6 +171,7 @@ This page lists all localization files and their translation status. Status mean
 | SetupUT2003_Full.est       | SetupUT2003_Full.rut       | Done         |          |
 | SetupUT2004Demo.est        | SetupUT2004Demo.rut        | Done         |          |
 | setuput2004full.est        | setuput2004full.rut        | Done         |          |
+| Setup.int                  | Setup.rut                  | Done         |          |
 | SkaarjPack.int             | SkaarjPack.rut             | Done         |          |
 | Startup.int                | Startup.rut                | Done         |          |
 | TUT-BR.int                 | TUT-BR.rut                 | Done         |          |
@@ -199,25 +195,14 @@ This page lists all localization files and their translation status. Status mean
 | Window.int                 | Window.rut                 | Done         |          |
 | WinDrv.int                 | WinDrv.rut                 | Done         |          |
 | XAdmin.int                 | XAdmin.rut                 | Done         |          |
+| XGame.int                  | XGame.rut                  | Done         |          |
+| XInterface.int             | XInterface.rut             | Done         |          |
 | XMaps.int                  | XMaps.rut                  | Done         |          |
 | XPickups.int               | XPickups.rut               | Done         |          |
 | XPlayers.int               | XPlayers.rut               | Done         |          |
 | XVoting.int                | XVoting.rut                | Done         |          |
 | XWeapons.est               | XWeapons.rut               | Done         |          |
 | XWebAdmin.int              | XWebAdmin.rut              | Done         |          |
-
-## Base files without .rut (No .rut)
-
-These base files have no matching .rut in /rut. Place any new **No .rut** entries here (alphabetically by Localization).
-
-| Base File                  | Localization               | Status  | Verified |
-|:---------------------------|:---------------------------|:--------|:---------|
-| Gestalt.est                | Gestalt.rut                | No .rut |          |
-| License.est                | License.rut                | No .rut |          |
-| Manifest.est               | Manifest.rut               | No .rut |          |
-| UC.est                     | UC.rut                     | No .rut |          |
-| XDemoMaps.est              | XDemoMaps.rut              | No .rut |          |
-| xplayers2.est              | xplayers2.rut              | No .rut |          |
 
 ---
 

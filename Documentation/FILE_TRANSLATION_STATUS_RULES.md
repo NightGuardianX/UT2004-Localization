@@ -8,7 +8,8 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 
 ### Counters (at the top of the status page)
 
-- **Total** — Number of rows in the table (all .int files that have a .rut + all .rut files that have no matching .int in /int).
+- **Total** — Number of rows in the table (all .rut files that are listed, excluding the excluded files below).
+- **Excluded from status:** The following .rut files are **not** listed in the status table and **not** counted in Total: **DemoLicense**, **Editor**, **SetupBonusPack**, **setupbrightskinsmod**. Scripts `check_rut_status.py` and `in_progress_report.py` skip them when generating status output.
 - **Done** — Number of rows where **Status** is `Done`.
 - **Verified** — Number of rows where **Verified** is `YES`.
 - Display as: `**Total:** N · **Done:** M · **Verified:** K`.
@@ -29,26 +30,23 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 - Use a **header row**, then a **separator row** with aligned column delimiters (`|:---|:---|:---|:---|`).
 - **Align columns** in source: pad cell content with spaces so that the first character of each column lines up vertically (Base File width ~26, Localization ~26, Status ~12, Verified ~8). This keeps the table readable when editing the .md file.
 - **Row order:** Sort **all** rows in one **alphabetical order by Localization** (the .rut filename). Rows with Base File = `-` (no .int and no .est) are interleaved where their .rut name falls.
-- **No .rut rows:** Do **not** put rows with status **No .rut** in the main status table. List them in a **separate table** below the main one, under the heading **"Base files without .rut (No .rut)"**. Sort that table alphabetically by Localization. When adding new base files that have no .rut, add them to this separate table.
-
-- **One table per status:** The status page uses **separate tables for each status**. Do not mix statuses in one table. Order of tables: **Untranslated** → **Spanish!!!** → **No Caption** (if any) → **In Progress** → **Done** (Done must be the **last** table). After that, the **Base files without .rut (No .rut)** table. Within each table, sort rows alphabetically by **Localization** (.rut filename).
+- **One table per status:** The status page uses **separate tables for each status**. Do not mix statuses in one table. Order of tables: **Untranslated** → **Spanish!!!** → **No Caption** (if any) → **In Progress** → **Done** (Done must be the **last** table). Within each table, sort rows alphabetically by **Localization** (.rut filename).
 
 ### Table includes columns
 
 - **Base File** — .int filename in /int folder; if no .int, then .est filename from /est folder (same base name as .rut); or `-` when the .rut has neither .int nor .est in this repo
 - **Localization** — .rut filename in /rut folder (same base name: `Foo.int`/`Foo.est` → `Foo.rut`)
-- **Status** — No .rut, No .int, Untranslated, Spanish!!!, No Caption, In Progress, Done (see below)
+- **Status** — No .int, Untranslated, Spanish!!!, No Caption, In Progress, Done (see below)
 - **Verified** — YES when manually confirmed by translator; empty otherwise
 
 ### Status clarification (check in this order)
 
-1. **No .rut** — The .int file has no matching .rut file in /rut. Set this first.
-2. **No .int** — Only when the .rut has **no matching .int in /int and no matching .est in /est** (Base File = `-`), and the .rut has **Missing `; EN:`**. If a .est exists, use it as base and determine status as usual.
-3. **Untranslated** — .rut exists but has no Russian and no Spanish in user-facing strings (e.g. only English copied from .int or no `; EN:` blocks).
-4. **Spanish!!!** — .rut contains any Spanish strings (even if some lines are already Russian). One Spanish string = whole file gets this status. **When checking for Spanish:** consider only the **translation lines** (lines of the form `Key="value"` that are **not** comments). Ignore lines starting with `; EN:` — those are the English reference, not the translation; Latin script in `; EN: Key="English text"` must not be treated as Spanish. **Proper nouns** (e.g. map names in `Title=` such as "Gestalt", "Severance", "Sub Rosa") that are kept identical to the English original are **not** considered Spanish — they are intentionally not translated.
-5. **No Caption** — .int has `Caption=` (or other translatable keys inside `Preferences=`, etc.) but in .rut that key is either missing or its value is still the English original (no `; EN:` + translation).
-6. **In Progress** — Some translatable strings are in Russian, but not all. **Proper nouns** (e.g. map names in `Title=`) that are kept as in the English source do not count as untranslated.
-7. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left). **Proper nouns** (e.g. map names in `Title=`) may remain unchanged and do not prevent Done status.
+1. **No .int** — Only when the .rut has **no matching .int in /int and no matching .est in /est** (Base File = `-`), and the .rut has **Missing `; EN:`**. If a .est exists, use it as base and determine status as usual.
+2. **Untranslated** — .rut exists but has no Russian and no Spanish in user-facing strings (e.g. only English copied from .int or no `; EN:` blocks).
+3. **Spanish!!!** — .rut contains any Spanish strings (even if some lines are already Russian). One Spanish string = whole file gets this status. **When checking for Spanish:** consider only the **translation lines** (lines of the form `Key="value"` that are **not** comments). Ignore lines starting with `; EN:` — those are the English reference, not the translation; Latin script in `; EN: Key="English text"` must not be treated as Spanish. **Proper nouns** (e.g. map names in `Title=` such as "Gestalt", "Severance", "Sub Rosa") that are kept identical to the English original are **not** considered Spanish — they are intentionally not translated.
+4. **No Caption** — .int has `Caption=` (or other translatable keys inside `Preferences=`, etc.) but in .rut that key is either missing or its value is still the English original (no `; EN:` + translation).
+5. **In Progress** — Some translatable strings are in Russian, but not all. **Proper nouns** (e.g. map names in `Title=`) that are kept as in the English source do not count as untranslated.
+6. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left). **Proper nouns** (e.g. map names in `Title=`) may remain unchanged and do not prevent Done status.
 
 ### What does not block Done status
 

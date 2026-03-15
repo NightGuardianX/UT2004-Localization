@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RUT_DIR = ROOT / "rut"
+# Same as check_rut_status.py: excluded from FILE_TRANSLATION_STATUS
+STATUS_EXCLUDED = frozenset({'DemoLicense.rut', 'Editor.rut', 'SetupBonusPack.rut', 'setupbrightskinsmod.rut'})
 SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]')
 CYRILLIC = re.compile(r'[\u0400-\u04FF]')
 
@@ -118,6 +120,8 @@ def main():
 |------|-------|--------|------|
 """)
     for f in sorted(RUT_DIR.glob("*.rut")):
+        if f.name in STATUS_EXCLUDED:
+            continue
         status, total, missing_count, missing_pairs = classify_and_get_missing(f)
         if status != 'In Progress':
             continue
@@ -128,6 +132,8 @@ def main():
         blocks.append(f"| {f.name} | {total} | {missing_count} | {sample} |\n")
     blocks.append("\n---\n\n## Detail by file\n\n")
     for f in sorted(RUT_DIR.glob("*.rut")):
+        if f.name in STATUS_EXCLUDED:
+            continue
         status, total, missing_count, missing_pairs = classify_and_get_missing(f)
         if status != 'In Progress':
             continue

@@ -8,6 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RUT_DIR = ROOT / "rut"
+# .rut files excluded from FILE_TRANSLATION_STATUS (not listed, not counted in Total)
+STATUS_EXCLUDED = frozenset({'DemoLicense.rut', 'Editor.rut', 'SetupBonusPack.rut', 'setupbrightskinsmod.rut'})
 SPANISH_CHARS = re.compile(r'[ñáéíóúü¿¡]')
 CYRILLIC = re.compile(r'[\u0400-\u04FF]')
 
@@ -104,6 +106,8 @@ def classify_file(path):
 def main():
     rows = []
     for f in sorted(RUT_DIR.glob("*.rut")):
+        if f.name in STATUS_EXCLUDED:
+            continue
         status, total, spanish, cyrillic = classify_file(f)
         rows.append((f.name, status, total, spanish, cyrillic))
     # Output table: filename -> new status
