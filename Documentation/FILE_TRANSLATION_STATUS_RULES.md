@@ -9,7 +9,7 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 ### Counters (at the top of the status page)
 
 - **Total** — Number of rows in the table (all .rut files that are listed, excluding the excluded files below).
-- **Excluded from status:** The following .rut files are **not** listed in the status table and **not** counted in Total: **DemoLicense**, **Editor**, **SetupBonusPack**, **setupbrightskinsmod**. Scripts `check_rut_status.py` and `in_progress_report.py` skip them when generating status output.
+- **Excluded from status:** The following .rut files are **not** listed in the status table, **not** counted in Total, and **not** included in **Strings Total** / **Translated** / **Percent**: **DemoLicense**, **Editor**, **SetupBonusPack**, **setupbrightskinsmod**. Scripts `check_rut_status.py`, `in_progress_report.py`, and `count_translation_stats.py` skip them.
 - **Done** — Number of rows where **Status** is `Done`.
 - **Verified** — Number of rows where **Verified** is `YES`.
 - Display as: `**Total:** N · **Done:** M · **Verified:** K`.
