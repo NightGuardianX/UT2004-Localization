@@ -31,6 +31,8 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 - **Row order:** Sort **all** rows in one **alphabetical order by Localization** (the .rut filename). Rows with Base File = `-` (no .int and no .est) are interleaved where their .rut name falls.
 - **No .rut rows:** Do **not** put rows with status **No .rut** in the main status table. List them in a **separate table** below the main one, under the heading **"Base files without .rut (No .rut)"**. Sort that table alphabetically by Localization. When adding new base files that have no .rut, add them to this separate table.
 
+- **One table per status:** The status page uses **separate tables for each status**. Do not mix statuses in one table. Order of tables: **Untranslated** → **Spanish!!!** → **No Caption** (if any) → **In Progress** → **Done** (Done must be the **last** table). After that, the **Base files without .rut (No .rut)** table. Within each table, sort rows alphabetically by **Localization** (.rut filename).
+
 ### Table includes columns
 
 - **Base File** — .int filename in /int folder; if no .int, then .est filename from /est folder (same base name as .rut); or `-` when the .rut has neither .int nor .est in this repo
@@ -47,6 +49,23 @@ Rules for filling the **[FILE_TRANSLATION_STATUS](FILE_TRANSLATION_STATUS.md)** 
 5. **No Caption** — .int has `Caption=` (or other translatable keys inside `Preferences=`, etc.) but in .rut that key is either missing or its value is still the English original (no `; EN:` + translation).
 6. **In Progress** — Some translatable strings are in Russian, but not all. **Proper nouns** (e.g. map names in `Title=`) that are kept as in the English source do not count as untranslated.
 7. **Done** — All translatable strings in .rut are translated into Russian (and no Spanish left). **Proper nouns** (e.g. map names in `Title=`) may remain unchanged and do not prevent Done status.
+
+### What does not block Done status
+
+When judging whether a file is **Done**, the following are **not** required to be in Russian and do **not** count as “untranslated”:
+
+- **Map Title** — The key `Title` (and, where applicable, `LevelEnterText`) for map names may stay in English as proper nouns (e.g. "Gestalt", "Severance", "Sub Rosa").
+- **Countdown / short Message** — The key `Message` when the value is a countdown (e.g. "5", "4", "3", "2", "1") or similar short system message.
+- **Technical strings** — Keys that are technical or system-only; leaving them in English does not block Done:
+  - **Fonts:** `FontArrayNames`, `MutantRangeFontName`, or any key whose name contains `Font`.
+  - **URLs / paths:** `HelpWebLink`, `StatsURL`, `WebPage`, `BugReportURL`, `ManualDownloadPage`, `TOSURL`, `DefaultFolder`, and similar.
+  - **System / config:** `Preferences`, `Caption`, `ClassCaption`, `Object`, `Product`, `Engine`, `Copyright`, `Abbreviation`, `FriendlyName`, `MainPrivs`, `SubPrivs`.
+  - **Setup / installer:** `AutoplayWindowTitle`, `Developer`, `LocalProduct`, `SafeDiscTitlebar`, and similar installer-related keys.
+  - **UI technical:** `DesignModeHints`, `Spacer`, `PercentText`, `Header`, `ColumnHeadings`, `ContextItems`, `DefaultItems`, `PanelCaption`, `ModName`, `messageslength`, `AudioModes`, `RenderModeText`, `NetSpeedText`, `CharSet`, punctuation/symbol keys (e.g. `IP_Bracket_Open`, `SpaceSeparator`, `RoundSeparator`), and similar.
+  - **Abbreviations / technical names:** e.g. `VehicleNameString` (SPMA, TC-1200), and similar keys that are identifiers or abbreviations.
+  - **Empty or placeholder:** e.g. `SomeoneIsCamperMessage`, `SomeoneIsMutantMessage` when value is space or empty; `BrowseButton` when value is `...`.
+
+The script `check_rut_status.py` applies these exclusions when suggesting Done; manual review may still treat a file as Done if only such keys remain in English.
 
 ### How translation is organized
 
