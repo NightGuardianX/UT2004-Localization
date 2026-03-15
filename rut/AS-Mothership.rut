@@ -414,8 +414,8 @@ LocationName="Проход к ядру"
 LocationName="Ядро (снаружи)
 
 [ZoneInfo42]
-; EN: LocationName="Левый проход к мостику ядра"
-LocationName="Pasaje izquierdo del puente al núcleo"
+; EN: LocationName="Core bridge passage left"
+LocationName="Левый проход к мостику ядра"
 
 [ZoneInfo43]
 ; EN: LocationName="Gravity engine room #1"
@@ -458,8 +458,8 @@ LocationName="Коридор грузового отсека"
 LocationName="Правый коридор гравитационного двигателя"
 
 [ZoneInfo52]
-; EN: LocationName="Левый проход к мостику ядра"
-LocationName="Pasaje izquierdo del puente al núcleo"
+; EN: LocationName="Core bridge passage left"
+LocationName="Левый проход к мостику ядра"
 
 [ZoneInfo53]
 ; EN: LocationName="Gravity engine hallway right"

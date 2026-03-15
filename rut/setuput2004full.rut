@@ -32,7 +32,7 @@ Description="Требуется установка."
 
 [DirectXGroup]
 Caption="DirectX 9.0b"
-Description="Controladores opcionales de Microsoft Direct 9.0b para conseguir compatibilidad con gráficos, sonido y joystick mejorados."
+Description="Дополнительные драйверы Microsoft DirectX 9.0b для обеспечения совместимости с улучшенной графикой, звуком и джойстиком."
 
 [OpenALGroup]
 Caption="OpenAL"
@@ -40,26 +40,26 @@ Description="Требуется для аппаратного ускорения
 
 [Win2000XPGroup]
 Caption="Windows 2000/XP Direct3D"
-Description="Necesario para Windows 2000/XP [temporal- no para la edición]"
+Description="Требуется для Windows 2000/XP [временная мера, не для финальной версии]"
 
 [EditorGroup]
 Caption="Editor Unreal"
-Description="Editor de mundos de Unreal, para crear tus propios entornos 3D de Unreal. Para usuarios avanzados, la instalación es opcional."
+Description="Редактор миров Unreal для создания собственных трёхмерных окружений. Только для опытных пользователей; установка по выбору."
 
 [PlayShortcut]
-Caption="Jugar UT2004"
+Caption="Запустить UT2004"
 
 [SafeModeShortcut]
-Caption="Modo a prueba de fallos de UT2004"
+Caption="Запуск UT2004 в безопасном режиме"
 
 [EditorShortcut]
-Caption="Editor de UT2004"
+Caption="Редактор UT2004"
 
 [DocumentationShortcut]
-Caption="Notas de edición"
+Caption="Документация"
 
 [WebShortcut]
-Caption="Página web de UT2004"
+Caption="Веб-страница UT2004"
 
 [UninstallShortcut]
-Caption="Desinstalar Unreal Tournament 2004"
+Caption="Удаление Unreal Tournament 2004"

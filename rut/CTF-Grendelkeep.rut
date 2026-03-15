@@ -198,7 +198,7 @@ LocationName="Верхний ракетный зал"
 
 [ZoneInfo64]
 ; EN: LocationName="RED Lower Hall"
-LocationName="Salón Inferior КРАСНЫХ"
+LocationName="Нижний зал КРАСНЫХ"
 
 [ZoneInfo65]
 ; EN: LocationName="RED Main Room"
