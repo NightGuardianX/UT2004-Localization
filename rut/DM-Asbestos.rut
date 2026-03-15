@@ -19,7 +19,7 @@ Message="0wnage"
 LocationName="Громобой"
 
 [ZoneInfo10]
-; EN: LocationName="SmallPool"
+; EN: LocationName="Small Pool"
 LocationName="Маленький бассейн"
 
 [ZoneInfo13]
@@ -43,7 +43,7 @@ LocationName="Осколочный лифт"
 LocationName="Громобой"
 
 [ZoneInfo18]
-; EN: LocationName="Biorifle"
+; EN: LocationName="Bio Rifle"
 LocationName="Bio Rifle"
 
 [ZoneInfo19]

@@ -1,14 +1,14 @@
 ﻿[LevelInfo0]
 ; EN: Title="Bombing Run Tutorial"
-Title="Tutorial de Carrera de Bombardeo"
+Title="Bombing Run Tutorial"
 
 [LevelInfo6]
-; EN: Title="Temple Of Anubis"
-Title="Templo de Anubis"
+; EN: Title="Bombing Run Tutorial"
+Title="Bombing Run Tutorial"
 
 [LevelSummary]
 ; EN: Title="Bombing Run Tutorial"
-Title="Tutorial de Carrera de Bombardeo"
+Title="Bombing Run Tutorial"
 
 [ZoneInfo0]
 ; EN: LocationName="Redeemer"
@@ -16,23 +16,23 @@ LocationName="Искупитель"
 
 [ZoneInfo1]
 ; EN: LocationName="Super shield sand dune"
-LocationName="Duna Arenosa del Super Escudo"
+LocationName="Песчаная дюна (Суперщит)"
 
 [ZoneInfo10]
 ; EN: LocationName="Blue South Respawn"
-LocationName="Reaparición Sur Azul"
+LocationName="Южная точка возрождения Синих"
 
 [ZoneInfo12]
 ; EN: LocationName="Blue South Respawn"
-LocationName="Reaparición Sur Azul"
+LocationName="Южная точка возрождения Синих"
 
 [ZoneInfo13]
 ; EN: LocationName="Blue South Respawn"
-LocationName="Reaparición Sur Azul"
+LocationName="Южная точка возрождения Синих"
 
 [ZoneInfo14]
 ; EN: LocationName="Red North Top Entrance"
-LocationName="Entrada Superior Norte Roja"
+LocationName="Верхний северный проход Красных"
 
 [ZoneInfo15]
 ; EN: LocationName="Red Base"
@@ -44,111 +44,111 @@ LocationName="База Красных"
 
 [ZoneInfo17]
 ; EN: LocationName="Red North Respawn"
-LocationName="Reaparición Norte Roja"
+LocationName="Северная точка возрождения Красных"
 
 [ZoneInfo18]
 ; EN: LocationName="Blue North Respawn"
-LocationName="Reaparición Norte Azul"
+LocationName="Северная точка возрождения Синих"
 
 [ZoneInfo19]
 ; EN: LocationName="Red South Respawn"
-LocationName="Reaparición Sur Roja"
+LocationName="Южная точка возрождения Красных"
 
 [ZoneInfo2]
 ; EN: LocationName="Rocket Launcher Room"
-LocationName="Sala de Lanzacohetes"
+LocationName="Помещение с Ракетной установкой"
 
 [ZoneInfo20]
 ; EN: LocationName="Red South Respawn"
-LocationName="Reaparición Sur Roja"
+LocationName="Южная точка возрождения Красных"
 
 [ZoneInfo21]
 ; EN: LocationName="Red South Respawn"
-LocationName="Reaparición Sur Roja"
+LocationName="Южная точка возрождения Красных"
 
 [ZoneInfo22]
 ; EN: LocationName="Red South Respawn"
-LocationName="Reaparición Sur Roja"
+LocationName="Южная точка возрождения Красных"
 
 [ZoneInfo23]
 ; EN: LocationName="Blue North Respawn"
-LocationName="Reaparición Norte Azul"
+LocationName="Северная точка возрождения Синих"
 
 [ZoneInfo24]
 ; EN: LocationName="Blue North Respawn"
-LocationName="Reaparición Norte Azul"
+LocationName="Северная точка возрождения Синих"
 
 [ZoneInfo25]
 ; EN: LocationName="Center"
-LocationName="Centro"
+LocationName="Центр"
 
 [ZoneInfo26]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo27]
 ; EN: LocationName="Flak Cannon Room"
-LocationName="Осколочная комната"
+LocationName="Помещение с Осколочной пушкой"
 
 [ZoneInfo28]
 ; EN: LocationName="Rocket Launcher Room"
-LocationName="Sala de Lanzacohetes"
+LocationName="Помещение с Ракетной установкой"
 
 [ZoneInfo29]
 ; EN: LocationName="Center (Red Side)"
-LocationName="Centro (Lado Rojo)"
+LocationName="Центр (Красная сторона)"
 
 [ZoneInfo3]
 ; EN: LocationName="Red South Respawn"
-LocationName="Reaparición Sur Roja"
+LocationName="Южная точка возрождения Красных"
 
 [ZoneInfo30]
 ; EN: LocationName="Red Courtyard"
-LocationName="Patio Rojo"
+LocationName="Внутренний двор Красных"
 
 [ZoneInfo31]
 ; EN: LocationName="Center (Blue Side)"
-LocationName="Centro (Lado Azul)"
+LocationName="Центр (Синяя сторона)"
 
 [ZoneInfo32]
 ; EN: LocationName="Red Courtyard"
-LocationName="Patio Rojo"
+LocationName="Внутренний двор Красных"
 
 [ZoneInfo33]
 ; EN: LocationName="Red South Top Entrance"
-LocationName="Entrada Superior Sur Roja"
+LocationName="Верхний южный проход Красных"
 
 [ZoneInfo34]
 ; EN: LocationName="Red North Top Entrance"
-LocationName="Entrada Superior Norte Roja"
+LocationName="Верхний северный проход Красных"
 
 [ZoneInfo35]
 ; EN: LocationName="Blue North Top Entrance"
-LocationName="Entrada Superior Norte Azul"
+LocationName="Верхний северный проход Синих"
 
 [ZoneInfo36]
 ; EN: LocationName="Red South Top Entrance"
-LocationName="Entrada Superior Sur Roja"
+LocationName="Верхний южный проход Красных"
 
 [ZoneInfo37]
 ; EN: LocationName="Blue North Top Entrance"
-LocationName="Entrada Superior Norte Azul"
+LocationName="Верхний северный проход Синих"
 
 [ZoneInfo38]
 ; EN: LocationName="Blue South Top Entrance"
-LocationName="Entrada Superior Sur Azul"
+LocationName="Верхний южный проход Синих"
 
 [ZoneInfo39]
 ; EN: LocationName="Blue South Top Entrance"
-LocationName="Entrada Superior Sur Azul"
+LocationName="Верхний южный проход Синих"
 
 [ZoneInfo4]
 ; EN: LocationName="Blue Courtyard"
-LocationName="Patio Azul"
+LocationName="Внутренний двор Синих"
 
 [ZoneInfo5]
 ; EN: LocationName="Blue Courtyard"
-LocationName="Patio Azul"
+LocationName="Внутренний двор Синих"
 
 [ZoneInfo8]
 ; EN: LocationName="Blue Base"
