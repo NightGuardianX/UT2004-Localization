@@ -121,8 +121,8 @@ FemaleSuicide="%o укоротилась."
 MaleSuicide="%o укоротился."
 
 [DamTypeONSVehicle]
-; EN: DeathString="%o попал в аварию."
-DeathString="%o ha tenido un accidente."
+; EN: DeathString="%o had an accident."
+DeathString="%o попал в аварию."
 ; EN: FemaleSuicide="%o had an accident."
 FemaleSuicide="%o попала в аварию."
 ; EN: MaleSuicide="%o had an accident."

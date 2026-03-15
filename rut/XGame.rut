@@ -396,7 +396,7 @@ TeamName="Blood Reavers"
 
 [PhantomDarkPhalanx]
 ; EN: TeamDescription="The Dark Phalanx are an honorable collection of military specialists. All have proven themselves in the Human/Skaarj war and now seek glory in the ranks of the Tournament."
-TeamDescription="Отряд доблестных ветеранов и военных экспертов. Пройдя через горнило войны людей против расы Скаардж, бойцы Dark Phalanx стремятся к новой славе на аренах Турнира."
+TeamDescription="Отряд доблестных ветеранов и военных экспертов. Пройдя через горнило войны людей против расы Скаарджей, бойцы Dark Phalanx стремятся к новой славе на аренах Турнира."
 ; N_K: Proper name, don't translate.
 TeamName="Dark Phalanx"
 
@@ -468,7 +468,7 @@ TauntAnimNames[8]="Кому добавки?"
 
 [SPECIES_Egypt]
 ; EN: SpeciesName="Egyptian"
-SpeciesName="Египетская сила"
+SpeciesName="Египтянин"
 
 [SPECIES_Jugg]
 ; EN: SpeciesName="Juggernaut"
@@ -497,7 +497,7 @@ SpeciesName="Кошмар"
 DecapitationString="Прямо в голову!!"
 
 [SpeciesSkaarj]
-SpeciesName="Skaarj"
+SpeciesName="Скаардж"
 ; EN: TauntAnimNames[4]="Hair flip"
 TauntAnimNames[4]="Взмах волосами"
 ; EN: TauntAnimNames[5]="Slash"
@@ -589,7 +589,7 @@ TeamName="Iron Guard"
 
 [TeamIronSkull]
 ; EN: TeamDescription="This year, the Skaarj Empire is represented by the Iron Skull clan, who seek to regain honor after long being held responsible for the loss of the Skaarj Mothership during the Human/Skaarj wars."
-TeamDescription="В этом году Империю Скаардж представляет клан Железный череп (Iron Skull).  Они стремятся вернуть былую честь после того, как долгое время считались виновными в потере флагманского корабля во время войны людей и Скаарджей."
+TeamDescription="В этом году Империю Скаарджей представляет клан Железный череп (Iron Skull).  Они стремятся вернуть былую честь после того, как долгое время считались виновными в потере флагманского корабля во время войны людей и Скаарджей."
 ; N_K: Proper name, don't translate.
 TeamName="Iron Skull Skaarj"
 
