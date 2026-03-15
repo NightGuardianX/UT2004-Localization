@@ -7,6 +7,8 @@ ROOT = Path(__file__).resolve().parent.parent
 INT_DIR = ROOT / "int"
 EST_DIR = ROOT / "est"
 RUT_DIR = ROOT / "rut"
+# Excluded from FILE_TRANSLATION_STATUS (same as check_rut_status.py) — not counted in stats
+STATUS_EXCLUDED = frozenset({'DemoLicense.rut', 'Editor.rut', 'SetupBonusPack.rut', 'setupbrightskinsmod.rut'})
 
 CYRILLIC = re.compile(r'[\u0400-\u04FF]')
 
@@ -51,6 +53,8 @@ def main():
     files_no_base = []
 
     for rut_path in sorted(RUT_DIR.glob("*.rut")):
+        if rut_path.name in STATUS_EXCLUDED:
+            continue
         base_name = rut_path.stem
         base_path = INT_DIR / f"{base_name}.int"
         if not base_path.exists():
