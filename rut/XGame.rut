@@ -125,7 +125,9 @@ ZoomDisplayText="Разрешить приближение"
 ; EN: ZoomDescText="Instagib rifles have sniper scopes."
 ZoomDescText="Винтовки в режиме мгновенной смерти (Instagib) оснащаются снайперскими прицелами"
 ; EN: GameName="Instagib CTF"
-GameName="Захват флага Instagib (мгновенная смерть)"
+GameName="Захват флага (Instagib)"
+; EN: Description="Your team must score flag captures by taking the enemy flag from the enemy base and returning it to their own flag.  If the flag carrier is killed, the flag drops to the ground for anyone to pick up.  If your team's flag is taken, it must be returned (by touching it after it is dropped) before your team can score a flag capture."
+Description="Захват флага с мгновенной смертью! Ваша команда должна захватывать флаги, забирая их с вражеской базы и доставляя к своему флагу.  Если несущий флаг игрок погибает, флаг падает на землю, и его может подобрать любой участник.  Если ваш флаг украден, его необходимо вернуть (коснувшись его после того, как он будет брошен), прежде чем ваша команда сможет заработать очко."
 
 [IonCannonKillWarning]
 CountDownTrailer="..."

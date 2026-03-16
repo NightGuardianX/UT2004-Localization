@@ -89,7 +89,7 @@ LocationName="Палуба 16 (Запретная зона)"
 LocationName="Палуба 16 (Запретная зона)"
 
 [ZoneInfo50]
-; EN: LocationName="D17/D16 Junction (Bio-Rifle)"
+; EN: LocationName="D17/D16 Junction (Bio Rifle)"
 LocationName="Пересечение П17/П16 (Биовинтовка)"
 
 [ZoneInfo51]
@@ -149,7 +149,7 @@ LocationName="Огромный бассейн лавы"
 LocationName="Огромный бассейн лавы (Суперщит)"
 
 [ZoneInfo70]
-; EN: LocationName="Main Room - East Ledge (Bio-Rifle)"
+; EN: LocationName="Main Room - East Ledge (Bio Rifle)"
 LocationName="Главный зал - Восточный уступ (Биовинтовка)"
 
 [ZoneInfo71]

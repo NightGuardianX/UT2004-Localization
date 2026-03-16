@@ -263,8 +263,12 @@ Paused="Приостановлено %s"
 ReceiveFile="Получение %s (F10 для отмены)"
 ; EN: ReceiveOptionalFile="Receiving optional file %s (Press F10 to Skip)"
 ReceiveOptionalFile="Получение дополнительного файла %s (Нажмите F10 для пропуска)"
+; EN: ReceiveTotalPackages="%i of %i Packages Downloaded"
+ReceiveTotalPackages="Пакетов загружено: %i из %i"
+; EN: ReceiveTotalSize="Total Uncompressed Size %iK, Complete %3.1f%% (%iK)"
+ReceiveTotalSize="Общий несжатый размер: %iK, Выполнено: %3.1f%% (%iK)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%%"
-ReceiveSize="Размер %iK, Выполнено %3.1f%%"
+ReceiveSize="Размер: %iK, Выполнено: %3.1f%%"
 ; EN: ConnectingText="Connecting (F10 Cancels):"
 ConnectingText="Подключение (F10 для отмены):"
 ConnectingURL=%s://%s/%s
@@ -457,9 +461,9 @@ BHDescText[0]="Активируйте опцию, чтобы запретить 
 BHDescText[1]="Активируйте опцию, чтобы вынести зрителей в отдельный чат."
 
 [Canvas]
-TinyFontName="UT2003Fonts.FontMono"
-SmallFontName="UT2003Fonts.FontMono"
-MedFontName="UT2003Fonts.FontMono800x600"
+TinyFontName="UT2003Fonts_rut.FontMono"
+SmallFontName="UT2003Fonts_rut.FontMono"
+MedFontName="UT2003Fonts_rut.FontMono800x600"
 
 [ChatRoomMessage]
 ; EN: AnonText="Someone"
@@ -713,7 +717,7 @@ FemaleSuicide="%o превратилась в фарш."
 MaleSuicide="%o превратился в фарш."
 
 [HUD]
-ProgressFontName="UT2003Fonts.FontEurostile12"
+ProgressFontName="UT2003Fonts_rut.FontEurostile12"
 FontArrayNames[0]="Engine.DefaultFont"
 FontArrayNames[1]="Engine.DefaultFont"
 FontArrayNames[2]="Engine.DefaultFont"
