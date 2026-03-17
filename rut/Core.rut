@@ -124,9 +124,12 @@ Yes="Да"
 No="Нет"
 
 [Language]
+; N_K: Fill with the appropriate data. Here's your ISO 639-1 Standard link:
+; https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+; See also: https://www.oldunreal.com/wiki/index.php?title=Localization
 ; EN: Language="English (International)"
 Language="Русский"
-LangId=10
+LangId=25
 SubLangId=0
 
 [Progress]
