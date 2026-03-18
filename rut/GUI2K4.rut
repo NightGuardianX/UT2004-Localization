@@ -3541,7 +3541,7 @@ CharRace.Hint="Отсортируйте доступных персонажей 
 ; EN: InternetOptionsText="You have not fully configured your internet play options.  It is recommended that you configure a unique player name and review your netspeed setting before joining a multiplayer game.|Would you like to do this now?"
 InternetOptionsText="Параметры сетевой игры не настроены полностью.  Рекомендуется выбрать уникальное имя игрока и проверить скорость сетевого подключения перед входом в матч.|Желаете сделать это сейчас?"
 ; EN: PanelCaption=("News","Chat","Favorites","LAN","Buddies","Internet")
-PanelCaption=("Новости","Чат","Избранное","Локальная сеть (LAN)","Друщья","Интернет")
+PanelCaption=("Новости","Чат","Избранное","Локальная сеть (LAN)","Друзья","Интернет")
 ; EN: PanelHint=("Get the latest news.","UT2004 integrated IRC client.","Choose a server to join from among your favorites.","View all UT2004 servers currently running on your LAN.","See where your buddies are currently playing, or join them in the game.","Choose from hundreds of UT2004 servers across the world.")
 PanelHint=("Получайте последние новости.","Встроенный IRC клиент для UT2004.","Выберите желаемый сервер для игры среди избранных вами.","Просмотр всех серверов UT2004, запущенных в вашей локальной сети (LAN).","Узнайте, где сейчас играют ваши друзья, или присоединитесь к их матчу.","Сотни игровых серверов UT2004 на ваш выбор по всему миру.")
 ; EN: GameTypeCombo.Caption="Game Type"
@@ -3658,35 +3658,35 @@ OkButton.Caption="Применить"
 Title.Caption="Изменить привязку клавиши быстрого переключения"
 
 [fntUT2K4Medium]
-FontArrayNames=("2K4Fonts_rut.Verdana10","2K4Fonts_rut.Verdana12","2K4Fonts_rut.Verdana14","2K4Fonts_rut.Verdana16","2K4Fonts_rut.Verdana18")
+FontArrayNames=("2K4Fonts.Verdana10","2K4Fonts.Verdana12","2K4Fonts.Verdana14","2K4Fonts.Verdana16","2K4Fonts.Verdana18")
 
 [fntUT2k4Default]
-FontArrayNames=("2K4Fonts_rut.Verdana10")
+FontArrayNames=("2K4Fonts.Verdana10")
 
 [fntUT2k4Header]
-FontArrayNames=("2K4Fonts_rut.Verdana18","2K4Fonts_rut.Verdana20","2K4Fonts_rut.Verdana22","2K4Fonts_rut.Verdana24","2K4Fonts_rut.Verdana26")
+FontArrayNames=("2K4Fonts.Verdana18","2K4Fonts.Verdana20","2K4Fonts.Verdana22","2K4Fonts.Verdana24","2K4Fonts.Verdana26")
 
 [fntUT2k4IRC]
-FontArrayNames=("2K4Fonts_rut.FontSmallText","2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana10","2K4Fonts_rut.Verdana10")
+FontArrayNames=("2K4Fonts.FontSmallText","2K4Fonts.Verdana8","2K4Fonts.Verdana8","2K4Fonts.Verdana10","2K4Fonts.Verdana10")
 
 [fntUT2k4Large]
-FontArrayNames=("2K4Fonts_rut.Verdana14","2K4Fonts_rut.Verdana16","2K4Fonts_rut.Verdana18","2K4Fonts_rut.Verdana20","2K4Fonts_rut.Verdana22")
+FontArrayNames=("2K4Fonts.Verdana14","2K4Fonts.Verdana16","2K4Fonts.Verdana18","2K4Fonts.Verdana20","2K4Fonts.Verdana22")
 
 [fntUT2k4MainMenu]
-FontArrayNames=("2K4Fonts_rut.Impact32","2K4Fonts_rut.Verdana24")
+FontArrayNames=("2K4Fonts.Impact32","2K4Fonts.Verdana24")
 
 [fntUT2k4Menu]
-FontArrayNames=("2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana10","2K4Fonts_rut.Verdana12","2K4Fonts_rut.Verdana14","2K4Fonts_rut.Verdana16")
+FontArrayNames=("2K4Fonts.Verdana8","2K4Fonts.Verdana10","2K4Fonts.Verdana12","2K4Fonts.Verdana14","2K4Fonts.Verdana16")
 
 [fntUT2k4MidGame]
-FontArrayNames=("UT2003Fonts_rut.FontEurostile17","UT2003Fonts_rut.FontEurostile14","UT2003Fonts_rut.FontEurostile11","UT2003Fonts_rut.FontEurostile11","UT2003Fonts_rut.FontEurostile9","UT2003Fonts_rut.FontNeuzeit9","UT2003Fonts_rut.FontSmallText")
+FontArrayNames=("UT2003Fonts.FontEurostile17","UT2003Fonts.FontEurostile14","UT2003Fonts.FontEurostile11","UT2003Fonts.FontEurostile11","UT2003Fonts.FontEurostile9","UT2003Fonts.FontNeuzeit9","UT2003Fonts.FontSmallText")
 
 [fntUT2k4ServerList]
-FontArrayNames=("2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana10","2K4Fonts_rut.Verdana12","2K4Fonts_rut.Verdana12")
+FontArrayNames=("2K4Fonts.Verdana8","2K4Fonts.Verdana8","2K4Fonts.Verdana10","2K4Fonts.Verdana12","2K4Fonts.Verdana12")
 
 [fntUT2k4Small]
-FontArrayNames=("2K4Fonts_rut.FontSmallText","2K4Fonts_rut.Verdana8","2K4Fonts_rut.Verdana10","2K4Fonts_rut.Verdana12","2K4Fonts_rut.Verdana14")
+FontArrayNames=("2K4Fonts.FontSmallText","2K4Fonts.Verdana8","2K4Fonts.Verdana10","2K4Fonts.Verdana12","2K4Fonts.Verdana14")
 
 [fntUT2k4SmallHeader]
-FontArrayNames=("2K4Fonts_rut.Verdana12","2K4Fonts_rut.Verdana14","2K4Fonts_rut.Verdana16","2K4Fonts_rut.Verdana18","2K4Fonts_rut.Verdana20")
+FontArrayNames=("2K4Fonts.Verdana12","2K4Fonts.Verdana14","2K4Fonts.Verdana16","2K4Fonts.Verdana18","2K4Fonts.Verdana20")
 
