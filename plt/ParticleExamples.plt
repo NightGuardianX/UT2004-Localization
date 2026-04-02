@@ -1,0 +1,3 @@
+﻿[LevelSummary]
+Title=Bez tytułu
+
