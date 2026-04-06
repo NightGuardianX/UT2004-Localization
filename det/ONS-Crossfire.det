@@ -1,0 +1,58 @@
+﻿[LevelInfo0]
+; EN: Title="Crossfire"
+Title="Kreuzfeuer"
+
+[LevelSummary]
+; EN: Title="Crossfire"
+Title="Kreuzfeuer"
+; EN: Description="In 2352, an anomalous volcanic eruption on the outskirts of Jerusalem partially unearthed a city far below the lost city of Ekron. Four years of intensive excavation revealed a civilization that predated all known human history. Purchased by Liandri corporation for the price of excavation, the souls of arena combatants now join the forgotten dead of the unremembered past."
+Description="Im Jahre 2352 hat eine ungewöhnliche vulkanische Eruption in den Randgebieten von Jerusalem eine Stadt weit unter der verlorenen Stadt Ekron teilweise freigelegt. Vier Jahre intensiver Ausgrabungsarbeiten brachten eine Zivilisation zu Tage, die älter als alles Bekannte in der Menschheitsgeschichte war. Die Liandri Corporation finanzierte die Ausgrabungen, und so vereinigen sich nun die Seelen der Arenakämpfer mit denen der Toten der unbekannten Vergangenheit."
+
+[Volume10]
+; EN: LocationName="Central Node (8)"
+LocationName="Zentraler Knoten (8)"
+
+[Volume11]
+; EN: LocationName="Red Base"
+LocationName="ROTE Basis"
+
+[Volume12]
+; EN: LocationName="Blue Base"
+LocationName="BLAUE Basis"
+
+[Volume13]
+; EN: LocationName="Middle North Node (7)"
+LocationName="Mittlerer Nordknoten (7)"
+
+[Volume14]
+; EN: LocationName="Middle South Node (6)"
+LocationName="Mittlerer Südknoten (6)"
+
+[Volume15]
+; EN: LocationName="Red Northeast Prime Node (9)"
+LocationName="ROTER Nordost-Primärknoten (9)"
+
+[Volume16]
+; EN: LocationName="Blue Southwest Prime Node (3)"
+LocationName="BLAUER Südwest-Primärknoten (3)"
+
+[Volume17]
+; EN: LocationName="Blue West Prime Node (2)"
+LocationName="BLAUER West-Primärknoten (2)"
+
+[Volume18]
+; EN: LocationName="Red East Prime Node (1)"
+LocationName="ROTER Ost-Primärknoten (1)"
+
+[Volume4]
+; EN: LocationName="West Node (5)"
+LocationName="West Knoten (5)"
+
+[Volume7]
+; EN: LocationName="East Node (4)"
+LocationName="Ost Knoten (4)"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Außen"
+

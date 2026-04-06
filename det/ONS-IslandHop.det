@@ -1,0 +1,106 @@
+﻿[LevelInfo0]
+; EN: Title="Island Hop"
+Title="Insel Hop"
+
+[LevelSummary]
+; EN: Title="Island Hop"
+Title="Insel Hop"
+; EN: Description="This volcanic archipelago served once as a gateway in the human wars of the 21st century. Transformed for tournament use, a series of bridges now connects the islands. These bridges, though excellent use for ground based vehicles, do not provide a direct path to battle. Mantas will be the primary choice for transportation."
+Description="Dieser Archipel vulkanischen Ursprungs diente einst, in den Menschenkriegen des 21. Jahrhunderts, als Stützpunkt. Er wurde für die Zwecke des Tournament umgestaltet, und jetzt verbindet eine Reihe von Brücken die Inseln. Diese Brücken sind zwar sehr gut für Bodenfahrzeuge geeignet, doch kann man über sie nicht direkt zur eigentlichen Kampfzone gelangen. Deshalb sind Mantas hier das Transportmittel erster Wahl."
+
+[Volume0]
+; EN: LocationName="Southwest Island"
+LocationName="Südwest-Insel"
+
+[Volume1]
+; EN: LocationName="Southwest Island"
+LocationName="Südwest-Insel"
+
+[Volume10]
+; EN: LocationName="Red Base"
+LocationName="ROTE Basis"
+
+[Volume11]
+; EN: LocationName="West Island"
+LocationName="West-Insel"
+
+[Volume12]
+; EN: LocationName="Northwest Island"
+LocationName="Nordwest-Insel"
+
+[Volume13]
+; EN: LocationName="Northwest Node (1)"
+LocationName="Nordwestknoten (1)"
+
+[Volume14]
+; EN: LocationName="Northwest Island"
+LocationName="Nordwest-Insel"
+
+[Volume15]
+; EN: LocationName="Northeast Island"
+LocationName="Nordost-Insel"
+
+[Volume16]
+; EN: LocationName="Northeast Island"
+LocationName="Nordost-Insel"
+
+[Volume17]
+; EN: LocationName="Northeast Island"
+LocationName="Nordost-Insel"
+
+[Volume18]
+; EN: LocationName="Blue Prime Node (4)"
+LocationName="BLAUER Primärknoten (4)"
+
+[Volume19]
+; EN: LocationName="East Island"
+LocationName="Ost-Insel"
+
+[Volume2]
+; EN: LocationName="Southwest Island"
+LocationName="Südwest-Insel"
+
+[Volume20]
+; EN: LocationName="Small Northeast Island"
+LocationName="Kleine Nordost-Insel"
+
+[Volume21]
+; EN: LocationName="Blue Base"
+LocationName="BLAUE Basis"
+
+[Volume22]
+; EN: LocationName="East Island"
+LocationName="Ost-Insel"
+
+[Volume23]
+; EN: LocationName="Southeast Island"
+LocationName="Südost-Insel"
+
+[Volume24]
+; EN: LocationName="Southeast Node (3)"
+LocationName="Südostknoten (3)"
+
+[Volume25]
+; EN: LocationName="Southeast Island"
+LocationName="Südost-Insel"
+
+[Volume26]
+; EN: LocationName="Volcano"
+LocationName="Vulkan"
+
+[Volume3]
+; EN: LocationName="Red Prime Node (2)"
+LocationName="ROTER Primärknoten (2)"
+
+[Volume5]
+; EN: LocationName="West Island"
+LocationName="West-Insel"
+
+[Volume9]
+; EN: LocationName="Small Southwest Island"
+LocationName="Kleine Südwest-Insel"
+
+[ZoneInfo1]
+; EN: LocationName="Outside"
+LocationName="Draußen"
+

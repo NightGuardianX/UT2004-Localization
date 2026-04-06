@@ -1,0 +1,42 @@
+﻿[LevelInfo0]
+; EN: Title="Severance"
+Title="Abfindung"
+
+[LevelSummary]
+; EN: Title="Severance
+Title="Abfindung"
+; EN: Description="Eons past, the inhabitants of these forgotten ruins summoned a being of elemental darkness, which they imprisoned and lulled to sleep with the blood of countless sacrifices. In the stillness between battles, one can sometimes hear the voice of this titan, roused from sleep, awaiting your blood."
+Description="Vor einer halben Ewigkeit haben die Bewohner dieser verlassenen Ruinen ein Wesen des elementaren Bösen beschworen, das sie gefangen genommen und mit dem Blut zahlloser Opfer zum Schlafen gebracht haben. In der Stille zwischen den Schlachten kann man manchmal die Stimme dieses Titans hören, der aufgewacht ist und auf Ihr Blut wartet."
+
+[Volume10]
+; EN: LocationName="Red Base"
+LocationName="ROTE Basis"
+
+[Volume3]
+; EN: LocationName="Blue Prime Node (4)"
+LocationName="BLAU 1. Power-Knoten (4)"
+
+[Volume4]
+; EN: LocationName="Northwest Node (3)"
+LocationName="Nordwest Knoten (3)"
+
+[Volume5]
+; EN: LocationName="Center Node (1)"
+LocationName="Mittlerer Knoten (1)"
+
+[Volume6]
+; EN: LocationName="Southeast Node (2)"
+LocationName="Südost Knoten (2)"
+
+[Volume7]
+; EN: LocationName="Red Prime Node (5)"
+LocationName="ROT 1. Power-Knoten (5)"
+
+[Volume9]
+; EN: LocationName="Blue Base"
+LocationName="BLAUE Basis"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Außen"
+

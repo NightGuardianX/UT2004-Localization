@@ -1,0 +1,46 @@
+﻿[LevelInfo0]
+; EN: Title="Morpheus 3"
+Title="Morpheus3"
+
+[LevelSummary]
+; EN: Title="Morpheus 3"
+Title="Morpheus3"
+; EN: Description="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper Superstructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the Tournament athlete's ability to adapt and conquer in extreme environments."
+Description="LMC wussten, dass sie eine ausgezeichnete Arena ganz oben auf der Spitze einer neu gebauten Galaxyscraper Superstructure gefunden hatten. Dank des technischen Wunders superdehnbarer Materialien erreichen diese drei Gebäude die unglaubliche Höhe von 19 Kilometer. Die dünne Atmosphäre und die geringere Wirkung der Schwerkraft der Erde stellen eine interessante Probe für Tournament-Athleten dar, um sich in extremen Umgebungen anzupassen und durchzusetzen."
+
+[MessageTextureClient4]
+; EN: ScrollingMessage="%lp leads the match with %lf frags"
+ScrollingMessage="%lp führt im Match mit %lf Frags"
+
+[PhysicsVolume1]
+; EN: LocationName="12 Miles High"
+LocationName="19 Kilometer hoch"
+
+[ZoneInfo0]
+; EN: LocationName="YELLOW Tower Interior"
+LocationName="GELBER Turm - Innenraum"
+
+[ZoneInfo1]
+; EN: LocationName="BLUE Tower Interior"
+LocationName="BLAUER Turm - Innenraum"
+
+[ZoneInfo2]
+; EN: LocationName="12 Miles High"
+LocationName="19 Kilometer hoch"
+
+[ZoneInfo3]
+; EN: LocationName="BLUE Tower Interior"
+LocationName="BLAUER Turm - Innenraum"
+
+[ZoneInfo4]
+; EN: LocationName="YELLOW Tower Interior"
+LocationName="GELBER Turm - Innenraum"
+
+[ZoneInfo5]
+; EN: LocationName="RED Tower Interior"
+LocationName="ROTER Turm - Innenraum"
+
+[ZoneInfo6]
+; EN: LocationName="RED Tower Interior"
+LocationName="ROTER Turm - Innenraum"
+

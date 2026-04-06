@@ -1,0 +1,124 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon 2"
+Title="Phobos Mond 2"
+
+[LevelSummary]
+; EN: Title="Phobos Moon 2"
+Title="Phobos Mond 2"
+
+[Volume1]
+; EN: LocationName="Link Gun Room"
+LocationName="Link Gun Raum"
+
+[Volume2]
+; EN: LocationName="Tower"
+LocationName="Turm"
+
+[ZoneInfo0]
+; EN: LocationName="Space"
+LocationName="Weltall"
+
+[ZoneInfo1]
+; EN: LocationName="Minigun Corridor"
+LocationName="Minigun Korridor"
+
+[ZoneInfo10]
+; EN: LocationName="Rocket Launcher Room"
+LocationName="Rocket Launcher Bereich"
+
+[ZoneInfo11]
+; EN: LocationName="Minigun Corridor"
+LocationName="Minigun Korridor"
+
+[ZoneInfo12]
+; EN: LocationName="Bio Rifle Corridor"
+LocationName="Bio Rifle Korridor"
+
+[ZoneInfo13]
+; EN: LocationName="Minigun Corridor"
+LocationName="Minigun Korridor"
+
+[ZoneInfo14]
+; EN: LocationName="Shock Rifle Corridor"
+LocationName="Shock Rifle Korridor"
+
+[ZoneInfo15]
+; EN: LocationName="Central"
+LocationName="Zentralbereich"
+
+[ZoneInfo16]
+; EN: LocationName="Sniper Room"
+LocationName="Lightning Gun Raum"
+
+[ZoneInfo17]
+; EN: LocationName="Super Health Room"
+LocationName="Fass Gesundheit Raum"
+
+[ZoneInfo18]
+; EN: LocationName="Sniper Corridor"
+LocationName="Lightning Gun Korridor"
+
+[ZoneInfo19]
+; EN: LocationName="Central"
+LocationName="Zentralbereich"
+
+[ZoneInfo2]
+; EN: LocationName="Super Health Room"
+LocationName="Fass Gesundheit Raum"
+
+[ZoneInfo20]
+; EN: LocationName="Flak Corridor"
+LocationName="Flak Cannon Korridor"
+
+[ZoneInfo21]
+; EN: LocationName="Flak Corridor"
+LocationName="Flak Cannon Korridor"
+
+[ZoneInfo22]
+; EN: LocationName="Flak Corridor"
+LocationName="Flak Cannon Korridor"
+
+[ZoneInfo23]
+; EN: LocationName="Shock Rifle Corridor"
+LocationName="Shock Rifle Korridor"
+
+[ZoneInfo24]
+; EN: LocationName="Central"
+LocationName="Zentralbereich"
+
+[ZoneInfo25]
+; EN: LocationName="Shield Corridor"
+LocationName="Schild Korridor"
+
+[ZoneInfo26]
+; EN: LocationName="Bio Rifle Corridor"
+LocationName="Bio Rifle Korridor"
+
+[ZoneInfo3]
+; EN: LocationName="Super Health Room"
+LocationName="Fass Gesundheit Raum"
+
+[ZoneInfo4
+; EN: LocationName="Super Health Room"
+LocationName="Fass Gesundheit Raum"
+
+[ZoneInfo5]
+; EN: LocationName="Bio Rifle Corridor"
+LocationName="Bio Rifle Korridor"
+
+[ZoneInfo6]
+; EN: LocationName="Link Gun Room"
+LocationName="Link Gun Bereich"
+
+[ZoneInfo7]
+; EN: LocationName="Central"
+LocationName="Zentralbereich"
+
+[ZoneInfo8]
+; EN: LocationName="Shock Rifle Corridor"
+LocationName="Shock Rifle Korridor"
+
+[ZoneInfo9]
+; EN: LocationName="Flak Corridor"
+LocationName="Flak Cannon Korridor"
+

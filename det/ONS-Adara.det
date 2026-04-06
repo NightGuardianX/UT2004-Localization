@@ -1,0 +1,82 @@
+﻿[LevelInfo0]
+; EN: Title="Adara Canyon"
+Title="Adara-Schlucht"
+
+[LevelSummary]
+; EN: Title="Adara Canyon"
+Title="Adara-Schlucht"
+; EN: Description="Seismic tremors and eons of erosion forged this battlefield. Adara Canyon is nature at its most awe-inspiring. But don't let the beauty fool you. Long drops claim lives and the corridor-like nature of the canyon makes AVRiL avoidance somewhat difficult."
+Description="Dieses Schlachtfeld wurde von Erdbeben und Äonen der Erosion geformt. Der Ehrfurcht gebietende Adara Canyon ist ein Wunder der Natur. Aber lassen Sie sich nicht von seiner Schönheit täuschen. Hier kann man verdammt tief stürzen, und der korridorartige Aufbau des Canyons macht es einem nicht gerade einfach, AVRiL-Geschossen auszuweichen."
+
+[Volume0]
+; EN: LocationName="Eastern Falls"
+LocationName="Östliche Fälle"
+
+[Volume1]
+; EN: LocationName="Western Falls"
+LocationName="Westliche Fälle"
+
+[Volume10]
+; EN: LocationName="Blue Support Node (5)"
+LocationName="BLAUER Unterstützungsknoten (5)"
+
+[Volume11]
+; EN: LocationName="South Node (3)"
+LocationName="Südknoten (3)"
+
+[Volume13]
+; EN: LocationName="Red Prime Node (1)"
+LocationName="ROTER Primärknoten (1)"
+
+[Volume14]
+; EN: LocationName="Red Power Core"
+LocationName="ROTE Power-Kern"
+
+[Volume15]
+; EN: LocationName="Red Support Node (7)"
+LocationName="ROTER Unterstützungsknoten (7)"
+
+[Volume16]
+; EN: LocationName="North Node (4)"
+LocationName="Nordknoten (4)"
+
+[Volume17]
+; EN: LocationName="Center Node (6)"
+LocationName="Zentralknoten (6)"
+
+[Volume2]
+; EN: LocationName="Eastern Base"
+LocationName="Östliche Basis"
+
+[Volume3]
+; EN: LocationName="Western Base"
+LocationName="Westliche Basis"
+
+[Volume4]
+; EN: LocationName="Northern Bridge Passage"
+LocationName="Nördliche Brückenpassage"
+
+[Volume5]
+; EN: LocationName="Southern Bridge Passage"
+LocationName="Südliche Brückenpassage"
+
+[Volume6]
+; EN: LocationName="Bridge"
+LocationName="Brücke"
+
+[Volume7]
+; EN: LocationName="Central Island"
+LocationName="Zentralinsel"
+
+[Volume8]
+; EN: LocationName="Blue Prime Node (2)"
+LocationName="BLAUER Primärknoten (2)"
+
+[Volume9]
+; EN: LocationName="Blue Power Core"
+LocationName="BLAUE Power-Kern"
+
+[ZoneInfo0]
+; EN: LocationName="Canyon"
+LocationName="Canyon"
+

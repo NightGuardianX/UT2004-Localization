@@ -1,0 +1,84 @@
+﻿[LevelInfo0]
+; EN: Title="Compressed"
+Title="Komprimiert"
+
+[LevelSummary]
+; EN: Title="Compressed"
+Title="Komprimiert"
+
+[ZoneInfo0]
+; EN: LocationName="Top North Hall"
+LocationName="Obere Nordhalle"
+
+[ZoneInfo11]
+; EN: LocationName="Flak Hall"
+LocationName="Flak-Halle"
+
+[ZoneInfo12]
+; EN: LocationName="Flak Hall"
+LocationName="Flak-Halle"
+
+[ZoneInfo13]
+; EN: LocationName="Link Hall"
+LocationName="Link Gun-Halle"
+
+[ZoneInfo14]
+; EN: LocationName="Link Hall"
+LocationName="Link Gun-Halle"
+
+[ZoneInfo16]
+; EN: LocationName="Lower Shield hall"
+LocationName="Unterer Saal"
+
+[ZoneInfo17]
+; EN: LocationName="Lower Shield hall"
+LocationName="Unterer Saal"
+
+[ZoneInfo19]
+; EN: LocationName="Top North Hall"
+LocationName="Obere Nordhalle"
+
+[ZoneInfo2]
+; EN: LocationName="Left Annex"
+LocationName="Linker Flügel"
+
+[ZoneInfo20]
+; EN: LocationName="Flak elevator"
+LocationName="Aufzug Flak Cannon"
+
+[ZoneInfo21]
+; EN: LocationName="Double Damage Corridor"
+LocationName="Double Damage-Korridor"
+
+[ZoneInfo23]
+; EN: LocationName="Double Damage Corridor"
+LocationName="Double Damage-Korridor"
+
+[ZoneInfo3]
+; EN: LocationName="Top South Hall"
+LocationName="Obere Südhalle"
+
+[ZoneInfo4]
+; EN: LocationName="Top South Hall"
+LocationName="Obere Südhalle"
+
+[ZoneInfo5]
+; EN: LocationName="Top South Hall"
+LocationName="Obere Südhalle"
+
+[ZoneInfo6]
+; EN: LocationName="Lower Shield hall"
+LocationName="Unterer Schild Saal"
+
+[ZoneInfo7]
+; EN: LocationName="Top North Hall"
+LocationName="Obere Nordhalle"
+
+[ZoneInfo8]
+; EN: LocationName="Link Elevator"
+LocationName="Aufzug Link Gun"
+
+[ZoneInfo9]
+; EN: LocationName="Right Annex"
+LocationName="Rechter Flügel"
+

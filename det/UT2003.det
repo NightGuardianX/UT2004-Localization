@@ -1,0 +1,10 @@
+﻿[General]
+; EN: Start="Unreal Tournament 2003 (Starting)"
+Start="Unreal Tournament 2003 (Starten)"
+; EN: Exit="Unreal Tournament 2003 (Exiting)"
+Exit="Unreal Tournament 2003 (Verlassen)"
+; EN: Run="Unreal Tournament 2003 (Running)"
+Run="Unreal Tournament 2003 (Ausführen)"
+Product="Unreal Tournament 2003"
+Abbreviation="UT2003"
+

@@ -1,0 +1,46 @@
+﻿[LevelInfo0]
+; EN: Title="Dawn"
+Title="Dämmerung"
+
+[LevelSummary]
+; EN: Title="Dawn"
+Title="Dämmerung"
+; EN: Description="When Government prospectors happened upon this planet, Liandri knew they had found their next Onslaught arena. A primordial world still in the early stages of life, the lush landscape and rolling hills provide a serene and fitting environment for wholesale destruction."
+Description="Als Regierungsmitarbeiter zufällig auf diesen Planeten trafen, wusste die Liandri Corporation gleich, dass sie ihre nächste Kampfarena gefunden hatte. Dies ist eine ursprüngliche Welt in den ersten Stufen der Lebensentwicklung. Die üppige Landschaft mit ihren Bergen stellt eine ruhige und passende Umgebung für Zerstörungsaktionen im großen Stil dar."
+
+[Volume0]
+; EN: LocationName="Blue Base"
+LocationName="BLAUE Basis"
+
+[Volume1]
+; EN: LocationName="Red Base"
+LocationName="ROTE Basis"
+
+[Volume10]
+; EN: LocationName="Central West Node (1)"
+LocationName="Zentraler West Knoten (1)"
+
+[Volume5]
+; EN: LocationName="Northeast Node (3)"
+LocationName="Nordost Knoten (3)"
+
+[Volume6]
+; EN: LocationName="Northwest Node (6)"
+LocationName="Nordwest Knoten (6)"
+
+[Volume7]
+; EN: LocationName="Southwest Node (2)"
+LocationName="Südwest Knoten (2)"
+
+[Volume8]
+; EN: LocationName="Southeast Node (5)"
+LocationName="Südost Knoten (5)"
+
+[Volume9]
+; EN: LocationName="Central East Node (4)"
+LocationName="Zentraler Ost Knoten (4)"
+
+[ZoneInfo0]
+; EN: LocationName="Outside"
+LocationName="Außen"
+

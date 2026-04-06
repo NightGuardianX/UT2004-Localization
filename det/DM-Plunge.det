@@ -1,0 +1,64 @@
+﻿[LevelInfo0]
+; EN: Title="Plunge"
+Title="Stürzen"
+
+[LevelSummary]
+; EN: Title="Plunge"
+Title="Stürzen"
+
+[PhysicsVolume0]
+; EN: LocationName="8 Miles High"
+LocationName="In 15 Km. Höhe"
+
+[ZoneInfo1]
+; EN: LocationName="Outside"
+LocationName="Außen"
+
+[ZoneInfo2]
+; EN: LocationName="Green Tower Corridor"
+LocationName="Grüner Turmkorridor"
+
+[ZoneInfo4]
+; EN: LocationName="Pink Tower - Bottom"
+LocationName="Lila Turm – Unten"
+
+[ZoneInfo6]
+; EN: LocationName="Green Tower Corridor"
+LocationName="Grüner Turmkorridor"
+
+[ZoneInfo7]
+; EN: LocationName="Green Tower Corridor"
+LocationName="Grüner Turmkorridor"
+
+[ZoneInfo8]
+; EN: LocationName="Green Tower Corridor"
+LocationName="Grüner Turmkorridor"
+
+[ZoneInfo13]
+; EN: LocationName="Yellow Tower Corridor"
+LocationName="Gelber Turmkorridor"
+
+[ZoneInfo21]
+; EN: LocationName="Yellow Tower Corridor"
+LocationName="Gelber Turmkorridor"
+
+[ZoneInfo22]
+; EN: LocationName="Yellow Tower Corridor"
+LocationName="Gelber Turmkorridor"
+
+[ZoneInfo23]
+; EN: LocationName="Yellow Tower Corridor"
+LocationName="Gelber Turmkorridor"
+
+[ZoneInfo24]
+; EN: LocationName="Yellow Tower Corridor"
+LocationName="Gelber Turmkorridor"
+
+[ZoneInfo25]
+; EN: LocationName="Yellow Tower Boiler"
+LocationName="Gelber Turm – Kessel"
+
+[ZoneInfo27]
+; EN: LocationName="Yellow Tower Spawn"
+LocationName="Gelber Turm – Startpunkt"
+

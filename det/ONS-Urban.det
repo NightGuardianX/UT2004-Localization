@@ -1,0 +1,198 @@
+﻿[LevelInfo0]
+; EN: Title="Urban"
+Title="Städtisch"
+
+[LevelSummary]
+; EN: Title="Urban"
+Title="Städtisch"
+; EN: Description="Once the pinnacle of modernized civilization, this dense urban center has since fallen victim to crime, corruption, and civil war. Now mostly vacant, it has become a haven for underground criminal activity and lawlessness. LMC organizers jumped at the opportunity to own this prime piece of real estate. Instead of leveling the area and constructing a new arena, they decided to let the combatants do the demolition work themselves."
+Description="Einst war es ein Paradebeispiel moderner Zivilisation, doch dann ist dieses dicht besiedelte Stadtzentrum der Kriminalität, der Korruption und dem Bürgerkrieg zum Opfer gefallen. Jetzt steht es zu großen Teilen leer und ist zu einem Zufluchtsort für Verbrecher und Gesetzlose geworden. Die LMC-Organisatoren ließen sich die Gelegenheit nicht entgehen, diese erstklassige Immobilie zu erwerben. Anstatt das Gebiet zu planieren und eine neue Arena zu errichten, beschlossen sie, die Abbrucharbeiten einfach den Turnierteilnehmern zu überlassen."
+
+[Volume0]
+; EN: LocationName="Blue Base"
+LocationName="BLAUE Basis"
+
+[Volume2]
+; EN: LocationName="Center Node (5)"
+LocationName="Zentralknoten (5)"
+
+[Volume3]
+; EN: LocationName="Blue Prime Node (3)"
+LocationName="BLAU 1. Power-Knoten (3)"
+
+[Volume4]
+; EN: LocationName="Blue Subway Node (2)"
+LocationName="BLAUER U-Bahn-Knoten (2)"
+
+[Volume5]
+; EN: LocationName="Blue Leviathan Node (7)"
+LocationName="BLAUER Leviathan-Knoten (7)"
+
+[Volume6]
+; EN: LocationName="Red Base"
+LocationName="ROTE Basis"
+
+[Volume7]
+; EN: LocationName="Red Prime Node (4)"
+LocationName="ROT 1. Power-Knoten (4)"
+
+[Volume8]
+; EN: LocationName="Red Subway Node (1)"
+LocationName="ROTER U-Bahn-Knoten (1)"
+
+[Volume9]
+; EN: LocationName="Red Leviathan Node (6)"
+LocationName="ROTER Leviathan-Knoten (6)"
+
+[ZoneInfo0]
+; EN: LocationName="Sewers"
+LocationName="Abwasserkanäle"
+
+[ZoneInfo10]
+; EN: LocationName="Caudle Ave. (West)"
+LocationName="Caudle Avenue (Westen)"
+
+[ZoneInfo11]
+; EN: LocationName="Eastern Ruins"
+LocationName="Östliche Ruinen"
+
+[ZoneInfo12]
+; EN: LocationName="Caudle Ave. (East)"
+LocationName="Caudle Avenue (Ost)"
+
+[ZoneInfo13]
+; EN: LocationName="Caudle Ave. (East)"
+LocationName="Caudle Avenue (Ost)"
+
+[ZoneInfo14]
+; EN: LocationName="Blezinski Blvd."
+LocationName="Blezinski Boulevard"
+
+[ZoneInfo15]
+; EN: LocationName="Blue Base Entrance"
+LocationName="BLAUE Basis Eingang"
+
+[ZoneInfo16]
+; EN: LocationName="Blue Base Entrance"
+LocationName="BLAUE Basis Eingang"
+
+[ZoneInfo17]
+; EN: LocationName="Blue Base Entrance"
+LocationName="BLAUE Basis Eingang"
+
+[ZoneInfo18]
+; EN: LocationName="Blue Base Entrance"
+LocationName="BLAUE Basis Eingang"
+
+[ZoneInfo2]
+; EN: LocationName="Blue Leviathan Courtyard"
+LocationName="BLAUER Leviathan Innenhof"
+
+[ZoneInfo20]
+; EN: LocationName="Blezinski Blvd. (East)"
+LocationName="Blezinski Boulevard (Ost)"
+
+[ZoneInfo21]
+; EN: LocationName="Western Ruins"
+LocationName="Westliche Ruinen"
+
+[ZoneInfo22]
+; EN: LocationName="Blezinski Blvd. (West)"
+LocationName="Blezinski Boulevard (Westen)"
+
+[ZoneInfo23]
+; EN: LocationName="Blezinski Blvd. (West)"
+LocationName="Blezinski Boulevard (Westen)"
+
+[ZoneInfo24]
+; EN: LocationName="Red Leviathan Courtyard"
+LocationName="ROTER Leviathan Innenhof"
+
+[ZoneInfo25]
+; EN: LocationName="Red Subway Entrance"
+LocationName="ROTER U-Bahn-Eingang"
+
+[ZoneInfo26]
+; EN: LocationName="Blue Subway"
+LocationName="BLAUE U-Bahn"
+
+[ZoneInfo27]
+; EN: LocationName="Blue Subway"
+LocationName="BLAUE U-Bahn"
+
+[ZoneInfo28]
+; EN: LocationName="Blue Forward Base"
+LocationName="BLAUE Vorwärtsbasis"
+
+[ZoneInfo29]
+; EN: LocationName="Blue Power Core"
+LocationName="BLAUER Energiekern"
+
+[ZoneInfo3]
+; EN: LocationName="Raptor Launchpad"
+LocationName="Raptor-Startrampe"
+
+[ZoneInfo30]
+; EN: LocationName="Northwest Dropoff"
+LocationName="Nordwest-Dropdown"
+
+[ZoneInfo31]
+; EN: LocationName="Southwest Dropoff"
+LocationName="Südwest-Dropdown"
+
+[ZoneInfo32]
+; EN: LocationName="Red Subway"
+LocationName="ROTE U-Bahn"
+
+[ZoneInfo33]
+; EN: LocationName="Red Subway"
+LocationName="ROTE U-Bahn"
+
+[ZoneInfo34]
+; EN: LocationName="Red Forward Base"
+LocationName="ROTE Vorwärtsbasis"
+
+[ZoneInfo35]
+; EN: LocationName="Red Power Core"
+LocationName="ROTER Energiekern"
+
+[ZoneInfo36]
+; EN: LocationName="Southeast Dropoff"
+LocationName="Südosten-Dropdown"
+
+[ZoneInfo37]
+; EN: LocationName="Northeast Dropoff"
+LocationName="Nordosten-Dropdown"
+
+[ZoneInfo38]
+; EN: LocationName="Sewers"
+LocationName="Abwasserkanäle"
+
+[ZoneInfo4]
+; EN: LocationName="Caudle Ave."
+LocationName="Caudle Avenue"
+
+[ZoneInfo40]
+; EN: LocationName="Sewers"
+LocationName="Abwasserkanäle"
+
+[ZoneInfo5]
+; EN: LocationName="Red Base Entrance"
+LocationName="ROTE Basis Eingang"
+
+[ZoneInfo6]
+; EN: LocationName="Red Base Entrance"
+LocationName="ROTE Basis Eingang"
+
+[ZoneInfo7]
+; EN: LocationName="Red Base Entrance"
+LocationName="ROTE Basis Eingang"
+
+[ZoneInfo8]
+; EN: LocationName="Red Base Entrance"
+LocationName="ROTE Basis Eingang"
+
+[ZoneInfo9]
+; EN: LocationName="Blue Subway Entrance"
+LocationName="BLAUER U-Bahn-Eingang"
+

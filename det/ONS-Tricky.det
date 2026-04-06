@@ -1,0 +1,94 @@
+﻿[LevelInfo0]
+; EN: Title="Tricky"
+Title="Knifflig"
+
+[LevelSummary]
+; EN: Title="Tricky"
+Title="Knifflig"
+; EN: Description="THIS SATURDAY, ONE DAY ONLY, AT THE M-M-MONSTER VALLEY ARENA, WITNESS THE AAAAWESOME SPECTACLE OF ONSLAUGHT TOURNAMENT COMBAT!!!  TWO TEAMS AND 65 TONS OF BALLS TO THE WALL GUN SLINGING VEHICULAR MAYHEM!  BE THERE FOR THE FLAMING HOOPS, THE MONSTER JUMPS, THE HALFPIPE OF BLOOD, AND THE INSANITY OF THE 150 METER TALL TOWER OF DOOM!  BE THERE!!!"
+Description="WERDEN SIE AN DIESEM SAMSTAG, UND NUR AN DIESEM EINEN TAG, IN DER M-M-MONSTER VALLEY ARENA ZEUGE DES SUUUPERGEILEN SPEKTAKELS, DAS IHNEN EIN ONSLAUGHT-TURNIERKAMPF BIETET!!! ZWEI TEAMS UND 65 TONNEN FURIOSE, AUS ALLEN ROHREN FEUERNDE FAHRZEUGACTION! VERPASSEN SIE AUF KEINEN FALL DIE FLAMMENREIFEN, DIE MONSTERSPRÜNGE, DIE BLUT-HALFPIPE UND DEN TOTAL VERRÜCKTEN, 150 METER HOHEN TURM DER VERDAMMNIS! LASSEN SIE SICH DAS NICHT ENTGEHEN!!!"
+
+[MessageTrigger1]
+; EN: Message="cleared the Holy Shit Gap!"
+Message="hat die Heilige Scheiße-Lücke überwunden!"
+
+[MessageTrigger10]
+; EN: Message="cleared the Ludicrous Gap!"
+Message="hat die Lächerliche-Lücke überwunden!"
+
+[MessageTrigger11]
+; EN: Message="All Gaps cleared!"
+Message="Alle Lücken wurden überwunden!"
+
+[MessageTrigger12]
+; EN: Message="clears all Gaps!"
+Message="hat alle Lücken überwunden!"
+
+[MessageTrigger2]
+; EN: Message="Holy Shit Gap!"
+Message="Heilige Scheiße-Lücke!"
+
+[MessageTrigger3]
+; EN: Message="Ben's sweet Gap"
+Message="Bens süße Lücke!"
+
+[MessageTrigger4]
+; EN: Message="Cleared Ben's sweet Gap!"
+Message="hat Bens süße Lücke überwunden!"
+
+[MessageTrigger5]
+; EN: Message="Unreal Gap!"
+Message="Unreal-Lücke!"
+
+[MessageTrigger6]
+; EN: Message="cleared the Unreal Gap!"
+Message="hat die Unreal-Lücke überwunden!"
+
+[MessageTrigger7]
+; EN: Message="M-M-M-Monster Gap!"
+Message="M-M-M-Monster-Lücke!"
+
+[MessageTrigger8]
+; EN: Message="cleared the M-M-M-Monster Gap!"
+Message="hat die M-M-M-Monster-Lücke überwunden!"
+
+[MessageTrigger9]
+; EN: Message="Ludicrous Gap!"
+Message="Lächerliche-Lücke!"
+
+[Volume10]
+; EN: LocationName="Red Base"
+LocationName="ROTER Basis"
+
+[Volume11]
+; EN: LocationName="Blue Base"
+LocationName="BLAUER Basis"
+
+[Volume12]
+; EN: LocationName="Tower"
+LocationName="Turm"
+
+[Volume5]
+; EN: LocationName="Red Prime Node (3)"
+LocationName="ROT 1. Power-Knoten (3)"
+
+[Volume6]
+; EN: LocationName="Blue Prime Node (2)"
+LocationName="BLAU 1. Power-Knoten (2)"
+
+[Volume7]
+; EN: LocationName="Southwest Node (4)"
+LocationName="Südwestknoten (4)"
+
+[Volume8]
+; EN: LocationName="Southeast Node (5)"
+LocationName="Südostknoten (5)"
+
+[Volume9]
+; EN: LocationName="Center Node (1)"
+LocationName="Zentralknoten (1)"
+
+[ZoneInfo1]
+; EN: LocationName="Outside"
+LocationName="Außen"
+

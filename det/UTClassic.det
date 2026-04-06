@@ -1,0 +1,82 @@
+﻿[Public]
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Classic UT style weapons and configurable movement abilities (such as wall dodging).")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUTClassic,Description="Klassische UT-Waffen und konfigurierbare Bewegungen (z.B. Mauersprung).")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Replace Lightning Guns with classic Sniper Rifle.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseSniper,Description="Lightning Guns mit klassischem Sniper Rifle ersetzen.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Replace Sniper Rifles with Lightning Guns.")
+;Object=(Class=Class,MetaClass=Engine.Mutator,Name=UTClassic.MutUseLightning,Description="Sniper Rifle mit Lightning Guns ersetzen.")
+; EN: ;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot.")
+;Object=(Class=Class,MetaClass=Engine.Weapon,Name=UTClassic.ClassicSniperRifle,Description="Dieses schnelle Sniper Rifle mit hoher Mündung und einem 10fach-Zielfernrohr ist auf jede Entfernung eine tödliche Waffe, insbesondere bei einem Kopfschuss.")
+
+[ClassicSniperAmmo]
+; EN: ItemName="Sniper Bullets"
+ItemName="Sniper-Munition"
+
+[ClassicSniperAmmoPickup]
+; EN: PickupMessage="You picked up Sniper Ammo"
+PickupMessage="Sniper-Munition aufgesammelt."
+
+[ClassicSniperRifle]
+; EN: Description="This high muzzle velocity sniper rifle with a 10X scope is a lethal weapon at any range, especially if you can land a head shot."
+Description="Dieses schnelle Sniper Rifle mit hoher Mündung und einem 10fach-Zielfernrohr ist auf jede Entfernung eine tödliche Waffe, insbesondere bei einem Kopfschuss."
+; EN: ItemName="Sniper Rifle"
+ItemName="Sniper Rifle"
+
+[ClassicSniperRiflePickup]
+; EN: PickupMessage="You got the Sniper Rifle"
+PickupMessage="Sie haben das Sniper Rifle"
+
+[DamTypeClassicHeadshot]
+; EN: DeathString="%k put a bullet in %o's skull."
+DeathString="%k hat %o eine Kugel in den Schädel gejagt."
+; EN: FemaleSuicide="%o shot herself in the head."
+FemaleSuicide="%o hat sich selbst in den Kopf geschossen."
+; EN: MaleSuicide="%o shot himself in the head."
+MaleSuicide="%o hat sich selbst in den Kopf geschossen."
+
+[DamTypeClassicSniper]
+; EN: DeathString="%k put a hole in %o."
+DeathString="%k hat %o ein Loch verpasst."
+; EN: FemaleSuicide="%o shot herself in the foot."
+FemaleSuicide="%o hat sich selbst in den Fuß geschossen."
+; EN: MaleSuicide="%o shot himself in the foot."
+MaleSuicide="%o hat sich selbst in den Fuß geschossen."
+
+[MutUTClassic]
+; EN: DJString="Allow Double Jumping"
+DJString="Doppelsprung erlauben"
+; EN: WDString="Allow Wall Dodging"
+WDString="Mauersprung erlauben"
+; EN: DDJString="Allow Dodge Double Jumping"
+DDJString="Doppelten Ausweichsprung erlauben"
+; EN: DJHelp="If enabled, players can double jump at the peak of jumps."
+DJHelp="Bei Aktivierung können die Spieler auf dem Höhepunkt eines Sprungs einen Doppelsprung machen."
+; EN: WDHelp="If enabled, players can dodge off walls."
+WDHelp="Bei Aktivierung können die Spieler von Mauern herabspringen."
+; EN: DDJHelp="If enabled, players can double jump at the peak of dodge jumps."
+DDJHelp="Bei Aktivierung können die Spieler auf dem Höhepunkt eines Ausweichsprungs einen Doppelsprung machen."
+; EN: WeapString="Modify Weapon Damage"
+WeapString="Waffenschaden modifizieren"
+; EN: WeapHelp="If enabled, weapons do more damage."
+WeapHelp="Bei Aktivierung verursachen Waffen einen größeren Schaden."
+; EN: TranslocString="Modify Translocator"
+TranslocString="Translocator modifizieren"
+; EN: TranslocHelp="If enabled, Translocator recharges faster."
+TranslocHelp="Bei Aktivierung wird der Translocator schneller aufgeladen."
+; EN: FriendlyName="UT Classic"
+FriendlyName="UT Classic"
+; EN: Description="Classic UT style weapons and movement options."
+Description="Klassische UT-Waffen und Bewegungsoptionen"
+
+[MutUseLightning]
+; EN: FriendlyName="Lightning Guns"
+FriendlyName="Lightning Guns"
+; EN: Description="Replace all sniper rifles with lightning guns."
+Description="Alle Sniper Rifles durch Lightning Guns ersetzen."
+
+[MutUseSniper]
+; EN: FriendlyName="Sniper Rifles"
+FriendlyName="Sniper Rifles"
+; EN: Description="Replace all lightning guns with sniper rifles."
+Description="Alle Lightning Guns durch Sniper Rifles ersetzen."
+
